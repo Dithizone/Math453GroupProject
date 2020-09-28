@@ -1,0 +1,836 @@
+Language submitted in:,1. How happy do you feel right now?,2. How satisfied are you with your life in general?,3. How anxious did you feel yesterday?,4. How satisfied are you with Somerville as a place to live?,5. How satisfied are you with your neighborhood?,6. How proud are you to be a Somerville resident?,7a. How would you rate the availability of information about city services?,7b. How would you rate the cost of housing?,7c. How would you rate the overall quality of public schools?,7d. How would you rate your trust in the local police?,7e. How would you rate the maintenance of streets and sidewalks?,7f. How would you rate the availability of social community events?,8. How satisfied are you with the quality and number of transportation options available to you?,9. How safe do you feel walking in your neighborhood at night?,10. How satisfied are you with the appearance of parks and squares in your neighborhood?,11. How satisfied are you with the beauty or physical setting of your neighborhood?,1. What is your gender,2. Age?,3. What language(s) do you speak at home?,4. What is your race or ethnicity?,5. Do you have children age 18 or younger who live with you?,6. Describe your housing status in Somerville.,7. Do you plan to move away from Somerville in the next two years?,8 How long have you lived here?,9. What is your annual household income?,10. Are you a student?
+English,10,9,7,10,10,10,4,4,4,5,5,5,10,10,10,10,Male,,English,White,false,Rent,true,1-3 years,"$150,000 or more",false
+English,3,3,4,5,5,10,,1,3,4,4,4,1,9,7,2,Female,45-54,English,White,false,Rent,true,21 years or more,,false
+Spanish,10,10,9,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,65-74,Spanish,Hispanic/Latino;Puertoriquena,false,Rent,false,11-15 years,"$10,000 to $24,999",false
+English,8,8,8,10,10,10,5,1,3,5,5,5,10,10,9,9,Male,55-64,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,8,8,8,8,8,6,5,2,4,3,3,5,9,8,9,8,Female,35-44,English,White,false,Rent,false,1-3 years,,true
+English,10,10,10,10,10,10,5,3,4,5,4,5,10,7,8,8,Female,25-34,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,9,10,8,10,7,8,3,2,3,4,5,5,8,8,6,8,Female,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,9,8,9,9,8,5,4,1,3,4,2,5,6,10,8,6,Male,35-44,English,White,false,Rent,true,4-7 years,"$150,000 or more",false
+English,8,8,9,9,9,9,4,3,3,4,3,4,10,9,10,7,Female,55-64,English,Italian/Turkish Scottich/Irish,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,10,10,10,8,6,5,5,5,,5,3,5,8,8,10,8,Female,35-44,English,White,false,Own,,4-7 years,"$150,000 or more",false
+English,1,7,7,1,3,2,2,1,2,2,2,2,3,2,4,4,Male,45-54,English,White,false,Rent,true,16-20 years,"$100,000 to $149,999",false
+English,6,5,6,1,3,9,3,1,2,3,1,3,1,3,6,5,Male,65-74,English,White,true,Own,,21 years or more,"$25,000 to $49,999",false
+English,6,7,7,8,8,8,4,2,3,4,4,4,8,8,8,8,Female,25-34,English,White,false,Rent,true,1-3 years,,false
+English,10,9,10,10,10,10,5,5,5,5,5,5,10,10,10,10,,65-74,English;Russian,White,false,Rent,false,8-10 years,"$10,000 to $24,999",false
+English,7,9,9,9,9,10,5,1,4,4,2,5,6,7,8,10,,65-74,English,,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,10,10,10,9,8,9,5,2,2,5,2,4,9,8,6,5,Male,25-34,English,White,true,Own,true,Less than a year,"$150,000 or more",false
+English,10,10,7,10,10,10,5,3,,3,4,5,10,10,10,10,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,7,7,8,7,7,9,5,3,3,4,4,5,7,9,8,8,Male,35-44,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,10,10,10,10,10,8,5,3,4,3,4,5,9,10,10,9,Male,35-44,,Hispanic/Latino,false,Own,false,Less than a year,"$150,000 or more",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,6,10,10,10,Male,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,9,8,9,9,9,9,4,2,3,4,4,4,9,10,9,9,Male,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,6,8,2,6,7,7,,2,,3,2,4,7,9,8,8,Male,25-34,English,Hispanic/Latino;White;Middle Eastern,false,Rent,false,8-10 years,"$75,000 to $99,999",false
+English,9,9,9,7,9,9,2,1,,2,2,,4,10,9,9,Male,35-44,English,Irish,false,Rent,false,21 years or more,"$75,000 to $99,999",false
+English,7,7,5,8,8,9,4,2,4,3,3,5,7,7,7,6,Female,35-44,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,7,6,5,8,9,8,4,1,3,5,3,5,3,6,8,8,Female,25-34,English,White,false,Rent,true,4-7 years,"$50,000 to 74,999",false
+,8,7,7,6,6,8,3,2,3,4,3,4,6,9,3,3,Female,25-34,English,White,false,Own,false,4-7 years,"$75,000 to $99,999",false
+English,8,8,9,9,9,10,3,1,2,4,3,4,4,7,7,5,Male,55-64,English,White,true,Rent,false,21 years or more,"$75,000 to $99,999",false
+English,5,5,5,7,9,9,5,1,5,5,5,5,6,6,7,7,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",true
+,10,8,7,10,10,10,3,2,3,5,5,5,10,6,7,8,Female,18-24,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,7,8,6,7,5,8,3,2,3,3,3,3,4,4,1,1,Male,45-54,English,White,true,Own,false,4-7 years,"$100,000 to $149,999",false
+English,7,6,8,8,9,6,5,4,3,3,5,4,10,8,10,9,Male,25-34,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",false
+English,8,7,6,7,4,6,3,1,,,3,5,5,6,6,2,Male,25-34,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,7,9,6,9,9,8,,2,3,3,3,5,9,9,9,9,Female,25-34,English,White,false,Rent,false,Less than a year,"$75,000 to $99,999",true
+English,7,7,7,8,5,6,4,3,4,2,,,3,5,8,2,Male,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",true
+English,8,9,4,9,9,8,4,2,3,3,2,5,9,9,10,9,Male,25-34,English,White,true,Own,false,4-7 years,,false
+English,5,7,9,2,3,8,3,1,2,2,2,4,10,10,7,6,Female,35-44,English,White,true,Rent,,21 years or more,"$25,000 to $49,999",false
+English,8,8,8,8,8,8,4,4,2,2,2,4,9,9,8,8,Female,65-74,,Asian,false,Own,false,16-20 years,"$150,000 or more",false
+English,5,4,5,4,4,6,4,1,3,3,1,3,1,6,4,3,Male,65-74,English,White,false,Own,,21 years or more,"$50,000 to 74,999",false
+Spanish,10,10,10,10,10,10,5,1,5,5,5,5,10,10,10,10,Female,35-44,,Hispanic/Latino,true,Rent,false,11-15 years,"$10,000 to $24,999",false
+English,7,8,4,9,8,10,4,2,,5,1,4,6,10,9,4,Male,18-24,English,White,false,Rent,false,1-3 years,,false
+English,6,7,4,8,8,9,4,3,3,3,1,5,8,9,8,7,Female,25-34,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",false
+English,7,8,9,10,10,10,5,2,,4,4,5,8,10,9,9,Female,65-74,English,White,,Own,,21 years or more,"$50,000 to 74,999",false
+,7,8,5,10,9,10,5,1,4,5,4,5,10,7,8,8,Female,45-54,English,Black/African American,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,6,7,8,7,9,8,5,1,3,4,3,4,9,9,7,7,Male,25-34,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,8,8,8,10,10,10,4,3,4,4,3,4,10,10,6,6,Male,25-34,English,Asian,false,Rent,true,1-3 years,"$25,000 to $49,999",true
+English,8,8,9,9,8,9,4,3,4,4,4,4,6,9,8,7,Male,35-44,English;Spanish,Hispanic/Latino,false,Own,false,1-3 years,"$150,000 or more",false
+English,10,10,9,10,10,10,5,5,5,5,5,5,10,2,10,10,Female,45-54,English,Asian,false,Own,false,8-10 years,"$25,000 to $49,999",
+,1,1,5,1,1,1,3,1,3,5,1,3,1,1,3,2,Female,55-64,English,White,false,Own,true,21 years or more,"$100,000 to $149,999",false
+English,7,9,8,8,3,5,4,1,4,5,2,4,3,4,6,3,Male,25-34,English,White,false,Rent,true,4-7 years,"$150,000 or more",false
+English,6,4,4,6,6,5,3,2,3,3,3,3,7,7,7,7,Male,55-64,,White,false,Rent,true,1-3 years,,false
+English,6,8,4,8,7,10,4,2,2,4,3,5,5,9,9,8,Male,45-54,English,White,true,Own,false,11-15 years,"$100,000 to $149,999",false
+English,6,6,4,9,8,8,4,2,,4,4,5,9,10,9,8,Female,35-44,English,White,false,Own,false,11-15 years,"$100,000 to $149,999",false
+Spanish,5,8,9,8,9,10,3,1,3,4,2,4,5,7,8,6,Female,45-54,,White,true,Own,false,21 years or more,"$150,000 or more",false
+Spanish,10,10,9,10,10,10,5,5,5,5,3,5,10,10,7,4,Female,75 or older,,Hispanic/Latino,false,Rent,false,8-10 years,"Less than $10,000",false
+English,8,5,4,10,10,10,5,2,3,4,5,5,10,9,9,9,Female,25-34,English,White,false,Rent,true,8-10 years,"$150,000 or more",false
+English,8,8,10,8,7,8,4,1,,4,2,4,8,7,8,6,Female,25-34,German,White,true,Rent,true,4-7 years,"$50,000 to 74,999",false
+English,7,9,7,8,7,9,5,1,4,5,4,5,9,8,7,6,Female,35-44,English,White,true,Own,false,11-15 years,"$100,000 to $149,999",false
+English,8,9,6,9,9,10,5,3,,4,4,5,10,10,9,9,Male,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,1,1,10,1,1,10,,1,,5,1,,,1,1,10,Female,65-74,English;Portugese,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,8,9,7,5,6,7,3,,,,2,,8,7,6,4,Female,75 or older,,White,false,Own,,16-20 years,"$25,000 to $49,999",false
+English,8,7,6,8,8,9,5,1,,4,4,5,8,9,8,7,Female,35-44,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,9,9,8,9,9,9,4,3,4,4,3,5,9,10,9,9,Male,35-44,English,Asian,true,Own,false,11-15 years,"$100,000 to $149,999",false
+English,7,7,7,9,8,8,5,1,5,5,3,4,6,10,8,8,Female,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",
+English,7,6,7,9,9,9,5,2,,5,3,5,8,10,9,9,Female,25-34,English,Asian;White,false,Rent,true,1-3 years,"$150,000 or more",false
+English,8,8,9,10,10,10,4,2,3,4,2,,9,9,10,9,Female,65-74,English,Human,true,,false,16-20 years,"$10,000 to $24,999",
+English,9,9,9,9,1,8,2,3,,1,1,3,9,7,,1,Female,55-64,English,,false,Own,false,21 years or more,,false
+English,10,10,7,7,7,5,3,3,,3,5,4,,,,,,,,,,,,,,
+English,9,9,10,8,7,10,5,1,3,5,3,5,10,9,10,7,Female,35-44,English,White,false,Rent,false,11-15 years,"$100,000 to $149,999",false
+English,8,7,9,9,9,9,4,2,4,4,4,4,9,9,9,9,Male,35-44,English,White,false,Rent,false,,"$75,000 to $99,999",false
+English,7,8,3,10,8,10,4,3,4,4,4,5,10,9,10,10,Female,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,8,8,5,8,8,9,4,2,,5,4,5,8,5,6,5,Male,35-44,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,10,10,7,8,10,7,5,3,,4,3,4,10,9,9,8,Female,25-34,English;Italian,,false,Rent,true,Less than a year,"$150,000 or more",false
+English,6,6,6,8,9,8,4,2,4,4,4,4,8,5,6,7,Female,75 or older,English,White,false,Sre Housing,,21 years or more,"$10,000 to $24,999",false
+,9,9,8,9,9,9,4,3,,4,2,4,9,9,8,7,Male,55-64,English,White,false,Own,,8-10 years,,false
+,7,8,4,10,9,10,3,3,3,3,2,4,8,9,9,4,Male,45-54,English,Asian,false,Own,false,11-15 years,"$150,000 or more",false
+,9,8,9,9,9,10,5,3,4,4,3,5,6,9,7,7,Female,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,8,10,10,10,8,10,5,3,,3,4,5,7,9,9,8,Male,25-34,English,White,false,Rent,true,1-3 years,"$150,000 or more",false
+English,8,9,8,10,10,9,5,1,2,5,5,5,10,6,10,8,Male,65-74,,White,,Own,false,,"$75,000 to $99,999",
+English,8,8,6,7,8,4,4,2,2,4,4,4,7,8,6,2,Male,35-44,English;Croatian,White,false,Own,false,11-15 years,"$150,000 or more",false
+English,10,10,10,10,10,10,5,5,1,5,1,5,,,,,Female,65-74,English,White,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,10,10,5,9,5,10,4,1,3,4,2,3,1,6,6,4,Female,25-34,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,7,8,9,6,6,6,5,2,2,3,1,4,7,7,9,4,Female,25-34,English,Asian,false,Own,true,8-10 years,"$150,000 or more",false
+English,6,6,7,5,4,6,4,2,,4,3,3,7,6,7,3,Male,75 or older,English,White,false,Rent,,11-15 years,"$25,000 to $49,999",false
+English,6,9,3,10,10,10,5,2,,5,5,5,10,10,10,10,Male,25-34,English,White,false,Rent,true,1-3 years,"$75,000 to $99,999",
+English,9,9,9,6,3,5,3,1,4,3,2,3,6,2,6,3,Female,45-54,English,White,true,Rent,false,21 years or more,"$100,000 to $149,999",false
+English,8,7,9,9,8,9,4,2,4,4,3,4,9,9,7,7,Female,45-54,English;Japanese,Asian,false,Own,false,11-15 years,"$150,000 or more",false
+,3,3,9,1,1,1,1,1,1,5,1,1,10,1,1,1,Male,65-74,English,White,false,Rent,true,21 years or more,"$50,000 to 74,999",false
+English,8,7,10,8,7,9,5,2,,4,5,5,6,10,8,5,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,9,8,7,8,9,6,4,1,,4,1,5,10,8,6,4,Female,25-34,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,7,6,5,8,8,8,4,2,,4,3,5,7,9,9,9,Female,25-34,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",true
+Spanish,6,8,8,9,7,9,4,2,,4,2,5,9,10,8,9,Female,25-34,English,White,false,Rent,true,4-7 years,"$25,000 to $49,999",false
+English,8,8,9,8,9,9,4,2,4,4,1,4,8,8,8,9,Female,75 or older,,White;American - White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,10,,10,10,10,10,1,1,5,3,1,5,1,1,1,1,Female,75 or older,English,White,false,Rent,false,21 years or more,"Less than $10,000",false
+English,9,9,9,8,9,8,3,2,2,3,2,4,8,9,7,7,Female,35-44,English,White,true,Own,false,4-7 years,"$150,000 or more",false
+English,8,8,8,8,10,10,5,4,,,4,4,10,9,10,10,Female,18-24,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",
+English,6,7,7,9,8,7,4,3,,4,3,4,9,8,7,6,Female,25-34,English,Asian;White,false,Rent,true,1-3 years,,false
+English,9,9,9,9,9,9,4,2,3,5,4,5,9,,9,9,Female,45-54,English;Portugese,White,false,Rent,false,21 years or more,"Less than $10,000",
+English,9,9,7,8,7,8,3,3,3,4,4,4,8,7,9,8,Female,25-34,English,White,false,Own,,Less than a year,"$150,000 or more",false
+English,9,6,3,9,9,10,4,2,3,2,3,5,8,7,7,9,Female,35-44,English,White,false,Own,,11-15 years,"$100,000 to $149,999",false
+English,9,8,6,10,10,10,5,1,4,1,4,5,8,10,10,10,Female,25-34,English,White,false,Own,false,11-15 years,"$100,000 to $149,999",false
+English,10,10,10,10,10,10,5,4,5,5,5,5,10,10,10,10,,55-64,Portugese,Hispanic/Latino,false,Own,false,16-20 years,"$25,000 to $49,999",false
+English,8,8,4,9,9,10,5,3,,4,4,5,10,9,8,7,Two people answered,45-54,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,10,10,10,10,10,10,5,2,5,5,5,5,10,10,10,10,Male,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,10,10,2,9,9,8,4,1,3,3,3,5,10,10,6,6,Male,25-34,English,White,false,Rent,true,4-7 years,"$75,000 to $99,999",true
+English,8,9,9,8,8,9,5,1,,5,4,5,6,10,10,9,Male,45-54,English,White,false,Rent,false,16-20 years,"$100,000 to $149,999",
+,,,,,,,,1,,,,,,,,,,,,,,,,,,
+English,10,10,7,10,10,10,5,2,3,4,4,5,9,9,9,9,Female,25-34,English,White,false,Rent,true,1-3 years,,false
+English,8,9,8,9,10,9,4,1,3,4,2,5,8,7,8,7,Female,45-54,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,4,3,6,6,2,6,3,3,,3,4,3,1,10,6,3,Male,25-34,English,,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,8,8,6,9,9,8,4,4,,,3,4,8,9,7,8,Male,75 or older,English;Arabic,Arab,false,Own,false,11-15 years,"$150,000 or more",false
+English,7,7,4,7,7,8,4,1,,3,3,4,4,7,6,6,Male,25-34,English,White,false,Rent,true,4-7 years,"$100,000 to $149,999",false
+English,8,8,5,8,9,10,5,1,4,3,5,5,9,10,10,10,Female,25-34,English,White,false,Rent,false,8-10 years,"$100,000 to $149,999",false
+,4,7,4,7,7,7,4,1,4,4,3,4,7,10,9,9,Female,55-64,,White,false,Rent,false,,"$50,000 to 74,999",false
+English,2,4,2,4,6,10,5,1,4,1,1,3,8,4,6,5,Male,45-54,,White,true,Own,false,21 years or more,"$10,000 to $24,999",false
+,9,8,8,9,9,10,4,2,4,4,3,5,7,10,9,8,Female,25-34,English,White,false,Rent,false,8-10 years,"$25,000 to $49,999",true
+English,9,9,9,9,9,9,5,3,3,4,4,4,9,9,8,8,Female,35-44,,White,true,Own,,16-20 years,"$150,000 or more",false
+,9,9,8,10,8,10,4,1,3,4,5,5,8,9,8,7,Female,35-44,English,,true,Own,false,4-7 years,"$150,000 or more",false
+English,8,8,9,6,6,6,4,3,4,5,4,4,9,9,9,8,Male,65-74,English,White,false,Own,true,21 years or more,"$25,000 to $49,999",false
+English,9,9,2,9,9,9,5,2,5,5,4,4,9,9,9,9,Male,35-44,English,White,true,Rent,false,11-15 years,"$100,000 to $149,999",false
+English,8,8,10,9,10,10,4,1,4,4,4,4,8,10,10,9,Female,45-54,English,White,true,Rent,false,8-10 years,"$100,000 to $149,999",false
+English,10,10,10,8,7,10,5,1,4,4,2,4,7,8,8,7,Male,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,7,9,,9,7,10,4,3,3,3,4,5,9,10,6,8,Female,45-54,English,White,false,Own,false,,"$150,000 or more",
+English,4,4,3,7,7,7,3,2,2,1,2,3,8,5,8,5,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,8,9,7,8,8,7,4,3,2,3,2,4,7,5,7,6,Female,25-34,English,White,false,Rent,true,1-3 years,"$150,000 or more",false
+English,8,8,8,9,10,8,5,2,,3,2,5,9,9,9,9,Female,65-74,English,White,false,Own,false,21 years or more,,false
+English,8,8,6,9,8,8,3,2,2,4,3,3,10,9,8,8,Female,35-44,English;Chinese,Asian,true,Rent,true,4-7 years,"$50,000 to 74,999",
+English,10,9,10,9,9,10,5,4,4,5,5,5,10,10,10,10,Male,,English,White,true,Own,false,21 years or more,,false
+English,8,7,3,9,8,8,4,3,3,3,3,5,10,9,9,9,Female,55-64,English,White;American,false,Rent,true,11-15 years,"Less than $10,000",false
+English,7,8,3,8,8,9,4,2,3,2,2,5,8,10,9,9,Male,25-34,English,White,false,Rent,false,8-10 years,"$25,000 to $49,999",false
+English,8,8,10,9,9,9,4,1,,4,4,4,9,8,7,7,,75 or older,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",false
+English,7,7,7,6,8,6,3,1,3,4,4,4,2,9,8,8,Male,25-34,English,White,false,Rent,true,1-3 years,"$150,000 or more",false
+English,9,9,2,9,9,9,4,,4,4,2,4,9,9,2,9,Male,65-74,,White,false,Own,false,21 years or more,"$25,000 to $49,999",
+English,8,9,6,3,2,2,4,1,,5,1,,2,2,4,2,Female,65-74,English,White,false,Own,false,16-20 years,"$100,000 to $149,999",false
+English,9,10,8,9,9,9,5,2,5,4,4,5,10,9,9,9,Male,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+,8,8,10,8,7,7,5,2,3,3,4,5,9,7,8,7,Male,55-64,English,White,false,Own,false,16-20 years,"$75,000 to $99,999",
+English,1,9,3,1,1,1,3,3,3,3,1,2,5,5,5,5,Male,55-64,English,White,false,Rent,true,8-10 years,"$75,000 to $99,999",false
+English,6,8,8,9,10,9,5,1,4,3,3,4,8,9,10,9,Female,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,7,7,5,7,8,8,3,2,2,4,3,5,8,10,7,7,Male,35-44,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+,6,6,4,5,5,5,5,3,5,5,3,5,10,6,10,10,Female,45-54,English;Spanish;Haitian Creole,Black/African American,true,Rent,false,16-20 years,"$10,000 to $24,999",false
+English,4,4,4,8,6,10,4,1,4,5,1,5,9,7,7,5,Female,55-64,English,White,false,Own,,21 years or more,"$100,000 to $149,999",false
+,4,3,5,8,7,4,4,2,3,5,4,3,9,9,9,8,Male,35-44,English,Black/African American;White,false,Rent,false,11-15 years,"$75,000 to $99,999",false
+English,10,10,8,10,10,10,5,3,,5,5,5,7,9,10,9,Female,25-34,Korean,Asian,false,Own,false,1-3 years,"$150,000 or more",false
+English,10,10,10,10,10,10,5,5,5,5,4,4,10,10,10,10,Male,55-64,,Asian,false,Own,false,,"$50,000 to 74,999",false
+,5,8,1,5,10,8,5,1,4,5,3,3,9,9,10,9,Female,55-64,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,9,9,10,8,8,10,5,1,3,3,3,5,9,8,8,7,Female,35-44,English,White,true,Own,false,16-20 years,"$75,000 to $99,999",false
+English,10,10,10,10,10,10,5,4,,4,2,4,7,9,8,7,Male,25-34,English;Spanish,White,false,Rent,false,4-7 years,"$25,000 to $49,999",true
+,8,8,2,9,9,9,2,2,2,3,4,4,3,6,9,9,Female,65-74,English,White,false,Own,true,21 years or more,"$25,000 to $49,999",false
+English,6,6,6,9,9,10,5,4,5,5,5,5,9,10,10,10,Male,65-74,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,7,8,9,10,10,10,5,1,,,3,5,10,8,8,8,Female,45-54,English,White,false,Own,false,16-20 years,"$75,000 to $99,999",false
+English,6,4,8,8,6,6,5,2,4,3,4,5,9,8,7,7,Female,55-64,,,true,Own,,,"$100,000 to $149,999",false
+English,9,8,4,9,10,10,5,2,3,5,4,5,10,9,9,9,Female,35-44,English,White,true,Own,true,11-15 years,"$150,000 or more",false
+English,7,8,9,9,8,7,,3,,3,1,,9,7,8,7,Female,18-24,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",true
+English,6,7,6,8,6,6,4,3,4,4,3,4,8,7,8,8,Male,75 or older,English,White,false,Rent,false,4-7 years,"$25,000 to $49,999",false
+English,7,7,6,9,9,9,4,4,3,4,4,4,8,6,6,,Female,55-64,English,White,false,Own,false,,"$75,000 to $99,999",false
+English,10,10,9,8,9,10,4,4,3,5,4,4,10,9,9,8,(both selected),25-34,English,White,false,Own,false,8-10 years,"$100,000 to $149,999",false
+English,,8,,9,9,,5,1,,4,2,5,4,8,8,6,Female,55-64,English,White,false,Own,false,8-10 years,"$25,000 to $49,999",false
+English,8,8,8,5,8,8,4,1,4,4,4,4,8,9,9,6,Male,35-44,English,White,true,Own,false,11-15 years,"$50,000 to 74,999",false
+English,5,6,4,9,8,10,2,1,,3,3,3,8,10,8,6,Female,25-34,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,5,8,10,8,7,8,5,3,4,4,3,4,9,8,7,7,Female,55-64,English,White,false,Own,,11-15 years,"$75,000 to $99,999",false
+English,8,8,9,9,8,10,4,2,3,5,3,5,9,8,8,8,Female,55-64,,White;Semitic,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,9,10,6,10,10,8,5,5,5,4,5,5,9,8,6,7,couple,18-24,English,White,false,Rent,false,Less than a year,"$75,000 to $99,999",
+English,5,5,5,4,8,4,3,1,3,1,3,3,4,5,7,5,Male,55-64,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",
+English,10,10,10,10,10,10,5,3,5,5,2,4,6,10,10,5,Male,35-44,English;Farsi,White,true,Own,false,4-7 years,"$150,000 or more",false
+English,3,3,3,9,10,9,4,4,4,4,4,4,10,9,9,10,Male,75 or older,English;Portugese,,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,8,7,8,7,7,7,5,3,3,4,4,5,7,7,8,8,Female,35-44,English,White,true,Own,true,11-15 years,,false
+English,5,5,3,7,4,9,4,3,5,3,2,4,6,3,3,4,Female,55-64,English;Portugese,White,true,Own,true,21 years or more,"$75,000 to $99,999",false
+,8,9,8,9,9,9,4,3,4,4,4,5,9,8,7,6,both male and female selected,35-44,English;Russian,White,true,Own,false,8-10 years,"$75,000 to $99,999",false
+English,7,7,7,9,9,7,5,3,3,4,4,4,9,9,9,8,Female,65-74,English,White,false,Own,false,11-15 years,"$100,000 to $149,999",false
+English,9,9,10,8,8,8,4,4,4,4,4,4,9,9,9,9,Female,65-74,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,8,7,9,9,8,9,3,3,3,4,3,3,7,9,7,8,Male,25-34,English,White,false,Rent,false,1-3 years,,false
+Portugese,10,10,5,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,45-54,Portugese,White,false,desability apt do governo,false,16-20 years,"Less than $10,000",true
+English,8,8,5,7,7,7,2,2,3,3,2,5,8,8,8,8,both selected,35-44,English,White,true,Own,false,,"$150,000 or more",false
+English,6,6,1,9,8,10,4,1,4,2,4,5,10,7,8,9,Female,65-74,English,White,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,7,8,3,9,9,9,4,3,2,3,4,4,8,8,7,8,Female,35-44,English,Asian,false,Own,false,4-7 years,"$150,000 or more",false
+English,7,6,2,7,7,7,4,2,1,3,1,3,2,5,4,3,Female,25-34,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,7,7,6,8,8,8,4,3,3,3,2,5,8,7,7,5,Female,45-54,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,9,8,7,9,9,9,5,4,3,4,3,5,7,8,8,8,,25-34,English,White,false,Rent,true,1-3 years,,true
+English,5,8,7,7,8,8,4,1,2,3,3,5,8,9,9,7,Female,35-44,English,White,true,Rent,false,1-3 years,"$150,000 or more",false
+English,5,7,7,1,1,1,3,1,3,2,1,3,5,4,1,1,Female,55-64,English,White,false,Rent,true,16-20 years,,false
+English,9,9,4,10,10,10,5,1,3,4,3,5,9,10,10,10,both selected,35-44,English,White,true,Own,false,1-3 years,"$150,000 or more",false
+English,10,10,10,10,9,10,5,3,5,5,5,5,10,10,10,9,Male,45-54,English,Black/African American,true,Own,false,21 years or more,"$75,000 to $99,999",false
+English,10,10,8,10,10,10,4,3,5,5,4,5,10,9,10,10,Female,35-44,English,White,true,Own,false,11-15 years,"$75,000 to $99,999",false
+English,7,7,9,7,9,9,4,1,3,4,3,4,8,10,6,10,Female,35-44,English,White,false,Rent,,16-20 years,"$25,000 to $49,999",false
+English,8,10,7,8,7,7,4,1,3,3,3,4,10,9,9,8,Female,35-44,English,Black/African American;White,true,Rent,false,11-15 years,"$50,000 to 74,999",false
+Portugese,8,6,10,10,10,10,4,1,2,1,1,5,5,8,7,10,Female,45-54,3 languages,Hispanic/Latino,true,Own,false,16-20 years,"$50,000 to 74,999",false
+English,7,6,8,10,10,10,5,2,2,3,3,5,10,9,8,7,Male,25-34,English,White,false,Own,false,8-10 years,"$100,000 to $149,999",false
+English,8,7,9,9,10,6,4,1,3,4,2,5,8,9,9,8,Male,35-44,English;French,White,true,Own,false,8-10 years,"$150,000 or more",false
+English,6,4,6,7,7,6,3,2,,2,1,3,7,8,8,4,Female,25-34,English,White,false,,false,1-3 years,"$150,000 or more",false
+Portugese,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Male,75 or older,Portugese,White,false,Rent,false,21 years or more,,false
+English,7,9,6,10,9,7,4,4,4,5,3,4,9,8,7,9,Female,18-24,English,White,false,Rent,true,1-3 years,"$75,000 to $99,999",false
+English,10,10,10,10,10,10,5,4,4,4,3,5,6,5,6,5,Female,35-44,English,White,false,Own,true,1-3 years,"$25,000 to $49,999",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,9,9,Female,75 or older,cape verdean creole,Cape Verdean,false,Rent,false,4-7 years,"Less than $10,000",false
+English,10,8,10,10,10,10,5,3,3,4,3,5,10,10,10,9,Male,55-64,English,White,false,Own,false,1-3 years,"$150,000 or more",
+English,7,7,4,9,8,6,4,3,,4,4,5,8,8,10,8,Male,25-34,,White,false,Rent,,1-3 years,"$50,000 to 74,999",false
+English,9,9,8,9,9,9,5,1,4,4,2,4,9,9,9,9,Male,25-34,English,White,true,Rent,false,8-10 years,"$75,000 to $99,999",false
+English,9,9,10,9,9,9,4,2,3,3,3,4,8,9,8,8,Female,55-64,English,White,false,Own,false,16-20 years,"$100,000 to $149,999",false
+English,10,10,8,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,25-34,English,White,false,Rent,false,Less than a year,"$100,000 to $149,999",
+English,8,10,9,9,9,8,5,1,,4,3,5,6,10,9,8,Male,25-34,English,White,false,Own,false,1-3 years,"$150,000 or more",false
+English,7,6,3,8,8,9,4,2,,4,4,5,8,8,9,8,Female,35-44,English,Hispanic/Latino;White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,4,5,7,8,8,8,5,1,3,4,5,5,4,10,8,8,Male,55-64,English;Spanish;Portugese,Hispanic/Latino;Portuguese/American,false,Own,false,21 years or more,"$150,000 or more",false
+English,6,5,7,10,10,10,3,2,3,3,4,4,3,7,8,8,Female,25-34,English,White,false,Rent,false,Less than a year,"$10,000 to $24,999",false
+English,9,8,5,8,9,9,3,2,3,3,4,5,9,9,9,9,Female,25-34,English,Hispanic/Latino,false,Rent,false,8-10 years,"$75,000 to $99,999",false
+English,8,9,7,9,9,9,3,2,3,3,4,5,9,9,,9,Male,25-34,English,White,true,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,8,8,9,9,10,10,4,1,4,3,5,5,9,9,9,9,Female,35-44,English,White,false,Rent,true,11-15 years,"$50,000 to 74,999",
+English,8,10,2,9,10,10,5,5,,4,3,5,10,9,8,7,Male,65-74,English,White,false,Own,true,21 years or more,"$50,000 to 74,999",
+English,8,8,9,8,9,10,5,1,4,4,4,5,6,8,9,8,Female,25-34,English,White,false,Rent,false,8-10 years,"$100,000 to $149,999",false
+English,7,8,5,9,4,7,4,2,3,4,4,4,8,9,8,7,Male,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,9,9,10,10,10,10,5,1,5,5,5,5,10,10,10,10,Female,55-64,English,White,false,Own,true,21 years or more,,false
+English,10,10,10,1,10,4,5,1,3,4,2,3,10,4,8,6,Male,75 or older,English,White,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+,8,7,4,9,10,10,3,2,3,4,4,5,8,10,9,9,Male,55-64,,White,true,Own,false,11-15 years,"$100,000 to $149,999",false
+English,3,3,8,9,8,9,5,1,4,4,2,5,8,9,8,9,Male,35-44,English,White,true,Rent,true,4-7 years,"$150,000 or more",false
+English,9,9,8,6,6,5,4,3,4,3,2,4,10,6,6,6,Female,65-74,English;Chinese,Asian,false,Own,false,21 years or more,"$25,000 to $49,999",false
+,6,8,2,9,9,10,5,2,,3,3,5,7,8,9,8,Female,25-34,English,White,false,Rent,false,11-15 years,"$75,000 to $99,999",false
+English,8,8,9,9,9,9,4,4,4,5,5,5,9,9,9,9,Female,55-64,English,White,false,Rent,false,21 years or more,"$100,000 to $149,999",false
+,6,8,8,10,8,8,4,2,,4,4,5,8,4,9,7,Female,75 or older,English;Sometimes Deutsch,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,7,7,9,10,8,5,1,4,5,3,5,7,8,8,5,Female,25-34,English,White,false,Rent,false,4-7 years,"$25,000 to $49,999",true
+English,9,9,4,7,8,6,4,2,,4,1,3,5,6,,3,Male,18-24,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",true
+English,10,6,1,1,1,1,4,1,2,3,2,1,1,1,2,1,Female,35-44,English;Spanish,Hispanic/Latino,true,Rent,true,4-7 years,,false
+English,7,7,5,9,9,9,5,2,3,3,3,4,8,10,10,10,Female,25-34,English,White,false,Rent,false,1-3 years,,false
+English,8,9,6,7,6,5,5,2,1,3,2,4,8,7,8,4,Female,25-34,English,White,true,Own,true,1-3 years,"$100,000 to $149,999",false
+English,9,9,8,9,9,9,4,4,4,4,4,4,9,9,9,9,Male,,English;Portugese,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,8,5,8,10,10,4,3,3,4,5,4,4,9,8,7,Female,35-44,,White,true,Own,false,8-10 years,"$100,000 to $149,999",false
+English,10,7,10,4,5,10,2,1,2,5,2,4,6,4,1,,Female,55-64,English,White,false,Own,true,21 years or more,"$10,000 to $24,999",false
+English,,,,,,,,,,,,,,,,,Male,55-64,Hindi,Asian,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,10,10,10,10,10,10,5,1,3,5,3,3,9,10,10,10,Female,75 or older,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,7,9,10,7,7,7,2,2,3,2,4,4,4,8,5,5,Female,25-34,English,Hispanic/Latino,false,Rent,true,Less than a year,"Less than $10,000",true
+English,5,4,6,6,5,6,4,2,3,3,2,3,7,6,7,6,Female,65-74,English,White,false,Own,true,21 years or more,"$25,000 to $49,999",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,75 or older,,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,1,1,10,10,10,10,5,5,,,,1,10,10,,,Female,55-64,,White,false,Rent,false,1-3 years,"Less than $10,000",
+English,7,7,6,9,9,9,4,2,3,3,3,4,8,8,8,8,Female,45-54,English,White,true,Own,false,8-10 years,"$150,000 or more",false
+English,9,8,9,8,9,9,4,1,4,4,4,5,9,9,9,9,Female,25-34,English,White,false,Rent,true,11-15 years,"$100,000 to $149,999",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,55-64,English,White,true,Rent,false,11-15 years,"Less than $10,000",false
+English,2,2,3,3,1,3,3,1,2,2,3,4,3,8,5,5,Female,45-54,,White,true,Rent,true,16-20 years,"$25,000 to $49,999",false
+English,8,8,6,9,9,7,5,3,3,5,4,5,10,9,9,8,Female,35-44,English,White,false,Rent,true,8-10 years,"$100,000 to $149,999",
+English,6,6,6,4,5,4,3,2,2,2,3,3,6,5,7,6,Female,25-34,English,Multi-cultural,false,Rent,false,4-7 years,"$75,000 to $99,999",
+English,5,4,4,9,9,8,4,2,,4,5,5,8,9,7,7,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,7,8,6,9,10,10,4,1,3,1,2,5,8,9,4,2,Male,55-64,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,10,10,9,10,10,10,5,4,4,4,4,5,9,10,10,10,Male,55-64,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,9,9,4,9,9,9,4,4,4,4,4,4,8,8,8,9,Female,65-74,,White,false,Rent,false,4-7 years,"Less than $10,000",false
+,7,8,4,7,5,9,5,3,,4,2,4,8,4,6,7,Female,25-34,English,White,false,Rent,true,1-3 years,"$100,000 to $149,999",
+English,7,8,8,8,9,7,,1,,1,1,4,8,5,7,7,Female,25-34,English,White,false,Rent,,4-7 years,"$150,000 or more",false
+English,7,7,6,7,7,7,5,3,3,3,4,5,,8,8,7,Female,35-44,English,White,true,Own,false,11-15 years,"$100,000 to $149,999",false
+English,5,7,10,8,10,10,5,3,3,4,2,5,10,8,8,6,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,6,6,4,10,10,10,5,2,5,5,5,3,10,6,10,10,Female,55-64,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",
+English,7,4,8,9,8,6,4,1,4,3,4,5,8,10,9,8,Transwoman,55-64,English,White,false,Rent,false,8-10 years,"$10,000 to $24,999",false
+English,8,8,7,7,7,9,4,2,4,3,4,5,8,7,9,9,Female,35-44,English,Asian;White,false,Rent,false,,"$100,000 to $149,999",false
+English,8,7,7,8,8,8,3,1,3,4,3,4,4,9,7,7,Female,45-54,English,White,false,Own,false,1-3 years,"$100,000 to $149,999",false
+English,9,9,9,8,8,6,3,3,,2,4,5,9,9,3,7,Female,25-34,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,7,7,4,8,8,6,4,2,3,4,5,4,9,9,9,8,Female,25-34,English;French,White,false,Rent,true,Less than a year,"$75,000 to $99,999",false
+English,10,10,10,7,7,10,5,5,5,5,5,5,10,6,7,8,Female,75 or older,English,White,false,Own,false,21 years or more,,false
+English,9,7,9,7,7,7,4,5,4,4,1,5,2,10,8,7,Male,25-34,English,White,false,Rent,true,4-7 years,"$75,000 to $99,999",false
+English,8,8,10,10,10,10,5,2,3,5,5,5,10,8,8,6,Female,55-64,English,,false,Own,false,21 years or more,"$100,000 to $149,999",false
+English,7,6,4,6,7,6,5,1,2,3,4,3,8,6,7,6,Male,35-44,English,Asian,false,Rent,false,Less than a year,"$50,000 to 74,999",false
+English,8,10,10,10,10,10,4,2,4,5,5,5,8,9,9,8,Female,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,7,8,9,9,9,10,3,2,4,4,1,5,,,,,,,,,,,,,,
+English,10,10,10,10,10,10,4,3,4,4,4,4,10,10,10,10,Female,45-54,English,White,false,Rent,false,21 years or more,"$75,000 to $99,999",false
+Haitian Creole,10,9,10,10,9,10,4,1,4,4,1,5,,,,,,,,,,,,,,
+Spanish,9,9,7,10,8,10,4,1,4,4,1,4,,,,,,,,,,,,,,
+English,3,1,2,5,5,5,2,1,3,4,4,3,9,4,8,4,Male,45-54,English,White,false,Rent,false,11-15 years,,false
+English,10,10,10,10,10,10,5,3,5,5,5,5,10,10,10,10,Male,45-54,English;Nepali,Asian,false,Rent,false,11-15 years,"$25,000 to $49,999",false
+English,8,9,5,9,9,10,5,3,4,4,3,5,9,7,8,7,Male,35-44,English;Spanish,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,10,10,1,10,10,10,5,1,5,5,5,5,10,10,10,10,Male,75 or older,,Italy,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,5,8,10,6,5,6,4,2,3,5,3,4,4,10,7,4,Female,55-64,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Male,55-64,English,White,false,Rent,true,8-10 years,"$25,000 to $49,999",false
+English,7,7,8,2,2,7,3,3,4,4,3,4,8,6,6,3,Female,75 or older,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,65-74,Portugese,White,false,Own,false,21 years or more,,false
+English,6,7,2,8,6,7,5,2,4,4,5,5,9,7,8,6,Female,35-44,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,8,7,7,8,8,9,3,2,4,4,4,5,8,9,8,7,Female,45-54,English,White,true,Own,false,16-20 years,"$100,000 to $149,999",false
+,4,4,8,9,4,7,4,4,4,3,3,3,6,9,8,8,Male,65-74,Indian,Asian,false,Rent,true,8-10 years,"$10,000 to $24,999",false
+English,10,8,8,10,10,10,5,4,4,5,4,5,9,,8,10,Female,75 or older,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",
+English,8,8,8,5,8,7,3,2,4,4,3,5,9,9,9,9,Female,45-54,English,White,true,Own,false,21 years or more,"$100,000 to $149,999",false
+English,7,8,7,9,9,8,4,3,3,4,4,4,6,9,8,8,Male,55-64,English,White,false,Own,false,11-15 years,"$50,000 to 74,999",false
+English,10,10,10,10,1,10,5,5,5,5,5,5,10,4,5,2,Female,75 or older,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",false
+Portugese,10,9,9,9,9,10,3,3,3,4,5,5,10,10,8,8,Female,55-64,English;Portugese,White,false,Rent,false,16-20 years,"$50,000 to 74,999",false
+English,10,10,6,9,9,10,5,3,,3,4,5,9,8,8,8,Female,45-54,English,White,false,Rent,true,16-20 years,"$75,000 to $99,999",false
+English,6,6,4,8,8,7,4,3,4,4,4,4,8,9,9,8,Male,35-44,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,8,8,9,9,8,9,5,2,5,5,4,5,9,8,9,9,Female,35-44,English,Asian,true,Own,false,11-15 years,"$100,000 to $149,999",false
+English,10,10,10,10,10,10,5,3,,5,4,5,9,10,9,9,Female,75 or older,,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,3,8,2,5,9,9,3,1,3,1,2,5,6,10,1,6,Male,25-34,,Hispanic/Latino,true,Own,,16-20 years,"$25,000 to $49,999",
+English,8,9,8,9,9,9,5,2,5,3,2,5,8,10,10,8,Male,35-44,English,White,true,Own,false,8-10 years,"$150,000 or more",false
+Spanish,9,6,9,6,9,9,1,1,3,1,2,5,4,6,6,6,Female,45-54,,Hispanic/Latino,true,Own,false,16-20 years,"$50,000 to 74,999",
+English,9,9,10,8,9,10,5,2,5,3,3,5,8,9,8,9,Male,25-34,English,White,,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,3,5,1,1,1,1,3,1,4,1,3,4,1,1,1,1,Female,25-34,English,Hispanic/Latino,true,Rent,true,21 years or more,"Less than $10,000",false
+English,5,8,3,9,9,9,4,2,,3,3,4,5,7,9,7,Female,35-44,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,8,8,8,8,8,8,4,1,3,4,4,4,6,9,8,8,Female,25-34,English,Asian,false,Rent,true,1-3 years,"$100,000 to $149,999",false
+English,8,8,6,10,9,10,5,2,,4,5,5,9,10,9,9,Male,25-34,English,Black/African American;White,false,Rent,false,4-7 years,"$25,000 to $49,999",true
+English,5,5,5,10,10,10,2,2,,4,2,3,7,7,7,5,Female,45-54,English,White,false,Rent,false,4-7 years,,true
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Male,65-74,,Asian,false,Own,false,21 years or more,"Less than $10,000",false
+English,8,8,9,7,9,9,5,2,2,5,3,5,5,8,9,7,Female,35-44,English,White,true,Own,false,16-20 years,"$150,000 or more",false
+English,7,7,8,9,9,9,5,3,3,4,4,5,8,9,9,9,Male,35-44,English,Black/African American,false,Rent,true,8-10 years,,false
+English,8,7,7,9,9,9,5,2,4,5,5,5,8,9,9,8,Female,55-64,English,White,false,Rent,true,8-10 years,"$25,000 to $49,999",false
+English,7,8,9,6,7,6,3,2,3,4,4,3,5,9,7,8,Male,35-44,English,White,false,Rent,true,1-3 years,"$75,000 to $99,999",false
+English,8,8,8,9,9,9,4,3,,,5,5,10,10,10,9,Female,25-34,English,White,false,Rent,false,Less than a year,"$50,000 to 74,999",false
+English,9,9,6,9,9,10,4,1,4,4,4,5,7,10,8,8,Female,35-44,English;Spanish,White,true,Own,false,11-15 years,"$50,000 to 74,999",false
+English,8,7,6,7,7,9,4,2,3,4,4,4,7,8,7,6,Female,35-44,English,White,false,Own,false,1-3 years,"$50,000 to 74,999",false
+,9,9,10,10,10,10,5,3,,4,3,5,10,10,9,8,Male,55-64,,White,false,Own,false,4-7 years,"$150,000 or more",false
+,7,7,4,9,9,10,5,2,,4,1,5,9,7,8,8,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,9,8,10,9,9,9,3,1,4,4,1,5,9,9,9,9,Male,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,10,10,10,10,10,10,5,5,,4,2,5,10,10,10,10,Female,55-64,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",
+English,8,8,8,8,8,8,4,3,3,3,3,4,7,8,8,7,Female,35-44,English,White,false,Own,false,11-15 years,"$100,000 to $149,999",
+English,8,7,10,8,8,8,5,3,2,5,4,4,7,10,8,8,Female,25-34,English,White,true,Rent,,1-3 years,"$100,000 to $149,999",false
+English,8,9,6,9,9,8,3,2,2,4,4,4,9,9,9,8,Female,35-44,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+,8,8,9,9,9,9,3,2,5,3,3,5,9,9,9,9,Female,25-34,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",false
+English,3,7,4,8,8,3,4,1,,2,4,5,3,9,9,8,Female,35-44,English,White,false,Rent,false,11-15 years,"$150,000 or more",false
+English,9,9,10,9,9,9,4,3,1,5,4,5,10,10,10,10,Female,35-44,French,White,true,Rent,false,1-3 years,"$150,000 or more",false
+,6,7,7,5,7,8,4,1,3,3,4,5,6,7,8,8,Female,25-34,English,White,false,Rent,false,4-7 years,"$150,000 or more",false
+English,10,10,10,9,10,10,5,3,,5,3,4,9,8,9,7,Male,65-74,English;Vietnamese and Chinese,Asian,false,Own,true,21 years or more,"$25,000 to $49,999",false
+English,3,6,6,4,3,5,1,3,4,4,3,3,5,9,8,5,Female,65-74,English,White,false,Own,true,21 years or more,"$150,000 or more",false
+English,7,7,5,10,8,8,4,4,4,5,4,4,9,3,8,8,Female,75 or older,English,White,false,Own,false,21 years or more,,false
+English,8,10,7,9,9,10,5,2,4,4,1,4,10,9,9,8,Female,35-44,English,White,true,Rent,,4-7 years,"$150,000 or more",true
+English,10,7,7,10,10,10,5,1,,3,4,5,10,8,9,8,Female,45-54,English;Arabic,,false,Own,false,8-10 years,"$150,000 or more",false
+English,6,8,7,8,10,8,3,1,3,5,4,4,9,8,8,7,Female,65-74,English,White,false,Rent,false,21 years or more,"$25,000 to $49,999",false
+English,8,7,4,10,7,6,1,1,3,5,5,5,10,10,7,7,Male,25-34,English;Danish,White,false,Rent,true,Less than a year,"$100,000 to $149,999",false
+English,7,7,4,10,10,8,4,2,,3,3,4,10,8,8,9,Female,25-34,,Hispanic/Latino;White,false,Rent,false,Less than a year,"$25,000 to $49,999",true
+English,7,5,5,7,9,8,3,1,,5,4,4,8,9,10,9,Male,25-34,English,White,false,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,,,,2,1,1,2,2,,3,1,3,9,,6,1,Female,65-74,English,White,false,Own,,21 years or more,"$10,000 to $24,999",false
+English,10,10,5,10,9,7,,2,,4,2,5,9,9,9,9,Female,35-44,Finnish,White,false,Rent,true,1-3 years,"$150,000 or more",false
+,7,7,7,8,9,8,5,3,,4,4,5,9,8,8,8,Female,45-54,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,,,,5,5,10,4,3,3,5,5,3,10,10,8,3,Female,55-64,English,White,false,Own,false,21 years or more,,false
+English,10,10,10,7,5,2,4,1,,4,3,,9,6,4,1,Female,65-74,English,White,false,Own,false,21 years or more,,false
+,9,10,7,9,9,10,5,2,3,3,3,4,9,9,8,7,Female,25-34,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,5,,7,8,5,5,5,1,5,5,5,5,10,10,8,8,Female,55-64,English,Black/African American,false,Rent,false,21 years or more,"$50,000 to 74,999",false
+English,7,5,8,9,9,9,4,1,3,2,4,5,8,10,9,8,Male,25-34,English,White,false,Own,false,8-10 years,"$100,000 to $149,999",false
+English,7,8,7,9,9,10,4,2,2,3,3,3,10,9,9,7,Female,25-34,English,White,true,Own,false,4-7 years,"$150,000 or more",false
+English,7,8,7,9,7,10,5,2,4,2,3,5,8,10,9,8,Female,25-34,English,White,false,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,5,4,2,7,7,8,4,1,3,3,3,4,5,2,5,8,Female,55-64,English,White,true,,false,21 years or more,"Less than $10,000",false
+,9,9,9,9,9,9,4,2,5,4,5,5,8,7,7,8,Female,75 or older,,White,false,Own,false,21 years or more,"$10,000 to $24,999",false
+English,6,6,10,8,8,8,3,2,3,4,2,4,8,7,7,7,Male,55-64,English,White,false,Rent,false,21 years or more,"$25,000 to $49,999",false
+English,7,9,7,10,10,10,3,1,3,5,5,4,7,10,10,7,Male,25-34,English,White,false,Rent,false,4-7 years,"$150,000 or more",false
+English,8,10,9,10,9,10,5,4,5,5,5,4,10,8,10,10,Male,75 or older,English,White,false,Own,false,21 years or more,,false
+English,1,9,9,2,1,3,5,1,1,5,1,5,9,2,9,9,Female,55-64,,White,false,Own,true,,,false
+English,10,10,10,10,10,10,5,1,5,5,4,5,10,1,10,10,Male,65-74,,White,false,Own,false,21 years or more,"$50,000 to 74,999",
+English,9,8,8,9,8,9,5,4,4,5,5,5,10,10,10,10,Female,18-24,English,White,false,Rent,false,Less than a year,"$50,000 to 74,999",false
+English,8,9,4,10,10,10,5,5,,5,4,5,10,10,10,10,Female,65-74,English,White,false,Own,false,16-20 years,"$25,000 to $49,999",false
+English,7,9,6,10,10,9,4,1,3,3,4,4,3,8,8,6,Female,65-74,English;Portugese,White,false,Own,false,21 years or more,"$25,000 to $49,999",
+English,4,3,3,9,9,9,1,1,3,3,1,4,3,9,9,9,Female,25-34,English,White,false,Rent,false,4-7 years,"$25,000 to $49,999",false
+English,9,9,8,8,9,6,3,2,4,4,3,4,6,9,6,9,Female,55-64,English;German + ....,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,7,8,6,10,10,10,4,3,3,4,4,5,7,9,9,9,Female,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,9,8,6,8,7,6,3,1,,3,2,4,8,7,8,6,Female,25-34,English,White,false,Rent,false,Less than a year,"$150,000 or more",false
+English,10,10,9,9,9,7,3,1,3,3,3,5,10,6,8,8,Female,18-24,English,Hispanic/Latino,false,Rent,true,1-3 years,,true
+English,6,6,6,10,10,10,5,3,5,5,5,5,10,10,10,10,Male,65-74,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,9,9,6,6,6,6,4,5,3,5,3,3,9,8,9,8,Male,45-54,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,6,7,4,9,8,10,5,1,4,4,5,5,10,10,10,7,Female,45-54,English,White,false,Own,false,8-10 years,"$75,000 to $99,999",false
+English,5,7,7,8,7,7,4,2,,3,2,5,6,9,8,7,Male,25-34,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",false
+English,8,8,2,10,10,10,3,2,,,4,5,10,8,10,9,Female,35-44,English,White,false,Rent,false,Less than a year,"$150,000 or more",false
+English,8,10,8,8,9,9,4,2,3,5,4,5,7,10,9,7,Male,75 or older,English,White,true,Own,false,21 years or more,"$150,000 or more",false
+English,9,9,9,9,9,10,4,3,3,4,4,4,9,9,9,9,Female,35-44,English;Spanish,Hispanic/Latino;White,true,Rent,false,11-15 years,"$150,000 or more",false
+English,8,8,9,5,8,8,3,1,,2,4,4,9,9,8,4,Female,55-64,English,White,false,Rent,false,21 years or more,"$25,000 to $49,999",false
+Spanish,9,9,6,8,9,8,5,2,3,4,4,4,10,10,10,6,Male,75 or older,English,White;Jewish,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,7,7,1,10,10,10,5,1,3,4,5,5,7,6,10,8,Female,25-34,English,,false,Rent,false,1-3 years,"$100,000 to $149,999",true
+English,9,10,7,8,10,9,4,2,3,4,4,5,9,9,9,9,Female,35-44,English,White,false,Own,,11-15 years,"$150,000 or more",false
+English,7,7,4,7,9,9,5,3,2,4,2,4,9,6,7,7,Female,35-44,English,White,true,Own,,11-15 years,,false
+English,6,7,3,7,6,7,4,2,3,3,2,4,5,7,7,6,Female,25-34,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,8,8,5,9,9,9,4,4,3,3,1,4,6,7,9,8,Female,25-34,English,White,false,Own,false,Less than a year,"$75,000 to $99,999",
+English,9,6,3,9,6,8,3,2,,4,5,4,8,7,10,6,Female,25-34,English,White,false,Rent,false,Less than a year,"$25,000 to $49,999",false
+English,7,8,5,9,8,9,4,1,4,3,3,4,7,9,8,5,Male,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+Spanish,10,10,10,10,9,10,4,3,4,4,5,5,10,9,9,9,Female,55-64,,Hispanic/Latino,false,Rent,false,11-15 years,"$10,000 to $24,999",false
+English,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Female,55-64,English,White,false,Own,true,21 years or more,,false
+,8,9,8,8,5,8,4,2,,,2,4,7,7,8,4,(Female and Male selected),25-34,English,Asian;White,false,Own,false,1-3 years,"$100,000 to $149,999",false
+English,8,9,9,9,10,9,4,4,,4,3,3,9,8,9,8,Female,75 or older,,White,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,10,10,9,9,9,9,3,3,3,3,3,4,10,4,6,7,Female,65-74,English,White,false,Own,false,21 years or more,,false
+English,8,7,6,7,8,6,3,2,,3,3,2,6,7,7,8,Female,18-24,English,White,false,Rent,true,Less than a year,"$50,000 to 74,999",false
+English,7,8,3,10,10,9,5,3,5,5,5,5,10,10,10,10,Female,25-34,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,8,9,6,9,9,8,5,3,4,4,4,5,9,8,8,8,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",true
+English,7,8,4,7,8,8,4,1,3,2,2,4,8,8,8,7,Female,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",true
+English,7,8,6,7,8,8,5,1,5,4,4,5,6,8,9,8,Male,35-44,"English;Italian, Swedish",White,true,Rent,false,,"$100,000 to $149,999",false
+English,8,9,9,3,5,10,4,2,2,5,5,5,9,9,8,9,Female,55-64,English,White,false,Own,false,21 years or more,"$150,000 or more",
+English,8,8,8,10,10,10,4,4,4,4,4,5,10,9,10,9,Female,65-74,English,White,false,Own,false,11-15 years,"$25,000 to $49,999",false
+English,6,6,7,4,4,4,3,2,2,2,1,3,2,5,4,3,Female,35-44,English,Asian,false,Rent,true,,"$150,000 or more",false
+English,7,8,7,4,3,4,3,1,2,3,2,5,6,5,1,2,,45-54,English,,,Own,,8-10 years,,false
+English,7,7,7,6,1,6,4,1,4,4,3,5,9,7,1,3,Female,35-44,English,White,true,,false,,"$75,000 to $99,999",false
+,8,10,9,9,8,7,4,3,,4,1,4,7,6,8,7,Female,18-24,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",false
+English,10,10,1,10,10,10,5,5,3,5,5,5,10,10,10,10,Female,45-54,,,true,Own,false,11-15 years,"$25,000 to $49,999",false
+English,6,7,4,8,8,6,3,2,,3,4,4,7,8,7,7,Male,25-34,English;French,White,false,Rent,true,Less than a year,"$75,000 to $99,999",false
+English,7,7,4,9,9,9,5,4,4,4,4,4,6,3,8,8,Female,55-64,English,White,false,Rent,false,21 years or more,"Less than $10,000",false
+English,6,7,6,8,8,9,5,3,5,4,3,5,8,10,9,8,Female,35-44,English,White,true,Own,false,4-7 years,"$150,000 or more",false
+English,8,8,7,8,6,9,4,4,4,4,4,4,5,7,8,7,Male,55-64,English,White,false,Own,false,16-20 years,"$25,000 to $49,999",false
+English,9,9,9,9,9,9,4,1,3,5,5,5,9,5,9,5,Female,25-34,Bengali,Asian,true,Own,false,8-10 years,"$25,000 to $49,999",false
+English,8,7,5,8,8,8,3,2,3,4,4,4,9,9,9,9,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,9,8,9,8,8,7,5,1,3,3,1,2,3,8,8,8,Female,65-74,English;Haitian Creole,Black/African American;Human Race,true,Own,false,21 years or more,,false
+English,7,9,4,9,9,10,5,1,3,2,4,5,7,9,8,7,Female,45-54,,White,false,Own,false,11-15 years,"$150,000 or more",false
+English,7,7,6,8,7,7,4,3,,4,3,3,7,7,7,7,Female,35-44,English,White,false,Own,false,Less than a year,"$100,000 to $149,999",false
+English,7,7,9,8,9,8,4,1,4,2,4,4,9,9,10,9,Female,35-44,English,White,true,Rent,,11-15 years,"$50,000 to 74,999",
+English,7,9,5,7,6,8,3,2,,4,2,4,9,8,8,4,Male,35-44,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+,7,9,4,10,8,10,4,1,,,4,5,9,7,10,10,Female,25-34,English,White,false,Rent,true,Less than a year,"$25,000 to $49,999",false
+English,10,7,6,8,8,9,5,3,,,2,3,,,,,,,,,,,,,,
+English,8,9,7,8,9,7,3,2,2,4,3,4,8,8,9,8,Female,25-34,English,,true,Own,,4-7 years,,false
+English,7,6,7,8,8,8,4,2,,,2,5,7,8,8,8,Female,65-74,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",false
+English,8,8,6,8,8,8,4,2,4,4,4,4,7,9,9,9,Male,18-24,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",false
+English,7,8,9,8,8,8,5,2,,4,4,5,10,7,9,9,Female,35-44,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,7,7,3,5,,7,4,2,2,3,3,3,6,9,7,7,Male,65-74,,White,false,Own,false,,,
+English,6,5,5,8,9,8,4,2,,3,3,4,8,8,6,7,Male,35-44,English;Haitian Creole,Black/African American,true,Rent,false,Less than a year,"$25,000 to $49,999",false
+English,8,8,4,9,10,9,5,2,3,3,5,5,10,9,10,9,Male,35-44,English,White,false,Rent,false,4-7 years,"$150,000 or more",false
+English,1,1,1,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,45-54,English;French Creole,,true,,false,11-15 years,"Less than $10,000",false
+English,7,7,3,7,7,8,4,2,3,3,3,4,6,6,6,5,Male,25-34,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",false
+English,8,8,8,8,9,7,4,1,,4,4,3,8,7,8,7,Male,35-44,English,White,false,Rent,false,4-7 years,"$150,000 or more",false
+English,8,8,6,9,9,10,5,5,,5,3,4,6,,8,9,Female,55-64,Portugese,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,1,2,1,3,4,4,4,1,,3,3,3,7,9,7,5,Male,25-34,English;French,White,false,Rent,true,1-3 years,"$100,000 to $149,999",
+Spanish,8,7,5,8,9,8,4,3,4,4,4,5,5,9,8,8,Male,25-34,English,White,false,Rent,true,Less than a year,"$25,000 to $49,999",false
+English,8,8,7,9,10,9,5,1,4,4,5,5,8,9,8,8,Male,55-64,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",true
+English,10,10,8,9,8,9,4,3,3,4,4,5,8,7,8,8,Female,25-34,English,Asian,false,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,8,8,6,9,9,8,4,1,,4,4,5,9,9,10,9,Female,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,8,9,8,9,7,9,4,3,3,4,2,4,7,8,4,4,Female + Male checked,35-44,English;Jamaican Patois,Multi-Racial,true,Own,false,1-3 years,"$150,000 or more",false
+English,8,7,6,9,8,10,4,3,,4,3,4,7,6,7,7,Female,25-34,English,Asian,false,Own,false,1-3 years,"$75,000 to $99,999",false
+English,3,5,6,9,10,9,3,1,,5,5,5,10,10,9,10,Male,35-44,English,White,false,Rent,true,4-7 years,"$100,000 to $149,999",false
+English,9,9,8,10,9,10,4,2,4,4,2,4,6,4,9,9,Male,65-74,,White,true,Own,false,21 years or more,"$25,000 to $49,999",false
+English,9,9,7,9,9,9,3,3,,3,4,4,10,9,8,7,Female,25-34,English,White,false,Rent,true,1-3 years,,true
+English,7,10,9,8,8,8,4,3,3,4,3,4,7,7,7,6,Male,25-34,Chinese,Asian,false,Own,true,4-7 years,"$50,000 to 74,999",false
+English,10,8,10,7,7,7,3,2,3,3,4,5,7,9,8,8,Female,25-34,English,White,false,Rent,true,1-3 years,"$100,000 to $149,999",false
+English,10,10,10,10,10,10,5,4,4,5,4,5,10,10,9,9,Female,45-54,English,White,true,Own,false,21 years or more,"$150,000 or more",false
+,8,8,8,8,8,8,3,1,3,2,3,3,7,8,5,3,Male,65-74,,,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,7,8,7,7,7,6,4,1,3,3,3,5,6,7,9,9,Checked Female & Male,35-44,English,White;Hawai'ian,true,Rent,true,4-7 years,,false
+English,6,7,5,8,8,10,4,3,4,5,4,5,10,10,8,7,Female,35-44,English,White,false,Own,false,11-15 years,"$75,000 to $99,999",false
+,7,9,8,9,9,9,5,1,5,4,4,4,10,10,8,9,Male,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,7,8,5,10,9,9,3,3,4,3,3,3,8,7,7,9,Female,35-44,English;Spanish,Hispanic/Latino,true,Own,false,8-10 years,"$75,000 to $99,999",false
+English,9,9,9,9,9,9,4,3,4,4,4,5,7,9,7,8,Female,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,7,9,6,9,10,8,4,2,2,4,4,4,9,10,9,9,Female,35-44,English,White,true,Own,false,Less than a year,"$150,000 or more",false
+,10,9,10,9,9,9,4,3,4,4,3,5,9,10,10,8,Male,25-34,Italian,White,false,Rent,false,Less than a year,"$100,000 to $149,999",false
+English,9,9,8,9,9,7,4,2,3,4,3,4,8,9,7,8,Male,25-34,English;Russian,White,true,Own,false,8-10 years,"$100,000 to $149,999",false
+English,10,9,8,10,7,8,4,3,5,4,2,5,10,8,10,8,Female,25-34,English,White,false,Rent,true,Less than a year,"$100,000 to $149,999",false
+English,7,7,9,7,9,9,5,1,,3,4,4,4,7,7,8,Female,25-34,English,Asian,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,10,10,10,10,10,10,5,4,5,5,3,5,8,10,7,8,Female,35-44,English,Asian,true,Rent,true,16-20 years,,false
+English,8,8,6,7,7,6,3,1,,5,4,5,5,7,10,6,Two People filled this out,25-34,English,White,false,Rent,true,1-3 years,,false
+English,2,2,4,1,1,1,3,3,3,3,3,3,8,4,9,5,Male,35-44,,White,false,Own,,11-15 years,,
+English,10,8,7,10,9,10,4,4,,4,4,5,6,8,8,10,Male,25-34,English,White,false,selected both,false,1-3 years,"$100,000 to $149,999",false
+English,7,7,5,10,9,3,3,1,,1,1,1,1,5,9,8,Male,25-34,English;Spanish;Mandarin,Asian;White,false,Rent,false,1-3 years,"$50,000 to 74,999",true
+English,,,,1,2,1,2,2,2,1,3,,3,1,1,1,Female,75 or older,,,false,Rent,,8-10 years,"$10,000 to $24,999",false
+English,7,7,9,8,7,8,4,3,,4,3,4,8,9,7,4,Male,35-44,English,White,false,Own,false,11-15 years,,
+English,6,8,4,9,9,8,3,2,2,4,4,5,9,9,9,8,Male,25-34,English,White,false,Rent,true,11-15 years,"$150,000 or more",false
+,9,9,10,10,10,9,3,3,3,4,5,5,9,10,10,10,Male,25-34,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",
+English,9,9,6,9,9,10,4,3,3,4,3,4,10,8,8,7,Female,55-64,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,5,4,7,8,8,8,3,2,3,4,1,3,5,5,7,7,Female,45-54,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,6,7,7,4,5,4,2,3,2,2,4,4,8,7,6,4,Female,35-44,English,,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+Spanish,4,6,3,7,7,6,3,1,3,3,4,4,9,8,9,7,Female,55-64,,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,9,,2,9,,9,,,,,,,,2,9,,Male,55-64,English,White,true,Rent,false,,,
+English,8,9,8,9,9,8,5,3,3,3,3,4,9,9,8,8,Female,35-44,English,White,true,Own,true,8-10 years,"$150,000 or more",false
+English,7,9,8,7,7,9,3,3,,3,2,5,7,10,10,8,Female,25-34,English,White,false,Own,false,Less than a year,"$150,000 or more",false
+English,9,9,9,10,10,10,4,5,3,3,4,5,8,9,9,8,Male,25-34,English,White,false,Own,false,8-10 years,"$75,000 to $99,999",false
+,10,10,6,10,10,10,5,4,4,4,2,5,10,10,10,9,a cou,25-34,English,Black/African American;White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,8,7,5,10,10,10,4,1,3,5,4,4,9,10,9,7,Male,25-34,English,White,false,,,1-3 years,"$100,000 to $149,999",
+,10,10,10,9,9,9,4,3,,,4,4,9,8,7,4,Female,25-34,English,White,false,Own,true,1-3 years,"$150,000 or more",false
+English,10,8,8,6,7,1,3,2,,2,4,5,6,10,10,7,Male,25-34,English,White,false,Rent,true,1-3 years,"$10,000 to $24,999",true
+English,7,6,4,2,6,7,3,1,2,3,1,2,5,3,4,4,Female,25-34,English,Hispanic/Latino;White,false,Rent,true,4-7 years,"$25,000 to $49,999",false
+English,9,9,7,9,9,9,,2,,,4,5,9,9,8,7,Female,25-34,English;Bengali,Asian,false,Rent,,Less than a year,,false
+English,8,7,9,8,10,10,4,1,4,4,3,5,7,6,9,8,Female,35-44,English;French,White,true,,false,4-7 years,"$25,000 to $49,999",false
+English,9,9,9,8,10,8,5,2,3,4,4,5,8,10,9,8,Female,45-54,English,White,false,Rent,true,4-7 years,"$150,000 or more",false
+Spanish,9,8,10,9,7,9,3,3,4,5,4,3,9,6,10,10,Female,35-44,English,Hispanic/Latino,true,,false,16-20 years,,
+English,4,6,4,7,7,8,4,2,3,2,4,4,6,8,7,8,Female,25-34,English,White,false,Rent,false,4-7 years,"Less than $10,000",false
+English,10,10,10,10,10,10,,1,,5,1,5,10,10,10,10,Female,75 or older,English,Black/African American,false,Rent,false,21 years or more,"$25,000 to $49,999",false
+English,4,4,4,6,6,6,4,1,5,3,1,4,7,3,1,2,Female,55-64,English,White,true,Own,true,21 years or more,"$75,000 to $99,999",
+English,6,8,9,6,6,6,3,1,3,4,2,5,4,9,7,5,Female,45-54,English,White,true,Own,true,11-15 years,"$100,000 to $149,999",false
+English,9,9,6,9,8,8,4,2,,4,4,4,10,7,8,7,Female,25-34,English;Bosnian,White,true,Own,true,8-10 years,"$150,000 or more",false
+English,10,9,9,10,10,10,4,2,,4,4,5,9,9,9,10,Male,45-54,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,75 or older,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,3,6,6,8,5,9,3,2,3,2,3,5,7,6,8,6,Female,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,8,8,4,9,9,9,5,2,4,5,3,5,9,9,7,6,Male,45-54,English,White,true,Own,false,8-10 years,"$150,000 or more",false
+,7,6,2,6,6,5,3,4,3,3,2,4,7,5,5,7,Female,18-24,English,White,false,Rent,true,Less than a year,"$50,000 to 74,999",true
+English,7,7,6,7,7,9,4,1,3,4,3,5,8,9,7,5,Female,35-44,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+Spanish,9,9,7,10,10,10,5,4,5,4,5,4,10,8,8,8,Male,45-54,Spanish,,true,Own,false,21 years or more,"$25,000 to $49,999",false
+English,4,5,4,3,4,5,3,1,3,3,1,3,1,5,5,3,Female,55-64,,White,false,Own,false,11-15 years,"$25,000 to $49,999",false
+English,5,4,7,7,6,10,4,1,4,3,3,3,7,5,7,6,Female,25-34,English;Haitian Creole,Black/African American;Hatian,false,Own,false,16-20 years,"$25,000 to $49,999",false
+,8,8,7,7,5,8,4,2,,3,2,4,5,6,4,3,Female,35-44,English,White,false,Own,false,Less than a year,"$100,000 to $149,999",
+English,8,8,6,8,8,9,5,3,3,5,5,5,10,7,8,4,Female,25-34,English,White,false,Own,false,1-3 years,,
+English,7,7,1,7,9,7,4,2,,,5,5,7,5,9,7,Female,25-34,English,Asian,false,Rent,,11-15 years,"$150,000 or more",false
+English,10,9,9,9,9,9,5,2,4,4,4,5,8,9,8,8,Male,35-44,English,White,true,Own,false,21 years or more,"$150,000 or more",false
+English,9,9,3,7,7,9,5,2,1,4,2,4,9,9,2,3,Male,25-34,English,White,true,Own,true,1-3 years,"$150,000 or more",false
+English,6,7,10,9,8,10,3,2,3,5,1,3,7,5,2,2,Female,45-54,English,White,false,Own,false,8-10 years,"$25,000 to $49,999",false
+English,4,9,2,10,1,10,5,1,5,5,5,5,10,7,10,7,Female,35-44,English;Haitian Creole,Black/African American,true,Rent,true,4-7 years,,false
+English,10,10,9,10,10,10,5,5,3,5,5,5,10,7,10,10,Female,65-74,,Black/African American,false,,false,21 years or more,"$75,000 to $99,999",false
+English,8,8,5,8,8,8,2,2,2,4,4,4,5,7,7,7,Female,25-34,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,8,8,5,8,8,6,3,1,3,4,4,5,9,7,8,8,Female,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,7,6,8,8,7,7,4,3,2,4,4,5,4,6,7,7,Female,35-44,English,White,false,Own,false,11-15 years,"$75,000 to $99,999",false
+English,8,8,3,10,10,10,5,5,5,5,5,5,7,8,9,10,Male,55-64,English,Black/African American,false,Rent,false,8-10 years,"$50,000 to 74,999",false
+English,7,7,6,8,8,7,2,1,,3,3,4,8,9,9,9,Female,35-44,English,White,false,Rent,true,4-7 years,,false
+English,6,7,6,8,7,8,5,3,,4,3,5,4,4,7,4,Female,25-34,English,White,false,Own,false,1-3 years,"$100,000 to $149,999",false
+Spanish,9,9,7,8,8,8,4,2,4,3,4,4,9,9,9,9,Male,25-34,English;Spanish,Hispanic/Latino,true,Rent,,1-3 years,"$75,000 to $99,999",false
+English,8,9,4,7,5,6,4,1,3,1,4,5,9,9,9,9,Female,25-34,English;Spanish,White,true,Rent,true,1-3 years,"$75,000 to $99,999",false
+English,9,9,9,9,10,8,5,3,3,4,2,5,5,8,5,9,Female,25-34,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,10,10,6,3,3,8,4,1,2,5,1,4,10,6,5,4,Male,35-44,English,White,true,Own,true,21 years or more,"$150,000 or more",false
+English,9,8,8,10,7,10,4,3,3,3,3,3,7,5,8,8,Female,35-44,English,Asian;White,false,Rent,true,4-7 years,"$50,000 to 74,999",false
+English,7,7,9,6,7,7,4,1,,4,1,,7,7,,7,Male,55-64,English,White,false,Rent,true,4-7 years,"$75,000 to $99,999",false
+English,9,8,7,9,7,9,4,2,,2,3,4,9,9,10,4,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,9,8,10,9,9,10,5,1,4,3,3,5,7,8,10,9,Female,25-34,English,White,false,Rent,false,4-7 years,"$25,000 to $49,999",false
+English,5,5,6,7,7,7,4,1,4,5,5,5,8,8,8,8,Female,35-44,English,White,true,Rent,true,21 years or more,"$25,000 to $49,999",false
+English,6,6,6,6,9,6,3,1,3,4,4,4,8,6,6,6,Female,75 or older,English,White,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,8,8,6,8,4,10,5,1,4,4,3,5,8,8,9,9,Male,25-34,English,White,false,Rent,true,1-3 years,"$100,000 to $149,999",false
+English,9,8,7,8,8,6,3,2,,,2,4,9,9,8,7,Male,25-34,English,White,false,Rent,true,Less than a year,"$50,000 to 74,999",false
+English,9,5,4,6,6,8,5,1,4,4,3,5,10,10,10,9,Female,25-34,English,White,false,Rent,,4-7 years,"$75,000 to $99,999",false
+English,9,10,8,10,10,9,4,1,2,5,5,4,9,9,9,9,Female,25-34,English;Portugese;German,White,true,Rent,false,1-3 years,,false
+English,7,8,4,9,8,9,4,2,3,3,2,5,4,7,4,,non binary female,55-64,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",false
+English,8,8,8,1,8,1,4,4,,4,4,,8,8,8,8,Male,45-54,English,,false,Own,true,11-15 years,"$75,000 to $99,999",false
+English,9,7,8,9,10,9,3,3,4,5,4,4,9,9,8,9,Female,55-64,English,Black/African American,false,Rent,true,4-7 years,"$25,000 to $49,999",false
+English,5,1,,5,10,8,1,,,5,3,3,4,8,1,8,Female,75 or older,English,White,false,Own,false,21 years or more,,false
+English,10,10,2,10,10,10,5,1,3,4,4,5,10,9,10,9,Male,35-44,Italian,White,true,Own,false,8-10 years,"$150,000 or more",false
+English,5,8,1,9,9,6,4,,3,3,4,4,9,8,8,8,Female,55-64,English;Portugese;French,Black/African American;White,false,Own,false,21 years or more,"$150,000 or more",false
+English,9,9,9,9,9,9,4,3,3,3,4,4,,,,,,,,,,,,,,
+English,8,8,8,9,9,10,5,4,5,5,5,5,9,9,9,9,Female,55-64,English,,false,Rent,false,21 years or more,"$150,000 or more",false
+,10,10,10,8,10,,5,1,3,5,4,4,10,10,10,10,(Checked both Male and Female),25-34,English,White,false,Rent,true,4-7 years,,false
+English,7,8,4,8,4,6,5,3,,,2,4,6,7,5,2,both male and female checked,25-34,English,White,false,Rent,false,Less than a year,"$100,000 to $149,999",false
+English,8,8,7,9,9,8,4,2,3,4,3,4,7,9,8,8,Female,25-34,English,White,false,Rent,false,8-10 years,"$50,000 to 74,999",false
+English,10,10,10,10,10,10,5,3,,5,4,,10,10,8,8,Female,65-74,,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,6,6,4,8,8,8,4,2,3,5,4,3,4,8,8,6,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,7,7,9,6,6,7,4,3,,4,2,4,7,8,6,5,Male,55-64,English,White,false,Rent,false,16-20 years,"$100,000 to $149,999",
+English,8,7,8,9,9,10,4,2,3,1,2,5,10,8,9,9,Genderqueer,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,7,8,9,9,9,10,5,2,3,4,4,5,10,8,7,8,Female,55-64,English,Semitic,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,9,8,4,9,9,9,3,2,1,5,5,5,9,9,8,9,Male,25-34,English;Tamil,,false,Rent,false,Less than a year,,false
+English,7,8,10,6,9,9,5,1,3,5,4,4,7,10,4,4,Male,35-44,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,6,6,8,8,6,7,4,2,,4,4,5,7,8,8,8,Female,45-54,English,White,false,Rent,,1-3 years,"$75,000 to $99,999",false
+English,6,7,6,8,7,9,3,2,3,3,3,5,5,5,7,6,Female,25-34,English,White,false,Rent,false,4-7 years,"$25,000 to $49,999",true
+Portugese,1,1,9,1,2,1,1,1,,5,1,,,1,1,1,Female,65-74,Portugese,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,6,6,8,10,10,3,1,,,3,5,10,9,8,4,both make and female checked,25-34,English,White,false,Rent,true,4-7 years,"$100,000 to $149,999",false
+,8,8,5,8,9,9,4,1,,4,3,4,7,7,8,8,Female,45-54,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+Portugese,10,10,6,10,10,10,5,2,3,5,3,5,10,10,7,6,Female,55-64,Portugese,Hispanic/Latino;White,false,Rent,false,16-20 years,"$25,000 to $49,999",false
+English,8,10,10,9,8,9,4,2,3,4,3,5,7,6,8,7,Female,25-34,English,White,false,Rent,false,4-7 years,"Less than $10,000",true
+English,8,9,8,9,9,7,3,3,3,4,4,4,9,10,9,8,Female,25-34,English,White,false,Rent,true,1-3 years,"$75,000 to $99,999",false
+,5,5,3,5,7,5,3,1,3,1,3,3,1,5,5,5,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+,10,10,10,10,1,,1,1,1,5,1,5,10,10,1,1,Female,65-74,English,White,false,Rent,false,4-7 years,,false
+English,8,8,8,5,7,6,3,1,3,2,1,4,7,6,8,8,Male,25-34,,White,false,Rent,true,4-7 years,,false
+English,10,10,9,8,8,8,,,,,,,10,9,10,8,Female,35-44,English,White,false,Own,false,1-3 years,"$150,000 or more",false
+English,4,5,4,3,5,5,2,1,4,3,4,5,6,1,6,4,Female,35-44,English;Bengali,Asian,true,Rent,true,16-20 years,"$25,000 to $49,999",false
+English,9,8,7,8,10,10,4,1,4,4,4,5,9,10,5,9,Female,45-54,English,White,true,Own,false,11-15 years,"$100,000 to $149,999",false
+English,1,9,10,1,1,1,1,1,3,3,1,3,5,1,5,5,Female,45-54,English,White,false,Own,true,21 years or more,"$50,000 to 74,999",false
+English,9,8,10,8,8,8,4,4,4,4,2,4,3,8,8,8,Male,25-34,English,White,false,Rent,true,1-3 years,"$75,000 to $99,999",false
+,6,6,8,9,7,10,3,1,,5,4,5,9,10,8,8,Female,65-74,English,White,false,Rent,false,16-20 years,"$25,000 to $49,999",
+English,2,2,1,3,6,3,3,1,2,2,4,5,3,5,6,5,Female,45-54,,,true,Rent,,16-20 years,,false
+English,10,10,10,8,8,8,4,2,2,3,4,3,9,9,8,6,Male,45-54,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,9,8,10,10,8,10,4,3,4,5,5,4,8,10,9,8,Male,45-54,,"Arabic, French",true,Rent,false,1-3 years,"$25,000 to $49,999",
+English,7,7,7,8,9,10,4,3,4,5,5,4,3,10,10,10,Male,35-44,English,Indian American,false,Own,false,4-7 years,"$150,000 or more",
+English,8,8,8,9,9,10,4,1,3,4,4,5,10,9,10,10,Female,35-44,English,White,false,Rent,false,11-15 years,"$50,000 to 74,999",false
+English,8,6,6,6,6,6,4,4,4,4,4,4,6,6,6,6,Female,55-64,Haitian Creole,Black/African American,false,Rent,true,16-20 years,"$25,000 to $49,999",false
+Haitian Creole,5,5,5,5,5,5,3,3,3,3,3,3,7,7,7,7,Male,65-74,Haitian Creole,,false,Rent,,21 years or more,"$25,000 to $49,999",false
+English,10,8,9,,5,7,3,2,3,2,3,3,9,3,8,8,Female,25-34,English,White,false,Rent,true,Less than a year,"$25,000 to $49,999",false
+English,3,10,8,5,7,4,3,3,3,3,3,4,5,6,4,4,Both female and male checked,65-74,,White,false,Rent,true,1-3 years,"$10,000 to $24,999",
+English,8,8,8,9,8,10,4,1,,,4,3,8,10,9,8,Male,25-34,English,White,false,Rent,false,4-7 years,"$150,000 or more",false
+English,9,9,10,9,9,10,4,5,3,3,3,4,8,9,8,9,Male,,English;Haitian Creole;French,Black/African American,false,Own,,21 years or more,,false
+English,8,9,10,10,10,10,5,3,4,5,5,5,9,10,10,10,Female,55-64,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",false
+English,9,9,4,5,6,7,5,1,,3,2,5,10,6,2,4,Female,45-54,English,White,false,Own,,4-7 years,"$100,000 to $149,999",false
+English,5,7,4,10,10,10,4,2,3,4,4,3,5,10,9,10,Male,75 or older,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Female,65-74,,Black/African American,,Own,false,21 years or more,"$25,000 to $49,999",false
+English,6,7,3,7,8,8,5,1,,5,3,5,7,10,5,5,Female,55-64,English,White,false,Rent,true,1-3 years,"$100,000 to $149,999",false
+English,6,9,8,9,8,9,4,3,4,4,3,4,9,8,8,6,Female,55-64,,Hispanic/Latino,false,Own,false,,"$150,000 or more",
+English,8,7,6,7,7,7,5,2,3,4,4,4,7,8,7,7,Female,25-34,English,White,false,Rent,true,4-7 years,"$150,000 or more",false
+English,7,7,7,8,8,7,4,1,4,3,3,5,7,10,7,5,Male,25-34,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",true
+English,7,7,5,9,10,9,4,4,4,3,4,5,9,9,9,10,Male,18-24,English,White,false,Rent,true,Less than a year,"$10,000 to $24,999",
+English,7,6,5,7,6,6,4,3,3,4,4,4,6,5,6,5,Female,45-54,English,White,false,Own,false,16-20 years,"$100,000 to $149,999",false
+English,10,8,10,8,8,8,3,3,,3,4,4,8,8,8,8,Female,25-34,English,White,false,Rent,false,Less than a year,"$100,000 to $149,999",false
+English,10,8,6,9,8,9,3,2,5,5,5,5,8,9,9,7,Female,45-54,English,Asian,false,Rent,false,4-7 years,"$50,000 to 74,999",true
+Portugese,8,9,9,8,9,7,3,3,3,3,4,3,7,9,9,9,Male,25-34,English,White,false,Rent,true,Less than a year,"$10,000 to $24,999",true
+English,,,,,,,,,,,,,,,,,Female,65-74,English,White,false,Rent,false,21 years or more,"Less than $10,000",false
+English,10,10,10,8,8,6,5,4,,5,3,5,9,8,10,8,Female,35-44,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,9,9,10,8,9,9,5,1,3,4,4,4,8,8,9,9,Male,75 or older,English,White,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,8,8,10,8,8,8,3,2,4,3,2,3,7,7,8,8,Female,75 or older,,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,6,8,4,5,9,7,5,3,3,5,3,5,9,4,6,9,Female,75 or older,English,White,false,Senior,false,21 years or more,"$10,000 to $24,999",false
+English,4,4,3,7,7,9,4,1,3,3,3,5,7,8,8,8,Male,35-44,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+,6,5,4,7,6,6,3,1,4,1,2,3,4,9,7,7,Female,25-34,English,White,false,Rent,true,1-3 years,"$10,000 to $24,999",false
+English,8,8,5,8,8,8,3,2,3,4,4,4,9,8,9,7,Female,18-24,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,9,8,4,9,8,8,4,2,,1,5,5,7,7,10,10,Female,25-34,English,White,false,Rent,false,1-3 years,"$10,000 to $24,999",true
+English,7,7,7,8,10,8,4,1,3,5,3,5,8,8,8,8,Female,55-64,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",false
+English,7,7,5,6,6,5,2,2,3,4,3,2,8,2,6,4,Female,18-24,English,White,false,Rent,true,Less than a year,"$50,000 to 74,999",true
+English,10,10,10,8,6,8,1,3,,4,1,,1,5,8,8,Male,35-44,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",false
+English,8,9,4,9,9,9,4,3,2,3,4,4,7,9,7,9,Female,35-44,English,Asian,false,Own,false,11-15 years,,false
+English,7,7,5,9,9,9,5,1,3,3,3,5,6,9,9,8,Male,35-44,English,White,false,Rent,true,8-10 years,"$100,000 to $149,999",false
+English,7,9,8,10,10,10,4,2,4,4,4,5,9,7,8,8,Female,35-44,English;Russian,White,true,Own,false,8-10 years,"$75,000 to $99,999",false
+English,8,8,7,6,8,7,5,1,3,5,3,5,4,8,9,8,Female,35-44,English,White,true,Rent,true,11-15 years,,false
+,9,9,7,9,7,10,3,3,3,5,4,4,9,7,9,7,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,8,9,9,9,9,8,5,4,3,3,4,5,8,9,9,8,Male,55-64,English,,false,Own,false,4-7 years,"$150,000 or more",false
+English,5,4,4,6,8,8,3,1,3,2,3,5,3,4,10,9,Female,35-44,English,White,false,Rent,false,8-10 years,"$100,000 to $149,999",false
+English,9,10,5,8,9,9,4,1,3,4,3,5,7,9,9,10,Male and Female,25-34,English,White,false,Rent,true,4-7 years,"$150,000 or more",false
+English,8,8,7,9,9,9,5,2,3,4,5,5,8,10,10,8,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,10,10,10,5,5,5,3,1,,3,3,,8,5,5,5,Female,65-74,,White,false,,,21 years or more,,false
+English,10,10,9,10,10,10,5,3,4,4,4,5,9,10,9,9,Male,55-64,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",false
+English,8,7,3,10,10,10,3,1,3,3,1,2,4,5,2,4,Female,65-74,English,White,false,Own,false,21 years or more,"Less than $10,000",false
+English,8,9,10,10,8,,3,3,,3,3,3,4,6,6,4,Male,55-64,English;Spanish,Hispanic/Latino;White,false,Own,false,,,false
+English,8,9,6,6,8,6,5,2,2,2,3,5,10,10,5,5,Female,55-64,English,White,true,Own,false,4-7 years,"$50,000 to 74,999",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,8,8,10,10,Female,75 or older,English,White;Italian,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,9,9,9,9,9,9,5,2,4,4,3,4,9,9,9,9,Male,35-44,English,White,false,Rent,false,4-7 years,"$150,000 or more",
+English,8,8,8,9,9,9,2,3,,3,2,5,3,8,4,5,,25-34,English;Spanish;Chinese,Asian;Hispanic/Latino;White,false,Rent,true,1-3 years,"$50,000 to 74,999",false
+English,10,10,10,1,1,1,1,1,1,5,1,5,1,1,1,1,Male,45-54,English,White,false,Rent,true,4-7 years,"$25,000 to $49,999",false
+English,10,10,10,10,8,10,5,3,5,5,2,5,10,10,10,7,Female,45-54,English,Asian,true,Own,false,11-15 years,"$150,000 or more",false
+English,1,2,4,4,1,8,2,1,4,5,1,2,4,7,2,8,Male,55-64,English,,false,Rent,false,16-20 years,"$25,000 to $49,999",false
+English,8,8,6,8,8,9,5,3,,5,5,5,8,8,9,9,Male,25-34,English,White,false,Rent,false,11-15 years,"$150,000 or more",false
+English,7,9,6,8,9,9,4,1,4,4,4,5,4,9,3,3,Female,55-64,English,White,false,Rent,false,21 years or more,"$25,000 to $49,999",false
+English,6,8,5,9,8,10,4,2,4,4,3,4,6,9,9,6,Female,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,8,8,5,9,9,9,5,1,4,4,3,5,9,8,9,8,Female,65-74,,White,false,Rent,false,8-10 years,"$25,000 to $49,999",false
+English,3,4,2,7,7,6,5,1,,2,4,,8,9,9,8,,35-44,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,8,8,5,9,9,8,4,2,,3,3,4,6,6,6,7,Female,25-34,English,Hispanic/Latino;White,false,Rent,false,Less than a year,,false
+English,6,6,4,8,8,7,4,1,3,3,3,5,8,9,7,7,I don't believe in the social construct of gender,35-44,English,White,false,Rent,false,4-7 years,"$25,000 to $49,999",false
+English,7,8,9,7,7,7,5,1,4,3,2,5,6,9,8,6,Female,35-44,English,White,true,Rent,false,4-7 years,"$150,000 or more",false
+English,7,6,7,7,8,6,4,1,2,4,3,3,1,10,9,8,Female,25-34,English,White,true,Own,true,4-7 years,"$150,000 or more",false
+English,10,10,10,10,7,10,5,2,4,5,5,5,10,6,10,7,Female,35-44,English,White,true,Own,false,8-10 years,"$150,000 or more",false
+English,7,7,6,5,4,5,4,1,,4,4,3,3,5,2,3,Female,45-54,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,8,8,7,9,9,9,3,1,3,3,2,5,7,9,6,8,Female,25-34,English,Hispanic/Latino;White,false,Rent,true,1-3 years,"$75,000 to $99,999",false
+Haitian Creole,9,7,9,9,8,8,4,4,4,4,4,2,9,8,9,9,Female,55-64,English;Haitian Creole,Black/African American,true,Rent,false,21 years or more,,false
+English,8,7,4,7,6,8,5,1,4,5,3,5,9,5,9,6,Female,25-34,English,Hispanic/Latino,false,Rent,false,21 years or more,"$50,000 to 74,999",false
+English,10,10,10,10,10,10,5,,5,5,5,5,10,10,9,9,,,,White,,Own,false,21 years or more,,
+English,10,9,10,10,10,9,4,4,,4,2,4,9,8,9,7,Female,25-34,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,10,10,7,10,10,10,5,2,,4,4,4,7,9,8,7,Female,25-34,English,White,false,Rent,,4-7 years,"$100,000 to $149,999",false
+English,8,8,8,9,9,10,5,2,3,4,3,5,9,9,8,7,Female,25-34,English,White,false,Rent,false,1-3 years,,false
+English,9,9,10,9,9,9,4,3,4,5,2,5,9,10,8,7,Male,45-54,English,White,true,Own,false,21 years or more,"$150,000 or more",false
+English,3,2,2,6,6,3,3,2,,4,1,4,10,8,7,8,Female,25-34,English,White,false,Rent,true,1-3 years,"$150,000 or more",false
+English,4,3,3,4,4,3,4,1,4,3,3,2,2,8,4,2,Female,25-34,English;Spanish,central american,true,Rent,true,21 years or more,"Less than $10,000",false
+Portugese,6,5,3,8,6,9,3,1,5,4,5,5,9,9,9,6,Female,25-34,English,White,false,Rent,,1-3 years,"$25,000 to $49,999",false
+English,8,7,4,8,8,9,5,2,4,4,5,5,9,10,9,7,Male,35-44,English,White,false,Rent,,4-7 years,"$50,000 to 74,999",false
+English,8,9,9,8,7,8,3,4,3,3,2,4,8,5,7,6,Male,25-34,English,White,false,Own,false,Less than a year,"$100,000 to $149,999",
+English,8,9,10,8,8,8,4,2,3,3,2,5,9,9,9,7,Female,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,10,10,10,8,8,9,4,2,,5,4,4,10,10,9,9,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,9,9,9,9,9,10,4,4,,4,1,5,9,9,7,7,Female,25-34,English;Hindi,Asian,false,Rent,true,1-3 years,,false
+English,4,3,4,8,7,6,4,1,,4,4,4,3,7,8,6,Female,65-74,English,White,false,Own,false,16-20 years,"$75,000 to $99,999",false
+English,8,8,,10,10,10,5,4,5,5,4,5,9,6,9,9,Female,65-74,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,8,6,8,9,8,3,1,3,3,4,4,8,9,9,9,Male,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+Spanish,8,9,8,8,9,7,4,1,3,3,4,5,8,8,8,8,Female,25-34,English,White,false,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,7,8,4,8,9,9,4,2,4,3,3,5,8,8,8,8,Female,25-34,English,White,false,,false,4-7 years,"$10,000 to $24,999",false
+English,9,8,9,10,10,6,5,2,3,4,4,5,7,4,10,10,Female,65-74,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,6,7,4,7,7,8,4,2,,4,3,4,5,8,8,7,Female,25-34,English,White,false,Rent,true,1-3 years,"$100,000 to $149,999",false
+English,8,7,8,7,7,6,3,1,4,3,1,3,4,6,7,6,Male,25-34,English,Asian,false,Rent,true,1-3 years,"$75,000 to $99,999",
+English,4,8,6,3,8,6,4,1,2,3,4,4,7,9,9,7,Female,45-54,Portugese,White,,,,21 years or more,"$75,000 to $99,999",false
+English,7,8,4,9,9,10,5,3,4,3,4,5,7,9,9,9,Male,35-44,English,White,false,Rent,false,11-15 years,"$150,000 or more",false
+English,8,8,3,7,10,6,5,1,3,2,2,5,4,8,5,3,Female,45-54,English,White,true,Own,false,21 years or more,"$25,000 to $49,999",false
+English,5,5,4,5,10,10,5,3,5,5,3,3,10,6,6,10,Female,65-74,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,7,7,7,10,10,10,5,3,,5,4,5,6,7,7,6,Female,55-64,English,Asian;White,false,Own,false,1-3 years,"$150,000 or more",true
+English,7,7,7,8,8,8,4,1,3,3,4,4,7,8,8,8,Male,55-64,English;Haitian Creole;French,White,true,Own,false,16-20 years,"$75,000 to $99,999",false
+English,8,8,8,10,10,9,4,3,3,4,4,4,7,9,9,9,Female,35-44,English,White,false,Rent,false,4-7 years,"$150,000 or more",
+Spanish,6,8,8,10,8,10,5,1,3,2,1,4,3,5,2,1,Male,45-54,English,Hispanic/Latino,true,Own,false,21 years or more,"$25,000 to $49,999",false
+English,7,7,5,8,5,10,4,3,3,4,3,5,5,8,1,3,Female,45-54,English,White,true,Own,false,16-20 years,"$75,000 to $99,999",false
+English,9,8,8,7,8,8,,4,3,3,4,4,4,6,8,7,Female,18-24,English,White,false,Rent,true,Less than a year,"$25,000 to $49,999",false
+English,9,9,7,9,9,9,5,2,3,4,3,5,8,10,9,9,Female,25-34,English,White,false,Rent,true,1-3 years,"$50,000 to 74,999",false
+English,8,8,7,9,9,9,4,2,,4,4,5,6,8,10,7,Both checked,18-24,English,White,false,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,6,8,9,7,9,9,2,1,3,4,2,4,8,9,2,2,Male,55-64,English,White,false,Own,,21 years or more,,false
+English,6,8,4,8,9,9,5,2,4,5,5,5,10,10,10,10,Female,35-44,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,7,8,4,7,8,6,4,2,,3,2,4,6,7,7,5,Both checked,35-44,English,White,true,Own,true,4-7 years,"$150,000 or more",true
+English,,10,1,10,,10,,,,,,,10,1,1,10,,75 or older,,White,false,Rent,false,21 years or more,"Less than $10,000",false
+English,9,9,9,10,10,10,5,3,3,5,5,5,10,10,10,9,Female,55-64,,White,false,Own,false,11-15 years,"$75,000 to $99,999",false
+English,4,4,7,6,5,5,4,1,3,3,3,3,5,3,3,2,Female,25-34,English,White,false,Rent,true,Less than a year,"$50,000 to 74,999",false
+English,7,8,8,8,9,10,4,1,3,5,4,5,9,10,8,8,Female,25-34,English,White,false,Rent,false,8-10 years,"$150,000 or more",false
+English,10,10,8,8,7,8,4,1,2,3,1,3,7,7,4,3,Male,25-34,English;Spanish,White,false,Rent,false,,"$75,000 to $99,999",false
+English,9,9,4,9,8,10,4,3,4,5,4,5,9,8,9,9,Female,55-64,English,White,false,Own,false,16-20 years,"$150,000 or more",false
+English,10,10,9,10,9,10,4,3,2,4,3,5,7,9,7,7,Male,35-44,English,White,false,Own,false,11-15 years,"$150,000 or more",false
+English,8,8,10,1,1,1,1,1,3,1,1,,,1,6,1,Female,45-54,English,,true,Rent,true,21 years or more,,false
+English,6,8,7,8,9,10,4,1,4,4,3,4,7,9,8,8,Male,25-34,English,White,false,Own,false,4-7 years,"$75,000 to $99,999",false
+English,8,7,8,8,8,8,2,1,3,2,4,5,9,10,8,7,Male,35-44,English,White,false,Rent,false,8-10 years,"$50,000 to 74,999",true
+English,10,10,10,10,8,10,5,3,4,5,5,5,9,10,10,7,Female,25-34,English,White,false,Own,,4-7 years,"$100,000 to $149,999",false
+English,10,10,10,10,10,10,5,4,5,5,5,5,9,10,10,10,Female,65-74,English,White,false,Own,false,1-3 years,"$25,000 to $49,999",false
+,3,3,8,8,6,10,4,1,4,2,3,5,6,8,8,1,Female,18-24,English,,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,8,9,4,8,8,9,5,3,4,4,2,4,7,8,9,6,Male,25-34,English,White,false,Own,false,1-3 years,"$100,000 to $149,999",false
+English,9,9,7,9,9,9,5,4,4,4,4,4,8,8,9,8,Female,45-54,English,Black/African American,false,Own,false,4-7 years,"$150,000 or more",false
+English,8,8,6,8,8,8,4,3,4,4,5,5,8,9,6,7,Male,55-64,,White,false,Rent,false,11-15 years,"$50,000 to 74,999",false
+Spanish,9,9,8,9,9,9,4,3,3,4,2,4,9,8,8,8,Female,55-64,English;Spanish,Hispanic/Latino,true,Rent,,8-10 years,"$10,000 to $24,999",true
+English,6,6,8,6,6,6,3,2,3,3,3,3,5,6,4,6,Female,35-44,English,Asian,true,Own,true,4-7 years,"$150,000 or more",false
+English,8,9,7,10,10,10,4,2,4,5,3,5,8,9,9,7,Female,25-34,English,White,false,Own,false,8-10 years,"$100,000 to $149,999",false
+English,7,5,8,7,7,4,3,1,3,4,1,5,4,8,7,5,Male,35-44,English,White,false,Rent,true,1-3 years,"$50,000 to 74,999",false
+English,10,10,7,8,10,10,4,2,3,4,4,5,6,8,8,7,Male,25-34,English,,false,Rent,true,Less than a year,"$75,000 to $99,999",false
+English,5,8,2,8,8,8,3,4,4,4,4,4,10,10,10,8,Male,75 or older,Cantonese,Asian,false,Rent,true,21 years or more,"$25,000 to $49,999",false
+English,7,8,9,7,4,8,2,2,3,4,1,5,4,6,4,1,Female,45-54,English,,false,Own,,11-15 years,,
+English,9,8,6,10,10,9,5,2,4,4,5,4,8,9,10,9,Male,45-54,,White,true,Own,false,21 years or more,"$50,000 to 74,999",false
+English,5,6,5,8,7,10,4,2,3,4,5,5,7,8,2,6,Female,55-64,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,8,9,10,10,10,10,4,1,4,5,5,5,3,10,9,9,Female,55-64,English;Italian,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+,,,,7,5,7,4,1,,4,3,3,4,,3,3,Female,45-54,English,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,6,10,3,10,10,10,5,2,3,5,3,5,10,6,7,6,Female,35-44,English,White,true,Own,false,4-7 years,"$150,000 or more",false
+English,5,6,8,7,7,6,4,2,4,4,4,4,8,6,8,7,Female,18-24,English,White,false,Rent,true,Less than a year,"$150,000 or more",false
+English,5,5,1,10,8,10,5,,,5,4,4,10,7,8,9,Female,65-74,English,White,false,Rent,false,21 years or more,"Less than $10,000",false
+English,8,9,8,9,8,9,4,1,4,4,3,4,9,9,8,6,Male,45-54,English,White,false,Own,false,11-15 years,"$150,000 or more",false
+English,8,9,9,9,9,9,5,2,3,4,4,5,8,9,9,6,Female,55-64,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,6,7,9,8,8,10,4,1,3,3,3,5,9,10,8,8,Female,25-34,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,8,8,4,9,9,10,4,2,3,4,2,4,8,7,9,8,Female,35-44,English,White,false,Own,false,1-3 years,"$75,000 to $99,999",false
+English,8,9,8,8,9,9,4,2,4,4,4,4,4,9,8,7,Male,55-64,English,White,false,Rent,true,,"$75,000 to $99,999",
+English,3,10,10,8,6,10,5,1,3,5,3,5,1,9,10,10,Female,55-64,English,Black/African American,false,Rent,false,4-7 years,"$10,000 to $24,999",false
+English,8,8,6,8,8,9,4,2,4,4,4,4,8,8,8,8,Female,35-44,English,White,true,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,9,10,5,7,10,8,3,1,,3,3,5,10,10,10,9,Female,25-34,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",false
+,10,10,10,10,10,10,4,,5,5,4,4,10,9,9,9,Male,45-54,,Asian,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,7,9,2,10,8,8,4,2,4,4,5,3,10,7,7,9,Female,65-74,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,10,4,8,10,8,4,1,3,5,5,5,9,10,9,9,Female,25-34,English,White,false,Rent,true,1-3 years,"$150,000 or more",false
+English,8,9,5,8,9,9,5,1,,4,4,5,10,9,6,7,Female,35-44,English,White,false,Rent,true,4-7 years,"$150,000 or more",false
+English,10,10,7,10,9,10,3,2,4,5,5,3,10,10,10,10,Female,35-44,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",false
+English,9,9,8,6,6,7,4,2,3,4,4,4,6,8,8,5,Female,25-34,English,White,true,Rent,true,8-10 years,"$150,000 or more",false
+English,8,8,8,7,8,6,4,3,3,3,3,4,3,9,9,9,Male,18-24,English,White,false,Rent,true,Less than a year,,false
+English,7,9,7,1,1,1,1,1,2,3,1,3,10,4,1,1,Female,35-44,English,White;Italian,true,Own,true,21 years or more,,false
+English,1,10,10,1,1,1,4,1,1,5,1,3,1,5,1,1,Female,55-64,English,White,false,Own,true,21 years or more,"$100,000 to $149,999",false
+English,9,7,7,10,8,10,5,3,4,3,3,5,10,7,9,8,Female,35-44,English,White,false,Own,false,11-15 years,,false
+English,8,9,10,10,10,8,3,1,,4,4,5,9,6,8,8,Both checked,25-34,English,,false,Rent,false,1-3 years,,false
+English,8,7,8,8,8,6,4,2,4,3,3,4,7,9,8,7,Male,25-34,English,White,false,Rent,false,1-3 years,"$25,000 to $49,999",true
+English,8,8,5,9,9,9,3,1,4,3,3,3,10,8,9,9,Both checked,55-64,English,Asian,true,Own,false,11-15 years,,false
+English,10,9,7,10,10,10,5,4,5,4,5,5,5,7,10,8,Female,45-54,English,White,,Own,false,11-15 years,"$100,000 to $149,999",false
+English,8,9,10,8,7,8,5,4,4,4,4,5,10,8,7,7,Male,45-54,English,White,true,Own,false,16-20 years,"$150,000 or more",false
+English,7,7,8,8,8,6,,2,,3,3,,9,7,7,7,Female,25-34,,Asian,false,Rent,,Less than a year,,false
+English,8,8,7,8,8,9,4,3,3,3,4,4,8,9,9,8,Female,35-44,English,White,false,Own,false,8-10 years,"$100,000 to $149,999",false
+English,7,8,3,8,8,9,5,1,4,3,4,4,8,8,9,8,Female,55-64,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,8,8,5,9,8,10,4,1,3,3,3,4,8,9,9,8,Male,35-44,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,6,8,3,8,6,6,5,2,,,1,3,2,4,4,4,Female,25-34,Chinese,Asian,false,Own,false,Less than a year,"$100,000 to $149,999",false
+English,8,8,4,9,8,8,5,2,3,4,4,5,7,8,9,8,Male,25-34,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",false
+English,9,9,7,9,9,9,4,2,,4,4,5,9,9,9,8,Female,25-34,English,White,false,Rent,,1-3 years,,
+English,5,4,9,7,7,5,3,1,3,3,5,4,7,9,9,7,Male,25-34,English,White,false,Rent,false,4-7 years,"$10,000 to $24,999",true
+English,9,9,8,8,7,8,5,2,4,2,4,5,10,10,10,9,Female,18-24,English,White,false,Rent,true,1-3 years,"Less than $10,000",true
+English,9,8,1,9,9,9,4,2,3,4,5,5,9,6,8,9,Male,75 or older,English,White,false,Own,false,21 years or more,,false
+English,9,9,7,7,7,8,3,1,4,3,3,4,9,7,6,6,Female,35-44,English,White,true,Rent,false,21 years or more,"$100,000 to $149,999",true
+English,8,8,8,8,8,8,4,3,3,3,2,5,9,8,9,7,Male,25-34,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,7,7,8,6,4,6,4,2,,4,3,,8,8,8,2,Male,75 or older,English,White,false,Rent,false,11-15 years,"$25,000 to $49,999",
+English,8,9,8,9,9,9,5,2,3,4,4,5,7,7,9,8,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",
+English,8,9,9,10,10,8,4,2,3,3,3,4,8,7,7,8,Female,35-44,English,Asian,true,Own,false,16-20 years,"$150,000 or more",false
+English,8,8,10,8,9,8,5,3,3,5,3,5,9,8,9,9,Male,75 or older,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",
+English,6,6,4,8,7,9,5,4,3,4,2,4,7,7,8,6,Male,45-54,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",false
+English,1,1,1,1,1,1,1,1,1,1,1,2,3,1,1,2,,18-24,Swahili,,true,,true,21 years or more,"$150,000 or more",true
+English,10,10,1,10,10,,5,5,5,5,5,5,10,10,10,10,Male,75 or older,Italian,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,9,7,10,8,10,10,5,1,2,5,5,5,6,6,10,10,Female,35-44,English;Italian,White,true,Rent,true,11-15 years,"$25,000 to $49,999",false
+English,10,10,10,10,9,9,5,4,,5,4,5,10,8,8,8,Female,65-74,English,White,false,Own,false,16-20 years,,false
+English,9,9,8,8,8,10,5,2,3,5,3,4,9,8,7,6,Female,35-44,English,White,false,Rent,,11-15 years,"$100,000 to $149,999",false
+English,8,9,4,8,8,8,4,2,3,3,4,4,,,,,,,,,,,,,,
+English,10,10,10,10,10,10,5,5,,5,5,5,10,10,10,10,Female,55-64,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",
+English,4,4,5,9,9,8,4,3,,4,3,4,9,9,8,8,Female,25-34,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,10,10,Male,55-64,Portugese,Hispanic/Latino,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,6,6,6,6,6,6,3,3,3,3,3,3,6,6,6,6,Male,65-74,,White,false,,false,21 years or more,"$50,000 to 74,999",false
+English,8,9,9,7,8,7,3,2,3,3,5,5,7,9,9,7,Female,25-34,English,Black/African American,false,Rent,true,1-3 years,"$75,000 to $99,999",false
+English,8,9,10,10,10,7,,2,,,4,4,7,9,10,10,Female,25-34,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",
+English,7,8,4,8,6,5,5,2,,4,2,4,9,8,6,3,Female,25-34,English,White,false,Rent,false,Less than a year,"$75,000 to $99,999",false
+English,8,9,9,9,10,7,3,5,3,5,4,3,7,10,8,7,Male,65-74,English,White,false,Own,,21 years or more,"$100,000 to $149,999",false
+English,9,9,6,6,6,6,3,2,3,4,1,3,4,8,5,3,Male,25-34,English,White,false,Rent,false,1-3 years,"$150,000 or more",false
+English,10,10,10,10,10,10,4,4,4,5,5,5,10,10,10,10,Female,25-34,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+English,6,6,4,9,9,9,4,2,,4,3,,5,8,8,8,Male,45-54,English,Hispanic/Latino,false,Own,false,16-20 years,"$75,000 to $99,999",false
+English,10,7,7,10,6,,5,1,,4,1,5,7,8,7,4,Female,55-64,English,Asian,false,Own,false,16-20 years,"$150,000 or more",false
+,8,10,10,10,6,,5,1,,4,1,5,7,9,7,4,Male,75 or older,English,White,false,Own,false,16-20 years,"$150,000 or more",false
+English,6,5,3,8,7,9,5,4,3,4,2,5,7,7,6,6,Male,45-54,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",false
+English,10,10,9,10,10,10,5,4,4,4,4,5,10,10,9,9,Male,55-64,English,White,false,Own,,11-15 years,"$150,000 or more",false
+English,7,9,3,9,9,9,5,1,5,4,4,5,10,9,9,7,Male,35-44,English,White,true,Own,false,8-10 years,"$150,000 or more",false
+English,6,6,3,9,9,10,5,5,5,5,5,5,8,8,9,9,Male,55-64,English,White,false,Rent,false,4-7 years,"$10,000 to $24,999",false
+English,9,9,9,10,10,10,5,3,3,4,3,5,10,10,10,8,Female,45-54,,White,false,Own,false,16-20 years,"$100,000 to $149,999",false
+English,6,7,6,7,7,8,4,2,3,4,3,4,7,7,7,6,Male,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,10,10,9,10,8,10,4,3,5,5,5,5,1,7,8,10,Female,65-74,English,White,false,Own,true,21 years or more,"$150,000 or more",false
+English,8,9,8,8,8,7,4,3,4,4,4,5,8,10,8,10,Male,35-44,English,White,true,Own,false,1-3 years,"$150,000 or more",false
+English,10,8,10,9,10,10,5,2,3,5,3,5,10,10,7,9,Female,65-74,"English;Italian, Swedish",,true,Own,false,,"$150,000 or more",
+,7,9,10,10,10,10,5,2,4,5,3,4,5,3,7,8,Male,25-34,English,Asian,false,Rent,false,4-7 years,,false
+English,10,10,10,10,10,,5,1,2,4,5,5,9,10,10,10,Male,65-74,,,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,10,7,9,9,10,5,3,4,4,3,5,9,9,9,8,Female,45-54,English,White,true,Own,false,16-20 years,"$150,000 or more",false
+English,5,5,3,10,5,10,5,3,3,5,5,5,10,5,10,5,Female,75 or older,,White,false,Own,false,21 years or more,"$10,000 to $24,999",
+English,7,8,4,10,10,10,5,,,4,3,4,10,7,10,8,Female,75 or older,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,6,6,6,7,7,7,4,1,,4,2,5,4,7,7,5,Female,35-44,English,White,false,Rent,false,4-7 years,"$75,000 to $99,999",
+English,10,10,9,10,10,10,5,5,5,5,5,5,10,10,10,10,Male,65-74,Cantonese,Asian,false,Own,false,21 years or more,"Less than $10,000",false
+English,10,10,10,10,10,10,5,5,3,5,3,5,10,10,10,10,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,7,8,4,5,4,7,2,1,,5,1,5,7,4,4,7,Female,25-34,English,White,false,Rent,true,1-3 years,"$50,000 to 74,999",false
+English,8,8,9,8,8,9,4,4,3,3,2,5,10,9,9,8,Both Checked,18-24,English,Asian;White,false,Rent,true,,"$50,000 to 74,999",false
+English,7,8,3,9,7,10,4,1,,4,2,5,4,9,8,8,Male,25-34,English,White,false,Rent,true,1-3 years,"$75,000 to $99,999",true
+English,8,6,7,7,7,6,4,2,3,4,4,5,5,6,6,6,Male,25-34,English,White,false,Own,false,1-3 years,,false
+English,7,9,5,9,8,10,4,2,3,4,3,4,9,9,9,8,Female,35-44,English,White,false,Rent,false,8-10 years,"$75,000 to $99,999",false
+English,9,10,9,9,9,9,5,3,4,4,2,4,9,9,9,8,Female,65-74,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,7,7,9,9,6,8,5,3,,3,3,5,6,10,8,7,Female,25-34,English,White,false,Own,true,8-10 years,"$150,000 or more",false
+Spanish,9,8,6,9,10,10,5,3,4,4,5,5,9,10,10,9,Male,18-24,English;Spanish,,false,Rent,true,1-3 years,"$10,000 to $24,999",true
+English,8,9,9,9,7,9,4,2,4,4,4,4,9,8,6,5,Female,45-54,English,White,true,Own,false,21 years or more,"$100,000 to $149,999",false
+English,5,5,5,7,7,7,4,4,4,3,4,4,6,7,8,6,Female,25-34,English,White,false,Rent,false,4-7 years,"$50,000 to 74,999",false
+English,1,5,1,1,1,3,3,1,3,3,4,3,7,6,5,1,Female,35-44,English,,true,Own,true,4-7 years,"$75,000 to $99,999",false
+English,7,8,6,10,10,8,4,2,3,3,4,5,7,8,8,7,Male,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,9,9,3,8,8,9,4,3,3,4,3,5,8,9,8,7,Male,35-44,English,White,true,Own,false,11-15 years,"$150,000 or more",false
+English,8,9,9,10,10,10,5,2,3,5,4,5,10,7,8,9,Female,75 or older,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",
+English,9,9,8,9,9,9,5,4,,5,4,4,10,8,10,9,Female,25-34,English,White,false,Rent,false,Less than a year,"$50,000 to 74,999",false
+English,8,8,7,6,7,6,4,3,1,3,1,5,9,8,8,7,Female,18-24,English,White,false,Rent,true,Less than a year,"$50,000 to 74,999",false
+English,10,9,10,8,9,10,5,2,3,4,4,5,8,10,9,8,Male,25-34,English,White,false,Rent,false,11-15 years,"$100,000 to $149,999",false
+English,6,10,10,6,10,9,5,2,4,3,5,5,10,10,10,10,Male,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,7,7,3,8,8,6,3,2,3,4,4,4,9,10,9,9,Male,25-34,English,White,false,Rent,true,1-3 years,"$25,000 to $49,999",true
+English,5,5,2,8,9,8,3,1,4,3,4,5,6,9,8,9,Female,25-34,English,White,false,Rent,false,4-7 years,"$25,000 to $49,999",false
+Portugese,6,7,9,8,10,10,3,2,,5,5,,,9,9,9,Male,75 or older,Portugese,White,false,Own,false,21 years or more,"$25,000 to $49,999",false
+English,10,10,10,10,7,6,3,3,3,3,4,3,6,7,9,8,Female,25-34,English,White,false,Rent,true,Less than a year,"$150,000 or more",false
+,6,8,10,10,10,8,5,3,5,5,4,5,,7,10,8,Female,75 or older,English,White,false,Rent,false,21 years or more,"$10,000 to $24,999",false
+English,9,9,2,9,10,9,5,4,5,5,4,5,10,9,10,9,Male,75 or older,English;Portugese,Mixed,false,Own,false,21 years or more,"$25,000 to $49,999",
+English,6,6,6,5,3,5,3,3,1,3,2,3,5,3,3,3,Male,25-34,English,Asian,false,Rent,false,11-15 years,"$100,000 to $149,999",false
+English,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,Female,65-74,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,10,10,9,10,10,10,5,4,4,5,5,5,10,10,10,10,Female,45-54,English,White,false,Own,false,11-15 years,"$150,000 or more",false
+English,8,9,8,10,9,10,5,4,5,5,5,5,10,9,10,10,Male,75 or older,Portugese,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,5,7,8,9,10,10,4,1,4,4,4,5,8,8,7,9,Female,35-44,English;Portugese,White,true,Rent,false,8-10 years,"$75,000 to $99,999",false
+English,7,10,8,8,10,10,3,3,4,5,3,3,6,10,10,10,Female,75 or older,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,8,8,7,8,7,4,1,4,3,3,5,8,8,8,5,Female,25-34,English,White,false,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,8,8,3,9,8,8,5,1,4,4,3,5,10,10,10,9,Male,25-34,English,White,false,Rent,,4-7 years,"$75,000 to $99,999",false
+English,10,8,10,10,10,10,5,5,3,5,5,3,10,10,10,8,Male,35-44,English,Asian;White,false,Rent,false,1-3 years,"$25,000 to $49,999",false
+English,10,9,7,9,9,10,5,2,,4,1,3,10,10,5,3,Male,25-34,English,White,false,Rent,false,Less than a year,"$50,000 to 74,999",true
+English,9,8,8,10,8,10,4,2,3,4,3,5,8,9,8,7,2 of us,35-44,English,Hispanic/Latino;White,false,Own,false,11-15 years,"$100,000 to $149,999",false
+English,10,10,10,6,10,10,5,3,5,5,5,5,10,10,9,10,Male,65-74,English,White,false,Own,true,21 years or more,"$75,000 to $99,999",false
+English,8,8,10,9,9,9,5,2,3,3,3,5,10,9,9,9,Female,45-54,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,7,9,7,9,9,10,4,3,3,4,3,5,7,9,3,8,Male,45-54,,White,false,Own,false,1-3 years,,false
+English,9,6,1,10,10,10,4,1,4,3,4,5,9,10,10,10,Female,25-34,English,White,true,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,9,9,7,10,9,5,5,3,,4,3,5,9,8,8,6,Male,35-44,English,White,false,Rent,false,4-7 years,"$100,000 to $149,999",false
+English,9,9,8,9,8,9,5,1,2,3,2,2,9,9,6,6,Female,35-44,English,Asian,true,Rent,false,16-20 years,"$25,000 to $49,999",false
+English,8,8,7,10,10,10,3,1,4,4,5,5,6,9,8,5,Female,35-44,English,White,false,Rent,true,Less than a year,"$50,000 to 74,999",false
+English,6,6,6,10,5,8,5,3,4,4,3,5,9,8,8,3,Male,65-74,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",false
+English,6,8,6,8,6,7,5,1,3,3,4,5,9,9,8,5,Male,35-44,English,White,true,Rent,false,11-15 years,"$75,000 to $99,999",false
+English,7,6,9,8,8,6,4,2,,4,4,,9,7,,4,Female,55-64,English,White,false,Rent,,1-3 years,,
+English,7,6,5,7,8,8,5,3,,4,5,5,10,9,9,6,Male,45-54,English;Arabic,White,false,Own,false,8-10 years,"$100,000 to $149,999",false
+English,7,8,9,9,9,9,5,4,2,5,3,5,9,10,6,8,Female,25-34,English,White,true,Own,false,,"$150,000 or more",false
+English,7,7,3,9,9,8,2,2,5,4,1,2,9,8,9,8,Male,25-34,English,Black/African American;White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,8,9,8,10,10,10,5,5,4,4,3,5,8,10,9,9,Male,55-64,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,10,10,10,10,10,10,5,1,5,5,5,5,10,10,10,10,Female,35-44,English,White,false,Rent,false,8-10 years,"Less than $10,000",false
+English,5,8,4,9,7,9,3,2,3,2,3,4,5,7,7,7,Female,35-44,English,White,false,Own,false,11-15 years,"$100,000 to $149,999",false
+English,8,9,8,9,8,9,5,1,4,5,3,5,9,8,8,7,Male,45-54,English,White,false,Own,false,21 years or more,"$150,000 or more",false
+English,9,9,10,10,8,10,5,1,4,5,4,5,10,8,10,7,Female,35-44,English,White,true,Own,false,4-7 years,"$150,000 or more",false
+Spanish,10,9,10,10,9,10,4,2,4,4,4,5,9,9,9,9,Female,55-64,Spanish,Hispanic/Latino,false,Rent,false,8-10 years,"Less than $10,000",false
+English,10,10,10,10,10,10,5,5,5,5,4,5,10,10,10,10,Male,65-74,English,White,false,Own,false,16-20 years,"$100,000 to $149,999",
+English,9,9,9,9,9,9,5,1,3,4,2,5,7,9,10,10,Male,25-34,English,White,false,Rent,true,4-7 years,"$100,000 to $149,999",false
+English,3,2,9,4,3,10,1,1,,,2,3,3,5,4,2,Both checked,25-34,,Black/African American,false,Rent,true,1-3 years,,false
+English,5,7,7,8,8,7,4,3,,4,3,4,7,8,8,8,Male,45-54,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,8,8,9,10,10,10,5,1,4,4,3,5,10,10,10,10,Male,65-74,English,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+,7,9,10,8,6,10,5,5,5,5,3,5,4,10,8,7,Female,55-64,English,White,false,Own,false,8-10 years,"$150,000 or more",false
+English,10,10,10,10,10,10,5,5,5,5,5,5,10,10,1,10,Male,65-74,English;Tibetan,Asian,false,Own,,21 years or more,"$25,000 to $49,999",false
+English,10,1,1,10,10,10,5,5,5,5,5,5,9,10,10,10,Female,55-64,,White,false,Rent,,1-3 years,"Less than $10,000",
+English,8,6,10,7,9,7,4,1,3,5,4,4,9,9,9,8,Male,25-34,English,White,false,Rent,false,1-3 years,"$75,000 to $99,999",false
+English,9,9,4,9,10,10,4,1,4,4,3,5,10,9,8,9,Female,55-64,English,White,false,Own,false,16-20 years,"$150,000 or more",false
+English,8,7,8,10,8,10,4,2,3,3,3,5,9,9,8,6,Female,35-44,English,White,false,Own,false,11-15 years,"$75,000 to $99,999",false
+English,9,9,8,9,9,9,5,2,4,5,4,5,10,10,9,9,Male,35-44,English,White,false,Own,false,11-15 years,"$100,000 to $149,999",false
+English,7,8,9,7,8,9,5,4,2,5,3,5,9,8,5,6,Female,25-34,English,White,true,Own,false,1-3 years,"$150,000 or more",false
+English,7,7,8,8,8,9,4,2,4,4,3,4,7,9,8,7,Male,45-54,English,White,true,Own,false,,"$150,000 or more",false
+English,3,3,2,10,10,10,5,3,,,2,4,9,10,10,9,Male,25-34,English,Jewish,false,Rent,false,Less than a year,"$50,000 to 74,999",false
+English,5,5,3,8,8,8,3,2,,,3,5,7,6,9,7,Female,25-34,English,Hispanic/Latino;White,false,Rent,true,Less than a year,"$25,000 to $49,999",true
+English,9,9,9,9,9,9,5,5,5,5,5,5,9,9,9,9,Female,65-74,Spanish,Hispanic/Latino,false,Rent,false,11-15 years,"$10,000 to $24,999",
+English,7,8,4,9,8,8,4,2,3,2,1,4,7,8,8,5,Male,35-44,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+English,8,8,7,2,2,7,3,2,,3,4,4,8,7,6,8,Female,25-34,English,Asian,false,Rent,,Less than a year,"$100,000 to $149,999",false
+English,9,8,7,6,6,6,2,1,3,4,1,2,7,9,1,4,Female,35-44,Portugese,Hispanic/Latino;Brazil,true,Rent,false,Less than a year,"$50,000 to 74,999",true
+English,8,8,5,10,10,10,5,4,,5,5,5,10,9,10,10,Female,25-34,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
+English,10,10,10,9,9,9,5,,4,5,4,3,10,,10,10,Male,75 or older,English;ENGLISH ONLY,White,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,9,9,9,10,10,10,5,2,4,4,4,5,9,9,9,9,Male,65-74,English,White,false,Own,false,16-20 years,"$100,000 to $149,999",false
+English,7,8,4,7,7,7,4,1,3,4,4,4,6,9,8,7,Male,25-34,English,White,false,Rent,true,4-7 years,"$100,000 to $149,999",
+English,8,8,6,9,9,8,5,,,,3,5,9,9,8,8,Male,75 or older,English;Arabic,Arab,false,Own,false,11-15 years,"$150,000 or more",false
+English,9,8,4,10,10,10,5,2,4,4,4,4,7,8,8,8,Female,55-64,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,6,6,8,6,3,6,3,1,5,5,2,4,9,4,7,4,Male,55-64,English,White,true,Rent,true,Less than a year,"$50,000 to 74,999",false
+English,7,8,8,8,8,9,3,1,,3,2,4,6,3,5,5,Female,25-34,English,Hispanic/Latino,false,Rent,false,4-7 years,,true
+English,8,9,7,10,9,10,5,1,4,4,4,5,10,10,10,8,Female,55-64,English,White,false,Own,false,11-15 years,"$100,000 to $149,999",false
+English,8,8,6,8,8,,3,,,4,4,,5,5,8,3,Female,55-64,English,White,false,,,21 years or more,,false
+English,7,9,2,10,10,10,5,2,4,4,4,5,10,10,7,8,Male,35-44,,White,true,Own,false,8-10 years,"$150,000 or more",false
+English,9,10,9,10,8,10,5,4,5,5,4,5,8,8,6,9,Female,25-34,English,White,false,Own,false,4-7 years,"$100,000 to $149,999",false
+English,10,10,10,10,8,10,5,5,4,5,4,5,10,10,9,9,Female,75 or older,Korean,Asian,false,Rent,false,4-7 years,"$10,000 to $24,999",false
+English,7,8,6,9,10,9,4,2,4,3,4,4,8,9,7,7,Female,55-64,English,White,false,Own,false,21 years or more,"$100,000 to $149,999",false
+English,8,9,8,9,7,9,5,3,3,4,5,5,9,9,9,8,Male,25-34,English,White,false,Own,false,4-7 years,"$150,000 or more",false
+,7,8,6,6,6,7,3,1,,4,2,3,6,8,7,7,Male,25-34,English;Japanese,White,false,Rent,true,1-3 years,,true
+English,5,5,5,8,9,9,4,1,,2,2,4,5,8,8,7,Female,65-74,English,White,false,Own,false,21 years or more,"$10,000 to $24,999",false
+English,7,6,8,8,8,8,4,3,,3,3,3,8,8,8,8,Male,25-34,English;French,White,false,Rent,true,4-7 years,"$100,000 to $149,999",false
+English,8,9,8,10,10,10,5,2,4,3,4,5,10,10,9,8,Male,55-64,English,White,true,Own,false,16-20 years,"$75,000 to $99,999",false
+English,8,8,9,7,6,7,5,1,4,4,4,3,7,8,5,1,Male,,English,Italian/American,false,Own,false,21 years or more,"$50,000 to 74,999",false
+English,8,9,8,8,9,9,5,2,,4,3,5,9,9,9,9,Male,25-34,English,White,false,Rent,false,8-10 years,"$75,000 to $99,999",false
+English,8,6,4,7,8,8,4,2,4,3,3,4,5,7,7,7,Female,25-34,English,White,false,Rent,false,1-3 years,"$50,000 to 74,999",false
+Portugese,8,9,9,10,5,10,5,4,,5,1,5,,10,10,4,Female,65-74,Portugese,White,false,Own,false,21 years or more,,
+English,10,10,10,10,6,9,5,4,,5,1,5,10,9,10,7,Female,45-54,English,White,false,Own,false,21 years or more,"$75,000 to $99,999",false
+English,8,9,6,8,9,7,4,3,,4,2,3,7,10,8,7,Female,35-44,English,White,false,Rent,false,1-3 years,"$100,000 to $149,999",false
