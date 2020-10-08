@@ -1,0 +1,36 @@
+---
+title: "Data Manipulation Paper Trail"
+author: "Peter Madsen and Chris Salas"
+date: "`r Sys.Date()`"
+output: openintro::lab_report
+---
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(openintro)
+library(readr)
+
+somerville2017full <- read_csv("data/Happiness_Survey_2017.csv")
+```
+
+# Paper Trail
+
+It turns out working with scripts in R is a huge pain, which furthers my impression that R is generally inferior to other languages in every way and only sees use because it's The Statistics Language(tm)*. I might do some of this in Python behind the scenes and hope people don't notice.
+
+Anyway, the new plan is, each manipulation of the dataframe will sit in its own code chunk here with explanation. First, we'll separate out the demographics-related columns and do some histograms.
+
+*: Let this language die, Math People
+
+```{r demographics_dataframe}
+somerville2017demographics <- somerville2017full[c(18:23, 25:27)]
+gender_responses = unique(somerville2017demographics[colnames(somerville2017demographics)[1]])
+# As can be seen in gender_responses, we have options beyond the simplistic gender binary (yay!) but also many redundant and/or ambiguous responses about multiple people filling out one survey which need to be cleaned (not yay).
+
+#It's gonna take too long to figure out how to make R do this, so I'll clean up the data in Python and export it.
+
+```
+
+### Exercise 2
+
+...
+
