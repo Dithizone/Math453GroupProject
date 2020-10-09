@@ -200,7 +200,7 @@ for portuguesetypo in portuguese.keys():
 print(somerville2017['3. What language(s) do you speak at home?'].value_counts())
 print("")
 
-# These are the declared races/ethnicities. TODO: condense race/ethnicity
+# These are the declared races/ethnicities.
 race_or_ethnicity = ['White',
                      'Hispanic/Latino;Puertoriquena',
                      'Italian/Turkish Scottich/Irish',
