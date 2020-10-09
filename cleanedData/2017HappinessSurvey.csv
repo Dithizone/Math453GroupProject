@@ -1,0 +1,836 @@
+Language submitted in:,1. How happy do you feel right now?,2. How satisfied are you with your life in general?,3. How anxious did you feel yesterday?,4. How satisfied are you with Somerville as a place to live?,5. How satisfied are you with your neighborhood?,6. How proud are you to be a Somerville resident?,7a. How would you rate the availability of information about city services?,7b. How would you rate the cost of housing?,7c. How would you rate the overall quality of public schools?,7d. How would you rate your trust in the local police?,7e. How would you rate the maintenance of streets and sidewalks?,7f. How would you rate the availability of social community events?,8. How satisfied are you with the quality and number of transportation options available to you?,9. How safe do you feel walking in your neighborhood at night?,10. How satisfied are you with the appearance of parks and squares in your neighborhood?,11. How satisfied are you with the beauty or physical setting of your neighborhood?,1. What is your gender,2. Age?,3. What language(s) do you speak at home?,4. What is your race or ethnicity?,5. Do you have children age 18 or younger who live with you?,6. Describe your housing status in Somerville.,7. Do you plan to move away from Somerville in the next two years?,8 How long have you lived here?,9. What is your annual household income?,10. Are you a student?
+English,10.0,9.0,7.0,10.0,10.0,10.0,4.0,4.0,4.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,Blank,English,White,False,Rent,True,1-3 years,"$150,000 or more",False
+English,3.0,3.0,4.0,5.0,5.0,10.0,0.0,1.0,3.0,4.0,4.0,4.0,1.0,9.0,7.0,2.0,Female,45-54,English,White,False,Rent,True,21 years or more,Blank,False
+Spanish,10.0,10.0,9.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,65-74,Spanish,Hispanic/Latino,False,Rent,False,11-15 years,"$10,000 to $24,999",False
+English,8.0,8.0,8.0,10.0,10.0,10.0,5.0,1.0,3.0,5.0,5.0,5.0,10.0,10.0,9.0,9.0,Male,55-64,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,8.0,8.0,8.0,8.0,8.0,6.0,5.0,2.0,4.0,3.0,3.0,5.0,9.0,8.0,9.0,8.0,Female,35-44,English,White,False,Rent,False,1-3 years,Blank,True
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,3.0,4.0,5.0,4.0,5.0,10.0,7.0,8.0,8.0,Female,25-34,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,9.0,10.0,8.0,10.0,7.0,8.0,3.0,2.0,3.0,4.0,5.0,5.0,8.0,8.0,6.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,9.0,8.0,9.0,9.0,8.0,5.0,4.0,1.0,3.0,4.0,2.0,5.0,6.0,10.0,8.0,6.0,Male,35-44,English,White,False,Rent,True,4-7 years,"$150,000 or more",False
+English,8.0,8.0,9.0,9.0,9.0,9.0,4.0,3.0,3.0,4.0,3.0,4.0,10.0,9.0,10.0,7.0,Female,55-64,English,Italian/Turkish;Scottish/Irish,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,8.0,6.0,5.0,5.0,5.0,0.0,5.0,3.0,5.0,8.0,8.0,10.0,8.0,Female,35-44,English,White,False,Own,Blank,4-7 years,"$150,000 or more",False
+English,1.0,7.0,7.0,1.0,3.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,3.0,2.0,4.0,4.0,Male,45-54,English,White,False,Rent,True,16-20 years,"$100,000 to $149,999",False
+English,6.0,5.0,6.0,1.0,3.0,9.0,3.0,1.0,2.0,3.0,1.0,3.0,1.0,3.0,6.0,5.0,Male,65-74,English,White,True,Own,Blank,21 years or more,"$25,000 to $49,999",False
+English,6.0,7.0,7.0,8.0,8.0,8.0,4.0,2.0,3.0,4.0,4.0,4.0,8.0,8.0,8.0,8.0,Female,25-34,English,White,False,Rent,True,1-3 years,Blank,False
+English,10.0,9.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Blank,65-74,English;Russian,White,False,Rent,False,8-10 years,"$10,000 to $24,999",False
+English,7.0,9.0,9.0,9.0,9.0,10.0,5.0,1.0,4.0,4.0,2.0,5.0,6.0,7.0,8.0,10.0,Blank,65-74,English,Blank,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,10.0,10.0,10.0,9.0,8.0,9.0,5.0,2.0,2.0,5.0,2.0,4.0,9.0,8.0,6.0,5.0,Male,25-34,English,White,True,Own,True,Less than a year,"$150,000 or more",False
+English,10.0,10.0,7.0,10.0,10.0,10.0,5.0,3.0,0.0,3.0,4.0,5.0,10.0,10.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,7.0,7.0,8.0,7.0,7.0,9.0,5.0,3.0,3.0,4.0,4.0,5.0,7.0,9.0,8.0,8.0,Male,35-44,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,8.0,5.0,3.0,4.0,3.0,4.0,5.0,9.0,10.0,10.0,9.0,Male,35-44,Blank,Hispanic/Latino,False,Own,False,Less than a year,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,6.0,10.0,10.0,10.0,Male,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,9.0,8.0,9.0,9.0,9.0,9.0,4.0,2.0,3.0,4.0,4.0,4.0,9.0,10.0,9.0,9.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,6.0,8.0,2.0,6.0,7.0,7.0,0.0,2.0,0.0,3.0,2.0,4.0,7.0,9.0,8.0,8.0,Male,25-34,English,Hispanic/Latino;White;Middle Eastern,False,Rent,False,8-10 years,"$75,000 to $99,999",False
+English,9.0,9.0,9.0,7.0,9.0,9.0,2.0,1.0,0.0,2.0,2.0,0.0,4.0,10.0,9.0,9.0,Male,35-44,English,Irish,False,Rent,False,21 years or more,"$75,000 to $99,999",False
+English,7.0,7.0,5.0,8.0,8.0,9.0,4.0,2.0,4.0,3.0,3.0,5.0,7.0,7.0,7.0,6.0,Female,35-44,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,7.0,6.0,5.0,8.0,9.0,8.0,4.0,1.0,3.0,5.0,3.0,5.0,3.0,6.0,8.0,8.0,Female,25-34,English,White,False,Rent,True,4-7 years,"$50,000 to 74,999",False
+Blank,8.0,7.0,7.0,6.0,6.0,8.0,3.0,2.0,3.0,4.0,3.0,4.0,6.0,9.0,3.0,3.0,Female,25-34,English,White,False,Own,False,4-7 years,"$75,000 to $99,999",False
+English,8.0,8.0,9.0,9.0,9.0,10.0,3.0,1.0,2.0,4.0,3.0,4.0,4.0,7.0,7.0,5.0,Male,55-64,English,White,True,Rent,False,21 years or more,"$75,000 to $99,999",False
+English,5.0,5.0,5.0,7.0,9.0,9.0,5.0,1.0,5.0,5.0,5.0,5.0,6.0,6.0,7.0,7.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",True
+Blank,10.0,8.0,7.0,10.0,10.0,10.0,3.0,2.0,3.0,5.0,5.0,5.0,10.0,6.0,7.0,8.0,Female,18-24,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,7.0,8.0,6.0,7.0,5.0,8.0,3.0,2.0,3.0,3.0,3.0,3.0,4.0,4.0,1.0,1.0,Male,45-54,English,White,True,Own,False,4-7 years,"$100,000 to $149,999",False
+English,7.0,6.0,8.0,8.0,9.0,6.0,5.0,4.0,3.0,3.0,5.0,4.0,10.0,8.0,10.0,9.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",False
+English,8.0,7.0,6.0,7.0,4.0,6.0,3.0,1.0,0.0,0.0,3.0,5.0,5.0,6.0,6.0,2.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,7.0,9.0,6.0,9.0,9.0,8.0,0.0,2.0,3.0,3.0,3.0,5.0,9.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$75,000 to $99,999",True
+English,7.0,7.0,7.0,8.0,5.0,6.0,4.0,3.0,4.0,2.0,0.0,0.0,3.0,5.0,8.0,2.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",True
+English,8.0,9.0,4.0,9.0,9.0,8.0,4.0,2.0,3.0,3.0,2.0,5.0,9.0,9.0,10.0,9.0,Male,25-34,English,White,True,Own,False,4-7 years,Blank,False
+English,5.0,7.0,9.0,2.0,3.0,8.0,3.0,1.0,2.0,2.0,2.0,4.0,10.0,10.0,7.0,6.0,Female,35-44,English,White,True,Rent,Blank,21 years or more,"$25,000 to $49,999",False
+English,8.0,8.0,8.0,8.0,8.0,8.0,4.0,4.0,2.0,2.0,2.0,4.0,9.0,9.0,8.0,8.0,Female,65-74,Blank,Asian,False,Own,False,16-20 years,"$150,000 or more",False
+English,5.0,4.0,5.0,4.0,4.0,6.0,4.0,1.0,3.0,3.0,1.0,3.0,1.0,6.0,4.0,3.0,Male,65-74,English,White,False,Own,Blank,21 years or more,"$50,000 to 74,999",False
+Spanish,10.0,10.0,10.0,10.0,10.0,10.0,5.0,1.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,35-44,Blank,Hispanic/Latino,True,Rent,False,11-15 years,"$10,000 to $24,999",False
+English,7.0,8.0,4.0,9.0,8.0,10.0,4.0,2.0,0.0,5.0,1.0,4.0,6.0,10.0,9.0,4.0,Male,18-24,English,White,False,Rent,False,1-3 years,Blank,False
+English,6.0,7.0,4.0,8.0,8.0,9.0,4.0,3.0,3.0,3.0,1.0,5.0,8.0,9.0,8.0,7.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",False
+English,7.0,8.0,9.0,10.0,10.0,10.0,5.0,2.0,0.0,4.0,4.0,5.0,8.0,10.0,9.0,9.0,Female,65-74,English,White,Blank,Own,Blank,21 years or more,"$50,000 to 74,999",False
+Blank,7.0,8.0,5.0,10.0,9.0,10.0,5.0,1.0,4.0,5.0,4.0,5.0,10.0,7.0,8.0,8.0,Female,45-54,English,Black/African American,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,6.0,7.0,8.0,7.0,9.0,8.0,5.0,1.0,3.0,4.0,3.0,4.0,9.0,9.0,7.0,7.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,8.0,8.0,8.0,10.0,10.0,10.0,4.0,3.0,4.0,4.0,3.0,4.0,10.0,10.0,6.0,6.0,Male,25-34,English,Asian,False,Rent,True,1-3 years,"$25,000 to $49,999",True
+English,8.0,8.0,9.0,9.0,8.0,9.0,4.0,3.0,4.0,4.0,4.0,4.0,6.0,9.0,8.0,7.0,Male,35-44,English;Spanish,Hispanic/Latino,False,Own,False,1-3 years,"$150,000 or more",False
+English,10.0,10.0,9.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,2.0,10.0,10.0,Female,45-54,English,Asian,False,Own,False,8-10 years,"$25,000 to $49,999",Blank
+Blank,1.0,1.0,5.0,1.0,1.0,1.0,3.0,1.0,3.0,5.0,1.0,3.0,1.0,1.0,3.0,2.0,Female,55-64,English,White,False,Own,True,21 years or more,"$100,000 to $149,999",False
+English,7.0,9.0,8.0,8.0,3.0,5.0,4.0,1.0,4.0,5.0,2.0,4.0,3.0,4.0,6.0,3.0,Male,25-34,English,White,False,Rent,True,4-7 years,"$150,000 or more",False
+English,6.0,4.0,4.0,6.0,6.0,5.0,3.0,2.0,3.0,3.0,3.0,3.0,7.0,7.0,7.0,7.0,Male,55-64,Blank,White,False,Rent,True,1-3 years,Blank,False
+English,6.0,8.0,4.0,8.0,7.0,10.0,4.0,2.0,2.0,4.0,3.0,5.0,5.0,9.0,9.0,8.0,Male,45-54,English,White,True,Own,False,11-15 years,"$100,000 to $149,999",False
+English,6.0,6.0,4.0,9.0,8.0,8.0,4.0,2.0,0.0,4.0,4.0,5.0,9.0,10.0,9.0,8.0,Female,35-44,English,White,False,Own,False,11-15 years,"$100,000 to $149,999",False
+Spanish,5.0,8.0,9.0,8.0,9.0,10.0,3.0,1.0,3.0,4.0,2.0,4.0,5.0,7.0,8.0,6.0,Female,45-54,Blank,White,True,Own,False,21 years or more,"$150,000 or more",False
+Spanish,10.0,10.0,9.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,3.0,5.0,10.0,10.0,7.0,4.0,Female,75 or older,Blank,Hispanic/Latino,False,Rent,False,8-10 years,"Less than $10,000",False
+English,8.0,5.0,4.0,10.0,10.0,10.0,5.0,2.0,3.0,4.0,5.0,5.0,10.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,True,8-10 years,"$150,000 or more",False
+English,8.0,8.0,10.0,8.0,7.0,8.0,4.0,1.0,0.0,4.0,2.0,4.0,8.0,7.0,8.0,6.0,Female,25-34,German,White,True,Rent,True,4-7 years,"$50,000 to 74,999",False
+English,7.0,9.0,7.0,8.0,7.0,9.0,5.0,1.0,4.0,5.0,4.0,5.0,9.0,8.0,7.0,6.0,Female,35-44,English,White,True,Own,False,11-15 years,"$100,000 to $149,999",False
+English,8.0,9.0,6.0,9.0,9.0,10.0,5.0,3.0,0.0,4.0,4.0,5.0,10.0,10.0,9.0,9.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,1.0,1.0,10.0,1.0,1.0,10.0,0.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,10.0,Female,65-74,English;Portuguese,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,8.0,9.0,7.0,5.0,6.0,7.0,3.0,0.0,0.0,0.0,2.0,0.0,8.0,7.0,6.0,4.0,Female,75 or older,Blank,White,False,Own,Blank,16-20 years,"$25,000 to $49,999",False
+English,8.0,7.0,6.0,8.0,8.0,9.0,5.0,1.0,0.0,4.0,4.0,5.0,8.0,9.0,8.0,7.0,Female,35-44,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,9.0,9.0,8.0,9.0,9.0,9.0,4.0,3.0,4.0,4.0,3.0,5.0,9.0,10.0,9.0,9.0,Male,35-44,English,Asian,True,Own,False,11-15 years,"$100,000 to $149,999",False
+English,7.0,7.0,7.0,9.0,8.0,8.0,5.0,1.0,5.0,5.0,3.0,4.0,6.0,10.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",Blank
+English,7.0,6.0,7.0,9.0,9.0,9.0,5.0,2.0,0.0,5.0,3.0,5.0,8.0,10.0,9.0,9.0,Female,25-34,English,Asian;White,False,Rent,True,1-3 years,"$150,000 or more",False
+English,8.0,8.0,9.0,10.0,10.0,10.0,4.0,2.0,3.0,4.0,2.0,0.0,9.0,9.0,10.0,9.0,Female,65-74,English,White,True,Blank,False,16-20 years,"$10,000 to $24,999",Blank
+English,9.0,9.0,9.0,9.0,1.0,8.0,2.0,3.0,0.0,1.0,1.0,3.0,9.0,7.0,0.0,1.0,Female,55-64,English,Blank,False,Own,False,21 years or more,Blank,False
+English,10.0,10.0,7.0,7.0,7.0,5.0,3.0,3.0,0.0,3.0,5.0,4.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+English,9.0,9.0,10.0,8.0,7.0,10.0,5.0,1.0,3.0,5.0,3.0,5.0,10.0,9.0,10.0,7.0,Female,35-44,English,White,False,Rent,False,11-15 years,"$100,000 to $149,999",False
+English,8.0,7.0,9.0,9.0,9.0,9.0,4.0,2.0,4.0,4.0,4.0,4.0,9.0,9.0,9.0,9.0,Male,35-44,English,White,False,Rent,False,Blank,"$75,000 to $99,999",False
+English,7.0,8.0,3.0,10.0,8.0,10.0,4.0,3.0,4.0,4.0,4.0,5.0,10.0,9.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,5.0,8.0,8.0,9.0,4.0,2.0,0.0,5.0,4.0,5.0,8.0,5.0,6.0,5.0,Male,35-44,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,10.0,10.0,7.0,8.0,10.0,7.0,5.0,3.0,0.0,4.0,3.0,4.0,10.0,9.0,9.0,8.0,Female,25-34,English;Italian,Blank,False,Rent,True,Less than a year,"$150,000 or more",False
+English,6.0,6.0,6.0,8.0,9.0,8.0,4.0,2.0,4.0,4.0,4.0,4.0,8.0,5.0,6.0,7.0,Female,75 or older,English,White,False,Neither,Blank,21 years or more,"$10,000 to $24,999",False
+Blank,9.0,9.0,8.0,9.0,9.0,9.0,4.0,3.0,0.0,4.0,2.0,4.0,9.0,9.0,8.0,7.0,Male,55-64,English,White,False,Own,Blank,8-10 years,Blank,False
+Blank,7.0,8.0,4.0,10.0,9.0,10.0,3.0,3.0,3.0,3.0,2.0,4.0,8.0,9.0,9.0,4.0,Male,45-54,English,Asian,False,Own,False,11-15 years,"$150,000 or more",False
+Blank,9.0,8.0,9.0,9.0,9.0,10.0,5.0,3.0,4.0,4.0,3.0,5.0,6.0,9.0,7.0,7.0,Female,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,8.0,10.0,10.0,10.0,8.0,10.0,5.0,3.0,0.0,3.0,4.0,5.0,7.0,9.0,9.0,8.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$150,000 or more",False
+English,8.0,9.0,8.0,10.0,10.0,9.0,5.0,1.0,2.0,5.0,5.0,5.0,10.0,6.0,10.0,8.0,Male,65-74,Blank,White,Blank,Own,False,Blank,"$75,000 to $99,999",Blank
+English,8.0,8.0,6.0,7.0,8.0,4.0,4.0,2.0,2.0,4.0,4.0,4.0,7.0,8.0,6.0,2.0,Male,35-44,English;Croatian,White,False,Own,False,11-15 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,1.0,5.0,1.0,5.0,0.0,0.0,0.0,0.0,Female,65-74,English,White,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,10.0,10.0,5.0,9.0,5.0,10.0,4.0,1.0,3.0,4.0,2.0,3.0,1.0,6.0,6.0,4.0,Female,25-34,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,7.0,8.0,9.0,6.0,6.0,6.0,5.0,2.0,2.0,3.0,1.0,4.0,7.0,7.0,9.0,4.0,Female,25-34,English,Asian,False,Own,True,8-10 years,"$150,000 or more",False
+English,6.0,6.0,7.0,5.0,4.0,6.0,4.0,2.0,0.0,4.0,3.0,3.0,7.0,6.0,7.0,3.0,Male,75 or older,English,White,False,Rent,Blank,11-15 years,"$25,000 to $49,999",False
+English,6.0,9.0,3.0,10.0,10.0,10.0,5.0,2.0,0.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$75,000 to $99,999",Blank
+English,9.0,9.0,9.0,6.0,3.0,5.0,3.0,1.0,4.0,3.0,2.0,3.0,6.0,2.0,6.0,3.0,Female,45-54,English,White,True,Rent,False,21 years or more,"$100,000 to $149,999",False
+English,8.0,7.0,9.0,9.0,8.0,9.0,4.0,2.0,4.0,4.0,3.0,4.0,9.0,9.0,7.0,7.0,Female,45-54,English;Japanese,Asian,False,Own,False,11-15 years,"$150,000 or more",False
+Blank,3.0,3.0,9.0,1.0,1.0,1.0,1.0,1.0,1.0,5.0,1.0,1.0,10.0,1.0,1.0,1.0,Male,65-74,English,White,False,Rent,True,21 years or more,"$50,000 to 74,999",False
+English,8.0,7.0,10.0,8.0,7.0,9.0,5.0,2.0,0.0,4.0,5.0,5.0,6.0,10.0,8.0,5.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,9.0,8.0,7.0,8.0,9.0,6.0,4.0,1.0,0.0,4.0,1.0,5.0,10.0,8.0,6.0,4.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,7.0,6.0,5.0,8.0,8.0,8.0,4.0,2.0,0.0,4.0,3.0,5.0,7.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",True
+Spanish,6.0,8.0,8.0,9.0,7.0,9.0,4.0,2.0,0.0,4.0,2.0,5.0,9.0,10.0,8.0,9.0,Female,25-34,English,White,False,Rent,True,4-7 years,"$25,000 to $49,999",False
+English,8.0,8.0,9.0,8.0,9.0,9.0,4.0,2.0,4.0,4.0,1.0,4.0,8.0,8.0,8.0,9.0,Female,75 or older,Blank,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,10.0,0.0,10.0,10.0,10.0,10.0,1.0,1.0,5.0,3.0,1.0,5.0,1.0,1.0,1.0,1.0,Female,75 or older,English,White,False,Rent,False,21 years or more,"Less than $10,000",False
+English,9.0,9.0,9.0,8.0,9.0,8.0,3.0,2.0,2.0,3.0,2.0,4.0,8.0,9.0,7.0,7.0,Female,35-44,English,White,True,Own,False,4-7 years,"$150,000 or more",False
+English,8.0,8.0,8.0,8.0,10.0,10.0,5.0,4.0,0.0,0.0,4.0,4.0,10.0,9.0,10.0,10.0,Female,18-24,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",Blank
+English,6.0,7.0,7.0,9.0,8.0,7.0,4.0,3.0,0.0,4.0,3.0,4.0,9.0,8.0,7.0,6.0,Female,25-34,English,Asian;White,False,Rent,True,1-3 years,Blank,False
+English,9.0,9.0,9.0,9.0,9.0,9.0,4.0,2.0,3.0,5.0,4.0,5.0,9.0,0.0,9.0,9.0,Female,45-54,English;Portuguese,White,False,Rent,False,21 years or more,"Less than $10,000",Blank
+English,9.0,9.0,7.0,8.0,7.0,8.0,3.0,3.0,3.0,4.0,4.0,4.0,8.0,7.0,9.0,8.0,Female,25-34,English,White,False,Own,Blank,Less than a year,"$150,000 or more",False
+English,9.0,6.0,3.0,9.0,9.0,10.0,4.0,2.0,3.0,2.0,3.0,5.0,8.0,7.0,7.0,9.0,Female,35-44,English,White,False,Own,Blank,11-15 years,"$100,000 to $149,999",False
+English,9.0,8.0,6.0,10.0,10.0,10.0,5.0,1.0,4.0,1.0,4.0,5.0,8.0,10.0,10.0,10.0,Female,25-34,English,White,False,Own,False,11-15 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,4.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Blank,55-64,Portuguese,Hispanic/Latino,False,Own,False,16-20 years,"$25,000 to $49,999",False
+English,8.0,8.0,4.0,9.0,9.0,10.0,5.0,3.0,0.0,4.0,4.0,5.0,10.0,9.0,8.0,7.0,Multiple people,45-54,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,2.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,10.0,10.0,2.0,9.0,9.0,8.0,4.0,1.0,3.0,3.0,3.0,5.0,10.0,10.0,6.0,6.0,Male,25-34,English,White,False,Rent,True,4-7 years,"$75,000 to $99,999",True
+English,8.0,9.0,9.0,8.0,8.0,9.0,5.0,1.0,0.0,5.0,4.0,5.0,6.0,10.0,10.0,9.0,Male,45-54,English,White,False,Rent,False,16-20 years,"$100,000 to $149,999",Blank
+Blank,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+English,10.0,10.0,7.0,10.0,10.0,10.0,5.0,2.0,3.0,4.0,4.0,5.0,9.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,True,1-3 years,Blank,False
+English,8.0,9.0,8.0,9.0,10.0,9.0,4.0,1.0,3.0,4.0,2.0,5.0,8.0,7.0,8.0,7.0,Female,45-54,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,4.0,3.0,6.0,6.0,2.0,6.0,3.0,3.0,0.0,3.0,4.0,3.0,1.0,10.0,6.0,3.0,Male,25-34,English,Blank,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,6.0,9.0,9.0,8.0,4.0,4.0,0.0,0.0,3.0,4.0,8.0,9.0,7.0,8.0,Male,75 or older,English;Arabic,Arab,False,Own,False,11-15 years,"$150,000 or more",False
+English,7.0,7.0,4.0,7.0,7.0,8.0,4.0,1.0,0.0,3.0,3.0,4.0,4.0,7.0,6.0,6.0,Male,25-34,English,White,False,Rent,True,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,5.0,8.0,9.0,10.0,5.0,1.0,4.0,3.0,5.0,5.0,9.0,10.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,8-10 years,"$100,000 to $149,999",False
+Blank,4.0,7.0,4.0,7.0,7.0,7.0,4.0,1.0,4.0,4.0,3.0,4.0,7.0,10.0,9.0,9.0,Female,55-64,Blank,White,False,Rent,False,Blank,"$50,000 to 74,999",False
+English,2.0,4.0,2.0,4.0,6.0,10.0,5.0,1.0,4.0,1.0,1.0,3.0,8.0,4.0,6.0,5.0,Male,45-54,Blank,White,True,Own,False,21 years or more,"$10,000 to $24,999",False
+Blank,9.0,8.0,8.0,9.0,9.0,10.0,4.0,2.0,4.0,4.0,3.0,5.0,7.0,10.0,9.0,8.0,Female,25-34,English,White,False,Rent,False,8-10 years,"$25,000 to $49,999",True
+English,9.0,9.0,9.0,9.0,9.0,9.0,5.0,3.0,3.0,4.0,4.0,4.0,9.0,9.0,8.0,8.0,Female,35-44,Blank,White,True,Own,Blank,16-20 years,"$150,000 or more",False
+Blank,9.0,9.0,8.0,10.0,8.0,10.0,4.0,1.0,3.0,4.0,5.0,5.0,8.0,9.0,8.0,7.0,Female,35-44,English,Blank,True,Own,False,4-7 years,"$150,000 or more",False
+English,8.0,8.0,9.0,6.0,6.0,6.0,4.0,3.0,4.0,5.0,4.0,4.0,9.0,9.0,9.0,8.0,Male,65-74,English,White,False,Own,True,21 years or more,"$25,000 to $49,999",False
+English,9.0,9.0,2.0,9.0,9.0,9.0,5.0,2.0,5.0,5.0,4.0,4.0,9.0,9.0,9.0,9.0,Male,35-44,English,White,True,Rent,False,11-15 years,"$100,000 to $149,999",False
+English,8.0,8.0,10.0,9.0,10.0,10.0,4.0,1.0,4.0,4.0,4.0,4.0,8.0,10.0,10.0,9.0,Female,45-54,English,White,True,Rent,False,8-10 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,8.0,7.0,10.0,5.0,1.0,4.0,4.0,2.0,4.0,7.0,8.0,8.0,7.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,7.0,9.0,0.0,9.0,7.0,10.0,4.0,3.0,3.0,3.0,4.0,5.0,9.0,10.0,6.0,8.0,Female,45-54,English,White,False,Own,False,Blank,"$150,000 or more",Blank
+English,4.0,4.0,3.0,7.0,7.0,7.0,3.0,2.0,2.0,1.0,2.0,3.0,8.0,5.0,8.0,5.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,8.0,9.0,7.0,8.0,8.0,7.0,4.0,3.0,2.0,3.0,2.0,4.0,7.0,5.0,7.0,6.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$150,000 or more",False
+English,8.0,8.0,8.0,9.0,10.0,8.0,5.0,2.0,0.0,3.0,2.0,5.0,9.0,9.0,9.0,9.0,Female,65-74,English,White,False,Own,False,21 years or more,Blank,False
+English,8.0,8.0,6.0,9.0,8.0,8.0,3.0,2.0,2.0,4.0,3.0,3.0,10.0,9.0,8.0,8.0,Female,35-44,English;Chinese,Asian,True,Rent,True,4-7 years,"$50,000 to 74,999",Blank
+English,10.0,9.0,10.0,9.0,9.0,10.0,5.0,4.0,4.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,Blank,English,White,True,Own,False,21 years or more,Blank,False
+English,8.0,7.0,3.0,9.0,8.0,8.0,4.0,3.0,3.0,3.0,3.0,5.0,10.0,9.0,9.0,9.0,Female,55-64,English,White,False,Rent,True,11-15 years,"Less than $10,000",False
+English,7.0,8.0,3.0,8.0,8.0,9.0,4.0,2.0,3.0,2.0,2.0,5.0,8.0,10.0,9.0,9.0,Male,25-34,English,White,False,Rent,False,8-10 years,"$25,000 to $49,999",False
+English,8.0,8.0,10.0,9.0,9.0,9.0,4.0,1.0,0.0,4.0,4.0,4.0,9.0,8.0,7.0,7.0,Blank,75 or older,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",False
+English,7.0,7.0,7.0,6.0,8.0,6.0,3.0,1.0,3.0,4.0,4.0,4.0,2.0,9.0,8.0,8.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$150,000 or more",False
+English,9.0,9.0,2.0,9.0,9.0,9.0,4.0,0.0,4.0,4.0,2.0,4.0,9.0,9.0,2.0,9.0,Male,65-74,Blank,White,False,Own,False,21 years or more,"$25,000 to $49,999",Blank
+English,8.0,9.0,6.0,3.0,2.0,2.0,4.0,1.0,0.0,5.0,1.0,0.0,2.0,2.0,4.0,2.0,Female,65-74,English,White,False,Own,False,16-20 years,"$100,000 to $149,999",False
+English,9.0,10.0,8.0,9.0,9.0,9.0,5.0,2.0,5.0,4.0,4.0,5.0,10.0,9.0,9.0,9.0,Male,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+Blank,8.0,8.0,10.0,8.0,7.0,7.0,5.0,2.0,3.0,3.0,4.0,5.0,9.0,7.0,8.0,7.0,Male,55-64,English,White,False,Own,False,16-20 years,"$75,000 to $99,999",Blank
+English,1.0,9.0,3.0,1.0,1.0,1.0,3.0,3.0,3.0,3.0,1.0,2.0,5.0,5.0,5.0,5.0,Male,55-64,English,White,False,Rent,True,8-10 years,"$75,000 to $99,999",False
+English,6.0,8.0,8.0,9.0,10.0,9.0,5.0,1.0,4.0,3.0,3.0,4.0,8.0,9.0,10.0,9.0,Female,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,7.0,7.0,5.0,7.0,8.0,8.0,3.0,2.0,2.0,4.0,3.0,5.0,8.0,10.0,7.0,7.0,Male,35-44,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+Blank,6.0,6.0,4.0,5.0,5.0,5.0,5.0,3.0,5.0,5.0,3.0,5.0,10.0,6.0,10.0,10.0,Female,45-54,English;Spanish;Haitian Creole,Black/African American,True,Rent,False,16-20 years,"$10,000 to $24,999",False
+English,4.0,4.0,4.0,8.0,6.0,10.0,4.0,1.0,4.0,5.0,1.0,5.0,9.0,7.0,7.0,5.0,Female,55-64,English,White,False,Own,Blank,21 years or more,"$100,000 to $149,999",False
+Blank,4.0,3.0,5.0,8.0,7.0,4.0,4.0,2.0,3.0,5.0,4.0,3.0,9.0,9.0,9.0,8.0,Male,35-44,English,Black/African American;White,False,Rent,False,11-15 years,"$75,000 to $99,999",False
+English,10.0,10.0,8.0,10.0,10.0,10.0,5.0,3.0,0.0,5.0,5.0,5.0,7.0,9.0,10.0,9.0,Female,25-34,Korean,Asian,False,Own,False,1-3 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,4.0,4.0,10.0,10.0,10.0,10.0,Male,55-64,Blank,Asian,False,Own,False,Blank,"$50,000 to 74,999",False
+Blank,5.0,8.0,1.0,5.0,10.0,8.0,5.0,1.0,4.0,5.0,3.0,3.0,9.0,9.0,10.0,9.0,Female,55-64,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,9.0,9.0,10.0,8.0,8.0,10.0,5.0,1.0,3.0,3.0,3.0,5.0,9.0,8.0,8.0,7.0,Female,35-44,English,White,True,Own,False,16-20 years,"$75,000 to $99,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,4.0,0.0,4.0,2.0,4.0,7.0,9.0,8.0,7.0,Male,25-34,English;Spanish,White,False,Rent,False,4-7 years,"$25,000 to $49,999",True
+Blank,8.0,8.0,2.0,9.0,9.0,9.0,2.0,2.0,2.0,3.0,4.0,4.0,3.0,6.0,9.0,9.0,Female,65-74,English,White,False,Own,True,21 years or more,"$25,000 to $49,999",False
+English,6.0,6.0,6.0,9.0,9.0,10.0,5.0,4.0,5.0,5.0,5.0,5.0,9.0,10.0,10.0,10.0,Male,65-74,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,7.0,8.0,9.0,10.0,10.0,10.0,5.0,1.0,0.0,0.0,3.0,5.0,10.0,8.0,8.0,8.0,Female,45-54,English,White,False,Own,False,16-20 years,"$75,000 to $99,999",False
+English,6.0,4.0,8.0,8.0,6.0,6.0,5.0,2.0,4.0,3.0,4.0,5.0,9.0,8.0,7.0,7.0,Female,55-64,Blank,Blank,True,Own,Blank,Blank,"$100,000 to $149,999",False
+English,9.0,8.0,4.0,9.0,10.0,10.0,5.0,2.0,3.0,5.0,4.0,5.0,10.0,9.0,9.0,9.0,Female,35-44,English,White,True,Own,True,11-15 years,"$150,000 or more",False
+English,7.0,8.0,9.0,9.0,8.0,7.0,0.0,3.0,0.0,3.0,1.0,0.0,9.0,7.0,8.0,7.0,Female,18-24,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",True
+English,6.0,7.0,6.0,8.0,6.0,6.0,4.0,3.0,4.0,4.0,3.0,4.0,8.0,7.0,8.0,8.0,Male,75 or older,English,White,False,Rent,False,4-7 years,"$25,000 to $49,999",False
+English,7.0,7.0,6.0,9.0,9.0,9.0,4.0,4.0,3.0,4.0,4.0,4.0,8.0,6.0,6.0,0.0,Female,55-64,English,White,False,Own,False,Blank,"$75,000 to $99,999",False
+English,10.0,10.0,9.0,8.0,9.0,10.0,4.0,4.0,3.0,5.0,4.0,4.0,10.0,9.0,9.0,8.0,Both selected,25-34,English,White,False,Own,False,8-10 years,"$100,000 to $149,999",False
+English,0.0,8.0,0.0,9.0,9.0,0.0,5.0,1.0,0.0,4.0,2.0,5.0,4.0,8.0,8.0,6.0,Female,55-64,English,White,False,Own,False,8-10 years,"$25,000 to $49,999",False
+English,8.0,8.0,8.0,5.0,8.0,8.0,4.0,1.0,4.0,4.0,4.0,4.0,8.0,9.0,9.0,6.0,Male,35-44,English,White,True,Own,False,11-15 years,"$50,000 to 74,999",False
+English,5.0,6.0,4.0,9.0,8.0,10.0,2.0,1.0,0.0,3.0,3.0,3.0,8.0,10.0,8.0,6.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,5.0,8.0,10.0,8.0,7.0,8.0,5.0,3.0,4.0,4.0,3.0,4.0,9.0,8.0,7.0,7.0,Female,55-64,English,White,False,Own,Blank,11-15 years,"$75,000 to $99,999",False
+English,8.0,8.0,9.0,9.0,8.0,10.0,4.0,2.0,3.0,5.0,3.0,5.0,9.0,8.0,8.0,8.0,Female,55-64,Blank,White;Jewish,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,9.0,10.0,6.0,10.0,10.0,8.0,5.0,5.0,5.0,4.0,5.0,5.0,9.0,8.0,6.0,7.0,Multiple people,18-24,English,White,False,Rent,False,Less than a year,"$75,000 to $99,999",Blank
+English,5.0,5.0,5.0,4.0,8.0,4.0,3.0,1.0,3.0,1.0,3.0,3.0,4.0,5.0,7.0,5.0,Male,55-64,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",Blank
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,3.0,5.0,5.0,2.0,4.0,6.0,10.0,10.0,5.0,Male,35-44,English;Farsi,White,True,Own,False,4-7 years,"$150,000 or more",False
+English,3.0,3.0,3.0,9.0,10.0,9.0,4.0,4.0,4.0,4.0,4.0,4.0,10.0,9.0,9.0,10.0,Male,75 or older,English;Portuguese,Blank,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,8.0,7.0,8.0,7.0,7.0,7.0,5.0,3.0,3.0,4.0,4.0,5.0,7.0,7.0,8.0,8.0,Female,35-44,English,White,True,Own,True,11-15 years,Blank,False
+English,5.0,5.0,3.0,7.0,4.0,9.0,4.0,3.0,5.0,3.0,2.0,4.0,6.0,3.0,3.0,4.0,Female,55-64,English;Portuguese,White,True,Own,True,21 years or more,"$75,000 to $99,999",False
+Blank,8.0,9.0,8.0,9.0,9.0,9.0,4.0,3.0,4.0,4.0,4.0,5.0,9.0,8.0,7.0,6.0,Both selected,35-44,English;Russian,White,True,Own,False,8-10 years,"$75,000 to $99,999",False
+English,7.0,7.0,7.0,9.0,9.0,7.0,5.0,3.0,3.0,4.0,4.0,4.0,9.0,9.0,9.0,8.0,Female,65-74,English,White,False,Own,False,11-15 years,"$100,000 to $149,999",False
+English,9.0,9.0,10.0,8.0,8.0,8.0,4.0,4.0,4.0,4.0,4.0,4.0,9.0,9.0,9.0,9.0,Female,65-74,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,8.0,7.0,9.0,9.0,8.0,9.0,3.0,3.0,3.0,4.0,3.0,3.0,7.0,9.0,7.0,8.0,Male,25-34,English,White,False,Rent,False,1-3 years,Blank,False
+Portugese,10.0,10.0,5.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,45-54,Portuguese,White,False,Neither,False,16-20 years,"Less than $10,000",True
+English,8.0,8.0,5.0,7.0,7.0,7.0,2.0,2.0,3.0,3.0,2.0,5.0,8.0,8.0,8.0,8.0,Both selected,35-44,English,White,True,Own,False,Blank,"$150,000 or more",False
+English,6.0,6.0,1.0,9.0,8.0,10.0,4.0,1.0,4.0,2.0,4.0,5.0,10.0,7.0,8.0,9.0,Female,65-74,English,White,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,7.0,8.0,3.0,9.0,9.0,9.0,4.0,3.0,2.0,3.0,4.0,4.0,8.0,8.0,7.0,8.0,Female,35-44,English,Asian,False,Own,False,4-7 years,"$150,000 or more",False
+English,7.0,6.0,2.0,7.0,7.0,7.0,4.0,2.0,1.0,3.0,1.0,3.0,2.0,5.0,4.0,3.0,Female,25-34,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,7.0,7.0,6.0,8.0,8.0,8.0,4.0,3.0,3.0,3.0,2.0,5.0,8.0,7.0,7.0,5.0,Female,45-54,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,9.0,8.0,7.0,9.0,9.0,9.0,5.0,4.0,3.0,4.0,3.0,5.0,7.0,8.0,8.0,8.0,Blank,25-34,English,White,False,Rent,True,1-3 years,Blank,True
+English,5.0,8.0,7.0,7.0,8.0,8.0,4.0,1.0,2.0,3.0,3.0,5.0,8.0,9.0,9.0,7.0,Female,35-44,English,White,True,Rent,False,1-3 years,"$150,000 or more",False
+English,5.0,7.0,7.0,1.0,1.0,1.0,3.0,1.0,3.0,2.0,1.0,3.0,5.0,4.0,1.0,1.0,Female,55-64,English,White,False,Rent,True,16-20 years,Blank,False
+English,9.0,9.0,4.0,10.0,10.0,10.0,5.0,1.0,3.0,4.0,3.0,5.0,9.0,10.0,10.0,10.0,Both selected,35-44,English,White,True,Own,False,1-3 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,9.0,10.0,5.0,3.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,9.0,Male,45-54,English,Black/African American,True,Own,False,21 years or more,"$75,000 to $99,999",False
+English,10.0,10.0,8.0,10.0,10.0,10.0,4.0,3.0,5.0,5.0,4.0,5.0,10.0,9.0,10.0,10.0,Female,35-44,English,White,True,Own,False,11-15 years,"$75,000 to $99,999",False
+English,7.0,7.0,9.0,7.0,9.0,9.0,4.0,1.0,3.0,4.0,3.0,4.0,8.0,10.0,6.0,10.0,Female,35-44,English,White,False,Rent,Blank,16-20 years,"$25,000 to $49,999",False
+English,8.0,10.0,7.0,8.0,7.0,7.0,4.0,1.0,3.0,3.0,3.0,4.0,10.0,9.0,9.0,8.0,Female,35-44,English,Black/African American;White,True,Rent,False,11-15 years,"$50,000 to 74,999",False
+Portugese,8.0,6.0,10.0,10.0,10.0,10.0,4.0,1.0,2.0,1.0,1.0,5.0,5.0,8.0,7.0,10.0,Female,45-54,3 languages,Hispanic/Latino,True,Own,False,16-20 years,"$50,000 to 74,999",False
+English,7.0,6.0,8.0,10.0,10.0,10.0,5.0,2.0,2.0,3.0,3.0,5.0,10.0,9.0,8.0,7.0,Male,25-34,English,White,False,Own,False,8-10 years,"$100,000 to $149,999",False
+English,8.0,7.0,9.0,9.0,10.0,6.0,4.0,1.0,3.0,4.0,2.0,5.0,8.0,9.0,9.0,8.0,Male,35-44,English;French,White,True,Own,False,8-10 years,"$150,000 or more",False
+English,6.0,4.0,6.0,7.0,7.0,6.0,3.0,2.0,0.0,2.0,1.0,3.0,7.0,8.0,8.0,4.0,Female,25-34,English,White,False,Blank,False,1-3 years,"$150,000 or more",False
+Portugese,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,75 or older,Portuguese,White,False,Rent,False,21 years or more,Blank,False
+English,7.0,9.0,6.0,10.0,9.0,7.0,4.0,4.0,4.0,5.0,3.0,4.0,9.0,8.0,7.0,9.0,Female,18-24,English,White,False,Rent,True,1-3 years,"$75,000 to $99,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,4.0,4.0,4.0,3.0,5.0,6.0,5.0,6.0,5.0,Female,35-44,English,White,False,Own,True,1-3 years,"$25,000 to $49,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,9.0,9.0,Female,75 or older,cape verdean creole,Cape Verdean,False,Rent,False,4-7 years,"Less than $10,000",False
+English,10.0,8.0,10.0,10.0,10.0,10.0,5.0,3.0,3.0,4.0,3.0,5.0,10.0,10.0,10.0,9.0,Male,55-64,English,White,False,Own,False,1-3 years,"$150,000 or more",Blank
+English,7.0,7.0,4.0,9.0,8.0,6.0,4.0,3.0,0.0,4.0,4.0,5.0,8.0,8.0,10.0,8.0,Male,25-34,Blank,White,False,Rent,Blank,1-3 years,"$50,000 to 74,999",False
+English,9.0,9.0,8.0,9.0,9.0,9.0,5.0,1.0,4.0,4.0,2.0,4.0,9.0,9.0,9.0,9.0,Male,25-34,English,White,True,Rent,False,8-10 years,"$75,000 to $99,999",False
+English,9.0,9.0,10.0,9.0,9.0,9.0,4.0,2.0,3.0,3.0,3.0,4.0,8.0,9.0,8.0,8.0,Female,55-64,English,White,False,Own,False,16-20 years,"$100,000 to $149,999",False
+English,10.0,10.0,8.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$100,000 to $149,999",Blank
+English,8.0,10.0,9.0,9.0,9.0,8.0,5.0,1.0,0.0,4.0,3.0,5.0,6.0,10.0,9.0,8.0,Male,25-34,English,White,False,Own,False,1-3 years,"$150,000 or more",False
+English,7.0,6.0,3.0,8.0,8.0,9.0,4.0,2.0,0.0,4.0,4.0,5.0,8.0,8.0,9.0,8.0,Female,35-44,English,Hispanic/Latino;White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,4.0,5.0,7.0,8.0,8.0,8.0,5.0,1.0,3.0,4.0,5.0,5.0,4.0,10.0,8.0,8.0,Male,55-64,English;Spanish;Portuguese,Hispanic/Latino;Portuguese/American,False,Own,False,21 years or more,"$150,000 or more",False
+English,6.0,5.0,7.0,10.0,10.0,10.0,3.0,2.0,3.0,3.0,4.0,4.0,3.0,7.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$10,000 to $24,999",False
+English,9.0,8.0,5.0,8.0,9.0,9.0,3.0,2.0,3.0,3.0,4.0,5.0,9.0,9.0,9.0,9.0,Female,25-34,English,Hispanic/Latino,False,Rent,False,8-10 years,"$75,000 to $99,999",False
+English,8.0,9.0,7.0,9.0,9.0,9.0,3.0,2.0,3.0,3.0,4.0,5.0,9.0,9.0,0.0,9.0,Male,25-34,English,White,True,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,9.0,9.0,10.0,10.0,4.0,1.0,4.0,3.0,5.0,5.0,9.0,9.0,9.0,9.0,Female,35-44,English,White,False,Rent,True,11-15 years,"$50,000 to 74,999",Blank
+English,8.0,10.0,2.0,9.0,10.0,10.0,5.0,5.0,0.0,4.0,3.0,5.0,10.0,9.0,8.0,7.0,Male,65-74,English,White,False,Own,True,21 years or more,"$50,000 to 74,999",Blank
+English,8.0,8.0,9.0,8.0,9.0,10.0,5.0,1.0,4.0,4.0,4.0,5.0,6.0,8.0,9.0,8.0,Female,25-34,English,White,False,Rent,False,8-10 years,"$100,000 to $149,999",False
+English,7.0,8.0,5.0,9.0,4.0,7.0,4.0,2.0,3.0,4.0,4.0,4.0,8.0,9.0,8.0,7.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,9.0,9.0,10.0,10.0,10.0,10.0,5.0,1.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,55-64,English,White,False,Own,True,21 years or more,Blank,False
+English,10.0,10.0,10.0,1.0,10.0,4.0,5.0,1.0,3.0,4.0,2.0,3.0,10.0,4.0,8.0,6.0,Male,75 or older,English,White,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+Blank,8.0,7.0,4.0,9.0,10.0,10.0,3.0,2.0,3.0,4.0,4.0,5.0,8.0,10.0,9.0,9.0,Male,55-64,Blank,White,True,Own,False,11-15 years,"$100,000 to $149,999",False
+English,3.0,3.0,8.0,9.0,8.0,9.0,5.0,1.0,4.0,4.0,2.0,5.0,8.0,9.0,8.0,9.0,Male,35-44,English,White,True,Rent,True,4-7 years,"$150,000 or more",False
+English,9.0,9.0,8.0,6.0,6.0,5.0,4.0,3.0,4.0,3.0,2.0,4.0,10.0,6.0,6.0,6.0,Female,65-74,English;Chinese,Asian,False,Own,False,21 years or more,"$25,000 to $49,999",False
+Blank,6.0,8.0,2.0,9.0,9.0,10.0,5.0,2.0,0.0,3.0,3.0,5.0,7.0,8.0,9.0,8.0,Female,25-34,English,White,False,Rent,False,11-15 years,"$75,000 to $99,999",False
+English,8.0,8.0,9.0,9.0,9.0,9.0,4.0,4.0,4.0,5.0,5.0,5.0,9.0,9.0,9.0,9.0,Female,55-64,English,White,False,Rent,False,21 years or more,"$100,000 to $149,999",False
+Blank,6.0,8.0,8.0,10.0,8.0,8.0,4.0,2.0,0.0,4.0,4.0,5.0,8.0,4.0,9.0,7.0,Female,75 or older,English;German,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,7.0,7.0,9.0,10.0,8.0,5.0,1.0,4.0,5.0,3.0,5.0,7.0,8.0,8.0,5.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$25,000 to $49,999",True
+English,9.0,9.0,4.0,7.0,8.0,6.0,4.0,2.0,0.0,4.0,1.0,3.0,5.0,6.0,0.0,3.0,Male,18-24,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",True
+English,10.0,6.0,1.0,1.0,1.0,1.0,4.0,1.0,2.0,3.0,2.0,1.0,1.0,1.0,2.0,1.0,Female,35-44,English;Spanish,Hispanic/Latino,True,Rent,True,4-7 years,Blank,False
+English,7.0,7.0,5.0,9.0,9.0,9.0,5.0,2.0,3.0,3.0,3.0,4.0,8.0,10.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,1-3 years,Blank,False
+English,8.0,9.0,6.0,7.0,6.0,5.0,5.0,2.0,1.0,3.0,2.0,4.0,8.0,7.0,8.0,4.0,Female,25-34,English,White,True,Own,True,1-3 years,"$100,000 to $149,999",False
+English,9.0,9.0,8.0,9.0,9.0,9.0,4.0,4.0,4.0,4.0,4.0,4.0,9.0,9.0,9.0,9.0,Male,Blank,English;Portuguese,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,8.0,5.0,8.0,10.0,10.0,4.0,3.0,3.0,4.0,5.0,4.0,4.0,9.0,8.0,7.0,Female,35-44,Blank,White,True,Own,False,8-10 years,"$100,000 to $149,999",False
+English,10.0,7.0,10.0,4.0,5.0,10.0,2.0,1.0,2.0,5.0,2.0,4.0,6.0,4.0,1.0,0.0,Female,55-64,English,White,False,Own,True,21 years or more,"$10,000 to $24,999",False
+English,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Male,55-64,Hindi,Asian,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,1.0,3.0,5.0,3.0,3.0,9.0,10.0,10.0,10.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,7.0,9.0,10.0,7.0,7.0,7.0,2.0,2.0,3.0,2.0,4.0,4.0,4.0,8.0,5.0,5.0,Female,25-34,English,Hispanic/Latino,False,Rent,True,Less than a year,"Less than $10,000",True
+English,5.0,4.0,6.0,6.0,5.0,6.0,4.0,2.0,3.0,3.0,2.0,3.0,7.0,6.0,7.0,6.0,Female,65-74,English,White,False,Own,True,21 years or more,"$25,000 to $49,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,75 or older,Blank,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,1.0,1.0,10.0,10.0,10.0,10.0,5.0,5.0,0.0,0.0,0.0,1.0,10.0,10.0,0.0,0.0,Female,55-64,Blank,White,False,Rent,False,1-3 years,"Less than $10,000",Blank
+English,7.0,7.0,6.0,9.0,9.0,9.0,4.0,2.0,3.0,3.0,3.0,4.0,8.0,8.0,8.0,8.0,Female,45-54,English,White,True,Own,False,8-10 years,"$150,000 or more",False
+English,9.0,8.0,9.0,8.0,9.0,9.0,4.0,1.0,4.0,4.0,4.0,5.0,9.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,True,11-15 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,55-64,English,White,True,Rent,False,11-15 years,"Less than $10,000",False
+English,2.0,2.0,3.0,3.0,1.0,3.0,3.0,1.0,2.0,2.0,3.0,4.0,3.0,8.0,5.0,5.0,Female,45-54,Blank,White,True,Rent,True,16-20 years,"$25,000 to $49,999",False
+English,8.0,8.0,6.0,9.0,9.0,7.0,5.0,3.0,3.0,5.0,4.0,5.0,10.0,9.0,9.0,8.0,Female,35-44,English,White,False,Rent,True,8-10 years,"$100,000 to $149,999",Blank
+English,6.0,6.0,6.0,4.0,5.0,4.0,3.0,2.0,2.0,2.0,3.0,3.0,6.0,5.0,7.0,6.0,Female,25-34,English,Multiple (unspecified),False,Rent,False,4-7 years,"$75,000 to $99,999",Blank
+English,5.0,4.0,4.0,9.0,9.0,8.0,4.0,2.0,0.0,4.0,5.0,5.0,8.0,9.0,7.0,7.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,7.0,8.0,6.0,9.0,10.0,10.0,4.0,1.0,3.0,1.0,2.0,5.0,8.0,9.0,4.0,2.0,Male,55-64,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,10.0,10.0,9.0,10.0,10.0,10.0,5.0,4.0,4.0,4.0,4.0,5.0,9.0,10.0,10.0,10.0,Male,55-64,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,9.0,9.0,4.0,9.0,9.0,9.0,4.0,4.0,4.0,4.0,4.0,4.0,8.0,8.0,8.0,9.0,Female,65-74,Blank,White,False,Rent,False,4-7 years,"Less than $10,000",False
+Blank,7.0,8.0,4.0,7.0,5.0,9.0,5.0,3.0,0.0,4.0,2.0,4.0,8.0,4.0,6.0,7.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$100,000 to $149,999",Blank
+English,7.0,8.0,8.0,8.0,9.0,7.0,0.0,1.0,0.0,1.0,1.0,4.0,8.0,5.0,7.0,7.0,Female,25-34,English,White,False,Rent,Blank,4-7 years,"$150,000 or more",False
+English,7.0,7.0,6.0,7.0,7.0,7.0,5.0,3.0,3.0,3.0,4.0,5.0,0.0,8.0,8.0,7.0,Female,35-44,English,White,True,Own,False,11-15 years,"$100,000 to $149,999",False
+English,5.0,7.0,10.0,8.0,10.0,10.0,5.0,3.0,3.0,4.0,2.0,5.0,10.0,8.0,8.0,6.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,6.0,6.0,4.0,10.0,10.0,10.0,5.0,2.0,5.0,5.0,5.0,3.0,10.0,6.0,10.0,10.0,Female,55-64,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",Blank
+English,7.0,4.0,8.0,9.0,8.0,6.0,4.0,1.0,4.0,3.0,4.0,5.0,8.0,10.0,9.0,8.0,Non-binary,55-64,English,White,False,Rent,False,8-10 years,"$10,000 to $24,999",False
+English,8.0,8.0,7.0,7.0,7.0,9.0,4.0,2.0,4.0,3.0,4.0,5.0,8.0,7.0,9.0,9.0,Female,35-44,English,Asian;White,False,Rent,False,Blank,"$100,000 to $149,999",False
+English,8.0,7.0,7.0,8.0,8.0,8.0,3.0,1.0,3.0,4.0,3.0,4.0,4.0,9.0,7.0,7.0,Female,45-54,English,White,False,Own,False,1-3 years,"$100,000 to $149,999",False
+English,9.0,9.0,9.0,8.0,8.0,6.0,3.0,3.0,0.0,2.0,4.0,5.0,9.0,9.0,3.0,7.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,7.0,7.0,4.0,8.0,8.0,6.0,4.0,2.0,3.0,4.0,5.0,4.0,9.0,9.0,9.0,8.0,Female,25-34,English;French,White,False,Rent,True,Less than a year,"$75,000 to $99,999",False
+English,10.0,10.0,10.0,7.0,7.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,6.0,7.0,8.0,Female,75 or older,English,White,False,Own,False,21 years or more,Blank,False
+English,9.0,7.0,9.0,7.0,7.0,7.0,4.0,5.0,4.0,4.0,1.0,5.0,2.0,10.0,8.0,7.0,Male,25-34,English,White,False,Rent,True,4-7 years,"$75,000 to $99,999",False
+English,8.0,8.0,10.0,10.0,10.0,10.0,5.0,2.0,3.0,5.0,5.0,5.0,10.0,8.0,8.0,6.0,Female,55-64,English,Blank,False,Own,False,21 years or more,"$100,000 to $149,999",False
+English,7.0,6.0,4.0,6.0,7.0,6.0,5.0,1.0,2.0,3.0,4.0,3.0,8.0,6.0,7.0,6.0,Male,35-44,English,Asian,False,Rent,False,Less than a year,"$50,000 to 74,999",False
+English,8.0,10.0,10.0,10.0,10.0,10.0,4.0,2.0,4.0,5.0,5.0,5.0,8.0,9.0,9.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,7.0,8.0,9.0,9.0,9.0,10.0,3.0,2.0,4.0,4.0,1.0,5.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+English,10.0,10.0,10.0,10.0,10.0,10.0,4.0,3.0,4.0,4.0,4.0,4.0,10.0,10.0,10.0,10.0,Female,45-54,English,White,False,Rent,False,21 years or more,"$75,000 to $99,999",False
+Haitian Creole,10.0,9.0,10.0,10.0,9.0,10.0,4.0,1.0,4.0,4.0,1.0,5.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+Spanish,9.0,9.0,7.0,10.0,8.0,10.0,4.0,1.0,4.0,4.0,1.0,4.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+English,3.0,1.0,2.0,5.0,5.0,5.0,2.0,1.0,3.0,4.0,4.0,3.0,9.0,4.0,8.0,4.0,Male,45-54,English,White,False,Rent,False,11-15 years,Blank,False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,3.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,45-54,English;Nepali,Asian,False,Rent,False,11-15 years,"$25,000 to $49,999",False
+English,8.0,9.0,5.0,9.0,9.0,10.0,5.0,3.0,4.0,4.0,3.0,5.0,9.0,7.0,8.0,7.0,Male,35-44,English;Spanish,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,10.0,10.0,1.0,10.0,10.0,10.0,5.0,1.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,75 or older,Blank,Italian,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,5.0,8.0,10.0,6.0,5.0,6.0,4.0,2.0,3.0,5.0,3.0,4.0,4.0,10.0,7.0,4.0,Female,55-64,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,Male,55-64,English,White,False,Rent,True,8-10 years,"$25,000 to $49,999",False
+English,7.0,7.0,8.0,2.0,2.0,7.0,3.0,3.0,4.0,4.0,3.0,4.0,8.0,6.0,6.0,3.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+Blank,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,65-74,Portuguese,White,False,Own,False,21 years or more,Blank,False
+English,6.0,7.0,2.0,8.0,6.0,7.0,5.0,2.0,4.0,4.0,5.0,5.0,9.0,7.0,8.0,6.0,Female,35-44,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,7.0,7.0,8.0,8.0,9.0,3.0,2.0,4.0,4.0,4.0,5.0,8.0,9.0,8.0,7.0,Female,45-54,English,White,True,Own,False,16-20 years,"$100,000 to $149,999",False
+Blank,4.0,4.0,8.0,9.0,4.0,7.0,4.0,4.0,4.0,3.0,3.0,3.0,6.0,9.0,8.0,8.0,Male,65-74,Indian,Asian,False,Rent,True,8-10 years,"$10,000 to $24,999",False
+English,10.0,8.0,8.0,10.0,10.0,10.0,5.0,4.0,4.0,5.0,4.0,5.0,9.0,0.0,8.0,10.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",Blank
+English,8.0,8.0,8.0,5.0,8.0,7.0,3.0,2.0,4.0,4.0,3.0,5.0,9.0,9.0,9.0,9.0,Female,45-54,English,White,True,Own,False,21 years or more,"$100,000 to $149,999",False
+English,7.0,8.0,7.0,9.0,9.0,8.0,4.0,3.0,3.0,4.0,4.0,4.0,6.0,9.0,8.0,8.0,Male,55-64,English,White,False,Own,False,11-15 years,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,10.0,1.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,4.0,5.0,2.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",False
+Portugese,10.0,9.0,9.0,9.0,9.0,10.0,3.0,3.0,3.0,4.0,5.0,5.0,10.0,10.0,8.0,8.0,Female,55-64,English;Portuguese,White,False,Rent,False,16-20 years,"$50,000 to 74,999",False
+English,10.0,10.0,6.0,9.0,9.0,10.0,5.0,3.0,0.0,3.0,4.0,5.0,9.0,8.0,8.0,8.0,Female,45-54,English,White,False,Rent,True,16-20 years,"$75,000 to $99,999",False
+English,6.0,6.0,4.0,8.0,8.0,7.0,4.0,3.0,4.0,4.0,4.0,4.0,8.0,9.0,9.0,8.0,Male,35-44,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,8.0,8.0,9.0,9.0,8.0,9.0,5.0,2.0,5.0,5.0,4.0,5.0,9.0,8.0,9.0,9.0,Female,35-44,English,Asian,True,Own,False,11-15 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,3.0,0.0,5.0,4.0,5.0,9.0,10.0,9.0,9.0,Female,75 or older,Blank,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,3.0,8.0,2.0,5.0,9.0,9.0,3.0,1.0,3.0,1.0,2.0,5.0,6.0,10.0,1.0,6.0,Male,25-34,Blank,Hispanic/Latino,True,Own,Blank,16-20 years,"$25,000 to $49,999",Blank
+English,8.0,9.0,8.0,9.0,9.0,9.0,5.0,2.0,5.0,3.0,2.0,5.0,8.0,10.0,10.0,8.0,Male,35-44,English,White,True,Own,False,8-10 years,"$150,000 or more",False
+Spanish,9.0,6.0,9.0,6.0,9.0,9.0,1.0,1.0,3.0,1.0,2.0,5.0,4.0,6.0,6.0,6.0,Female,45-54,Blank,Hispanic/Latino,True,Own,False,16-20 years,"$50,000 to 74,999",Blank
+English,9.0,9.0,10.0,8.0,9.0,10.0,5.0,2.0,5.0,3.0,3.0,5.0,8.0,9.0,8.0,9.0,Male,25-34,English,White,Blank,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,3.0,5.0,1.0,1.0,1.0,1.0,3.0,1.0,4.0,1.0,3.0,4.0,1.0,1.0,1.0,1.0,Female,25-34,English,Hispanic/Latino,True,Rent,True,21 years or more,"Less than $10,000",False
+English,5.0,8.0,3.0,9.0,9.0,9.0,4.0,2.0,0.0,3.0,3.0,4.0,5.0,7.0,9.0,7.0,Female,35-44,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,8.0,8.0,8.0,8.0,4.0,1.0,3.0,4.0,4.0,4.0,6.0,9.0,8.0,8.0,Female,25-34,English,Asian,False,Rent,True,1-3 years,"$100,000 to $149,999",False
+English,8.0,8.0,6.0,10.0,9.0,10.0,5.0,2.0,0.0,4.0,5.0,5.0,9.0,10.0,9.0,9.0,Male,25-34,English,Black/African American;White,False,Rent,False,4-7 years,"$25,000 to $49,999",True
+English,5.0,5.0,5.0,10.0,10.0,10.0,2.0,2.0,0.0,4.0,2.0,3.0,7.0,7.0,7.0,5.0,Female,45-54,English,White,False,Rent,False,4-7 years,Blank,True
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,65-74,Blank,Asian,False,Own,False,21 years or more,"Less than $10,000",False
+English,8.0,8.0,9.0,7.0,9.0,9.0,5.0,2.0,2.0,5.0,3.0,5.0,5.0,8.0,9.0,7.0,Female,35-44,English,White,True,Own,False,16-20 years,"$150,000 or more",False
+English,7.0,7.0,8.0,9.0,9.0,9.0,5.0,3.0,3.0,4.0,4.0,5.0,8.0,9.0,9.0,9.0,Male,35-44,English,Black/African American,False,Rent,True,8-10 years,Blank,False
+English,8.0,7.0,7.0,9.0,9.0,9.0,5.0,2.0,4.0,5.0,5.0,5.0,8.0,9.0,9.0,8.0,Female,55-64,English,White,False,Rent,True,8-10 years,"$25,000 to $49,999",False
+English,7.0,8.0,9.0,6.0,7.0,6.0,3.0,2.0,3.0,4.0,4.0,3.0,5.0,9.0,7.0,8.0,Male,35-44,English,White,False,Rent,True,1-3 years,"$75,000 to $99,999",False
+English,8.0,8.0,8.0,9.0,9.0,9.0,4.0,3.0,0.0,0.0,5.0,5.0,10.0,10.0,10.0,9.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$50,000 to 74,999",False
+English,9.0,9.0,6.0,9.0,9.0,10.0,4.0,1.0,4.0,4.0,4.0,5.0,7.0,10.0,8.0,8.0,Female,35-44,English;Spanish,White,True,Own,False,11-15 years,"$50,000 to 74,999",False
+English,8.0,7.0,6.0,7.0,7.0,9.0,4.0,2.0,3.0,4.0,4.0,4.0,7.0,8.0,7.0,6.0,Female,35-44,English,White,False,Own,False,1-3 years,"$50,000 to 74,999",False
+Blank,9.0,9.0,10.0,10.0,10.0,10.0,5.0,3.0,0.0,4.0,3.0,5.0,10.0,10.0,9.0,8.0,Male,55-64,Blank,White,False,Own,False,4-7 years,"$150,000 or more",False
+Blank,7.0,7.0,4.0,9.0,9.0,10.0,5.0,2.0,0.0,4.0,1.0,5.0,9.0,7.0,8.0,8.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,9.0,8.0,10.0,9.0,9.0,9.0,3.0,1.0,4.0,4.0,1.0,5.0,9.0,9.0,9.0,9.0,Male,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,0.0,4.0,2.0,5.0,10.0,10.0,10.0,10.0,Female,55-64,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",Blank
+English,8.0,8.0,8.0,8.0,8.0,8.0,4.0,3.0,3.0,3.0,3.0,4.0,7.0,8.0,8.0,7.0,Female,35-44,English,White,False,Own,False,11-15 years,"$100,000 to $149,999",Blank
+English,8.0,7.0,10.0,8.0,8.0,8.0,5.0,3.0,2.0,5.0,4.0,4.0,7.0,10.0,8.0,8.0,Female,25-34,English,White,True,Rent,Blank,1-3 years,"$100,000 to $149,999",False
+English,8.0,9.0,6.0,9.0,9.0,8.0,3.0,2.0,2.0,4.0,4.0,4.0,9.0,9.0,9.0,8.0,Female,35-44,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+Blank,8.0,8.0,9.0,9.0,9.0,9.0,3.0,2.0,5.0,3.0,3.0,5.0,9.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",False
+English,3.0,7.0,4.0,8.0,8.0,3.0,4.0,1.0,0.0,2.0,4.0,5.0,3.0,9.0,9.0,8.0,Female,35-44,English,White,False,Rent,False,11-15 years,"$150,000 or more",False
+English,9.0,9.0,10.0,9.0,9.0,9.0,4.0,3.0,1.0,5.0,4.0,5.0,10.0,10.0,10.0,10.0,Female,35-44,French,White,True,Rent,False,1-3 years,"$150,000 or more",False
+Blank,6.0,7.0,7.0,5.0,7.0,8.0,4.0,1.0,3.0,3.0,4.0,5.0,6.0,7.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$150,000 or more",False
+English,10.0,10.0,10.0,9.0,10.0,10.0,5.0,3.0,0.0,5.0,3.0,4.0,9.0,8.0,9.0,7.0,Male,65-74,English;Vietnamese and Chinese,Asian,False,Own,True,21 years or more,"$25,000 to $49,999",False
+English,3.0,6.0,6.0,4.0,3.0,5.0,1.0,3.0,4.0,4.0,3.0,3.0,5.0,9.0,8.0,5.0,Female,65-74,English,White,False,Own,True,21 years or more,"$150,000 or more",False
+English,7.0,7.0,5.0,10.0,8.0,8.0,4.0,4.0,4.0,5.0,4.0,4.0,9.0,3.0,8.0,8.0,Female,75 or older,English,White,False,Own,False,21 years or more,Blank,False
+English,8.0,10.0,7.0,9.0,9.0,10.0,5.0,2.0,4.0,4.0,1.0,4.0,10.0,9.0,9.0,8.0,Female,35-44,English,White,True,Rent,Blank,4-7 years,"$150,000 or more",True
+English,10.0,7.0,7.0,10.0,10.0,10.0,5.0,1.0,0.0,3.0,4.0,5.0,10.0,8.0,9.0,8.0,Female,45-54,English;Arabic,Blank,False,Own,False,8-10 years,"$150,000 or more",False
+English,6.0,8.0,7.0,8.0,10.0,8.0,3.0,1.0,3.0,5.0,4.0,4.0,9.0,8.0,8.0,7.0,Female,65-74,English,White,False,Rent,False,21 years or more,"$25,000 to $49,999",False
+English,8.0,7.0,4.0,10.0,7.0,6.0,1.0,1.0,3.0,5.0,5.0,5.0,10.0,10.0,7.0,7.0,Male,25-34,English;Danish,White,False,Rent,True,Less than a year,"$100,000 to $149,999",False
+English,7.0,7.0,4.0,10.0,10.0,8.0,4.0,2.0,0.0,3.0,3.0,4.0,10.0,8.0,8.0,9.0,Female,25-34,Blank,Hispanic/Latino;White,False,Rent,False,Less than a year,"$25,000 to $49,999",True
+English,7.0,5.0,5.0,7.0,9.0,8.0,3.0,1.0,0.0,5.0,4.0,4.0,8.0,9.0,10.0,9.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,0.0,0.0,0.0,2.0,1.0,1.0,2.0,2.0,0.0,3.0,1.0,3.0,9.0,0.0,6.0,1.0,Female,65-74,English,White,False,Own,Blank,21 years or more,"$10,000 to $24,999",False
+English,10.0,10.0,5.0,10.0,9.0,7.0,0.0,2.0,0.0,4.0,2.0,5.0,9.0,9.0,9.0,9.0,Female,35-44,Finnish,White,False,Rent,True,1-3 years,"$150,000 or more",False
+Blank,7.0,7.0,7.0,8.0,9.0,8.0,5.0,3.0,0.0,4.0,4.0,5.0,9.0,8.0,8.0,8.0,Female,45-54,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,0.0,0.0,0.0,5.0,5.0,10.0,4.0,3.0,3.0,5.0,5.0,3.0,10.0,10.0,8.0,3.0,Female,55-64,English,White,False,Own,False,21 years or more,Blank,False
+English,10.0,10.0,10.0,7.0,5.0,2.0,4.0,1.0,0.0,4.0,3.0,0.0,9.0,6.0,4.0,1.0,Female,65-74,English,White,False,Own,False,21 years or more,Blank,False
+Blank,9.0,10.0,7.0,9.0,9.0,10.0,5.0,2.0,3.0,3.0,3.0,4.0,9.0,9.0,8.0,7.0,Female,25-34,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,5.0,0.0,7.0,8.0,5.0,5.0,5.0,1.0,5.0,5.0,5.0,5.0,10.0,10.0,8.0,8.0,Female,55-64,English,Black/African American,False,Rent,False,21 years or more,"$50,000 to 74,999",False
+English,7.0,5.0,8.0,9.0,9.0,9.0,4.0,1.0,3.0,2.0,4.0,5.0,8.0,10.0,9.0,8.0,Male,25-34,English,White,False,Own,False,8-10 years,"$100,000 to $149,999",False
+English,7.0,8.0,7.0,9.0,9.0,10.0,4.0,2.0,2.0,3.0,3.0,3.0,10.0,9.0,9.0,7.0,Female,25-34,English,White,True,Own,False,4-7 years,"$150,000 or more",False
+English,7.0,8.0,7.0,9.0,7.0,10.0,5.0,2.0,4.0,2.0,3.0,5.0,8.0,10.0,9.0,8.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,5.0,4.0,2.0,7.0,7.0,8.0,4.0,1.0,3.0,3.0,3.0,4.0,5.0,2.0,5.0,8.0,Female,55-64,English,White,True,Blank,False,21 years or more,"Less than $10,000",False
+Blank,9.0,9.0,9.0,9.0,9.0,9.0,4.0,2.0,5.0,4.0,5.0,5.0,8.0,7.0,7.0,8.0,Female,75 or older,Blank,White,False,Own,False,21 years or more,"$10,000 to $24,999",False
+English,6.0,6.0,10.0,8.0,8.0,8.0,3.0,2.0,3.0,4.0,2.0,4.0,8.0,7.0,7.0,7.0,Male,55-64,English,White,False,Rent,False,21 years or more,"$25,000 to $49,999",False
+English,7.0,9.0,7.0,10.0,10.0,10.0,3.0,1.0,3.0,5.0,5.0,4.0,7.0,10.0,10.0,7.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$150,000 or more",False
+English,8.0,10.0,9.0,10.0,9.0,10.0,5.0,4.0,5.0,5.0,5.0,4.0,10.0,8.0,10.0,10.0,Male,75 or older,English,White,False,Own,False,21 years or more,Blank,False
+English,1.0,9.0,9.0,2.0,1.0,3.0,5.0,1.0,1.0,5.0,1.0,5.0,9.0,2.0,9.0,9.0,Female,55-64,Blank,White,False,Own,True,Blank,Blank,False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,1.0,5.0,5.0,4.0,5.0,10.0,1.0,10.0,10.0,Male,65-74,Blank,White,False,Own,False,21 years or more,"$50,000 to 74,999",Blank
+English,9.0,8.0,8.0,9.0,8.0,9.0,5.0,4.0,4.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,18-24,English,White,False,Rent,False,Less than a year,"$50,000 to 74,999",False
+English,8.0,9.0,4.0,10.0,10.0,10.0,5.0,5.0,0.0,5.0,4.0,5.0,10.0,10.0,10.0,10.0,Female,65-74,English,White,False,Own,False,16-20 years,"$25,000 to $49,999",False
+English,7.0,9.0,6.0,10.0,10.0,9.0,4.0,1.0,3.0,3.0,4.0,4.0,3.0,8.0,8.0,6.0,Female,65-74,English;Portuguese,White,False,Own,False,21 years or more,"$25,000 to $49,999",Blank
+English,4.0,3.0,3.0,9.0,9.0,9.0,1.0,1.0,3.0,3.0,1.0,4.0,3.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$25,000 to $49,999",False
+English,9.0,9.0,8.0,8.0,9.0,6.0,3.0,2.0,4.0,4.0,3.0,4.0,6.0,9.0,6.0,9.0,Female,55-64,English;German + ....,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,7.0,8.0,6.0,10.0,10.0,10.0,4.0,3.0,3.0,4.0,4.0,5.0,7.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,9.0,8.0,6.0,8.0,7.0,6.0,3.0,1.0,0.0,3.0,2.0,4.0,8.0,7.0,8.0,6.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$150,000 or more",False
+English,10.0,10.0,9.0,9.0,9.0,7.0,3.0,1.0,3.0,3.0,3.0,5.0,10.0,6.0,8.0,8.0,Female,18-24,English,Hispanic/Latino,False,Rent,True,1-3 years,Blank,True
+English,6.0,6.0,6.0,10.0,10.0,10.0,5.0,3.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,65-74,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,9.0,9.0,6.0,6.0,6.0,6.0,4.0,5.0,3.0,5.0,3.0,3.0,9.0,8.0,9.0,8.0,Male,45-54,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,6.0,7.0,4.0,9.0,8.0,10.0,5.0,1.0,4.0,4.0,5.0,5.0,10.0,10.0,10.0,7.0,Female,45-54,English,White,False,Own,False,8-10 years,"$75,000 to $99,999",False
+English,5.0,7.0,7.0,8.0,7.0,7.0,4.0,2.0,0.0,3.0,2.0,5.0,6.0,9.0,8.0,7.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",False
+English,8.0,8.0,2.0,10.0,10.0,10.0,3.0,2.0,0.0,0.0,4.0,5.0,10.0,8.0,10.0,9.0,Female,35-44,English,White,False,Rent,False,Less than a year,"$150,000 or more",False
+English,8.0,10.0,8.0,8.0,9.0,9.0,4.0,2.0,3.0,5.0,4.0,5.0,7.0,10.0,9.0,7.0,Male,75 or older,English,White,True,Own,False,21 years or more,"$150,000 or more",False
+English,9.0,9.0,9.0,9.0,9.0,10.0,4.0,3.0,3.0,4.0,4.0,4.0,9.0,9.0,9.0,9.0,Female,35-44,English;Spanish,Hispanic/Latino;White,True,Rent,False,11-15 years,"$150,000 or more",False
+English,8.0,8.0,9.0,5.0,8.0,8.0,3.0,1.0,0.0,2.0,4.0,4.0,9.0,9.0,8.0,4.0,Female,55-64,English,White,False,Rent,False,21 years or more,"$25,000 to $49,999",False
+Spanish,9.0,9.0,6.0,8.0,9.0,8.0,5.0,2.0,3.0,4.0,4.0,4.0,10.0,10.0,10.0,6.0,Male,75 or older,English,White;Jewish,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,7.0,7.0,1.0,10.0,10.0,10.0,5.0,1.0,3.0,4.0,5.0,5.0,7.0,6.0,10.0,8.0,Female,25-34,English,Blank,False,Rent,False,1-3 years,"$100,000 to $149,999",True
+English,9.0,10.0,7.0,8.0,10.0,9.0,4.0,2.0,3.0,4.0,4.0,5.0,9.0,9.0,9.0,9.0,Female,35-44,English,White,False,Own,Blank,11-15 years,"$150,000 or more",False
+English,7.0,7.0,4.0,7.0,9.0,9.0,5.0,3.0,2.0,4.0,2.0,4.0,9.0,6.0,7.0,7.0,Female,35-44,English,White,True,Own,Blank,11-15 years,Blank,False
+English,6.0,7.0,3.0,7.0,6.0,7.0,4.0,2.0,3.0,3.0,2.0,4.0,5.0,7.0,7.0,6.0,Female,25-34,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,8.0,8.0,5.0,9.0,9.0,9.0,4.0,4.0,3.0,3.0,1.0,4.0,6.0,7.0,9.0,8.0,Female,25-34,English,White,False,Own,False,Less than a year,"$75,000 to $99,999",Blank
+English,9.0,6.0,3.0,9.0,6.0,8.0,3.0,2.0,0.0,4.0,5.0,4.0,8.0,7.0,10.0,6.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$25,000 to $49,999",False
+English,7.0,8.0,5.0,9.0,8.0,9.0,4.0,1.0,4.0,3.0,3.0,4.0,7.0,9.0,8.0,5.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+Spanish,10.0,10.0,10.0,10.0,9.0,10.0,4.0,3.0,4.0,4.0,5.0,5.0,10.0,9.0,9.0,9.0,Female,55-64,Blank,Hispanic/Latino,False,Rent,False,11-15 years,"$10,000 to $24,999",False
+English,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,Female,55-64,English,White,False,Own,True,21 years or more,Blank,False
+Blank,8.0,9.0,8.0,8.0,5.0,8.0,4.0,2.0,0.0,0.0,2.0,4.0,7.0,7.0,8.0,4.0,Both selected,25-34,English,Asian;White,False,Own,False,1-3 years,"$100,000 to $149,999",False
+English,8.0,9.0,9.0,9.0,10.0,9.0,4.0,4.0,0.0,4.0,3.0,3.0,9.0,8.0,9.0,8.0,Female,75 or older,Blank,White,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,10.0,10.0,9.0,9.0,9.0,9.0,3.0,3.0,3.0,3.0,3.0,4.0,10.0,4.0,6.0,7.0,Female,65-74,English,White,False,Own,False,21 years or more,Blank,False
+English,8.0,7.0,6.0,7.0,8.0,6.0,3.0,2.0,0.0,3.0,3.0,2.0,6.0,7.0,7.0,8.0,Female,18-24,English,White,False,Rent,True,Less than a year,"$50,000 to 74,999",False
+English,7.0,8.0,3.0,10.0,10.0,9.0,5.0,3.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,8.0,9.0,6.0,9.0,9.0,8.0,5.0,3.0,4.0,4.0,4.0,5.0,9.0,8.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",True
+English,7.0,8.0,4.0,7.0,8.0,8.0,4.0,1.0,3.0,2.0,2.0,4.0,8.0,8.0,8.0,7.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",True
+English,7.0,8.0,6.0,7.0,8.0,8.0,5.0,1.0,5.0,4.0,4.0,5.0,6.0,8.0,9.0,8.0,Male,35-44,"English;Italian, Swedish",White,True,Rent,False,Blank,"$100,000 to $149,999",False
+English,8.0,9.0,9.0,3.0,5.0,10.0,4.0,2.0,2.0,5.0,5.0,5.0,9.0,9.0,8.0,9.0,Female,55-64,English,White,False,Own,False,21 years or more,"$150,000 or more",Blank
+English,8.0,8.0,8.0,10.0,10.0,10.0,4.0,4.0,4.0,4.0,4.0,5.0,10.0,9.0,10.0,9.0,Female,65-74,English,White,False,Own,False,11-15 years,"$25,000 to $49,999",False
+English,6.0,6.0,7.0,4.0,4.0,4.0,3.0,2.0,2.0,2.0,1.0,3.0,2.0,5.0,4.0,3.0,Female,35-44,English,Asian,False,Rent,True,Blank,"$150,000 or more",False
+English,7.0,8.0,7.0,4.0,3.0,4.0,3.0,1.0,2.0,3.0,2.0,5.0,6.0,5.0,1.0,2.0,Blank,45-54,English,Blank,Blank,Own,Blank,8-10 years,Blank,False
+English,7.0,7.0,7.0,6.0,1.0,6.0,4.0,1.0,4.0,4.0,3.0,5.0,9.0,7.0,1.0,3.0,Female,35-44,English,White,True,Blank,False,Blank,"$75,000 to $99,999",False
+Blank,8.0,10.0,9.0,9.0,8.0,7.0,4.0,3.0,0.0,4.0,1.0,4.0,7.0,6.0,8.0,7.0,Female,18-24,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",False
+English,10.0,10.0,1.0,10.0,10.0,10.0,5.0,5.0,3.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,45-54,Blank,Blank,True,Own,False,11-15 years,"$25,000 to $49,999",False
+English,6.0,7.0,4.0,8.0,8.0,6.0,3.0,2.0,0.0,3.0,4.0,4.0,7.0,8.0,7.0,7.0,Male,25-34,English;French,White,False,Rent,True,Less than a year,"$75,000 to $99,999",False
+English,7.0,7.0,4.0,9.0,9.0,9.0,5.0,4.0,4.0,4.0,4.0,4.0,6.0,3.0,8.0,8.0,Female,55-64,English,White,False,Rent,False,21 years or more,"Less than $10,000",False
+English,6.0,7.0,6.0,8.0,8.0,9.0,5.0,3.0,5.0,4.0,3.0,5.0,8.0,10.0,9.0,8.0,Female,35-44,English,White,True,Own,False,4-7 years,"$150,000 or more",False
+English,8.0,8.0,7.0,8.0,6.0,9.0,4.0,4.0,4.0,4.0,4.0,4.0,5.0,7.0,8.0,7.0,Male,55-64,English,White,False,Own,False,16-20 years,"$25,000 to $49,999",False
+English,9.0,9.0,9.0,9.0,9.0,9.0,4.0,1.0,3.0,5.0,5.0,5.0,9.0,5.0,9.0,5.0,Female,25-34,Bengali,Asian,True,Own,False,8-10 years,"$25,000 to $49,999",False
+English,8.0,7.0,5.0,8.0,8.0,8.0,3.0,2.0,3.0,4.0,4.0,4.0,9.0,9.0,9.0,9.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,9.0,8.0,9.0,8.0,8.0,7.0,5.0,1.0,3.0,3.0,1.0,2.0,3.0,8.0,8.0,8.0,Female,65-74,English;Haitian Creole,Black/African American,True,Own,False,21 years or more,Blank,False
+English,7.0,9.0,4.0,9.0,9.0,10.0,5.0,1.0,3.0,2.0,4.0,5.0,7.0,9.0,8.0,7.0,Female,45-54,Blank,White,False,Own,False,11-15 years,"$150,000 or more",False
+English,7.0,7.0,6.0,8.0,7.0,7.0,4.0,3.0,0.0,4.0,3.0,3.0,7.0,7.0,7.0,7.0,Female,35-44,English,White,False,Own,False,Less than a year,"$100,000 to $149,999",False
+English,7.0,7.0,9.0,8.0,9.0,8.0,4.0,1.0,4.0,2.0,4.0,4.0,9.0,9.0,10.0,9.0,Female,35-44,English,White,True,Rent,Blank,11-15 years,"$50,000 to 74,999",Blank
+English,7.0,9.0,5.0,7.0,6.0,8.0,3.0,2.0,0.0,4.0,2.0,4.0,9.0,8.0,8.0,4.0,Male,35-44,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+Blank,7.0,9.0,4.0,10.0,8.0,10.0,4.0,1.0,0.0,0.0,4.0,5.0,9.0,7.0,10.0,10.0,Female,25-34,English,White,False,Rent,True,Less than a year,"$25,000 to $49,999",False
+English,10.0,7.0,6.0,8.0,8.0,9.0,5.0,3.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+English,8.0,9.0,7.0,8.0,9.0,7.0,3.0,2.0,2.0,4.0,3.0,4.0,8.0,8.0,9.0,8.0,Female,25-34,English,Blank,True,Own,Blank,4-7 years,Blank,False
+English,7.0,6.0,7.0,8.0,8.0,8.0,4.0,2.0,0.0,0.0,2.0,5.0,7.0,8.0,8.0,8.0,Female,65-74,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",False
+English,8.0,8.0,6.0,8.0,8.0,8.0,4.0,2.0,4.0,4.0,4.0,4.0,7.0,9.0,9.0,9.0,Male,18-24,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",False
+English,7.0,8.0,9.0,8.0,8.0,8.0,5.0,2.0,0.0,4.0,4.0,5.0,10.0,7.0,9.0,9.0,Female,35-44,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,7.0,7.0,3.0,5.0,0.0,7.0,4.0,2.0,2.0,3.0,3.0,3.0,6.0,9.0,7.0,7.0,Male,65-74,Blank,White,False,Own,False,Blank,Blank,Blank
+English,6.0,5.0,5.0,8.0,9.0,8.0,4.0,2.0,0.0,3.0,3.0,4.0,8.0,8.0,6.0,7.0,Male,35-44,English;Haitian Creole,Black/African American,True,Rent,False,Less than a year,"$25,000 to $49,999",False
+English,8.0,8.0,4.0,9.0,10.0,9.0,5.0,2.0,3.0,3.0,5.0,5.0,10.0,9.0,10.0,9.0,Male,35-44,English,White,False,Rent,False,4-7 years,"$150,000 or more",False
+English,1.0,1.0,1.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,45-54,English;French Creole,Blank,True,Blank,False,11-15 years,"Less than $10,000",False
+English,7.0,7.0,3.0,7.0,7.0,8.0,4.0,2.0,3.0,3.0,3.0,4.0,6.0,6.0,6.0,5.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",False
+English,8.0,8.0,8.0,8.0,9.0,7.0,4.0,1.0,0.0,4.0,4.0,3.0,8.0,7.0,8.0,7.0,Male,35-44,English,White,False,Rent,False,4-7 years,"$150,000 or more",False
+English,8.0,8.0,6.0,9.0,9.0,10.0,5.0,5.0,0.0,5.0,3.0,4.0,6.0,0.0,8.0,9.0,Female,55-64,Portuguese,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,1.0,2.0,1.0,3.0,4.0,4.0,4.0,1.0,0.0,3.0,3.0,3.0,7.0,9.0,7.0,5.0,Male,25-34,English;French,White,False,Rent,True,1-3 years,"$100,000 to $149,999",Blank
+Spanish,8.0,7.0,5.0,8.0,9.0,8.0,4.0,3.0,4.0,4.0,4.0,5.0,5.0,9.0,8.0,8.0,Male,25-34,English,White,False,Rent,True,Less than a year,"$25,000 to $49,999",False
+English,8.0,8.0,7.0,9.0,10.0,9.0,5.0,1.0,4.0,4.0,5.0,5.0,8.0,9.0,8.0,8.0,Male,55-64,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",True
+English,10.0,10.0,8.0,9.0,8.0,9.0,4.0,3.0,3.0,4.0,4.0,5.0,8.0,7.0,8.0,8.0,Female,25-34,English,Asian,False,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,8.0,8.0,6.0,9.0,9.0,8.0,4.0,1.0,0.0,4.0,4.0,5.0,9.0,9.0,10.0,9.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,8.0,9.0,8.0,9.0,7.0,9.0,4.0,3.0,3.0,4.0,2.0,4.0,7.0,8.0,4.0,4.0,Both selected,35-44,English;Jamaican Patois,Multiple (unspecified),True,Own,False,1-3 years,"$150,000 or more",False
+English,8.0,7.0,6.0,9.0,8.0,10.0,4.0,3.0,0.0,4.0,3.0,4.0,7.0,6.0,7.0,7.0,Female,25-34,English,Asian,False,Own,False,1-3 years,"$75,000 to $99,999",False
+English,3.0,5.0,6.0,9.0,10.0,9.0,3.0,1.0,0.0,5.0,5.0,5.0,10.0,10.0,9.0,10.0,Male,35-44,English,White,False,Rent,True,4-7 years,"$100,000 to $149,999",False
+English,9.0,9.0,8.0,10.0,9.0,10.0,4.0,2.0,4.0,4.0,2.0,4.0,6.0,4.0,9.0,9.0,Male,65-74,Blank,White,True,Own,False,21 years or more,"$25,000 to $49,999",False
+English,9.0,9.0,7.0,9.0,9.0,9.0,3.0,3.0,0.0,3.0,4.0,4.0,10.0,9.0,8.0,7.0,Female,25-34,English,White,False,Rent,True,1-3 years,Blank,True
+English,7.0,10.0,9.0,8.0,8.0,8.0,4.0,3.0,3.0,4.0,3.0,4.0,7.0,7.0,7.0,6.0,Male,25-34,Chinese,Asian,False,Own,True,4-7 years,"$50,000 to 74,999",False
+English,10.0,8.0,10.0,7.0,7.0,7.0,3.0,2.0,3.0,3.0,4.0,5.0,7.0,9.0,8.0,8.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,4.0,4.0,5.0,4.0,5.0,10.0,10.0,9.0,9.0,Female,45-54,English,White,True,Own,False,21 years or more,"$150,000 or more",False
+Blank,8.0,8.0,8.0,8.0,8.0,8.0,3.0,1.0,3.0,2.0,3.0,3.0,7.0,8.0,5.0,3.0,Male,65-74,Blank,Blank,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,7.0,8.0,7.0,7.0,7.0,6.0,4.0,1.0,3.0,3.0,3.0,5.0,6.0,7.0,9.0,9.0,Both selected,35-44,English,White;Hawai'ian,True,Rent,True,4-7 years,Blank,False
+English,6.0,7.0,5.0,8.0,8.0,10.0,4.0,3.0,4.0,5.0,4.0,5.0,10.0,10.0,8.0,7.0,Female,35-44,English,White,False,Own,False,11-15 years,"$75,000 to $99,999",False
+Blank,7.0,9.0,8.0,9.0,9.0,9.0,5.0,1.0,5.0,4.0,4.0,4.0,10.0,10.0,8.0,9.0,Male,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,7.0,8.0,5.0,10.0,9.0,9.0,3.0,3.0,4.0,3.0,3.0,3.0,8.0,7.0,7.0,9.0,Female,35-44,English;Spanish,Hispanic/Latino,True,Own,False,8-10 years,"$75,000 to $99,999",False
+English,9.0,9.0,9.0,9.0,9.0,9.0,4.0,3.0,4.0,4.0,4.0,5.0,7.0,9.0,7.0,8.0,Female,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,7.0,9.0,6.0,9.0,10.0,8.0,4.0,2.0,2.0,4.0,4.0,4.0,9.0,10.0,9.0,9.0,Female,35-44,English,White,True,Own,False,Less than a year,"$150,000 or more",False
+Blank,10.0,9.0,10.0,9.0,9.0,9.0,4.0,3.0,4.0,4.0,3.0,5.0,9.0,10.0,10.0,8.0,Male,25-34,Italian,White,False,Rent,False,Less than a year,"$100,000 to $149,999",False
+English,9.0,9.0,8.0,9.0,9.0,7.0,4.0,2.0,3.0,4.0,3.0,4.0,8.0,9.0,7.0,8.0,Male,25-34,English;Russian,White,True,Own,False,8-10 years,"$100,000 to $149,999",False
+English,10.0,9.0,8.0,10.0,7.0,8.0,4.0,3.0,5.0,4.0,2.0,5.0,10.0,8.0,10.0,8.0,Female,25-34,English,White,False,Rent,True,Less than a year,"$100,000 to $149,999",False
+English,7.0,7.0,9.0,7.0,9.0,9.0,5.0,1.0,0.0,3.0,4.0,4.0,4.0,7.0,7.0,8.0,Female,25-34,English,Asian,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,4.0,5.0,5.0,3.0,5.0,8.0,10.0,7.0,8.0,Female,35-44,English,Asian,True,Rent,True,16-20 years,Blank,False
+English,8.0,8.0,6.0,7.0,7.0,6.0,3.0,1.0,0.0,5.0,4.0,5.0,5.0,7.0,10.0,6.0,Multiple people,25-34,English,White,False,Rent,True,1-3 years,Blank,False
+English,2.0,2.0,4.0,1.0,1.0,1.0,3.0,3.0,3.0,3.0,3.0,3.0,8.0,4.0,9.0,5.0,Male,35-44,Blank,White,False,Own,Blank,11-15 years,Blank,Blank
+English,10.0,8.0,7.0,10.0,9.0,10.0,4.0,4.0,0.0,4.0,4.0,5.0,6.0,8.0,8.0,10.0,Male,25-34,English,White,False,Neither,False,1-3 years,"$100,000 to $149,999",False
+English,7.0,7.0,5.0,10.0,9.0,3.0,3.0,1.0,0.0,1.0,1.0,1.0,1.0,5.0,9.0,8.0,Male,25-34,English;Spanish;Mandarin,Asian;White,False,Rent,False,1-3 years,"$50,000 to 74,999",True
+English,0.0,0.0,0.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,3.0,0.0,3.0,1.0,1.0,1.0,Female,75 or older,Blank,Blank,False,Rent,Blank,8-10 years,"$10,000 to $24,999",False
+English,7.0,7.0,9.0,8.0,7.0,8.0,4.0,3.0,0.0,4.0,3.0,4.0,8.0,9.0,7.0,4.0,Male,35-44,English,White,False,Own,False,11-15 years,Blank,Blank
+English,6.0,8.0,4.0,9.0,9.0,8.0,3.0,2.0,2.0,4.0,4.0,5.0,9.0,9.0,9.0,8.0,Male,25-34,English,White,False,Rent,True,11-15 years,"$150,000 or more",False
+Blank,9.0,9.0,10.0,10.0,10.0,9.0,3.0,3.0,3.0,4.0,5.0,5.0,9.0,10.0,10.0,10.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",Blank
+English,9.0,9.0,6.0,9.0,9.0,10.0,4.0,3.0,3.0,4.0,3.0,4.0,10.0,8.0,8.0,7.0,Female,55-64,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,5.0,4.0,7.0,8.0,8.0,8.0,3.0,2.0,3.0,4.0,1.0,3.0,5.0,5.0,7.0,7.0,Female,45-54,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,6.0,7.0,7.0,4.0,5.0,4.0,2.0,3.0,2.0,2.0,4.0,4.0,8.0,7.0,6.0,4.0,Female,35-44,English,Blank,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+Spanish,4.0,6.0,3.0,7.0,7.0,6.0,3.0,1.0,3.0,3.0,4.0,4.0,9.0,8.0,9.0,7.0,Female,55-64,Blank,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,9.0,0.0,2.0,9.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,9.0,0.0,Male,55-64,English,White,True,Rent,False,Blank,Blank,Blank
+English,8.0,9.0,8.0,9.0,9.0,8.0,5.0,3.0,3.0,3.0,3.0,4.0,9.0,9.0,8.0,8.0,Female,35-44,English,White,True,Own,True,8-10 years,"$150,000 or more",False
+English,7.0,9.0,8.0,7.0,7.0,9.0,3.0,3.0,0.0,3.0,2.0,5.0,7.0,10.0,10.0,8.0,Female,25-34,English,White,False,Own,False,Less than a year,"$150,000 or more",False
+English,9.0,9.0,9.0,10.0,10.0,10.0,4.0,5.0,3.0,3.0,4.0,5.0,8.0,9.0,9.0,8.0,Male,25-34,English,White,False,Own,False,8-10 years,"$75,000 to $99,999",False
+Blank,10.0,10.0,6.0,10.0,10.0,10.0,5.0,4.0,4.0,4.0,2.0,5.0,10.0,10.0,10.0,9.0,Multiple people,25-34,English,Black/African American;White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,7.0,5.0,10.0,10.0,10.0,4.0,1.0,3.0,5.0,4.0,4.0,9.0,10.0,9.0,7.0,Male,25-34,English,White,False,Blank,Blank,1-3 years,"$100,000 to $149,999",Blank
+Blank,10.0,10.0,10.0,9.0,9.0,9.0,4.0,3.0,0.0,0.0,4.0,4.0,9.0,8.0,7.0,4.0,Female,25-34,English,White,False,Own,True,1-3 years,"$150,000 or more",False
+English,10.0,8.0,8.0,6.0,7.0,1.0,3.0,2.0,0.0,2.0,4.0,5.0,6.0,10.0,10.0,7.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$10,000 to $24,999",True
+English,7.0,6.0,4.0,2.0,6.0,7.0,3.0,1.0,2.0,3.0,1.0,2.0,5.0,3.0,4.0,4.0,Female,25-34,English,Hispanic/Latino;White,False,Rent,True,4-7 years,"$25,000 to $49,999",False
+English,9.0,9.0,7.0,9.0,9.0,9.0,0.0,2.0,0.0,0.0,4.0,5.0,9.0,9.0,8.0,7.0,Female,25-34,English;Bengali,Asian,False,Rent,Blank,Less than a year,Blank,False
+English,8.0,7.0,9.0,8.0,10.0,10.0,4.0,1.0,4.0,4.0,3.0,5.0,7.0,6.0,9.0,8.0,Female,35-44,English;French,White,True,Blank,False,4-7 years,"$25,000 to $49,999",False
+English,9.0,9.0,9.0,8.0,10.0,8.0,5.0,2.0,3.0,4.0,4.0,5.0,8.0,10.0,9.0,8.0,Female,45-54,English,White,False,Rent,True,4-7 years,"$150,000 or more",False
+Spanish,9.0,8.0,10.0,9.0,7.0,9.0,3.0,3.0,4.0,5.0,4.0,3.0,9.0,6.0,10.0,10.0,Female,35-44,English,Hispanic/Latino,True,Blank,False,16-20 years,Blank,Blank
+English,4.0,6.0,4.0,7.0,7.0,8.0,4.0,2.0,3.0,2.0,4.0,4.0,6.0,8.0,7.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"Less than $10,000",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,0.0,1.0,0.0,5.0,1.0,5.0,10.0,10.0,10.0,10.0,Female,75 or older,English,Black/African American,False,Rent,False,21 years or more,"$25,000 to $49,999",False
+English,4.0,4.0,4.0,6.0,6.0,6.0,4.0,1.0,5.0,3.0,1.0,4.0,7.0,3.0,1.0,2.0,Female,55-64,English,White,True,Own,True,21 years or more,"$75,000 to $99,999",Blank
+English,6.0,8.0,9.0,6.0,6.0,6.0,3.0,1.0,3.0,4.0,2.0,5.0,4.0,9.0,7.0,5.0,Female,45-54,English,White,True,Own,True,11-15 years,"$100,000 to $149,999",False
+English,9.0,9.0,6.0,9.0,8.0,8.0,4.0,2.0,0.0,4.0,4.0,4.0,10.0,7.0,8.0,7.0,Female,25-34,English;Bosnian,White,True,Own,True,8-10 years,"$150,000 or more",False
+English,10.0,9.0,9.0,10.0,10.0,10.0,4.0,2.0,0.0,4.0,4.0,5.0,9.0,9.0,9.0,10.0,Male,45-54,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,3.0,6.0,6.0,8.0,5.0,9.0,3.0,2.0,3.0,2.0,3.0,5.0,7.0,6.0,8.0,6.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,4.0,9.0,9.0,9.0,5.0,2.0,4.0,5.0,3.0,5.0,9.0,9.0,7.0,6.0,Male,45-54,English,White,True,Own,False,8-10 years,"$150,000 or more",False
+Blank,7.0,6.0,2.0,6.0,6.0,5.0,3.0,4.0,3.0,3.0,2.0,4.0,7.0,5.0,5.0,7.0,Female,18-24,English,White,False,Rent,True,Less than a year,"$50,000 to 74,999",True
+English,7.0,7.0,6.0,7.0,7.0,9.0,4.0,1.0,3.0,4.0,3.0,5.0,8.0,9.0,7.0,5.0,Female,35-44,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+Spanish,9.0,9.0,7.0,10.0,10.0,10.0,5.0,4.0,5.0,4.0,5.0,4.0,10.0,8.0,8.0,8.0,Male,45-54,Spanish,Blank,True,Own,False,21 years or more,"$25,000 to $49,999",False
+English,4.0,5.0,4.0,3.0,4.0,5.0,3.0,1.0,3.0,3.0,1.0,3.0,1.0,5.0,5.0,3.0,Female,55-64,Blank,White,False,Own,False,11-15 years,"$25,000 to $49,999",False
+English,5.0,4.0,7.0,7.0,6.0,10.0,4.0,1.0,4.0,3.0,3.0,3.0,7.0,5.0,7.0,6.0,Female,25-34,English;Haitian Creole,Black/African American;Haitian,False,Own,False,16-20 years,"$25,000 to $49,999",False
+Blank,8.0,8.0,7.0,7.0,5.0,8.0,4.0,2.0,0.0,3.0,2.0,4.0,5.0,6.0,4.0,3.0,Female,35-44,English,White,False,Own,False,Less than a year,"$100,000 to $149,999",Blank
+English,8.0,8.0,6.0,8.0,8.0,9.0,5.0,3.0,3.0,5.0,5.0,5.0,10.0,7.0,8.0,4.0,Female,25-34,English,White,False,Own,False,1-3 years,Blank,Blank
+English,7.0,7.0,1.0,7.0,9.0,7.0,4.0,2.0,0.0,0.0,5.0,5.0,7.0,5.0,9.0,7.0,Female,25-34,English,Asian,False,Rent,Blank,11-15 years,"$150,000 or more",False
+English,10.0,9.0,9.0,9.0,9.0,9.0,5.0,2.0,4.0,4.0,4.0,5.0,8.0,9.0,8.0,8.0,Male,35-44,English,White,True,Own,False,21 years or more,"$150,000 or more",False
+English,9.0,9.0,3.0,7.0,7.0,9.0,5.0,2.0,1.0,4.0,2.0,4.0,9.0,9.0,2.0,3.0,Male,25-34,English,White,True,Own,True,1-3 years,"$150,000 or more",False
+English,6.0,7.0,10.0,9.0,8.0,10.0,3.0,2.0,3.0,5.0,1.0,3.0,7.0,5.0,2.0,2.0,Female,45-54,English,White,False,Own,False,8-10 years,"$25,000 to $49,999",False
+English,4.0,9.0,2.0,10.0,1.0,10.0,5.0,1.0,5.0,5.0,5.0,5.0,10.0,7.0,10.0,7.0,Female,35-44,English;Haitian Creole,Black/African American,True,Rent,True,4-7 years,Blank,False
+English,10.0,10.0,9.0,10.0,10.0,10.0,5.0,5.0,3.0,5.0,5.0,5.0,10.0,7.0,10.0,10.0,Female,65-74,Blank,Black/African American,False,Blank,False,21 years or more,"$75,000 to $99,999",False
+English,8.0,8.0,5.0,8.0,8.0,8.0,2.0,2.0,2.0,4.0,4.0,4.0,5.0,7.0,7.0,7.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,8.0,8.0,5.0,8.0,8.0,6.0,3.0,1.0,3.0,4.0,4.0,5.0,9.0,7.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,7.0,6.0,8.0,8.0,7.0,7.0,4.0,3.0,2.0,4.0,4.0,5.0,4.0,6.0,7.0,7.0,Female,35-44,English,White,False,Own,False,11-15 years,"$75,000 to $99,999",False
+English,8.0,8.0,3.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,7.0,8.0,9.0,10.0,Male,55-64,English,Black/African American,False,Rent,False,8-10 years,"$50,000 to 74,999",False
+English,7.0,7.0,6.0,8.0,8.0,7.0,2.0,1.0,0.0,3.0,3.0,4.0,8.0,9.0,9.0,9.0,Female,35-44,English,White,False,Rent,True,4-7 years,Blank,False
+English,6.0,7.0,6.0,8.0,7.0,8.0,5.0,3.0,0.0,4.0,3.0,5.0,4.0,4.0,7.0,4.0,Female,25-34,English,White,False,Own,False,1-3 years,"$100,000 to $149,999",False
+Spanish,9.0,9.0,7.0,8.0,8.0,8.0,4.0,2.0,4.0,3.0,4.0,4.0,9.0,9.0,9.0,9.0,Male,25-34,English;Spanish,Hispanic/Latino,True,Rent,Blank,1-3 years,"$75,000 to $99,999",False
+English,8.0,9.0,4.0,7.0,5.0,6.0,4.0,1.0,3.0,1.0,4.0,5.0,9.0,9.0,9.0,9.0,Female,25-34,English;Spanish,White,True,Rent,True,1-3 years,"$75,000 to $99,999",False
+English,9.0,9.0,9.0,9.0,10.0,8.0,5.0,3.0,3.0,4.0,2.0,5.0,5.0,8.0,5.0,9.0,Female,25-34,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,10.0,10.0,6.0,3.0,3.0,8.0,4.0,1.0,2.0,5.0,1.0,4.0,10.0,6.0,5.0,4.0,Male,35-44,English,White,True,Own,True,21 years or more,"$150,000 or more",False
+English,9.0,8.0,8.0,10.0,7.0,10.0,4.0,3.0,3.0,3.0,3.0,3.0,7.0,5.0,8.0,8.0,Female,35-44,English,Asian;White,False,Rent,True,4-7 years,"$50,000 to 74,999",False
+English,7.0,7.0,9.0,6.0,7.0,7.0,4.0,1.0,0.0,4.0,1.0,0.0,7.0,7.0,0.0,7.0,Male,55-64,English,White,False,Rent,True,4-7 years,"$75,000 to $99,999",False
+English,9.0,8.0,7.0,9.0,7.0,9.0,4.0,2.0,0.0,2.0,3.0,4.0,9.0,9.0,10.0,4.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,9.0,8.0,10.0,9.0,9.0,10.0,5.0,1.0,4.0,3.0,3.0,5.0,7.0,8.0,10.0,9.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$25,000 to $49,999",False
+English,5.0,5.0,6.0,7.0,7.0,7.0,4.0,1.0,4.0,5.0,5.0,5.0,8.0,8.0,8.0,8.0,Female,35-44,English,White,True,Rent,True,21 years or more,"$25,000 to $49,999",False
+English,6.0,6.0,6.0,6.0,9.0,6.0,3.0,1.0,3.0,4.0,4.0,4.0,8.0,6.0,6.0,6.0,Female,75 or older,English,White,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,8.0,8.0,6.0,8.0,4.0,10.0,5.0,1.0,4.0,4.0,3.0,5.0,8.0,8.0,9.0,9.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$100,000 to $149,999",False
+English,9.0,8.0,7.0,8.0,8.0,6.0,3.0,2.0,0.0,0.0,2.0,4.0,9.0,9.0,8.0,7.0,Male,25-34,English,White,False,Rent,True,Less than a year,"$50,000 to 74,999",False
+English,9.0,5.0,4.0,6.0,6.0,8.0,5.0,1.0,4.0,4.0,3.0,5.0,10.0,10.0,10.0,9.0,Female,25-34,English,White,False,Rent,Blank,4-7 years,"$75,000 to $99,999",False
+English,9.0,10.0,8.0,10.0,10.0,9.0,4.0,1.0,2.0,5.0,5.0,4.0,9.0,9.0,9.0,9.0,Female,25-34,English;Portuguese;German,White,True,Rent,False,1-3 years,Blank,False
+English,7.0,8.0,4.0,9.0,8.0,9.0,4.0,2.0,3.0,3.0,2.0,5.0,4.0,7.0,4.0,0.0,Non-binary,55-64,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",False
+English,8.0,8.0,8.0,1.0,8.0,1.0,4.0,4.0,0.0,4.0,4.0,0.0,8.0,8.0,8.0,8.0,Male,45-54,English,Blank,False,Own,True,11-15 years,"$75,000 to $99,999",False
+English,9.0,7.0,8.0,9.0,10.0,9.0,3.0,3.0,4.0,5.0,4.0,4.0,9.0,9.0,8.0,9.0,Female,55-64,English,Black/African American,False,Rent,True,4-7 years,"$25,000 to $49,999",False
+English,5.0,1.0,0.0,5.0,10.0,8.0,1.0,0.0,0.0,5.0,3.0,3.0,4.0,8.0,1.0,8.0,Female,75 or older,English,White,False,Own,False,21 years or more,Blank,False
+English,10.0,10.0,2.0,10.0,10.0,10.0,5.0,1.0,3.0,4.0,4.0,5.0,10.0,9.0,10.0,9.0,Male,35-44,Italian,White,True,Own,False,8-10 years,"$150,000 or more",False
+English,5.0,8.0,1.0,9.0,9.0,6.0,4.0,0.0,3.0,3.0,4.0,4.0,9.0,8.0,8.0,8.0,Female,55-64,English;Portuguese;French,Black/African American;White,False,Own,False,21 years or more,"$150,000 or more",False
+English,9.0,9.0,9.0,9.0,9.0,9.0,4.0,3.0,3.0,3.0,4.0,4.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+English,8.0,8.0,8.0,9.0,9.0,10.0,5.0,4.0,5.0,5.0,5.0,5.0,9.0,9.0,9.0,9.0,Female,55-64,English,Blank,False,Rent,False,21 years or more,"$150,000 or more",False
+Blank,10.0,10.0,10.0,8.0,10.0,0.0,5.0,1.0,3.0,5.0,4.0,4.0,10.0,10.0,10.0,10.0,Both selected,25-34,English,White,False,Rent,True,4-7 years,Blank,False
+English,7.0,8.0,4.0,8.0,4.0,6.0,5.0,3.0,0.0,0.0,2.0,4.0,6.0,7.0,5.0,2.0,Both selected,25-34,English,White,False,Rent,False,Less than a year,"$100,000 to $149,999",False
+English,8.0,8.0,7.0,9.0,9.0,8.0,4.0,2.0,3.0,4.0,3.0,4.0,7.0,9.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,8-10 years,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,3.0,0.0,5.0,4.0,0.0,10.0,10.0,8.0,8.0,Female,65-74,Blank,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,6.0,6.0,4.0,8.0,8.0,8.0,4.0,2.0,3.0,5.0,4.0,3.0,4.0,8.0,8.0,6.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,7.0,7.0,9.0,6.0,6.0,7.0,4.0,3.0,0.0,4.0,2.0,4.0,7.0,8.0,6.0,5.0,Male,55-64,English,White,False,Rent,False,16-20 years,"$100,000 to $149,999",Blank
+English,8.0,7.0,8.0,9.0,9.0,10.0,4.0,2.0,3.0,1.0,2.0,5.0,10.0,8.0,9.0,9.0,Non-binary,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,7.0,8.0,9.0,9.0,9.0,10.0,5.0,2.0,3.0,4.0,4.0,5.0,10.0,8.0,7.0,8.0,Female,55-64,English,Jewish,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,9.0,8.0,4.0,9.0,9.0,9.0,3.0,2.0,1.0,5.0,5.0,5.0,9.0,9.0,8.0,9.0,Male,25-34,English;Tamil,Blank,False,Rent,False,Less than a year,Blank,False
+English,7.0,8.0,10.0,6.0,9.0,9.0,5.0,1.0,3.0,5.0,4.0,4.0,7.0,10.0,4.0,4.0,Male,35-44,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,6.0,6.0,8.0,8.0,6.0,7.0,4.0,2.0,0.0,4.0,4.0,5.0,7.0,8.0,8.0,8.0,Female,45-54,English,White,False,Rent,Blank,1-3 years,"$75,000 to $99,999",False
+English,6.0,7.0,6.0,8.0,7.0,9.0,3.0,2.0,3.0,3.0,3.0,5.0,5.0,5.0,7.0,6.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$25,000 to $49,999",True
+Portugese,1.0,1.0,9.0,1.0,2.0,1.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,Female,65-74,Portuguese,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,6.0,6.0,8.0,10.0,10.0,3.0,1.0,0.0,0.0,3.0,5.0,10.0,9.0,8.0,4.0,Both selected,25-34,English,White,False,Rent,True,4-7 years,"$100,000 to $149,999",False
+Blank,8.0,8.0,5.0,8.0,9.0,9.0,4.0,1.0,0.0,4.0,3.0,4.0,7.0,7.0,8.0,8.0,Female,45-54,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+Portugese,10.0,10.0,6.0,10.0,10.0,10.0,5.0,2.0,3.0,5.0,3.0,5.0,10.0,10.0,7.0,6.0,Female,55-64,Portuguese,Hispanic/Latino;White,False,Rent,False,16-20 years,"$25,000 to $49,999",False
+English,8.0,10.0,10.0,9.0,8.0,9.0,4.0,2.0,3.0,4.0,3.0,5.0,7.0,6.0,8.0,7.0,Female,25-34,English,White,False,Rent,False,4-7 years,"Less than $10,000",True
+English,8.0,9.0,8.0,9.0,9.0,7.0,3.0,3.0,3.0,4.0,4.0,4.0,9.0,10.0,9.0,8.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$75,000 to $99,999",False
+Blank,5.0,5.0,3.0,5.0,7.0,5.0,3.0,1.0,3.0,1.0,3.0,3.0,1.0,5.0,5.0,5.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+Blank,10.0,10.0,10.0,10.0,1.0,0.0,1.0,1.0,1.0,5.0,1.0,5.0,10.0,10.0,1.0,1.0,Female,65-74,English,White,False,Rent,False,4-7 years,Blank,False
+English,8.0,8.0,8.0,5.0,7.0,6.0,3.0,1.0,3.0,2.0,1.0,4.0,7.0,6.0,8.0,8.0,Male,25-34,Blank,White,False,Rent,True,4-7 years,Blank,False
+English,10.0,10.0,9.0,8.0,8.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,9.0,10.0,8.0,Female,35-44,English,White,False,Own,False,1-3 years,"$150,000 or more",False
+English,4.0,5.0,4.0,3.0,5.0,5.0,2.0,1.0,4.0,3.0,4.0,5.0,6.0,1.0,6.0,4.0,Female,35-44,English;Bengali,Asian,True,Rent,True,16-20 years,"$25,000 to $49,999",False
+English,9.0,8.0,7.0,8.0,10.0,10.0,4.0,1.0,4.0,4.0,4.0,5.0,9.0,10.0,5.0,9.0,Female,45-54,English,White,True,Own,False,11-15 years,"$100,000 to $149,999",False
+English,1.0,9.0,10.0,1.0,1.0,1.0,1.0,1.0,3.0,3.0,1.0,3.0,5.0,1.0,5.0,5.0,Female,45-54,English,White,False,Own,True,21 years or more,"$50,000 to 74,999",False
+English,9.0,8.0,10.0,8.0,8.0,8.0,4.0,4.0,4.0,4.0,2.0,4.0,3.0,8.0,8.0,8.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$75,000 to $99,999",False
+Blank,6.0,6.0,8.0,9.0,7.0,10.0,3.0,1.0,0.0,5.0,4.0,5.0,9.0,10.0,8.0,8.0,Female,65-74,English,White,False,Rent,False,16-20 years,"$25,000 to $49,999",Blank
+English,2.0,2.0,1.0,3.0,6.0,3.0,3.0,1.0,2.0,2.0,4.0,5.0,3.0,5.0,6.0,5.0,Female,45-54,Blank,Blank,True,Rent,Blank,16-20 years,Blank,False
+English,10.0,10.0,10.0,8.0,8.0,8.0,4.0,2.0,2.0,3.0,4.0,3.0,9.0,9.0,8.0,6.0,Male,45-54,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,9.0,8.0,10.0,10.0,8.0,10.0,4.0,3.0,4.0,5.0,5.0,4.0,8.0,10.0,9.0,8.0,Male,45-54,Blank,Arab;French,True,Rent,False,1-3 years,"$25,000 to $49,999",Blank
+English,7.0,7.0,7.0,8.0,9.0,10.0,4.0,3.0,4.0,5.0,5.0,4.0,3.0,10.0,10.0,10.0,Male,35-44,English,Indian American,False,Own,False,4-7 years,"$150,000 or more",Blank
+English,8.0,8.0,8.0,9.0,9.0,10.0,4.0,1.0,3.0,4.0,4.0,5.0,10.0,9.0,10.0,10.0,Female,35-44,English,White,False,Rent,False,11-15 years,"$50,000 to 74,999",False
+English,8.0,6.0,6.0,6.0,6.0,6.0,4.0,4.0,4.0,4.0,4.0,4.0,6.0,6.0,6.0,6.0,Female,55-64,Haitian Creole,Black/African American,False,Rent,True,16-20 years,"$25,000 to $49,999",False
+Haitian Creole,5.0,5.0,5.0,5.0,5.0,5.0,3.0,3.0,3.0,3.0,3.0,3.0,7.0,7.0,7.0,7.0,Male,65-74,Haitian Creole,Blank,False,Rent,Blank,21 years or more,"$25,000 to $49,999",False
+English,10.0,8.0,9.0,0.0,5.0,7.0,3.0,2.0,3.0,2.0,3.0,3.0,9.0,3.0,8.0,8.0,Female,25-34,English,White,False,Rent,True,Less than a year,"$25,000 to $49,999",False
+English,3.0,10.0,8.0,5.0,7.0,4.0,3.0,3.0,3.0,3.0,3.0,4.0,5.0,6.0,4.0,4.0,Both selected,65-74,Blank,White,False,Rent,True,1-3 years,"$10,000 to $24,999",Blank
+English,8.0,8.0,8.0,9.0,8.0,10.0,4.0,1.0,0.0,0.0,4.0,3.0,8.0,10.0,9.0,8.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$150,000 or more",False
+English,9.0,9.0,10.0,9.0,9.0,10.0,4.0,5.0,3.0,3.0,3.0,4.0,8.0,9.0,8.0,9.0,Male,Blank,English;Haitian Creole;French,Black/African American,False,Own,Blank,21 years or more,Blank,False
+English,8.0,9.0,10.0,10.0,10.0,10.0,5.0,3.0,4.0,5.0,5.0,5.0,9.0,10.0,10.0,10.0,Female,55-64,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",False
+English,9.0,9.0,4.0,5.0,6.0,7.0,5.0,1.0,0.0,3.0,2.0,5.0,10.0,6.0,2.0,4.0,Female,45-54,English,White,False,Own,Blank,4-7 years,"$100,000 to $149,999",False
+English,5.0,7.0,4.0,10.0,10.0,10.0,4.0,2.0,3.0,4.0,4.0,3.0,5.0,10.0,9.0,10.0,Male,75 or older,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,65-74,Blank,Black/African American,Blank,Own,False,21 years or more,"$25,000 to $49,999",False
+English,6.0,7.0,3.0,7.0,8.0,8.0,5.0,1.0,0.0,5.0,3.0,5.0,7.0,10.0,5.0,5.0,Female,55-64,English,White,False,Rent,True,1-3 years,"$100,000 to $149,999",False
+English,6.0,9.0,8.0,9.0,8.0,9.0,4.0,3.0,4.0,4.0,3.0,4.0,9.0,8.0,8.0,6.0,Female,55-64,Blank,Hispanic/Latino,False,Own,False,Blank,"$150,000 or more",Blank
+English,8.0,7.0,6.0,7.0,7.0,7.0,5.0,2.0,3.0,4.0,4.0,4.0,7.0,8.0,7.0,7.0,Female,25-34,English,White,False,Rent,True,4-7 years,"$150,000 or more",False
+English,7.0,7.0,7.0,8.0,8.0,7.0,4.0,1.0,4.0,3.0,3.0,5.0,7.0,10.0,7.0,5.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",True
+English,7.0,7.0,5.0,9.0,10.0,9.0,4.0,4.0,4.0,3.0,4.0,5.0,9.0,9.0,9.0,10.0,Male,18-24,English,White,False,Rent,True,Less than a year,"$10,000 to $24,999",Blank
+English,7.0,6.0,5.0,7.0,6.0,6.0,4.0,3.0,3.0,4.0,4.0,4.0,6.0,5.0,6.0,5.0,Female,45-54,English,White,False,Own,False,16-20 years,"$100,000 to $149,999",False
+English,10.0,8.0,10.0,8.0,8.0,8.0,3.0,3.0,0.0,3.0,4.0,4.0,8.0,8.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$100,000 to $149,999",False
+English,10.0,8.0,6.0,9.0,8.0,9.0,3.0,2.0,5.0,5.0,5.0,5.0,8.0,9.0,9.0,7.0,Female,45-54,English,Asian,False,Rent,False,4-7 years,"$50,000 to 74,999",True
+Portugese,8.0,9.0,9.0,8.0,9.0,7.0,3.0,3.0,3.0,3.0,4.0,3.0,7.0,9.0,9.0,9.0,Male,25-34,English,White,False,Rent,True,Less than a year,"$10,000 to $24,999",True
+English,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Female,65-74,English,White,False,Rent,False,21 years or more,"Less than $10,000",False
+English,10.0,10.0,10.0,8.0,8.0,6.0,5.0,4.0,0.0,5.0,3.0,5.0,9.0,8.0,10.0,8.0,Female,35-44,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,9.0,9.0,10.0,8.0,9.0,9.0,5.0,1.0,3.0,4.0,4.0,4.0,8.0,8.0,9.0,9.0,Male,75 or older,English,White,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,8.0,8.0,10.0,8.0,8.0,8.0,3.0,2.0,4.0,3.0,2.0,3.0,7.0,7.0,8.0,8.0,Female,75 or older,Blank,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,6.0,8.0,4.0,5.0,9.0,7.0,5.0,3.0,3.0,5.0,3.0,5.0,9.0,4.0,6.0,9.0,Female,75 or older,English,White,False,Neither,False,21 years or more,"$10,000 to $24,999",False
+English,4.0,4.0,3.0,7.0,7.0,9.0,4.0,1.0,3.0,3.0,3.0,5.0,7.0,8.0,8.0,8.0,Male,35-44,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+Blank,6.0,5.0,4.0,7.0,6.0,6.0,3.0,1.0,4.0,1.0,2.0,3.0,4.0,9.0,7.0,7.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$10,000 to $24,999",False
+English,8.0,8.0,5.0,8.0,8.0,8.0,3.0,2.0,3.0,4.0,4.0,4.0,9.0,8.0,9.0,7.0,Female,18-24,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,9.0,8.0,4.0,9.0,8.0,8.0,4.0,2.0,0.0,1.0,5.0,5.0,7.0,7.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$10,000 to $24,999",True
+English,7.0,7.0,7.0,8.0,10.0,8.0,4.0,1.0,3.0,5.0,3.0,5.0,8.0,8.0,8.0,8.0,Female,55-64,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",False
+English,7.0,7.0,5.0,6.0,6.0,5.0,2.0,2.0,3.0,4.0,3.0,2.0,8.0,2.0,6.0,4.0,Female,18-24,English,White,False,Rent,True,Less than a year,"$50,000 to 74,999",True
+English,10.0,10.0,10.0,8.0,6.0,8.0,1.0,3.0,0.0,4.0,1.0,0.0,1.0,5.0,8.0,8.0,Male,35-44,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",False
+English,8.0,9.0,4.0,9.0,9.0,9.0,4.0,3.0,2.0,3.0,4.0,4.0,7.0,9.0,7.0,9.0,Female,35-44,English,Asian,False,Own,False,11-15 years,Blank,False
+English,7.0,7.0,5.0,9.0,9.0,9.0,5.0,1.0,3.0,3.0,3.0,5.0,6.0,9.0,9.0,8.0,Male,35-44,English,White,False,Rent,True,8-10 years,"$100,000 to $149,999",False
+English,7.0,9.0,8.0,10.0,10.0,10.0,4.0,2.0,4.0,4.0,4.0,5.0,9.0,7.0,8.0,8.0,Female,35-44,English;Russian,White,True,Own,False,8-10 years,"$75,000 to $99,999",False
+English,8.0,8.0,7.0,6.0,8.0,7.0,5.0,1.0,3.0,5.0,3.0,5.0,4.0,8.0,9.0,8.0,Female,35-44,English,White,True,Rent,True,11-15 years,Blank,False
+Blank,9.0,9.0,7.0,9.0,7.0,10.0,3.0,3.0,3.0,5.0,4.0,4.0,9.0,7.0,9.0,7.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,8.0,9.0,9.0,9.0,9.0,8.0,5.0,4.0,3.0,3.0,4.0,5.0,8.0,9.0,9.0,8.0,Male,55-64,English,Blank,False,Own,False,4-7 years,"$150,000 or more",False
+English,5.0,4.0,4.0,6.0,8.0,8.0,3.0,1.0,3.0,2.0,3.0,5.0,3.0,4.0,10.0,9.0,Female,35-44,English,White,False,Rent,False,8-10 years,"$100,000 to $149,999",False
+English,9.0,10.0,5.0,8.0,9.0,9.0,4.0,1.0,3.0,4.0,3.0,5.0,7.0,9.0,9.0,10.0,Both selected,25-34,English,White,False,Rent,True,4-7 years,"$150,000 or more",False
+English,8.0,8.0,7.0,9.0,9.0,9.0,5.0,2.0,3.0,4.0,5.0,5.0,8.0,10.0,10.0,8.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,5.0,5.0,5.0,3.0,1.0,0.0,3.0,3.0,0.0,8.0,5.0,5.0,5.0,Female,65-74,Blank,White,False,Blank,Blank,21 years or more,Blank,False
+English,10.0,10.0,9.0,10.0,10.0,10.0,5.0,3.0,4.0,4.0,4.0,5.0,9.0,10.0,9.0,9.0,Male,55-64,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",False
+English,8.0,7.0,3.0,10.0,10.0,10.0,3.0,1.0,3.0,3.0,1.0,2.0,4.0,5.0,2.0,4.0,Female,65-74,English,White,False,Own,False,21 years or more,"Less than $10,000",False
+English,8.0,9.0,10.0,10.0,8.0,0.0,3.0,3.0,0.0,3.0,3.0,3.0,4.0,6.0,6.0,4.0,Male,55-64,English;Spanish,Hispanic/Latino;White,False,Own,False,Blank,Blank,False
+English,8.0,9.0,6.0,6.0,8.0,6.0,5.0,2.0,2.0,2.0,3.0,5.0,10.0,10.0,5.0,5.0,Female,55-64,English,White,True,Own,False,4-7 years,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,8.0,8.0,10.0,10.0,Female,75 or older,English,White;Italian,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,9.0,9.0,9.0,9.0,9.0,9.0,5.0,2.0,4.0,4.0,3.0,4.0,9.0,9.0,9.0,9.0,Male,35-44,English,White,False,Rent,False,4-7 years,"$150,000 or more",Blank
+English,8.0,8.0,8.0,9.0,9.0,9.0,2.0,3.0,0.0,3.0,2.0,5.0,3.0,8.0,4.0,5.0,Blank,25-34,English;Spanish;Chinese,Asian;Hispanic/Latino;White,False,Rent,True,1-3 years,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,1.0,1.0,1.0,1.0,1.0,1.0,5.0,1.0,5.0,1.0,1.0,1.0,1.0,Male,45-54,English,White,False,Rent,True,4-7 years,"$25,000 to $49,999",False
+English,10.0,10.0,10.0,10.0,8.0,10.0,5.0,3.0,5.0,5.0,2.0,5.0,10.0,10.0,10.0,7.0,Female,45-54,English,Asian,True,Own,False,11-15 years,"$150,000 or more",False
+English,1.0,2.0,4.0,4.0,1.0,8.0,2.0,1.0,4.0,5.0,1.0,2.0,4.0,7.0,2.0,8.0,Male,55-64,English,Blank,False,Rent,False,16-20 years,"$25,000 to $49,999",False
+English,8.0,8.0,6.0,8.0,8.0,9.0,5.0,3.0,0.0,5.0,5.0,5.0,8.0,8.0,9.0,9.0,Male,25-34,English,White,False,Rent,False,11-15 years,"$150,000 or more",False
+English,7.0,9.0,6.0,8.0,9.0,9.0,4.0,1.0,4.0,4.0,4.0,5.0,4.0,9.0,3.0,3.0,Female,55-64,English,White,False,Rent,False,21 years or more,"$25,000 to $49,999",False
+English,6.0,8.0,5.0,9.0,8.0,10.0,4.0,2.0,4.0,4.0,3.0,4.0,6.0,9.0,9.0,6.0,Female,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,8.0,8.0,5.0,9.0,9.0,9.0,5.0,1.0,4.0,4.0,3.0,5.0,9.0,8.0,9.0,8.0,Female,65-74,Blank,White,False,Rent,False,8-10 years,"$25,000 to $49,999",False
+English,3.0,4.0,2.0,7.0,7.0,6.0,5.0,1.0,0.0,2.0,4.0,0.0,8.0,9.0,9.0,8.0,Blank,35-44,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,5.0,9.0,9.0,8.0,4.0,2.0,0.0,3.0,3.0,4.0,6.0,6.0,6.0,7.0,Female,25-34,English,Hispanic/Latino;White,False,Rent,False,Less than a year,Blank,False
+English,6.0,6.0,4.0,8.0,8.0,7.0,4.0,1.0,3.0,3.0,3.0,5.0,8.0,9.0,7.0,7.0,Non-binary,35-44,English,White,False,Rent,False,4-7 years,"$25,000 to $49,999",False
+English,7.0,8.0,9.0,7.0,7.0,7.0,5.0,1.0,4.0,3.0,2.0,5.0,6.0,9.0,8.0,6.0,Female,35-44,English,White,True,Rent,False,4-7 years,"$150,000 or more",False
+English,7.0,6.0,7.0,7.0,8.0,6.0,4.0,1.0,2.0,4.0,3.0,3.0,1.0,10.0,9.0,8.0,Female,25-34,English,White,True,Own,True,4-7 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,7.0,10.0,5.0,2.0,4.0,5.0,5.0,5.0,10.0,6.0,10.0,7.0,Female,35-44,English,White,True,Own,False,8-10 years,"$150,000 or more",False
+English,7.0,7.0,6.0,5.0,4.0,5.0,4.0,1.0,0.0,4.0,4.0,3.0,3.0,5.0,2.0,3.0,Female,45-54,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,8.0,8.0,7.0,9.0,9.0,9.0,3.0,1.0,3.0,3.0,2.0,5.0,7.0,9.0,6.0,8.0,Female,25-34,English,Hispanic/Latino;White,False,Rent,True,1-3 years,"$75,000 to $99,999",False
+Haitian Creole,9.0,7.0,9.0,9.0,8.0,8.0,4.0,4.0,4.0,4.0,4.0,2.0,9.0,8.0,9.0,9.0,Female,55-64,English;Haitian Creole,Black/African American,True,Rent,False,21 years or more,Blank,False
+English,8.0,7.0,4.0,7.0,6.0,8.0,5.0,1.0,4.0,5.0,3.0,5.0,9.0,5.0,9.0,6.0,Female,25-34,English,Hispanic/Latino,False,Rent,False,21 years or more,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,0.0,5.0,5.0,5.0,5.0,10.0,10.0,9.0,9.0,Blank,Blank,Blank,White,Blank,Own,False,21 years or more,Blank,Blank
+English,10.0,9.0,10.0,10.0,10.0,9.0,4.0,4.0,0.0,4.0,2.0,4.0,9.0,8.0,9.0,7.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,10.0,10.0,7.0,10.0,10.0,10.0,5.0,2.0,0.0,4.0,4.0,4.0,7.0,9.0,8.0,7.0,Female,25-34,English,White,False,Rent,Blank,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,8.0,9.0,9.0,10.0,5.0,2.0,3.0,4.0,3.0,5.0,9.0,9.0,8.0,7.0,Female,25-34,English,White,False,Rent,False,1-3 years,Blank,False
+English,9.0,9.0,10.0,9.0,9.0,9.0,4.0,3.0,4.0,5.0,2.0,5.0,9.0,10.0,8.0,7.0,Male,45-54,English,White,True,Own,False,21 years or more,"$150,000 or more",False
+English,3.0,2.0,2.0,6.0,6.0,3.0,3.0,2.0,0.0,4.0,1.0,4.0,10.0,8.0,7.0,8.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$150,000 or more",False
+English,4.0,3.0,3.0,4.0,4.0,3.0,4.0,1.0,4.0,3.0,3.0,2.0,2.0,8.0,4.0,2.0,Female,25-34,English;Spanish,Hispanic/Latino,True,Rent,True,21 years or more,"Less than $10,000",False
+Portugese,6.0,5.0,3.0,8.0,6.0,9.0,3.0,1.0,5.0,4.0,5.0,5.0,9.0,9.0,9.0,6.0,Female,25-34,English,White,False,Rent,Blank,1-3 years,"$25,000 to $49,999",False
+English,8.0,7.0,4.0,8.0,8.0,9.0,5.0,2.0,4.0,4.0,5.0,5.0,9.0,10.0,9.0,7.0,Male,35-44,English,White,False,Rent,Blank,4-7 years,"$50,000 to 74,999",False
+English,8.0,9.0,9.0,8.0,7.0,8.0,3.0,4.0,3.0,3.0,2.0,4.0,8.0,5.0,7.0,6.0,Male,25-34,English,White,False,Own,False,Less than a year,"$100,000 to $149,999",Blank
+English,8.0,9.0,10.0,8.0,8.0,8.0,4.0,2.0,3.0,3.0,2.0,5.0,9.0,9.0,9.0,7.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,8.0,8.0,9.0,4.0,2.0,0.0,5.0,4.0,4.0,10.0,10.0,9.0,9.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,9.0,9.0,9.0,9.0,9.0,10.0,4.0,4.0,0.0,4.0,1.0,5.0,9.0,9.0,7.0,7.0,Female,25-34,English;Hindi,Asian,False,Rent,True,1-3 years,Blank,False
+English,4.0,3.0,4.0,8.0,7.0,6.0,4.0,1.0,0.0,4.0,4.0,4.0,3.0,7.0,8.0,6.0,Female,65-74,English,White,False,Own,False,16-20 years,"$75,000 to $99,999",False
+English,8.0,8.0,0.0,10.0,10.0,10.0,5.0,4.0,5.0,5.0,4.0,5.0,9.0,6.0,9.0,9.0,Female,65-74,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,8.0,6.0,8.0,9.0,8.0,3.0,1.0,3.0,3.0,4.0,4.0,8.0,9.0,9.0,9.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+Spanish,8.0,9.0,8.0,8.0,9.0,7.0,4.0,1.0,3.0,3.0,4.0,5.0,8.0,8.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,7.0,8.0,4.0,8.0,9.0,9.0,4.0,2.0,4.0,3.0,3.0,5.0,8.0,8.0,8.0,8.0,Female,25-34,English,White,False,Blank,False,4-7 years,"$10,000 to $24,999",False
+English,9.0,8.0,9.0,10.0,10.0,6.0,5.0,2.0,3.0,4.0,4.0,5.0,7.0,4.0,10.0,10.0,Female,65-74,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,6.0,7.0,4.0,7.0,7.0,8.0,4.0,2.0,0.0,4.0,3.0,4.0,5.0,8.0,8.0,7.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$100,000 to $149,999",False
+English,8.0,7.0,8.0,7.0,7.0,6.0,3.0,1.0,4.0,3.0,1.0,3.0,4.0,6.0,7.0,6.0,Male,25-34,English,Asian,False,Rent,True,1-3 years,"$75,000 to $99,999",Blank
+English,4.0,8.0,6.0,3.0,8.0,6.0,4.0,1.0,2.0,3.0,4.0,4.0,7.0,9.0,9.0,7.0,Female,45-54,Portuguese,White,Blank,Blank,Blank,21 years or more,"$75,000 to $99,999",False
+English,7.0,8.0,4.0,9.0,9.0,10.0,5.0,3.0,4.0,3.0,4.0,5.0,7.0,9.0,9.0,9.0,Male,35-44,English,White,False,Rent,False,11-15 years,"$150,000 or more",False
+English,8.0,8.0,3.0,7.0,10.0,6.0,5.0,1.0,3.0,2.0,2.0,5.0,4.0,8.0,5.0,3.0,Female,45-54,English,White,True,Own,False,21 years or more,"$25,000 to $49,999",False
+English,5.0,5.0,4.0,5.0,10.0,10.0,5.0,3.0,5.0,5.0,3.0,3.0,10.0,6.0,6.0,10.0,Female,65-74,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,7.0,7.0,7.0,10.0,10.0,10.0,5.0,3.0,0.0,5.0,4.0,5.0,6.0,7.0,7.0,6.0,Female,55-64,English,Asian;White,False,Own,False,1-3 years,"$150,000 or more",True
+English,7.0,7.0,7.0,8.0,8.0,8.0,4.0,1.0,3.0,3.0,4.0,4.0,7.0,8.0,8.0,8.0,Male,55-64,English;Haitian Creole;French,White,True,Own,False,16-20 years,"$75,000 to $99,999",False
+English,8.0,8.0,8.0,10.0,10.0,9.0,4.0,3.0,3.0,4.0,4.0,4.0,7.0,9.0,9.0,9.0,Female,35-44,English,White,False,Rent,False,4-7 years,"$150,000 or more",Blank
+Spanish,6.0,8.0,8.0,10.0,8.0,10.0,5.0,1.0,3.0,2.0,1.0,4.0,3.0,5.0,2.0,1.0,Male,45-54,English,Hispanic/Latino,True,Own,False,21 years or more,"$25,000 to $49,999",False
+English,7.0,7.0,5.0,8.0,5.0,10.0,4.0,3.0,3.0,4.0,3.0,5.0,5.0,8.0,1.0,3.0,Female,45-54,English,White,True,Own,False,16-20 years,"$75,000 to $99,999",False
+English,9.0,8.0,8.0,7.0,8.0,8.0,0.0,4.0,3.0,3.0,4.0,4.0,4.0,6.0,8.0,7.0,Female,18-24,English,White,False,Rent,True,Less than a year,"$25,000 to $49,999",False
+English,9.0,9.0,7.0,9.0,9.0,9.0,5.0,2.0,3.0,4.0,3.0,5.0,8.0,10.0,9.0,9.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$50,000 to 74,999",False
+English,8.0,8.0,7.0,9.0,9.0,9.0,4.0,2.0,0.0,4.0,4.0,5.0,6.0,8.0,10.0,7.0,Both selected,18-24,English,White,False,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,6.0,8.0,9.0,7.0,9.0,9.0,2.0,1.0,3.0,4.0,2.0,4.0,8.0,9.0,2.0,2.0,Male,55-64,English,White,False,Own,Blank,21 years or more,Blank,False
+English,6.0,8.0,4.0,8.0,9.0,9.0,5.0,2.0,4.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,35-44,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,7.0,8.0,4.0,7.0,8.0,6.0,4.0,2.0,0.0,3.0,2.0,4.0,6.0,7.0,7.0,5.0,Both selected,35-44,English,White,True,Own,True,4-7 years,"$150,000 or more",True
+English,0.0,10.0,1.0,10.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,1.0,1.0,10.0,Blank,75 or older,Blank,White,False,Rent,False,21 years or more,"Less than $10,000",False
+English,9.0,9.0,9.0,10.0,10.0,10.0,5.0,3.0,3.0,5.0,5.0,5.0,10.0,10.0,10.0,9.0,Female,55-64,Blank,White,False,Own,False,11-15 years,"$75,000 to $99,999",False
+English,4.0,4.0,7.0,6.0,5.0,5.0,4.0,1.0,3.0,3.0,3.0,3.0,5.0,3.0,3.0,2.0,Female,25-34,English,White,False,Rent,True,Less than a year,"$50,000 to 74,999",False
+English,7.0,8.0,8.0,8.0,9.0,10.0,4.0,1.0,3.0,5.0,4.0,5.0,9.0,10.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,8-10 years,"$150,000 or more",False
+English,10.0,10.0,8.0,8.0,7.0,8.0,4.0,1.0,2.0,3.0,1.0,3.0,7.0,7.0,4.0,3.0,Male,25-34,English;Spanish,White,False,Rent,False,Blank,"$75,000 to $99,999",False
+English,9.0,9.0,4.0,9.0,8.0,10.0,4.0,3.0,4.0,5.0,4.0,5.0,9.0,8.0,9.0,9.0,Female,55-64,English,White,False,Own,False,16-20 years,"$150,000 or more",False
+English,10.0,10.0,9.0,10.0,9.0,10.0,4.0,3.0,2.0,4.0,3.0,5.0,7.0,9.0,7.0,7.0,Male,35-44,English,White,False,Own,False,11-15 years,"$150,000 or more",False
+English,8.0,8.0,10.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0,1.0,0.0,0.0,1.0,6.0,1.0,Female,45-54,English,Blank,True,Rent,True,21 years or more,Blank,False
+English,6.0,8.0,7.0,8.0,9.0,10.0,4.0,1.0,4.0,4.0,3.0,4.0,7.0,9.0,8.0,8.0,Male,25-34,English,White,False,Own,False,4-7 years,"$75,000 to $99,999",False
+English,8.0,7.0,8.0,8.0,8.0,8.0,2.0,1.0,3.0,2.0,4.0,5.0,9.0,10.0,8.0,7.0,Male,35-44,English,White,False,Rent,False,8-10 years,"$50,000 to 74,999",True
+English,10.0,10.0,10.0,10.0,8.0,10.0,5.0,3.0,4.0,5.0,5.0,5.0,9.0,10.0,10.0,7.0,Female,25-34,English,White,False,Own,Blank,4-7 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,4.0,5.0,5.0,5.0,5.0,9.0,10.0,10.0,10.0,Female,65-74,English,White,False,Own,False,1-3 years,"$25,000 to $49,999",False
+Blank,3.0,3.0,8.0,8.0,6.0,10.0,4.0,1.0,4.0,2.0,3.0,5.0,6.0,8.0,8.0,1.0,Female,18-24,English,Blank,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,8.0,9.0,4.0,8.0,8.0,9.0,5.0,3.0,4.0,4.0,2.0,4.0,7.0,8.0,9.0,6.0,Male,25-34,English,White,False,Own,False,1-3 years,"$100,000 to $149,999",False
+English,9.0,9.0,7.0,9.0,9.0,9.0,5.0,4.0,4.0,4.0,4.0,4.0,8.0,8.0,9.0,8.0,Female,45-54,English,Black/African American,False,Own,False,4-7 years,"$150,000 or more",False
+English,8.0,8.0,6.0,8.0,8.0,8.0,4.0,3.0,4.0,4.0,5.0,5.0,8.0,9.0,6.0,7.0,Male,55-64,Blank,White,False,Rent,False,11-15 years,"$50,000 to 74,999",False
+Spanish,9.0,9.0,8.0,9.0,9.0,9.0,4.0,3.0,3.0,4.0,2.0,4.0,9.0,8.0,8.0,8.0,Female,55-64,English;Spanish,Hispanic/Latino,True,Rent,Blank,8-10 years,"$10,000 to $24,999",True
+English,6.0,6.0,8.0,6.0,6.0,6.0,3.0,2.0,3.0,3.0,3.0,3.0,5.0,6.0,4.0,6.0,Female,35-44,English,Asian,True,Own,True,4-7 years,"$150,000 or more",False
+English,8.0,9.0,7.0,10.0,10.0,10.0,4.0,2.0,4.0,5.0,3.0,5.0,8.0,9.0,9.0,7.0,Female,25-34,English,White,False,Own,False,8-10 years,"$100,000 to $149,999",False
+English,7.0,5.0,8.0,7.0,7.0,4.0,3.0,1.0,3.0,4.0,1.0,5.0,4.0,8.0,7.0,5.0,Male,35-44,English,White,False,Rent,True,1-3 years,"$50,000 to 74,999",False
+English,10.0,10.0,7.0,8.0,10.0,10.0,4.0,2.0,3.0,4.0,4.0,5.0,6.0,8.0,8.0,7.0,Male,25-34,English,Blank,False,Rent,True,Less than a year,"$75,000 to $99,999",False
+English,5.0,8.0,2.0,8.0,8.0,8.0,3.0,4.0,4.0,4.0,4.0,4.0,10.0,10.0,10.0,8.0,Male,75 or older,Cantonese,Asian,False,Rent,True,21 years or more,"$25,000 to $49,999",False
+English,7.0,8.0,9.0,7.0,4.0,8.0,2.0,2.0,3.0,4.0,1.0,5.0,4.0,6.0,4.0,1.0,Female,45-54,English,Blank,False,Own,Blank,11-15 years,Blank,Blank
+English,9.0,8.0,6.0,10.0,10.0,9.0,5.0,2.0,4.0,4.0,5.0,4.0,8.0,9.0,10.0,9.0,Male,45-54,Blank,White,True,Own,False,21 years or more,"$50,000 to 74,999",False
+English,5.0,6.0,5.0,8.0,7.0,10.0,4.0,2.0,3.0,4.0,5.0,5.0,7.0,8.0,2.0,6.0,Female,55-64,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,8.0,9.0,10.0,10.0,10.0,10.0,4.0,1.0,4.0,5.0,5.0,5.0,3.0,10.0,9.0,9.0,Female,55-64,English;Italian,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+Blank,0.0,0.0,0.0,7.0,5.0,7.0,4.0,1.0,0.0,4.0,3.0,3.0,4.0,0.0,3.0,3.0,Female,45-54,English,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,6.0,10.0,3.0,10.0,10.0,10.0,5.0,2.0,3.0,5.0,3.0,5.0,10.0,6.0,7.0,6.0,Female,35-44,English,White,True,Own,False,4-7 years,"$150,000 or more",False
+English,5.0,6.0,8.0,7.0,7.0,6.0,4.0,2.0,4.0,4.0,4.0,4.0,8.0,6.0,8.0,7.0,Female,18-24,English,White,False,Rent,True,Less than a year,"$150,000 or more",False
+English,5.0,5.0,1.0,10.0,8.0,10.0,5.0,0.0,0.0,5.0,4.0,4.0,10.0,7.0,8.0,9.0,Female,65-74,English,White,False,Rent,False,21 years or more,"Less than $10,000",False
+English,8.0,9.0,8.0,9.0,8.0,9.0,4.0,1.0,4.0,4.0,3.0,4.0,9.0,9.0,8.0,6.0,Male,45-54,English,White,False,Own,False,11-15 years,"$150,000 or more",False
+English,8.0,9.0,9.0,9.0,9.0,9.0,5.0,2.0,3.0,4.0,4.0,5.0,8.0,9.0,9.0,6.0,Female,55-64,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,6.0,7.0,9.0,8.0,8.0,10.0,4.0,1.0,3.0,3.0,3.0,5.0,9.0,10.0,8.0,8.0,Female,25-34,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,8.0,8.0,4.0,9.0,9.0,10.0,4.0,2.0,3.0,4.0,2.0,4.0,8.0,7.0,9.0,8.0,Female,35-44,English,White,False,Own,False,1-3 years,"$75,000 to $99,999",False
+English,8.0,9.0,8.0,8.0,9.0,9.0,4.0,2.0,4.0,4.0,4.0,4.0,4.0,9.0,8.0,7.0,Male,55-64,English,White,False,Rent,True,Blank,"$75,000 to $99,999",Blank
+English,3.0,10.0,10.0,8.0,6.0,10.0,5.0,1.0,3.0,5.0,3.0,5.0,1.0,9.0,10.0,10.0,Female,55-64,English,Black/African American,False,Rent,False,4-7 years,"$10,000 to $24,999",False
+English,8.0,8.0,6.0,8.0,8.0,9.0,4.0,2.0,4.0,4.0,4.0,4.0,8.0,8.0,8.0,8.0,Female,35-44,English,White,True,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,9.0,10.0,5.0,7.0,10.0,8.0,3.0,1.0,0.0,3.0,3.0,5.0,10.0,10.0,10.0,9.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",False
+Blank,10.0,10.0,10.0,10.0,10.0,10.0,4.0,0.0,5.0,5.0,4.0,4.0,10.0,9.0,9.0,9.0,Male,45-54,Blank,Asian,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,7.0,9.0,2.0,10.0,8.0,8.0,4.0,2.0,4.0,4.0,5.0,3.0,10.0,7.0,7.0,9.0,Female,65-74,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,10.0,4.0,8.0,10.0,8.0,4.0,1.0,3.0,5.0,5.0,5.0,9.0,10.0,9.0,9.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$150,000 or more",False
+English,8.0,9.0,5.0,8.0,9.0,9.0,5.0,1.0,0.0,4.0,4.0,5.0,10.0,9.0,6.0,7.0,Female,35-44,English,White,False,Rent,True,4-7 years,"$150,000 or more",False
+English,10.0,10.0,7.0,10.0,9.0,10.0,3.0,2.0,4.0,5.0,5.0,3.0,10.0,10.0,10.0,10.0,Female,35-44,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",False
+English,9.0,9.0,8.0,6.0,6.0,7.0,4.0,2.0,3.0,4.0,4.0,4.0,6.0,8.0,8.0,5.0,Female,25-34,English,White,True,Rent,True,8-10 years,"$150,000 or more",False
+English,8.0,8.0,8.0,7.0,8.0,6.0,4.0,3.0,3.0,3.0,3.0,4.0,3.0,9.0,9.0,9.0,Male,18-24,English,White,False,Rent,True,Less than a year,Blank,False
+English,7.0,9.0,7.0,1.0,1.0,1.0,1.0,1.0,2.0,3.0,1.0,3.0,10.0,4.0,1.0,1.0,Female,35-44,English,White;Italian,True,Own,True,21 years or more,Blank,False
+English,1.0,10.0,10.0,1.0,1.0,1.0,4.0,1.0,1.0,5.0,1.0,3.0,1.0,5.0,1.0,1.0,Female,55-64,English,White,False,Own,True,21 years or more,"$100,000 to $149,999",False
+English,9.0,7.0,7.0,10.0,8.0,10.0,5.0,3.0,4.0,3.0,3.0,5.0,10.0,7.0,9.0,8.0,Female,35-44,English,White,False,Own,False,11-15 years,Blank,False
+English,8.0,9.0,10.0,10.0,10.0,8.0,3.0,1.0,0.0,4.0,4.0,5.0,9.0,6.0,8.0,8.0,Both selected,25-34,English,Blank,False,Rent,False,1-3 years,Blank,False
+English,8.0,7.0,8.0,8.0,8.0,6.0,4.0,2.0,4.0,3.0,3.0,4.0,7.0,9.0,8.0,7.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$25,000 to $49,999",True
+English,8.0,8.0,5.0,9.0,9.0,9.0,3.0,1.0,4.0,3.0,3.0,3.0,10.0,8.0,9.0,9.0,Both selected,55-64,English,Asian,True,Own,False,11-15 years,Blank,False
+English,10.0,9.0,7.0,10.0,10.0,10.0,5.0,4.0,5.0,4.0,5.0,5.0,5.0,7.0,10.0,8.0,Female,45-54,English,White,Blank,Own,False,11-15 years,"$100,000 to $149,999",False
+English,8.0,9.0,10.0,8.0,7.0,8.0,5.0,4.0,4.0,4.0,4.0,5.0,10.0,8.0,7.0,7.0,Male,45-54,English,White,True,Own,False,16-20 years,"$150,000 or more",False
+English,7.0,7.0,8.0,8.0,8.0,6.0,0.0,2.0,0.0,3.0,3.0,0.0,9.0,7.0,7.0,7.0,Female,25-34,Blank,Asian,False,Rent,Blank,Less than a year,Blank,False
+English,8.0,8.0,7.0,8.0,8.0,9.0,4.0,3.0,3.0,3.0,4.0,4.0,8.0,9.0,9.0,8.0,Female,35-44,English,White,False,Own,False,8-10 years,"$100,000 to $149,999",False
+English,7.0,8.0,3.0,8.0,8.0,9.0,5.0,1.0,4.0,3.0,4.0,4.0,8.0,8.0,9.0,8.0,Female,55-64,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,8.0,8.0,5.0,9.0,8.0,10.0,4.0,1.0,3.0,3.0,3.0,4.0,8.0,9.0,9.0,8.0,Male,35-44,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,6.0,8.0,3.0,8.0,6.0,6.0,5.0,2.0,0.0,0.0,1.0,3.0,2.0,4.0,4.0,4.0,Female,25-34,Chinese,Asian,False,Own,False,Less than a year,"$100,000 to $149,999",False
+English,8.0,8.0,4.0,9.0,8.0,8.0,5.0,2.0,3.0,4.0,4.0,5.0,7.0,8.0,9.0,8.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",False
+English,9.0,9.0,7.0,9.0,9.0,9.0,4.0,2.0,0.0,4.0,4.0,5.0,9.0,9.0,9.0,8.0,Female,25-34,English,White,False,Rent,Blank,1-3 years,Blank,Blank
+English,5.0,4.0,9.0,7.0,7.0,5.0,3.0,1.0,3.0,3.0,5.0,4.0,7.0,9.0,9.0,7.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$10,000 to $24,999",True
+English,9.0,9.0,8.0,8.0,7.0,8.0,5.0,2.0,4.0,2.0,4.0,5.0,10.0,10.0,10.0,9.0,Female,18-24,English,White,False,Rent,True,1-3 years,"Less than $10,000",True
+English,9.0,8.0,1.0,9.0,9.0,9.0,4.0,2.0,3.0,4.0,5.0,5.0,9.0,6.0,8.0,9.0,Male,75 or older,English,White,False,Own,False,21 years or more,Blank,False
+English,9.0,9.0,7.0,7.0,7.0,8.0,3.0,1.0,4.0,3.0,3.0,4.0,9.0,7.0,6.0,6.0,Female,35-44,English,White,True,Rent,False,21 years or more,"$100,000 to $149,999",True
+English,8.0,8.0,8.0,8.0,8.0,8.0,4.0,3.0,3.0,3.0,2.0,5.0,9.0,8.0,9.0,7.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,7.0,7.0,8.0,6.0,4.0,6.0,4.0,2.0,0.0,4.0,3.0,0.0,8.0,8.0,8.0,2.0,Male,75 or older,English,White,False,Rent,False,11-15 years,"$25,000 to $49,999",Blank
+English,8.0,9.0,8.0,9.0,9.0,9.0,5.0,2.0,3.0,4.0,4.0,5.0,7.0,7.0,9.0,8.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",Blank
+English,8.0,9.0,9.0,10.0,10.0,8.0,4.0,2.0,3.0,3.0,3.0,4.0,8.0,7.0,7.0,8.0,Female,35-44,English,Asian,True,Own,False,16-20 years,"$150,000 or more",False
+English,8.0,8.0,10.0,8.0,9.0,8.0,5.0,3.0,3.0,5.0,3.0,5.0,9.0,8.0,9.0,9.0,Male,75 or older,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",Blank
+English,6.0,6.0,4.0,8.0,7.0,9.0,5.0,4.0,3.0,4.0,2.0,4.0,7.0,7.0,8.0,6.0,Male,45-54,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",False
+English,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,3.0,1.0,1.0,2.0,Blank,18-24,Swahili,Blank,True,Blank,True,21 years or more,"$150,000 or more",True
+English,10.0,10.0,1.0,10.0,10.0,0.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,75 or older,Italian,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,9.0,7.0,10.0,8.0,10.0,10.0,5.0,1.0,2.0,5.0,5.0,5.0,6.0,6.0,10.0,10.0,Female,35-44,English;Italian,White,True,Rent,True,11-15 years,"$25,000 to $49,999",False
+English,10.0,10.0,10.0,10.0,9.0,9.0,5.0,4.0,0.0,5.0,4.0,5.0,10.0,8.0,8.0,8.0,Female,65-74,English,White,False,Own,False,16-20 years,Blank,False
+English,9.0,9.0,8.0,8.0,8.0,10.0,5.0,2.0,3.0,5.0,3.0,4.0,9.0,8.0,7.0,6.0,Female,35-44,English,White,False,Rent,Blank,11-15 years,"$100,000 to $149,999",False
+English,8.0,9.0,4.0,8.0,8.0,8.0,4.0,2.0,3.0,3.0,4.0,4.0,0.0,0.0,0.0,0.0,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank,Blank
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,0.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,55-64,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",Blank
+English,4.0,4.0,5.0,9.0,9.0,8.0,4.0,3.0,0.0,4.0,3.0,4.0,9.0,9.0,8.0,8.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,55-64,Portuguese,Hispanic/Latino,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,6.0,6.0,6.0,6.0,6.0,6.0,3.0,3.0,3.0,3.0,3.0,3.0,6.0,6.0,6.0,6.0,Male,65-74,Blank,White,False,Blank,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,9.0,9.0,7.0,8.0,7.0,3.0,2.0,3.0,3.0,5.0,5.0,7.0,9.0,9.0,7.0,Female,25-34,English,Black/African American,False,Rent,True,1-3 years,"$75,000 to $99,999",False
+English,8.0,9.0,10.0,10.0,10.0,7.0,0.0,2.0,0.0,0.0,4.0,4.0,7.0,9.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",Blank
+English,7.0,8.0,4.0,8.0,6.0,5.0,5.0,2.0,0.0,4.0,2.0,4.0,9.0,8.0,6.0,3.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$75,000 to $99,999",False
+English,8.0,9.0,9.0,9.0,10.0,7.0,3.0,5.0,3.0,5.0,4.0,3.0,7.0,10.0,8.0,7.0,Male,65-74,English,White,False,Own,Blank,21 years or more,"$100,000 to $149,999",False
+English,9.0,9.0,6.0,6.0,6.0,6.0,3.0,2.0,3.0,4.0,1.0,3.0,4.0,8.0,5.0,3.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,4.0,4.0,4.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+English,6.0,6.0,4.0,9.0,9.0,9.0,4.0,2.0,0.0,4.0,3.0,0.0,5.0,8.0,8.0,8.0,Male,45-54,English,Hispanic/Latino,False,Own,False,16-20 years,"$75,000 to $99,999",False
+English,10.0,7.0,7.0,10.0,6.0,0.0,5.0,1.0,0.0,4.0,1.0,5.0,7.0,8.0,7.0,4.0,Female,55-64,English,Asian,False,Own,False,16-20 years,"$150,000 or more",False
+Blank,8.0,10.0,10.0,10.0,6.0,0.0,5.0,1.0,0.0,4.0,1.0,5.0,7.0,9.0,7.0,4.0,Male,75 or older,English,White,False,Own,False,16-20 years,"$150,000 or more",False
+English,6.0,5.0,3.0,8.0,7.0,9.0,5.0,4.0,3.0,4.0,2.0,5.0,7.0,7.0,6.0,6.0,Male,45-54,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",False
+English,10.0,10.0,9.0,10.0,10.0,10.0,5.0,4.0,4.0,4.0,4.0,5.0,10.0,10.0,9.0,9.0,Male,55-64,English,White,False,Own,Blank,11-15 years,"$150,000 or more",False
+English,7.0,9.0,3.0,9.0,9.0,9.0,5.0,1.0,5.0,4.0,4.0,5.0,10.0,9.0,9.0,7.0,Male,35-44,English,White,True,Own,False,8-10 years,"$150,000 or more",False
+English,6.0,6.0,3.0,9.0,9.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,8.0,8.0,9.0,9.0,Male,55-64,English,White,False,Rent,False,4-7 years,"$10,000 to $24,999",False
+English,9.0,9.0,9.0,10.0,10.0,10.0,5.0,3.0,3.0,4.0,3.0,5.0,10.0,10.0,10.0,8.0,Female,45-54,Blank,White,False,Own,False,16-20 years,"$100,000 to $149,999",False
+English,6.0,7.0,6.0,7.0,7.0,8.0,4.0,2.0,3.0,4.0,3.0,4.0,7.0,7.0,7.0,6.0,Male,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,10.0,10.0,9.0,10.0,8.0,10.0,4.0,3.0,5.0,5.0,5.0,5.0,1.0,7.0,8.0,10.0,Female,65-74,English,White,False,Own,True,21 years or more,"$150,000 or more",False
+English,8.0,9.0,8.0,8.0,8.0,7.0,4.0,3.0,4.0,4.0,4.0,5.0,8.0,10.0,8.0,10.0,Male,35-44,English,White,True,Own,False,1-3 years,"$150,000 or more",False
+English,10.0,8.0,10.0,9.0,10.0,10.0,5.0,2.0,3.0,5.0,3.0,5.0,10.0,10.0,7.0,9.0,Female,65-74,"English;Italian, Swedish",Blank,True,Own,False,Blank,"$150,000 or more",Blank
+Blank,7.0,9.0,10.0,10.0,10.0,10.0,5.0,2.0,4.0,5.0,3.0,4.0,5.0,3.0,7.0,8.0,Male,25-34,English,Asian,False,Rent,False,4-7 years,Blank,False
+English,10.0,10.0,10.0,10.0,10.0,0.0,5.0,1.0,2.0,4.0,5.0,5.0,9.0,10.0,10.0,10.0,Male,65-74,Blank,Blank,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,10.0,7.0,9.0,9.0,10.0,5.0,3.0,4.0,4.0,3.0,5.0,9.0,9.0,9.0,8.0,Female,45-54,English,White,True,Own,False,16-20 years,"$150,000 or more",False
+English,5.0,5.0,3.0,10.0,5.0,10.0,5.0,3.0,3.0,5.0,5.0,5.0,10.0,5.0,10.0,5.0,Female,75 or older,Blank,White,False,Own,False,21 years or more,"$10,000 to $24,999",Blank
+English,7.0,8.0,4.0,10.0,10.0,10.0,5.0,0.0,0.0,4.0,3.0,4.0,10.0,7.0,10.0,8.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,6.0,6.0,6.0,7.0,7.0,7.0,4.0,1.0,0.0,4.0,2.0,5.0,4.0,7.0,7.0,5.0,Female,35-44,English,White,False,Rent,False,4-7 years,"$75,000 to $99,999",Blank
+English,10.0,10.0,9.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,65-74,Cantonese,Asian,False,Own,False,21 years or more,"Less than $10,000",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,3.0,5.0,3.0,5.0,10.0,10.0,10.0,10.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,7.0,8.0,4.0,5.0,4.0,7.0,2.0,1.0,0.0,5.0,1.0,5.0,7.0,4.0,4.0,7.0,Female,25-34,English,White,False,Rent,True,1-3 years,"$50,000 to 74,999",False
+English,8.0,8.0,9.0,8.0,8.0,9.0,4.0,4.0,3.0,3.0,2.0,5.0,10.0,9.0,9.0,8.0,Both selected,18-24,English,Asian;White,False,Rent,True,Blank,"$50,000 to 74,999",False
+English,7.0,8.0,3.0,9.0,7.0,10.0,4.0,1.0,0.0,4.0,2.0,5.0,4.0,9.0,8.0,8.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$75,000 to $99,999",True
+English,8.0,6.0,7.0,7.0,7.0,6.0,4.0,2.0,3.0,4.0,4.0,5.0,5.0,6.0,6.0,6.0,Male,25-34,English,White,False,Own,False,1-3 years,Blank,False
+English,7.0,9.0,5.0,9.0,8.0,10.0,4.0,2.0,3.0,4.0,3.0,4.0,9.0,9.0,9.0,8.0,Female,35-44,English,White,False,Rent,False,8-10 years,"$75,000 to $99,999",False
+English,9.0,10.0,9.0,9.0,9.0,9.0,5.0,3.0,4.0,4.0,2.0,4.0,9.0,9.0,9.0,8.0,Female,65-74,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,7.0,7.0,9.0,9.0,6.0,8.0,5.0,3.0,0.0,3.0,3.0,5.0,6.0,10.0,8.0,7.0,Female,25-34,English,White,False,Own,True,8-10 years,"$150,000 or more",False
+Spanish,9.0,8.0,6.0,9.0,10.0,10.0,5.0,3.0,4.0,4.0,5.0,5.0,9.0,10.0,10.0,9.0,Male,18-24,English;Spanish,Blank,False,Rent,True,1-3 years,"$10,000 to $24,999",True
+English,8.0,9.0,9.0,9.0,7.0,9.0,4.0,2.0,4.0,4.0,4.0,4.0,9.0,8.0,6.0,5.0,Female,45-54,English,White,True,Own,False,21 years or more,"$100,000 to $149,999",False
+English,5.0,5.0,5.0,7.0,7.0,7.0,4.0,4.0,4.0,3.0,4.0,4.0,6.0,7.0,8.0,6.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$50,000 to 74,999",False
+English,1.0,5.0,1.0,1.0,1.0,3.0,3.0,1.0,3.0,3.0,4.0,3.0,7.0,6.0,5.0,1.0,Female,35-44,English,Blank,True,Own,True,4-7 years,"$75,000 to $99,999",False
+English,7.0,8.0,6.0,10.0,10.0,8.0,4.0,2.0,3.0,3.0,4.0,5.0,7.0,8.0,8.0,7.0,Male,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,9.0,9.0,3.0,8.0,8.0,9.0,4.0,3.0,3.0,4.0,3.0,5.0,8.0,9.0,8.0,7.0,Male,35-44,English,White,True,Own,False,11-15 years,"$150,000 or more",False
+English,8.0,9.0,9.0,10.0,10.0,10.0,5.0,2.0,3.0,5.0,4.0,5.0,10.0,7.0,8.0,9.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",Blank
+English,9.0,9.0,8.0,9.0,9.0,9.0,5.0,4.0,0.0,5.0,4.0,4.0,10.0,8.0,10.0,9.0,Female,25-34,English,White,False,Rent,False,Less than a year,"$50,000 to 74,999",False
+English,8.0,8.0,7.0,6.0,7.0,6.0,4.0,3.0,1.0,3.0,1.0,5.0,9.0,8.0,8.0,7.0,Female,18-24,English,White,False,Rent,True,Less than a year,"$50,000 to 74,999",False
+English,10.0,9.0,10.0,8.0,9.0,10.0,5.0,2.0,3.0,4.0,4.0,5.0,8.0,10.0,9.0,8.0,Male,25-34,English,White,False,Rent,False,11-15 years,"$100,000 to $149,999",False
+English,6.0,10.0,10.0,6.0,10.0,9.0,5.0,2.0,4.0,3.0,5.0,5.0,10.0,10.0,10.0,10.0,Male,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,7.0,7.0,3.0,8.0,8.0,6.0,3.0,2.0,3.0,4.0,4.0,4.0,9.0,10.0,9.0,9.0,Male,25-34,English,White,False,Rent,True,1-3 years,"$25,000 to $49,999",True
+English,5.0,5.0,2.0,8.0,9.0,8.0,3.0,1.0,4.0,3.0,4.0,5.0,6.0,9.0,8.0,9.0,Female,25-34,English,White,False,Rent,False,4-7 years,"$25,000 to $49,999",False
+Portugese,6.0,7.0,9.0,8.0,10.0,10.0,3.0,2.0,0.0,5.0,5.0,0.0,0.0,9.0,9.0,9.0,Male,75 or older,Portuguese,White,False,Own,False,21 years or more,"$25,000 to $49,999",False
+English,10.0,10.0,10.0,10.0,7.0,6.0,3.0,3.0,3.0,3.0,4.0,3.0,6.0,7.0,9.0,8.0,Female,25-34,English,White,False,Rent,True,Less than a year,"$150,000 or more",False
+Blank,6.0,8.0,10.0,10.0,10.0,8.0,5.0,3.0,5.0,5.0,4.0,5.0,0.0,7.0,10.0,8.0,Female,75 or older,English,White,False,Rent,False,21 years or more,"$10,000 to $24,999",False
+English,9.0,9.0,2.0,9.0,10.0,9.0,5.0,4.0,5.0,5.0,4.0,5.0,10.0,9.0,10.0,9.0,Male,75 or older,English;Portuguese,Multiple (unspecified),False,Own,False,21 years or more,"$25,000 to $49,999",Blank
+English,6.0,6.0,6.0,5.0,3.0,5.0,3.0,3.0,1.0,3.0,2.0,3.0,5.0,3.0,3.0,3.0,Male,25-34,English,Asian,False,Rent,False,11-15 years,"$100,000 to $149,999",False
+English,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,Female,65-74,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,10.0,10.0,9.0,10.0,10.0,10.0,5.0,4.0,4.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,45-54,English,White,False,Own,False,11-15 years,"$150,000 or more",False
+English,8.0,9.0,8.0,10.0,9.0,10.0,5.0,4.0,5.0,5.0,5.0,5.0,10.0,9.0,10.0,10.0,Male,75 or older,Portuguese,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,5.0,7.0,8.0,9.0,10.0,10.0,4.0,1.0,4.0,4.0,4.0,5.0,8.0,8.0,7.0,9.0,Female,35-44,English;Portuguese,White,True,Rent,False,8-10 years,"$75,000 to $99,999",False
+English,7.0,10.0,8.0,8.0,10.0,10.0,3.0,3.0,4.0,5.0,3.0,3.0,6.0,10.0,10.0,10.0,Female,75 or older,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,8.0,8.0,7.0,8.0,7.0,4.0,1.0,4.0,3.0,3.0,5.0,8.0,8.0,8.0,5.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,8.0,8.0,3.0,9.0,8.0,8.0,5.0,1.0,4.0,4.0,3.0,5.0,10.0,10.0,10.0,9.0,Male,25-34,English,White,False,Rent,Blank,4-7 years,"$75,000 to $99,999",False
+English,10.0,8.0,10.0,10.0,10.0,10.0,5.0,5.0,3.0,5.0,5.0,3.0,10.0,10.0,10.0,8.0,Male,35-44,English,Asian;White,False,Rent,False,1-3 years,"$25,000 to $49,999",False
+English,10.0,9.0,7.0,9.0,9.0,10.0,5.0,2.0,0.0,4.0,1.0,3.0,10.0,10.0,5.0,3.0,Male,25-34,English,White,False,Rent,False,Less than a year,"$50,000 to 74,999",True
+English,9.0,8.0,8.0,10.0,8.0,10.0,4.0,2.0,3.0,4.0,3.0,5.0,8.0,9.0,8.0,7.0,Multiple people,35-44,English,Hispanic/Latino;White,False,Own,False,11-15 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,6.0,10.0,10.0,5.0,3.0,5.0,5.0,5.0,5.0,10.0,10.0,9.0,10.0,Male,65-74,English,White,False,Own,True,21 years or more,"$75,000 to $99,999",False
+English,8.0,8.0,10.0,9.0,9.0,9.0,5.0,2.0,3.0,3.0,3.0,5.0,10.0,9.0,9.0,9.0,Female,45-54,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,7.0,9.0,7.0,9.0,9.0,10.0,4.0,3.0,3.0,4.0,3.0,5.0,7.0,9.0,3.0,8.0,Male,45-54,Blank,White,False,Own,False,1-3 years,Blank,False
+English,9.0,6.0,1.0,10.0,10.0,10.0,4.0,1.0,4.0,3.0,4.0,5.0,9.0,10.0,10.0,10.0,Female,25-34,English,White,True,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,9.0,9.0,7.0,10.0,9.0,5.0,5.0,3.0,0.0,4.0,3.0,5.0,9.0,8.0,8.0,6.0,Male,35-44,English,White,False,Rent,False,4-7 years,"$100,000 to $149,999",False
+English,9.0,9.0,8.0,9.0,8.0,9.0,5.0,1.0,2.0,3.0,2.0,2.0,9.0,9.0,6.0,6.0,Female,35-44,English,Asian,True,Rent,False,16-20 years,"$25,000 to $49,999",False
+English,8.0,8.0,7.0,10.0,10.0,10.0,3.0,1.0,4.0,4.0,5.0,5.0,6.0,9.0,8.0,5.0,Female,35-44,English,White,False,Rent,True,Less than a year,"$50,000 to 74,999",False
+English,6.0,6.0,6.0,10.0,5.0,8.0,5.0,3.0,4.0,4.0,3.0,5.0,9.0,8.0,8.0,3.0,Male,65-74,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",False
+English,6.0,8.0,6.0,8.0,6.0,7.0,5.0,1.0,3.0,3.0,4.0,5.0,9.0,9.0,8.0,5.0,Male,35-44,English,White,True,Rent,False,11-15 years,"$75,000 to $99,999",False
+English,7.0,6.0,9.0,8.0,8.0,6.0,4.0,2.0,0.0,4.0,4.0,0.0,9.0,7.0,0.0,4.0,Female,55-64,English,White,False,Rent,Blank,1-3 years,Blank,Blank
+English,7.0,6.0,5.0,7.0,8.0,8.0,5.0,3.0,0.0,4.0,5.0,5.0,10.0,9.0,9.0,6.0,Male,45-54,English;Arabic,White,False,Own,False,8-10 years,"$100,000 to $149,999",False
+English,7.0,8.0,9.0,9.0,9.0,9.0,5.0,4.0,2.0,5.0,3.0,5.0,9.0,10.0,6.0,8.0,Female,25-34,English,White,True,Own,False,Blank,"$150,000 or more",False
+English,7.0,7.0,3.0,9.0,9.0,8.0,2.0,2.0,5.0,4.0,1.0,2.0,9.0,8.0,9.0,8.0,Male,25-34,English,Black/African American;White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,8.0,9.0,8.0,10.0,10.0,10.0,5.0,5.0,4.0,4.0,3.0,5.0,8.0,10.0,9.0,9.0,Male,55-64,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,1.0,5.0,5.0,5.0,5.0,10.0,10.0,10.0,10.0,Female,35-44,English,White,False,Rent,False,8-10 years,"Less than $10,000",False
+English,5.0,8.0,4.0,9.0,7.0,9.0,3.0,2.0,3.0,2.0,3.0,4.0,5.0,7.0,7.0,7.0,Female,35-44,English,White,False,Own,False,11-15 years,"$100,000 to $149,999",False
+English,8.0,9.0,8.0,9.0,8.0,9.0,5.0,1.0,4.0,5.0,3.0,5.0,9.0,8.0,8.0,7.0,Male,45-54,English,White,False,Own,False,21 years or more,"$150,000 or more",False
+English,9.0,9.0,10.0,10.0,8.0,10.0,5.0,1.0,4.0,5.0,4.0,5.0,10.0,8.0,10.0,7.0,Female,35-44,English,White,True,Own,False,4-7 years,"$150,000 or more",False
+Spanish,10.0,9.0,10.0,10.0,9.0,10.0,4.0,2.0,4.0,4.0,4.0,5.0,9.0,9.0,9.0,9.0,Female,55-64,Spanish,Hispanic/Latino,False,Rent,False,8-10 years,"Less than $10,000",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,4.0,5.0,10.0,10.0,10.0,10.0,Male,65-74,English,White,False,Own,False,16-20 years,"$100,000 to $149,999",Blank
+English,9.0,9.0,9.0,9.0,9.0,9.0,5.0,1.0,3.0,4.0,2.0,5.0,7.0,9.0,10.0,10.0,Male,25-34,English,White,False,Rent,True,4-7 years,"$100,000 to $149,999",False
+English,3.0,2.0,9.0,4.0,3.0,10.0,1.0,1.0,0.0,0.0,2.0,3.0,3.0,5.0,4.0,2.0,Both selected,25-34,Blank,Black/African American,False,Rent,True,1-3 years,Blank,False
+English,5.0,7.0,7.0,8.0,8.0,7.0,4.0,3.0,0.0,4.0,3.0,4.0,7.0,8.0,8.0,8.0,Male,45-54,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,8.0,8.0,9.0,10.0,10.0,10.0,5.0,1.0,4.0,4.0,3.0,5.0,10.0,10.0,10.0,10.0,Male,65-74,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+Blank,7.0,9.0,10.0,8.0,6.0,10.0,5.0,5.0,5.0,5.0,3.0,5.0,4.0,10.0,8.0,7.0,Female,55-64,English,White,False,Own,False,8-10 years,"$150,000 or more",False
+English,10.0,10.0,10.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,10.0,10.0,1.0,10.0,Male,65-74,English;Tibetan,Asian,False,Own,Blank,21 years or more,"$25,000 to $49,999",False
+English,10.0,1.0,1.0,10.0,10.0,10.0,5.0,5.0,5.0,5.0,5.0,5.0,9.0,10.0,10.0,10.0,Female,55-64,Blank,White,False,Rent,Blank,1-3 years,"Less than $10,000",Blank
+English,8.0,6.0,10.0,7.0,9.0,7.0,4.0,1.0,3.0,5.0,4.0,4.0,9.0,9.0,9.0,8.0,Male,25-34,English,White,False,Rent,False,1-3 years,"$75,000 to $99,999",False
+English,9.0,9.0,4.0,9.0,10.0,10.0,4.0,1.0,4.0,4.0,3.0,5.0,10.0,9.0,8.0,9.0,Female,55-64,English,White,False,Own,False,16-20 years,"$150,000 or more",False
+English,8.0,7.0,8.0,10.0,8.0,10.0,4.0,2.0,3.0,3.0,3.0,5.0,9.0,9.0,8.0,6.0,Female,35-44,English,White,False,Own,False,11-15 years,"$75,000 to $99,999",False
+English,9.0,9.0,8.0,9.0,9.0,9.0,5.0,2.0,4.0,5.0,4.0,5.0,10.0,10.0,9.0,9.0,Male,35-44,English,White,False,Own,False,11-15 years,"$100,000 to $149,999",False
+English,7.0,8.0,9.0,7.0,8.0,9.0,5.0,4.0,2.0,5.0,3.0,5.0,9.0,8.0,5.0,6.0,Female,25-34,English,White,True,Own,False,1-3 years,"$150,000 or more",False
+English,7.0,7.0,8.0,8.0,8.0,9.0,4.0,2.0,4.0,4.0,3.0,4.0,7.0,9.0,8.0,7.0,Male,45-54,English,White,True,Own,False,Blank,"$150,000 or more",False
+English,3.0,3.0,2.0,10.0,10.0,10.0,5.0,3.0,0.0,0.0,2.0,4.0,9.0,10.0,10.0,9.0,Male,25-34,English,Jewish,False,Rent,False,Less than a year,"$50,000 to 74,999",False
+English,5.0,5.0,3.0,8.0,8.0,8.0,3.0,2.0,0.0,0.0,3.0,5.0,7.0,6.0,9.0,7.0,Female,25-34,English,Hispanic/Latino;White,False,Rent,True,Less than a year,"$25,000 to $49,999",True
+English,9.0,9.0,9.0,9.0,9.0,9.0,5.0,5.0,5.0,5.0,5.0,5.0,9.0,9.0,9.0,9.0,Female,65-74,Spanish,Hispanic/Latino,False,Rent,False,11-15 years,"$10,000 to $24,999",Blank
+English,7.0,8.0,4.0,9.0,8.0,8.0,4.0,2.0,3.0,2.0,1.0,4.0,7.0,8.0,8.0,5.0,Male,35-44,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+English,8.0,8.0,7.0,2.0,2.0,7.0,3.0,2.0,0.0,3.0,4.0,4.0,8.0,7.0,6.0,8.0,Female,25-34,English,Asian,False,Rent,Blank,Less than a year,"$100,000 to $149,999",False
+English,9.0,8.0,7.0,6.0,6.0,6.0,2.0,1.0,3.0,4.0,1.0,2.0,7.0,9.0,1.0,4.0,Female,35-44,Portuguese,Hispanic/Latino,True,Rent,False,Less than a year,"$50,000 to 74,999",True
+English,8.0,8.0,5.0,10.0,10.0,10.0,5.0,4.0,0.0,5.0,5.0,5.0,10.0,9.0,10.0,10.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,9.0,9.0,9.0,5.0,0.0,4.0,5.0,4.0,3.0,10.0,0.0,10.0,10.0,Male,75 or older,English,White,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,9.0,9.0,9.0,10.0,10.0,10.0,5.0,2.0,4.0,4.0,4.0,5.0,9.0,9.0,9.0,9.0,Male,65-74,English,White,False,Own,False,16-20 years,"$100,000 to $149,999",False
+English,7.0,8.0,4.0,7.0,7.0,7.0,4.0,1.0,3.0,4.0,4.0,4.0,6.0,9.0,8.0,7.0,Male,25-34,English,White,False,Rent,True,4-7 years,"$100,000 to $149,999",Blank
+English,8.0,8.0,6.0,9.0,9.0,8.0,5.0,0.0,0.0,0.0,3.0,5.0,9.0,9.0,8.0,8.0,Male,75 or older,English;Arabic,Arab,False,Own,False,11-15 years,"$150,000 or more",False
+English,9.0,8.0,4.0,10.0,10.0,10.0,5.0,2.0,4.0,4.0,4.0,4.0,7.0,8.0,8.0,8.0,Female,55-64,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,6.0,6.0,8.0,6.0,3.0,6.0,3.0,1.0,5.0,5.0,2.0,4.0,9.0,4.0,7.0,4.0,Male,55-64,English,White,True,Rent,True,Less than a year,"$50,000 to 74,999",False
+English,7.0,8.0,8.0,8.0,8.0,9.0,3.0,1.0,0.0,3.0,2.0,4.0,6.0,3.0,5.0,5.0,Female,25-34,English,Hispanic/Latino,False,Rent,False,4-7 years,Blank,True
+English,8.0,9.0,7.0,10.0,9.0,10.0,5.0,1.0,4.0,4.0,4.0,5.0,10.0,10.0,10.0,8.0,Female,55-64,English,White,False,Own,False,11-15 years,"$100,000 to $149,999",False
+English,8.0,8.0,6.0,8.0,8.0,0.0,3.0,0.0,0.0,4.0,4.0,0.0,5.0,5.0,8.0,3.0,Female,55-64,English,White,False,Blank,Blank,21 years or more,Blank,False
+English,7.0,9.0,2.0,10.0,10.0,10.0,5.0,2.0,4.0,4.0,4.0,5.0,10.0,10.0,7.0,8.0,Male,35-44,Blank,White,True,Own,False,8-10 years,"$150,000 or more",False
+English,9.0,10.0,9.0,10.0,8.0,10.0,5.0,4.0,5.0,5.0,4.0,5.0,8.0,8.0,6.0,9.0,Female,25-34,English,White,False,Own,False,4-7 years,"$100,000 to $149,999",False
+English,10.0,10.0,10.0,10.0,8.0,10.0,5.0,5.0,4.0,5.0,4.0,5.0,10.0,10.0,9.0,9.0,Female,75 or older,Korean,Asian,False,Rent,False,4-7 years,"$10,000 to $24,999",False
+English,7.0,8.0,6.0,9.0,10.0,9.0,4.0,2.0,4.0,3.0,4.0,4.0,8.0,9.0,7.0,7.0,Female,55-64,English,White,False,Own,False,21 years or more,"$100,000 to $149,999",False
+English,8.0,9.0,8.0,9.0,7.0,9.0,5.0,3.0,3.0,4.0,5.0,5.0,9.0,9.0,9.0,8.0,Male,25-34,English,White,False,Own,False,4-7 years,"$150,000 or more",False
+Blank,7.0,8.0,6.0,6.0,6.0,7.0,3.0,1.0,0.0,4.0,2.0,3.0,6.0,8.0,7.0,7.0,Male,25-34,English;Japanese,White,False,Rent,True,1-3 years,Blank,True
+English,5.0,5.0,5.0,8.0,9.0,9.0,4.0,1.0,0.0,2.0,2.0,4.0,5.0,8.0,8.0,7.0,Female,65-74,English,White,False,Own,False,21 years or more,"$10,000 to $24,999",False
+English,7.0,6.0,8.0,8.0,8.0,8.0,4.0,3.0,0.0,3.0,3.0,3.0,8.0,8.0,8.0,8.0,Male,25-34,English;French,White,False,Rent,True,4-7 years,"$100,000 to $149,999",False
+English,8.0,9.0,8.0,10.0,10.0,10.0,5.0,2.0,4.0,3.0,4.0,5.0,10.0,10.0,9.0,8.0,Male,55-64,English,White,True,Own,False,16-20 years,"$75,000 to $99,999",False
+English,8.0,8.0,9.0,7.0,6.0,7.0,5.0,1.0,4.0,4.0,4.0,3.0,7.0,8.0,5.0,1.0,Male,Blank,English,Italian,False,Own,False,21 years or more,"$50,000 to 74,999",False
+English,8.0,9.0,8.0,8.0,9.0,9.0,5.0,2.0,0.0,4.0,3.0,5.0,9.0,9.0,9.0,9.0,Male,25-34,English,White,False,Rent,False,8-10 years,"$75,000 to $99,999",False
+English,8.0,6.0,4.0,7.0,8.0,8.0,4.0,2.0,4.0,3.0,3.0,4.0,5.0,7.0,7.0,7.0,Female,25-34,English,White,False,Rent,False,1-3 years,"$50,000 to 74,999",False
+Portugese,8.0,9.0,9.0,10.0,5.0,10.0,5.0,4.0,0.0,5.0,1.0,5.0,0.0,10.0,10.0,4.0,Female,65-74,Portuguese,White,False,Own,False,21 years or more,Blank,Blank
+English,10.0,10.0,10.0,10.0,6.0,9.0,5.0,4.0,0.0,5.0,1.0,5.0,10.0,9.0,10.0,7.0,Female,45-54,English,White,False,Own,False,21 years or more,"$75,000 to $99,999",False
+English,8.0,9.0,6.0,8.0,9.0,7.0,4.0,3.0,0.0,4.0,2.0,3.0,7.0,10.0,8.0,7.0,Female,35-44,English,White,False,Rent,False,1-3 years,"$100,000 to $149,999",False
