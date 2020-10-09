@@ -1,0 +1,30 @@
+---
+title: "Data Exploration"
+author: "Peter Madsen and Chris Salas"
+date: "`r Sys.Date()`"
+output: openintro::lab_report
+---
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(openintro)
+library(readr)
+
+somerville2017full <- read_csv("cleanedData/2017HappinessSurvey.csv")
+```
+
+# Exploration
+
+The 2017 survey data was cleaned up in Python (see `data_cleanup_changelog.md`) and exported into the `cleanedData` folder. The next steps are to do the dataframe manipulations and the graphs which are the core of the final paper. These have to be done in R, and we can play around with it here.
+
+```{r demographics_dataframe}
+somerville2017demographics <- somerville2017full[c(18:23, 25:27)]
+gender_responses = unique(somerville2017demographics[colnames(somerville2017demographics)[1]])
+
+
+```
+
+### Exercise 2
+
+...
+
