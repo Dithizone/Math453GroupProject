@@ -16,6 +16,7 @@ library(forcats)
 # Also, here's how to save graphs https://ggplot2.tidyverse.org/reference/ggsave.html
 
 fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
+# TODO: Figure out what to do with Blank entries...
 
 ```
 
@@ -50,7 +51,8 @@ Let's explicitly declare the goal for the presentation here so we can do the foc
 demographicssomerville2017 <- fullsomerville2017[c(18:23, 25:27)]
 
 
-# Each demographic of interest in a single dataframe.
+# Each column of interest in a single dataframe. (So we can see)
+# sample distribution of demographics)
 gender = demographicssomerville2017[1]
 age = demographicssomerville2017[2]
 ethnicity = demographicssomerville2017[4]
@@ -75,10 +77,9 @@ annual_income_ordered = annual_income %>% dplyr::mutate(`9. What is your annual 
 #The bar plots of each.
 ggplot(gender_ordered, aes_string(x = "`1. What is your gender`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your gender?\"")
 
-
 ggplot(age_ordered, aes(x = `2. Age?`)) + geom_bar() + labs(x = "", y = "", title = "\"What is your age?\"")
 
-ggplot(ethnicity, aes_string(x = "`4. What is your race or ethnicity?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your race or ethnicity?\"") + theme(axis.text.x = element_text(angle = 89)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+ggplot(ethnicity, aes_string(x = "`4. What is your race or ethnicity?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your race or ethnicity?\"") + theme(axis.text.x = element_text(angle = 89)) + theme(axis.text.x = element_text(vjust = 0.5)) + coord_flip() 
 
 ggplot(annual_income_ordered, aes_string(x = "`9. What is your annual household income?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your annual household income?\"") + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
 
@@ -87,11 +88,72 @@ ggplot(house_price, aes(x = `7b. How would you rate the cost of housing?`)) + ge
 
 ```
 
-### Box plots
+### Demographics vs. House Prices
 
 
-``` {r houseprice_boxplots}
-# These will be the boxplots
+``` {r houseprice_bars}
+# These will be the stacked bar plots.
+# I'm putting it in a function so I can do this over and over.
 
 
+# Begin function definition.
+make_stacked_bars = function(column, xticks) {
+fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
+  
+gender_stacked = fullsomerville2017 %>% dplyr::mutate(`1. What is your gender` = factor(`1. What is your gender`, levels=c("Blank", "Female", "Male", "Non-binary", "Both selected", "Multiple people")))
+w = fullsomerville2017 %>% ggplot(aes_string(x=column, fill="`1. What is your gender`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
+print(w)
+
+age_stacked = fullsomerville2017 %>% dplyr::mutate(`2. Age?` = factor(`2. Age?`, levels=c("Blank", "18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75 or older")))
+x = ggplot(age_stacked, aes_string(x=column, fill="`2. Age?`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
+print(x)
+
+ethnicity_stacked = fullsomerville2017 %>% filter(`4. What is your race or ethnicity?` == "White" | `4. What is your race or ethnicity?` == "Blank" | `4. What is your race or ethnicity?` == "Asian" | `4. What is your race or ethnicity?` == "Hispanic/Latino" | `4. What is your race or ethnicity?` == "Black/African American")
+y = ethnicity_stacked %>% ggplot(aes_string(x=column, fill="`4. What is your race or ethnicity?`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
+print(y)
+
+annual_income_stacked = fullsomerville2017 %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Blank", "Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
+z = annual_income_stacked %>% ggplot(aes_string(x=column, fill="`9. What is your annual household income?`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
+print(z)
+}  # end function definition
+
+# Behold! All these charts with a single line!
+make_stacked_bars(column = "`7b. How would you rate the cost of housing?`", xticks = 6)
+```
+
+### Demographics vs. Night Safety
+
+``` {r demographics_night}
+make_stacked_bars(column = "`9. How safe do you feel walking in your neighborhood at night?`", xticks = 11)
+```
+
+### Demographics vs. Police Trust
+
+``` {r demographics_police}
+make_stacked_bars(column = "`7d. How would you rate your trust in the local police?`", xticks = 6)
+```
+
+### Demographics vs. EVERYTHING!
+
+``` {r demographics_all}
+
+# This is a list of all the column headers with "rate this on a scale
+# from 1 to n" kinda questions. Putting them all here lets me loop
+# through them.
+all_rating_questions = c("`1. How happy do you feel right now?`", "`2. How satisfied are you with your life in general?`", "`3. How anxious did you feel yesterday?`", "`4. How satisfied are you with Somerville as a place to live?`", "`5. How satisfied are you with your neighborhood?`", "`6. How proud are you to be a Somerville resident?`", "`7a. How would you rate the availability of information about city services?`", "`7b. How would you rate the cost of housing?`", "`7c. How would you rate the overall quality of public schools?`", "`7d. How would you rate your trust in the local police?`", "`7e. How would you rate the maintenance of streets and sidewalks?`", "`7f. How would you rate the availability of social community events?`", "`8. How satisfied are you with the quality and number of transportation options available to you?`", "`9. How safe do you feel walking in your neighborhood at night?`", "`10. How satisfied are you with the appearance of parks and squares in your neighborhood?`", "`11. How satisfied are you with the beauty or physical setting of your neighborhood?`")
+
+# And being able to loop through them means I can create stacked
+# bar charts for every question with three lines:
+for (col in all_rating_questions) {
+  make_stacked_bars(column = col, xticks = 11)
+}
+```
+
+### End chunk
+
+This is just so I can click "run all the above" to run
+the whole script at once.
+
+``` {r wish_this_was_python}
+# placeholder chunk
 ```
