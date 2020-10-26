@@ -9,22 +9,89 @@ output: openintro::lab_report
 library(tidyverse)
 library(openintro)
 library(readr)
+library(dplyr)
+library(forcats)
 
-somerville2017full <- read_csv("cleanedData/2017HappinessSurvey.csv")
+# TODO: Consider using source() for script files to make things tidy.
+# Also, here's how to save graphs https://ggplot2.tidyverse.org/reference/ggsave.html
+
+fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
+
 ```
 
 # Exploration
 
-The 2017 survey data was cleaned up in Python (see `data_cleanup_changelog.md`) and exported into the `cleanedData` folder. The next steps are to do the dataframe manipulations and the graphs which are the core of the final paper. These have to be done in R, and we can play around with it here.
+The 2017 survey data was cleaned up in Python (see `data_cleanup_changelog.md`) and exported into the `cleanedData` folder. 
 
-```{r demographics_dataframe}
-somerville2017demographics <- somerville2017full[c(18:23, 25:27)]
-gender_responses = unique(somerville2017demographics[colnames(somerville2017demographics)[1]])
+Let's explicitly declare the goal for the presentation here so we can do the focused "figure out how to say it in R" brain mode even though this is an "indulge curiosity whimsically" brain mode kind of task.
+
+## Goals
+
+- Frequency bar plots (demographics)
+-- Age
+-- Annual Income
+-- Gender
+-- Ethnicity
+
+- Box plots (Opinion on housing prices)
+-- houseprice vs. age
+-- houseprice vs. annual income
+-- houseprice vs. gender
+-- houseprice vs. ethnicity
+
+- Find Somerville population demographics to compare our sample demographics to
+-- Useful starting point: https://www.census.gov/quickfacts/fact/table/somervillecitymassachusetts/PST045219
+
+### Frequency bar plots
+
+
+```{r demographics_barplots}
+# Demographics in a single dataframe.
+demographicssomerville2017 <- fullsomerville2017[c(18:23, 25:27)]
+
+
+# Each demographic of interest in a single dataframe.
+gender = demographicssomerville2017[1]
+age = demographicssomerville2017[2]
+ethnicity = demographicssomerville2017[4]
+annual_income = demographicssomerville2017[8]
+
+house_price = fullsomerville2017[c(9)]
+
+
+# Counting up unique entries
+# gender %>% count(gender[1])
+# age %>% count(age[1])
+# ethnicity %>% count(ethnicity[1])
+# annual_income %>% count(annual_income[1])
+
+
+# Choosing the order of the x-axis entries
+gender_ordered = gender %>% dplyr::mutate(`1. What is your gender` = factor(`1. What is your gender`, levels=c("Blank", "Female", "Male", "Non-binary", "Both selected", "Multiple people")))
+age_ordered = age %>% dplyr::mutate(`2. Age?` = factor(`2. Age?`, levels=c("Blank", "18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75 or older")))
+annual_income_ordered = annual_income %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Blank", "Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
+
+
+#The bar plots of each.
+ggplot(gender_ordered, aes_string(x = "`1. What is your gender`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your gender?\"")
+
+
+ggplot(age_ordered, aes(x = `2. Age?`)) + geom_bar() + labs(x = "", y = "", title = "\"What is your age?\"")
+
+ggplot(ethnicity, aes_string(x = "`4. What is your race or ethnicity?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your race or ethnicity?\"") + theme(axis.text.x = element_text(angle = 89)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+
+ggplot(annual_income_ordered, aes_string(x = "`9. What is your annual household income?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your annual household income?\"") + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+
+ggplot(house_price, aes(x = `7b. How would you rate the cost of housing?`)) + geom_bar() + labs(x = "", y = "", title = "\"How would you rate the cost of housing?\"") + scale_x_continuous(n.breaks = 6)
 
 
 ```
 
-### Exercise 2
+### Box plots
 
-...
 
+``` {r houseprice_boxplots}
+# These will be the boxplots
+
+
+```
