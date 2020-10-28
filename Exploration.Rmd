@@ -119,12 +119,18 @@ print(z)
 
 # Behold! All these charts with a single line!
 make_stacked_bars(column = "`7b. How would you rate the cost of housing?`", xticks = 6)
+
+# TODO: Verify what the numbers in the hedonic scale represent
 ```
 
 ### Demographics vs. Night Safety
 
 ``` {r demographics_night}
 make_stacked_bars(column = "`9. How safe do you feel walking in your neighborhood at night?`", xticks = 11)
+
+# TODO: Box plots of these
+# TODO: Hypothesis testing (see lab 5.3)
+
 ```
 
 ### Demographics vs. Police Trust
