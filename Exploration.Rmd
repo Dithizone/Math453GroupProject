@@ -25,26 +25,7 @@ The 2017 survey data was cleaned up in Python (see `data_cleanup_changelog.md`) 
 
 ## Goals (Nov/11/2020)
 
-> 1. Remove blank-demographic entries (COMPLETE)
-  - Our research motivation specifically calls out age, race, income, and gender. Let's purge age-blank entries first and see what remains. Then, second, wealth-blank entries. Third, race-blank. Last, gender-blank (maybe leave them).
-  - Filter results further, using only the top four race/ethnicity responses.
-  - Note data set size before and after.
-  
-> 2. Separate distributions for each question by subsets (COMPLETE)
-  - House price vs. age for each age group
-  - House price vs. gender for each gender
-  - House price vs. wealth by each wealth group
-  - House price vs. race/ethnicity
->  
-  - Night safety vs. age for each age group
-  - Night safety vs. gender for each gender
-  - Night safety vs. wealth by each wealth group
-  - Night safety vs. race/ethnicity
-(Note, this will be done after demographic distributions, so scroll down a bit)
-  
-> 2.5. Include renters and students in demographic breakdown (COMPLETE)
-
-> 3. Find Somerville population demographics to compare our sample demographics to
+> 1. Find Somerville population demographics to compare our sample demographics to
   - Useful starting point: https://www.census.gov/quickfacts/fact/table/somervillecitymassachusetts/PST045219
   
 ### Removing blanks and low-n race/ethnicity
@@ -96,8 +77,11 @@ gender = demographicssomerville2017[1]
 age = demographicssomerville2017[2]
 ethnicity = demographicssomerville2017[4]
 annual_income = demographicssomerville2017[8]
-renter = demographicssomerville2017[6]
+housing_status = demographicssomerville2017[6]
 student = demographicssomerville2017[9]
+
+renters = fullsomerville2017 %>% filter(`6. Describe your housing status in Somerville.` == "Rent")
+owners = fullsomerville2017 %>% filter(`6. Describe your housing status in Somerville.` == "Own")
 
 house_price = fullsomerville2017[c(9)]
 
@@ -125,6 +109,10 @@ ggplot(age_ordered, aes(x = `2. Age?`)) + geom_bar() + labs(x = "", y = "", titl
 ggplot(ethnicity, aes_string(x = "`4. What is your race or ethnicity?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your race or ethnicity?\"") + theme(axis.text.x = element_text(angle = 89)) + theme(axis.text.x = element_text(vjust = 0.5)) + coord_flip() 
 
 ggplot(annual_income_ordered, aes_string(x = "`9. What is your annual household income?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your annual household income?\"") + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+
+ggplot(housing_status, aes(x = `6. Describe your housing status in Somerville.`)) + geom_bar() + labs(x = "", y = "", title = "\"Describe your housing status\"")
+
+ggplot(student, aes(x = `10. Are you a student?`)) + geom_bar() + labs(x = "", y = "", title = "\"Are you a student?\"")
 
 ggplot(house_price, aes(x = `7b. How would you rate the cost of housing?`)) + geom_bar() + labs(x = "", y = "", title = "\"How would you rate the cost of housing?\"") + scale_x_continuous(n.breaks = 6)
 
@@ -238,6 +226,24 @@ for (i in renter_subsets) {
 }  # end demographic subset function definition
 
 
+# Begin renter/owner function
+rent_own = function(column, xticks, renter = renters, owner = owners, categorical = FALSE) {
+  if (categorical == FALSE) {
+    r = renters %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("royalblue3"))
+    print(r)
+  
+    o = owners %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("springgreen4"))
+    print(o)
+  }
+  else {
+    r = renters %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_fill_manual(values = c("steelblue1"))
+    print(r)
+  
+    o = owners %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_fill_manual(values = c("seagreen1"))
+    print(o)
+  }
+}
+
 
 ```
 
@@ -283,7 +289,33 @@ demographic_subset_charts(column = "`7d. How would you rate your trust in the lo
 # This is a list of all the column headers with "rate this on a scale
 # from 1 to n" kinda questions. Putting them all here lets me loop
 # through them.
-all_rating_questions = c("`1. How happy do you feel right now?`", "`2. How satisfied are you with your life in general?`", "`3. How anxious did you feel yesterday?`", "`4. How satisfied are you with Somerville as a place to live?`", "`5. How satisfied are you with your neighborhood?`", "`6. How proud are you to be a Somerville resident?`", "`7a. How would you rate the availability of information about city services?`", "`7b. How would you rate the cost of housing?`", "`7c. How would you rate the overall quality of public schools?`", "`7d. How would you rate your trust in the local police?`", "`7e. How would you rate the maintenance of streets and sidewalks?`", "`7f. How would you rate the availability of social community events?`", "`8. How satisfied are you with the quality and number of transportation options available to you?`", "`9. How safe do you feel walking in your neighborhood at night?`", "`10. How satisfied are you with the appearance of parks and squares in your neighborhood?`", "`11. How satisfied are you with the beauty or physical setting of your neighborhood?`")
+all_rating_questions = c("`1. How happy do you feel right now?`", 
+                         "`2. How satisfied are you with your life in general?`", 
+                         "`3. How anxious did you feel yesterday?`", 
+                         "`4. How satisfied are you with Somerville as a place to live?`", 
+                         "`5. How satisfied are you with your neighborhood?`", 
+                         "`6. How proud are you to be a Somerville resident?`", 
+                         "`7a. How would you rate the availability of information about city services?`", 
+                         "`7b. How would you rate the cost of housing?`", 
+                         "`7c. How would you rate the overall quality of public schools?`", 
+                         "`7d. How would you rate your trust in the local police?`", 
+                         "`7e. How would you rate the maintenance of streets and sidewalks?`", 
+                         "`7f. How would you rate the availability of social community events?`", 
+                         "`8. How satisfied are you with the quality and number of transportation options available to you?`", 
+                         "`9. How safe do you feel walking in your neighborhood at night?`", 
+                         "`10. How satisfied are you with the appearance of parks and squares in your neighborhood?`", 
+                         "`11. How satisfied are you with the beauty or physical setting of your neighborhood?`")
+
+all_categorical_questions = c("`1. What is your gender`", 
+                              "`2. Age?`", 
+                              "`3. What language(s) do you speak at home?`", 
+                              "`4. What is your race or ethnicity?`", 
+                              "`5. Do you have children age 18 or younger who live with you?`", 
+                              "`6. Describe your housing status in Somerville.`", 
+                              "`7. Do you plan to move away from Somerville in the next two years?`", 
+                              "`8 How long have you lived here?`", 
+                              "`9. What is your annual household income?`", 
+                              "`10. Are you a student?`")
 
 # And being able to loop through them means I can create stacked
 # bar charts for every question with three lines. But it's
@@ -293,6 +325,28 @@ all_rating_questions = c("`1. How happy do you feel right now?`", "`2. How satis
 #for (col in all_rating_questions) {make_stacked_bars(column = col, xticks = 11)}
 
 ```
+
+### Who are the renters? Who are the owners?
+
+One striking discovery is that renters and owners of homes differ noticeably in their responses to house prices (of course), night safety, and police trust. So who are the renters, and who are the owners?
+
+``` {r own_v_rent}
+for (col in all_rating_questions) {
+  rent_own(column = col, xticks = 10)
+}
+
+for (col in all_categorical_questions) {
+  rent_own(column = col, xticks = 10, categorical = TRUE)
+}
+
+renters_by_income = renters %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
+renters_by_income %>% ggplot(aes_string(x="`9. What is your annual household income?`", fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = "`9. What is your annual household income?`") + scale_fill_manual(values = c("steelblue1")) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+
+owners_by_income = owners %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
+owners_by_income %>% ggplot(aes_string(x="`9. What is your annual household income?`", fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = "`9. What is your annual household income?`") + scale_fill_manual(values = c("seagreen1")) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+
+```
+
 
 ### End chunk
 
