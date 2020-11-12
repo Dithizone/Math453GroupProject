@@ -1,0 +1,86 @@
+---
+title: "Somerville Happiness Survey Report, Draft 1"
+author: "Peter Madsen and Chris Salas"
+date: "`r Sys.Date()`"
+output: openintro::lab_report
+---
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(openintro)
+library(readr)
+library(dplyr)
+library(forcats)
+```
+
+# Introduction
+
+### Research Question
+> Describe your research question.
+
+1. How does a person’s gender, age, ethnicity, annual income, etc. affect their opinion of the cost of housing?
+2. How does a person’s gender, age, etc. affect how safe they feel walking at night?
+
+
+### Motivation
+> Explain what motivated you to investigate this question.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problems within a community, such as prohibitive housing costs, declining sense of neighborhood safety, or increasing distrust in police, can be obvious and troubling to some groups of people and invisible to others. Additionally, as community problems increase in severity, they can affect some groups first, before spreading to others as the issues worsen. And since these problems are addressed by legislation (which is informed by public opinion), there is a danger that problems which could have been solved quickly and inexpensively at first will become extremely difficult or even impossible to solve by the time everyone is aware.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A pertinent analogy can be drawn from Environmental Science -- an “indicator species” is a species which is especially sensitive to environmental contaminants and will show changes in behavior or a decline in population long before other species do, allowing it to serve as a warning sign, or “indicator,” of the health of the ecosystem as a whole. Knowing the indicator species for different environments allows for quick action against pollution events.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Similarly, if something like an “indicator demographic” can be identified for different community problems, this demographic can be used to detect and resolve issues early, before the social health of the entire community is damaged.
+
+
+### Expectations
+> Describe any expectations you started with, concerning what you might learn about your research question.
+
+Older people, white people, wealthy people will be more favorable of house prices.
+
+Younger people, poorer people, students, and renters will be less favorable of house prices.
+
+Women will be less likely to feel safe walking at night.
+
+Men will be more likely to feel safe walking at night.
+
+
+### Description of Variables
+> Indicate what your explanatory and response variables are, and classify them as categorical or quantitative.
+
+Explanatory variables:
+
+- Gender \- categorical (binary… in this data set, anyway)
+- Age \- categorical (bins)
+- Ethnicity \- categorical
+- Annual income \- quantitative
+- Student \- categorical (binary)
+- Own/rent home? \- categorical (binary)
+
+Response variables:
+
+- How do you rate the cost of housing? (quantitative)
+- How safe do you feel walking at night? (quantitative)
+
+
+# Data Description
+- Provide lots of detail about your data, enough detail that the reader will understand exactly what your data entailed.
+- Specify whether your study is observational or experimental.
+- Indicate what your project’s observational/experimental units are.
+- For whichever type of randomness, you used (random sampling or random assignment), give much detail about how you actually implemented that randomness.
+- Describe how you measured/recorded the values of your variables
+  - If you used a survey, provide a copy of the survey and mention how you decided on how to word your questions
+  - If you measured something, describe how you collected the measurements.
+- Describe any efforts you made to control for other variables that could be related to what you are studying.
+
+# Descriptive Analysis
+- Present and describe what you learn from graphical displays of your data
+  - Segmented bar graph for categorical response
+  - Dotplots and/or boxplots and/or histograms for a quantitative response
+- Present and describe what you learn from numerical summaries of your data
+  - Conditional proportions and/or relative risk and/or odds ratio (categorical)
+  - Mean and/or SD and/or five-number summary (quantitative)
+
+``` {r code}
+
+```
+

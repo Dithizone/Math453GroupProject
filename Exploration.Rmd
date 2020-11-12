@@ -16,7 +16,6 @@ library(forcats)
 # Also, here's how to save graphs https://ggplot2.tidyverse.org/reference/ggsave.html
 
 fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
-# TODO: Figure out what to do with Blank entries...
 
 ```
 
@@ -24,24 +23,64 @@ fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
 
 The 2017 survey data was cleaned up in Python (see `data_cleanup_changelog.md`) and exported into the `cleanedData` folder. 
 
-Let's explicitly declare the goal for the presentation here so we can do the focused "figure out how to say it in R" brain mode even though this is an "indulge curiosity whimsically" brain mode kind of task.
+## Goals (Nov/11/2020)
 
-## Goals
+> 1. Remove blank-demographic entries (COMPLETE)
+  - Our research motivation specifically calls out age, race, income, and gender. Let's purge age-blank entries first and see what remains. Then, second, wealth-blank entries. Third, race-blank. Last, gender-blank (maybe leave them).
+  - Filter results further, using only the top four race/ethnicity responses.
+  - Note data set size before and after.
+  
+> 2. Separate distributions for each question by subsets (COMPLETE)
+  - House price vs. age for each age group
+  - House price vs. gender for each gender
+  - House price vs. wealth by each wealth group
+  - House price vs. race/ethnicity
+>  
+  - Night safety vs. age for each age group
+  - Night safety vs. gender for each gender
+  - Night safety vs. wealth by each wealth group
+  - Night safety vs. race/ethnicity
+(Note, this will be done after demographic distributions, so scroll down a bit)
+  
+> 2.5. Include renters and students in demographic breakdown (COMPLETE)
 
-- Frequency bar plots (demographics)
--- Age
--- Annual Income
--- Gender
--- Ethnicity
+> 3. Find Somerville population demographics to compare our sample demographics to
+  - Useful starting point: https://www.census.gov/quickfacts/fact/table/somervillecitymassachusetts/PST045219
+  
+### Removing blanks and low-n race/ethnicity
 
-- Box plots (Opinion on housing prices)
--- houseprice vs. age
--- houseprice vs. annual income
--- houseprice vs. gender
--- houseprice vs. ethnicity
+``` {r removing_blanks}
 
-- Find Somerville population demographics to compare our sample demographics to
--- Useful starting point: https://www.census.gov/quickfacts/fact/table/somervillecitymassachusetts/PST045219
+# blanks
+cat("Before filter:", nrow(fullsomerville2017), "\n")  # 835
+fullsomerville2017 = fullsomerville2017 %>% filter(`2. Age?` != "Blank")
+cat("After removing age-blank:", nrow(fullsomerville2017), "\n")  # 821 (-14)
+fullsomerville2017 = fullsomerville2017 %>% filter(`9. What is your annual household income?` != "Blank")
+cat("After removing income-blank:", nrow(fullsomerville2017), "\n")  # 736 (-85)
+fullsomerville2017 = fullsomerville2017 %>% filter(`4. What is your race or ethnicity?` != "Blank")
+cat("After removing race/ethnicity-blank:", nrow(fullsomerville2017), "\n")  # 709 (-27)
+fullsomerville2017 = fullsomerville2017 %>% filter(`1. What is your gender` != "Blank")
+cat("After removing gender-blank: ", nrow(fullsomerville2017), "\n")  # 703 (-6)
+
+# low-n race/ethnicity
+fullsomerville2017 = fullsomerville2017 %>% filter(`4. What is your race or ethnicity?` == "White" | `4. What is your race or ethnicity?` == "Asian" | `4. What is your race or ethnicity?` == "Hispanic/Latino" | `4. What is your race or ethnicity?` == "Black/African American")
+cat("After removing low-n race/ethnicity:", nrow(fullsomerville2017), "\n")  # 662 (-41)
+
+# Removing blanks for house price and night safety
+fullsomerville2017 = fullsomerville2017 %>% filter(`7b. How would you rate the cost of housing?` != 0)
+cat("After removing house price zeros:", nrow(fullsomerville2017), "\n")  # 653 (-9)
+fullsomerville2017 = fullsomerville2017 %>% filter(`9. How safe do you feel walking in your neighborhood at night?` != 0)
+cat("After removing night safety zeros:", nrow(fullsomerville2017), "\n")  # 647 (-6)
+
+# Removing blanks for police trust
+fullsomerville2017 = fullsomerville2017 %>% filter(`7d. How would you rate your trust in the local police?` != 0)
+cat("After removing police trust zeros:", nrow(fullsomerville2017), "\n")  # 631 (-16)
+
+cat("Total removed: ", (835 - 631), " (", (100 * (835-631) / 835), "%)\n", sep = "")
+
+```
+
+
 
 ### Frequency bar plots
 
@@ -57,6 +96,8 @@ gender = demographicssomerville2017[1]
 age = demographicssomerville2017[2]
 ethnicity = demographicssomerville2017[4]
 annual_income = demographicssomerville2017[8]
+renter = demographicssomerville2017[6]
+student = demographicssomerville2017[9]
 
 house_price = fullsomerville2017[c(9)]
 
@@ -66,6 +107,8 @@ house_price = fullsomerville2017[c(9)]
 # age %>% count(age[1])
 # ethnicity %>% count(ethnicity[1])
 # annual_income %>% count(annual_income[1])
+# renter %>% count(renter[1])
+# student %>% count(student[1])
 
 
 # Choosing the order of the x-axis entries
@@ -88,38 +131,128 @@ ggplot(house_price, aes(x = `7b. How would you rate the cost of housing?`)) + ge
 
 ```
 
-### Demographics vs. House Prices
+### Functions for stacked bar and separated distributions
 
+``` {r the_functions}
 
-``` {r houseprice_bars}
-# These will be the stacked bar plots.
-# I'm putting it in a function so I can do this over and over.
+# ----- Begin stacked bar function definition.
+make_stacked_bars = function(column, xticks, dataframe=fullsomerville2017) {
 
-
-# Begin function definition.
-make_stacked_bars = function(column, xticks) {
-fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
-  
-gender_stacked = fullsomerville2017 %>% dplyr::mutate(`1. What is your gender` = factor(`1. What is your gender`, levels=c("Blank", "Female", "Male", "Non-binary", "Both selected", "Multiple people")))
-w = fullsomerville2017 %>% ggplot(aes_string(x=column, fill="`1. What is your gender`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
+gender_stacked = dataframe %>% 
+  dplyr::mutate(`1. What is your gender` = factor(`1. What is your gender`, levels=c("Blank", "Female", "Male", "Non-binary", "Both selected", "Multiple people")))
+w = dataframe %>% 
+  ggplot(aes_string(x=column, fill="`1. What is your gender`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
 print(w)
 
-age_stacked = fullsomerville2017 %>% dplyr::mutate(`2. Age?` = factor(`2. Age?`, levels=c("Blank", "18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75 or older")))
+age_stacked = dataframe %>% dplyr::mutate(`2. Age?` = factor(`2. Age?`, levels=c("Blank", "18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75 or older")))
 x = ggplot(age_stacked, aes_string(x=column, fill="`2. Age?`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
 print(x)
 
-ethnicity_stacked = fullsomerville2017 %>% filter(`4. What is your race or ethnicity?` == "White" | `4. What is your race or ethnicity?` == "Blank" | `4. What is your race or ethnicity?` == "Asian" | `4. What is your race or ethnicity?` == "Hispanic/Latino" | `4. What is your race or ethnicity?` == "Black/African American")
+ethnicity_stacked = dataframe %>% filter(`4. What is your race or ethnicity?` == "White" | `4. What is your race or ethnicity?` == "Blank" | `4. What is your race or ethnicity?` == "Asian" | `4. What is your race or ethnicity?` == "Hispanic/Latino" | `4. What is your race or ethnicity?` == "Black/African American")
 y = ethnicity_stacked %>% ggplot(aes_string(x=column, fill="`4. What is your race or ethnicity?`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
 print(y)
 
-annual_income_stacked = fullsomerville2017 %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Blank", "Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
+annual_income_stacked = dataframe %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Blank", "Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
 z = annual_income_stacked %>% ggplot(aes_string(x=column, fill="`9. What is your annual household income?`")) + geom_bar() + labs(x = "", y = "", title = column) + scale_x_continuous(n.breaks = xticks)
 print(z)
-}  # end function definition
+}  # end stacked bar function definition
+
+
+# ----- begin demographic subset function definition
+demographic_subset_charts = function(column, xticks, dataframe=fullsomerville2017) {
+  gender_subsets = c("Female", 
+                     "Male", 
+                     "Non-binary", 
+                     "Both selected", 
+                     "Multiple people")
+  age_subsets = c("18-24", 
+                  "25-34", 
+                  "35-44", 
+                  "45-54", 
+                  "55-64", 
+                  "65-74", 
+                  "75 or older")
+  income_subsets = c("Less than $10,000", 
+                     "$10,000 to $24,999", 
+                     "$25,000 to $49,999", 
+                     "$50,000 to 74,999", 
+                     "$75,000 to $99,999", 
+                     "$100,000 to $149,999", 
+                     "$150,000 or more")
+  ethnicity_subsets = c("White", 
+                        "Asian", 
+                        "Hispanic/Latino", 
+                        "Black/African American")
+  student_subsets = c("Blank", 
+                      "False", 
+                      "True")
+  renter_subsets = c("Neither", 
+                     "Own", 
+                     "Rent")
+  
+  gender_data = dataframe %>% dplyr::mutate(`1. What is your gender` = factor(`1. What is your gender`, levels=c("Female", "Male", "Non-binary", "Both selected", "Multiple people")))
+  age_data = dataframe %>% dplyr::mutate(`2. Age?` = factor(`2. Age?`, levels=c("18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75 or older")))
+  income_data = dataframe %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
+  ethnicity_data = dataframe 
+  student_data = dataframe
+  renter_data = dataframe
+
+
+for (i in gender_subsets) {
+  w = gender_data %>% 
+    filter(`1. What is your gender` == i) %>% 
+    ggplot(aes_string(x=column, fill="`1. What is your gender`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("red"))
+  print(w)
+}
+for (i in age_subsets) {
+  w = age_data %>% 
+    filter(`2. Age?` == i) %>% 
+    ggplot(aes_string(x=column, fill="`2. Age?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("blue"))
+  print(w)
+}
+for (i in income_subsets) {
+  w = income_data %>% 
+    filter(`9. What is your annual household income?` == i) %>%
+    ggplot(aes_string(x=column, fill="`9. What is your annual household income?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("green"))
+  print(w)
+}
+for (i in ethnicity_subsets) {
+  w = ethnicity_data %>% 
+    filter(`4. What is your race or ethnicity?` == i) %>% 
+    ggplot(aes_string(x=column, fill="`4. What is your race or ethnicity?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("purple"))
+  print(w)
+}
+for (i in student_subsets) {
+  w = student_data %>% 
+    filter(`10. Are you a student?` == i) %>% 
+    ggplot(aes_string(x=column, fill="`10. Are you a student?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("orange"))
+  print(w)
+}
+for (i in renter_subsets) {
+  w = renter_data %>% 
+    filter(`6. Describe your housing status in Somerville.` == i) %>% 
+    ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("cyan"))
+  print(w)
+}
+  
+}  # end demographic subset function definition
+
+
+
+```
+
+
+
+### Demographics vs. House Prices
+
+
+
+``` {r houseprice_bars}
 
 # Behold! All these charts with a single line!
 make_stacked_bars(column = "`7b. How would you rate the cost of housing?`", xticks = 6)
 
+demographic_subset_charts(column = "`7b. How would you rate the cost of housing?`", xticks = 5)
 # TODO: Verify what the numbers in the hedonic scale represent
 ```
 
@@ -127,6 +260,8 @@ make_stacked_bars(column = "`7b. How would you rate the cost of housing?`", xtic
 
 ``` {r demographics_night}
 make_stacked_bars(column = "`9. How safe do you feel walking in your neighborhood at night?`", xticks = 11)
+
+demographic_subset_charts(column = "`9. How safe do you feel walking in your neighborhood at night?`", xticks = 10)
 
 # TODO: Box plots of these
 # TODO: Hypothesis testing (see lab 5.3)
@@ -137,6 +272,8 @@ make_stacked_bars(column = "`9. How safe do you feel walking in your neighborhoo
 
 ``` {r demographics_police}
 make_stacked_bars(column = "`7d. How would you rate your trust in the local police?`", xticks = 6)
+
+demographic_subset_charts(column = "`7d. How would you rate your trust in the local police?`", xticks = 5)
 ```
 
 ### Demographics vs. EVERYTHING!
@@ -149,10 +286,12 @@ make_stacked_bars(column = "`7d. How would you rate your trust in the local poli
 all_rating_questions = c("`1. How happy do you feel right now?`", "`2. How satisfied are you with your life in general?`", "`3. How anxious did you feel yesterday?`", "`4. How satisfied are you with Somerville as a place to live?`", "`5. How satisfied are you with your neighborhood?`", "`6. How proud are you to be a Somerville resident?`", "`7a. How would you rate the availability of information about city services?`", "`7b. How would you rate the cost of housing?`", "`7c. How would you rate the overall quality of public schools?`", "`7d. How would you rate your trust in the local police?`", "`7e. How would you rate the maintenance of streets and sidewalks?`", "`7f. How would you rate the availability of social community events?`", "`8. How satisfied are you with the quality and number of transportation options available to you?`", "`9. How safe do you feel walking in your neighborhood at night?`", "`10. How satisfied are you with the appearance of parks and squares in your neighborhood?`", "`11. How satisfied are you with the beauty or physical setting of your neighborhood?`")
 
 # And being able to loop through them means I can create stacked
-# bar charts for every question with three lines:
-for (col in all_rating_questions) {
-  make_stacked_bars(column = col, xticks = 11)
-}
+# bar charts for every question with three lines. But it's
+# also very computation-intensive so only uncomment it if
+# you need it
+
+#for (col in all_rating_questions) {make_stacked_bars(column = col, xticks = 11)}
+
 ```
 
 ### End chunk
