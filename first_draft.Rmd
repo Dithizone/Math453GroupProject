@@ -18,8 +18,8 @@ library(forcats)
 ### Research Question
 > Describe your research question.
 
-1. How does a person’s gender, age, ethnicity, annual income, etc. affect their opinion of the cost of housing?
-2. How does a person’s gender, age, etc. affect how safe they feel walking at night?
+1. How does a person’s gender, age, ethnicity, annual income, housing status, and identity as a student affect their opinion of the cost of housing?
+2. How does a person’s gender, age, housing status, and identity as a student affect how safe they feel walking at night?
 
 
 ### Motivation
@@ -35,13 +35,11 @@ library(forcats)
 ### Expectations
 > Describe any expectations you started with, concerning what you might learn about your research question.
 
-Older people, white people, wealthy people will be more favorable of house prices.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is expected that homeowners will be more favorable of housing prices, and it is expected that older people, white people, and wealthy people will be more likely to be homeowners. Conversely, it is expected that younger people, poorer people, and students are more likely to be renters and will be less favorable of house prices.
 
-Younger people, poorer people, students, and renters will be less favorable of house prices.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding the feeling that one's neighborhood is safe to walk around at night, it is commonly known that men are more likely to feel safe than women. Other demographic trends are hard to easily guess, because the question asks about whether the respondent _feels_ safe in their neighborhood at night but does not measure whether they actually _are_ or not.
 
-Women will be less likely to feel safe walking at night.
-
-Men will be more likely to feel safe walking at night.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is expected that both age and annual income will positively correlate with police trust, and that white respondents will be more trusting than non-white respondents.
 
 
 ### Description of Variables
@@ -49,28 +47,29 @@ Men will be more likely to feel safe walking at night.
 
 Explanatory variables:
 
-- Gender \- categorical (binary… in this data set, anyway)
+- Gender \- categorical
 - Age \- categorical (bins)
 - Ethnicity \- categorical
-- Annual income \- quantitative
+- Annual income \- categorical (bins)
 - Student \- categorical (binary)
-- Own/rent home? \- categorical (binary)
+- Own/rent home? \- categorical
 
 Response variables:
 
 - How do you rate the cost of housing? (quantitative)
 - How safe do you feel walking at night? (quantitative)
+- How would you rate your trust in the local police? (quantitative)
 
 
 # Data Description
-- Provide lots of detail about your data, enough detail that the reader will understand exactly what your data entailed.
-- Specify whether your study is observational or experimental.
-- Indicate what your project’s observational/experimental units are.
-- For whichever type of randomness, you used (random sampling or random assignment), give much detail about how you actually implemented that randomness.
-- Describe how you measured/recorded the values of your variables
-  - If you used a survey, provide a copy of the survey and mention how you decided on how to word your questions
-  - If you measured something, describe how you collected the measurements.
-- Describe any efforts you made to control for other variables that could be related to what you are studying.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The city of Somerville lies just northwest of Boston and north of Harvard University and the Massachusetts Institute of Technology. In 2011, 2013, 2015, and 2017, residents in Somerville were asked to fill out a survey which, among other topics, asked for respondents to rate their current feeling of happiness, their happiness with their life in general, and with their satisfaction and pride about living in Somerville. This survey has since been called the "Somerville Happiness Survey," but of interest in this project is the happiness-adjacent questions related to house prices, feeling of safety, and trust in law enforcement. In 2017, there were twenty-seven questions in the survey and 835 responses.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many of the exact details about the survey are yet to be researched, but a few important details can be inferred from write-in responses to the question on gender, for which many respondents marked both male and female or wrote "multiple people," suggesting that a single survey was delivered to households rather than one for each household member. This casts some doubt about whether ratings of happiness, anxiety, or neighborhood safety represent an individual or the aggregate rating of several people within a single household.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, the Somerville Happiness Survey responses are analyzed for correlations tangential to happiness after having been filled out for another purpose. With no control groups or applied interventions — varying the explanatory variables here is either impossible or economically unfeasible — this is best understood as an observational study. The observational unit is one individual within a given household, though some responses can be interpreted potentially as household averages, as stated earlier.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Questions on the survey can be considered as belonging to two types, categorical or quantitative, with circled options or a hedonic scale, respectively. Questions which rated on a hedonic scale varied the range and midpoint of the scale, rating from 1 to 10 for some questions and 1 to 5 on others, consistent with good survey-writing practice.[citation] 
 
 # Descriptive Analysis
 - Present and describe what you learn from graphical displays of your data
@@ -79,6 +78,8 @@ Response variables:
 - Present and describe what you learn from numerical summaries of your data
   - Conditional proportions and/or relative risk and/or odds ratio (categorical)
   - Mean and/or SD and/or five-number summary (quantitative)
+
+![figure1](images/gender.png)
 
 ``` {r code}
 

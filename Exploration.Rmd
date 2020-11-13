@@ -11,6 +11,7 @@ library(openintro)
 library(readr)
 library(dplyr)
 library(forcats)
+library(ggplot2)
 
 # TODO: Consider using source() for script files to make things tidy.
 # Also, here's how to save graphs https://ggplot2.tidyverse.org/reference/ggsave.html
@@ -103,18 +104,26 @@ annual_income_ordered = annual_income %>% dplyr::mutate(`9. What is your annual 
 
 #The bar plots of each.
 ggplot(gender_ordered, aes_string(x = "`1. What is your gender`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your gender?\"")
+ggsave(filename = "gender.png", path = "images/")
+
 
 ggplot(age_ordered, aes(x = `2. Age?`)) + geom_bar() + labs(x = "", y = "", title = "\"What is your age?\"")
+ggsave(filename = "age.png", path = "images/")
 
 ggplot(ethnicity, aes_string(x = "`4. What is your race or ethnicity?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your race or ethnicity?\"") + theme(axis.text.x = element_text(angle = 89)) + theme(axis.text.x = element_text(vjust = 0.5)) + coord_flip() 
+ggsave(filename = "ethnicity.png", path = "images/")
 
 ggplot(annual_income_ordered, aes_string(x = "`9. What is your annual household income?`")) + geom_bar() + labs(x = "", y = "", title = "\"What is your annual household income?\"") + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+ggsave(filename = "income.png", path = "images/")
 
 ggplot(housing_status, aes(x = `6. Describe your housing status in Somerville.`)) + geom_bar() + labs(x = "", y = "", title = "\"Describe your housing status\"")
+ggsave(filename = "housingstatus.png", path = "images/")
 
 ggplot(student, aes(x = `10. Are you a student?`)) + geom_bar() + labs(x = "", y = "", title = "\"Are you a student?\"")
+ggsave(filename = "student.png", path = "images/")
 
 ggplot(house_price, aes(x = `7b. How would you rate the cost of housing?`)) + geom_bar() + labs(x = "", y = "", title = "\"How would you rate the cost of housing?\"") + scale_x_continuous(n.breaks = 6)
+ggsave(filename = "houseprice.png", path = "images/")
 
 
 ```
@@ -122,6 +131,29 @@ ggplot(house_price, aes(x = `7b. How would you rate the cost of housing?`)) + ge
 ### Functions for stacked bar and separated distributions
 
 ``` {r the_functions}
+
+# ----- Begin string cleaning function definition
+stringcleaning = function(string) {
+  noticks = str_remove_all(string, "`")
+  noquestion = str_remove_all(noticks, "\\?")
+  nodollar = str_remove_all(noquestion, "\\$")
+  noperiods = str_remove_all(nodollar, "\\.")
+  nospace = str_remove_all(noperiods, " ")
+  noslash = str_remove_all(nospace, "\\/")
+  return (noslash)
+}
+
+stringcombiner = function(string1, string2) {
+  string1 = stringcleaning(string1)
+  string2 = stringcleaning(string2)
+  substring1 = substr(string1, 1, 10)
+  substring2 = substr(string2, 1, 10)
+  newstring = paste(substring1, "And", substring2, ".png", sep = "")
+  return (newstring)
+}
+
+# end string cleaning function definition
+
 
 # ----- Begin stacked bar function definition.
 make_stacked_bars = function(column, xticks, dataframe=fullsomerville2017) {
@@ -191,36 +223,42 @@ for (i in gender_subsets) {
     filter(`1. What is your gender` == i) %>% 
     ggplot(aes_string(x=column, fill="`1. What is your gender`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("red"))
   print(w)
+  ggsave(device = "png", filename = stringcombiner(i, column), path = "images/")
 }
 for (i in age_subsets) {
   w = age_data %>% 
     filter(`2. Age?` == i) %>% 
     ggplot(aes_string(x=column, fill="`2. Age?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("blue"))
   print(w)
+  ggsave(device = "png", filename = stringcombiner(i, column), path = "images/")
 }
 for (i in income_subsets) {
   w = income_data %>% 
     filter(`9. What is your annual household income?` == i) %>%
     ggplot(aes_string(x=column, fill="`9. What is your annual household income?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("green"))
   print(w)
+  ggsave(device = "png", filename = stringcombiner(i, column), path = "images/")
 }
 for (i in ethnicity_subsets) {
   w = ethnicity_data %>% 
     filter(`4. What is your race or ethnicity?` == i) %>% 
     ggplot(aes_string(x=column, fill="`4. What is your race or ethnicity?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("purple"))
   print(w)
+  ggsave(device = "png", filename = stringcombiner(i, column), path = "images/")
 }
 for (i in student_subsets) {
   w = student_data %>% 
     filter(`10. Are you a student?` == i) %>% 
     ggplot(aes_string(x=column, fill="`10. Are you a student?`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("orange"))
   print(w)
+  ggsave(device = "png", filename = stringcombiner(i, column), path = "images/")
 }
 for (i in renter_subsets) {
   w = renter_data %>% 
     filter(`6. Describe your housing status in Somerville.` == i) %>% 
     ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("cyan"))
   print(w)
+  ggsave(device = "png", filename = stringcombiner(i, column), path = "images/")
 }
   
 }  # end demographic subset function definition
@@ -231,16 +269,20 @@ rent_own = function(column, xticks, renter = renters, owner = owners, categorica
   if (categorical == FALSE) {
     r = renters %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("royalblue3"))
     print(r)
+    ggsave(device = "png", filename = stringcombiner("Rent", column), path = "images/")
   
     o = owners %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_x_continuous(breaks = c(1:xticks), limits = c(0, (xticks+1))) + scale_fill_manual(values = c("springgreen4"))
     print(o)
+    ggsave(device = "png", filename = stringcombiner("Own", column), path = "images/")
   }
   else {
     r = renters %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_fill_manual(values = c("steelblue1"))
     print(r)
+    ggsave(device = "png", filename = stringcombiner("Rent", column), path = "images/")
   
     o = owners %>% ggplot(aes_string(x=column, fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = column) + scale_fill_manual(values = c("seagreen1"))
     print(o)
+    ggsave(device = "png", filename = stringcombiner("Own", column), path = "images/")
   }
 }
 
@@ -340,10 +382,12 @@ for (col in all_categorical_questions) {
 }
 
 renters_by_income = renters %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
-renters_by_income %>% ggplot(aes_string(x="`9. What is your annual household income?`", fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = "`9. What is your annual household income?`") + scale_fill_manual(values = c("steelblue1")) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+renters_by_income %>% ggplot(aes_string(x="`9. What is your annual household income?`", fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = "`9. What is your annual household income?`") + scale_fill_manual(values = c("steelblue1")) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5))
+ggsave(device = "png", filename = stringcombiner("RentByInc", "`9. What is your annual household income?`"), path = "images/")
 
 owners_by_income = owners %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
 owners_by_income %>% ggplot(aes_string(x="`9. What is your annual household income?`", fill="`6. Describe your housing status in Somerville.`")) + geom_bar(color = "black") + labs(x = "", y = "", title = "`9. What is your annual household income?`") + scale_fill_manual(values = c("seagreen1")) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5)) 
+ggsave(device = "png", filename = stringcombiner("OwnByInc", "`9. What is your annual household income?`"), path = "images/")
 
 ```
 
