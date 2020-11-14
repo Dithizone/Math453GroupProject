@@ -69,9 +69,10 @@ Response variables:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, the Somerville Happiness Survey responses are analyzed for correlations tangential to happiness after having been filled out for another purpose. With no control groups or applied interventions — varying the explanatory variables here is either impossible or economically unfeasible — this is best understood as an observational study. The observational unit is one individual within a given household, though some responses can be interpreted potentially as household averages, as stated earlier.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Questions on the survey can be considered as belonging to two types, categorical or quantitative, with circled options or a hedonic scale, respectively. Questions which rated on a hedonic scale varied the range and midpoint of the scale, rating from 1 to 10 for some questions and 1 to 5 on others, consistent with good survey-writing practice.[citation] 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Questions on the survey can be considered as belonging to two types, categorical or quantitative, with circled options or a rating scale, respectively. Quantitative questions varied the range and midpoint of the scale, rating from 1 to 10 for some questions and 1 to 5 on others.
 
 # Descriptive Analysis
+
 - Present and describe what you learn from graphical displays of your data
   - Segmented bar graph for categorical response
   - Dotplots and/or boxplots and/or histograms for a quantitative response
@@ -79,7 +80,47 @@ Response variables:
   - Conditional proportions and/or relative risk and/or odds ratio (categorical)
   - Mean and/or SD and/or five-number summary (quantitative)
 
-![figure1](images/gender.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analysis can be consider in two sections: first, concerning the trends that were expected to be present; second, trends which were unexpected but significant.
+
+### General Demographics (Figure 1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before considering the views of individual subgroups, it is important to understand the broad demographics of Somerville represented in the survey responses.
+
+![Fig. 1. An overview of Somerville demographics.](GIMP_workspace/GenDemographicsFig1.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the top left and moving clockwise, it is seen in Figure 1 that the majority of respondents by gender were female, by age were between 25 to 34 years old, by income earned over $150,000 annually, were not students, by ethnicity were white, and were about equally likely to own a home as rent one. Considering this, exploring trends relative to race/ethnicity or student status is complicated by a small sample size.
+
+### Concerning Expectations (Figures 2 to 7)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, those who own a home are more favorable of the cost of housing than those who rent, though both groups rate it poorly (Fig. 2).
+
+![Fig. 2. Favorability of house prices by owners and renters of homes.](GIMP_workspace/GenDemographicsFig2.png)
+
+![Fig. 3. Favorability of house prices by annual income.](GIMP_workspace/GenDemographicsFig3.png)
+
+![Fig. 4. Favorability of house prices by age group.](GIMP_workspace/GenDemographicsFig4.png)
+
+![Fig. 5](GIMP_workspace/GenDemographicsFig5.png)
+
+![Fig. 6](GIMP_workspace/GenDemographicsFig6.png)
+
+![Fig. 7](GIMP_workspace/GenDemographicsFig7.png)
+
+### Renting vs. Owning a Home (Figures 8 to 12)
+
+
+
+![Fig. 8](GIMP_workspace/GenDemographicsFig8.png)
+
+![Fig. 9](GIMP_workspace/GenDemographicsFig9.png)
+
+![Fig. 10](GIMP_workspace/GenDemographicsFig10.png)
+
+![Fig. 11](GIMP_workspace/GenDemographicsFig11.png)
+
+![Fig. 12](GIMP_workspace/GenDemographicsFig12.png)
+
+
 
 ``` {r code}
 # TODO: Plan descriptive analysis images
