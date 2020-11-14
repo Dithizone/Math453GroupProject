@@ -82,6 +82,6 @@ Response variables:
 ![figure1](images/gender.png)
 
 ``` {r code}
-
+# TODO: Plan descriptive analysis images
 ```
 
