@@ -28,6 +28,7 @@ fullsomerville2017 = fullsomerville2017 %>% filter(`4. What is your race or ethn
                                                      `4. What is your race or ethnicity?` == "Hispanic/Latino" | 
                                                      `4. What is your race or ethnicity?` == "Black/African American")
 
+# Reference arrays so I know column names and such
 the_columns = c("`Language submitted in:`",
                 "`1. How happy do you feel right now?`",
                 "`2. How satisfied are you with your life in general?`",
@@ -81,7 +82,7 @@ ethnicity_subsets = c("White",
                         "Black/African American")
 
 
-
+# function definition for... getting important math.
 get_important_math = function(column, dataframe = fullsomerville2017, categorical = FALSE) {
   if (categorical == TRUE) {
     for (i in column) {
@@ -98,7 +99,8 @@ get_important_math = function(column, dataframe = fullsomerville2017, categorica
       first_quartile = the_quartiles[1]
       the_median = the_quartiles[2]
       third_quartile = the_quartiles[3]
-      the_message = paste("Mean: ", the_mean, ", Min: ", the_min, ", 1st Q: ", first_quartile, ", Median: ", the_median, ", 3rd Q: ", third_quartile, ", Max: ", the_max, sep = "")
+      the_standard_deviation = sd(data_as_array)
+      the_message = paste("Mean: ", the_mean, ", Min: ", the_min, ", 1st Q: ", first_quartile, ", Median: ", the_median, ", 3rd Q: ", third_quartile, ", Max: ", the_max, ", StDev: ±", the_standard_deviation, sep = "")
       print(the_message)
     }
   }
