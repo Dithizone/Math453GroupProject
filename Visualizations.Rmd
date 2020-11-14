@@ -1,5 +1,5 @@
 ---
-title: "Data Exploration"
+title: "Data Visualization"
 author: "Peter Madsen and Chris Salas"
 date: "`r Sys.Date()`"
 output: openintro::lab_report
@@ -14,7 +14,6 @@ library(forcats)
 library(ggplot2)
 
 # TODO: Consider using source() for script files to make things tidy.
-# Also, here's how to save graphs https://ggplot2.tidyverse.org/reference/ggsave.html
 
 fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
 
@@ -301,7 +300,7 @@ rent_own = function(column, xticks, renter = renters, owner = owners, categorica
 make_stacked_bars(column = "`7b. How would you rate the cost of housing?`", xticks = 6)
 
 demographic_subset_charts(column = "`7b. How would you rate the cost of housing?`", xticks = 5)
-# TODO: Verify what the numbers in the hedonic scale represent
+# TODO: Verify what the numbers in the scale represent
 ```
 
 ### Demographics vs. Night Safety

@@ -1,0 +1,249 @@
+---
+title: "Data Calculations"
+author: "Peter Madsen and Chris Salas"
+date: "`r Sys.Date()`"
+output: openintro::lab_report
+---
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(openintro)
+library(readr)
+library(dplyr)
+library(forcats)
+library(ggplot2)
+
+# The full data set with blanks removed.
+fullsomerville2017 <- read_csv("cleanedData/2017HappinessSurvey.csv")
+
+fullsomerville2017 = fullsomerville2017 %>% filter(`2. Age?` != "Blank" &
+                                                     `9. What is your annual household income?` != "Blank" &
+                                                     `4. What is your race or ethnicity?` != "Blank" &
+                                                     `1. What is your gender` != "Blank" &
+                                                     `7b. How would you rate the cost of housing?` != 0 &
+                                                     `9. How safe do you feel walking in your neighborhood at night?` != 0 &
+                                                     `7d. How would you rate your trust in the local police?` != 0)
+fullsomerville2017 = fullsomerville2017 %>% filter(`4. What is your race or ethnicity?` == "White" | 
+                                                     `4. What is your race or ethnicity?` == "Asian" | 
+                                                     `4. What is your race or ethnicity?` == "Hispanic/Latino" | 
+                                                     `4. What is your race or ethnicity?` == "Black/African American")
+
+the_columns = c("`Language submitted in:`",
+                "`1. How happy do you feel right now?`",
+                "`2. How satisfied are you with your life in general?`",
+                "`3. How anxious did you feel yesterday?`",
+                "`4. How satisfied are you with Somerville as a place to live?`",  # 5
+                "`5. How satisfied are you with your neighborhood?`",
+                "`6. How proud are you to be a Somerville resident?`",
+                "`7a. How would you rate the availability of information about city services?`",
+                "`7b. How would you rate the cost of housing?`",
+                "`7c. How would you rate the overall quality of public schools?`",  # 10
+                "`7d. How would you rate your trust in the local police?`",
+                "`7e. How would you rate the maintenance of streets and sidewalks?`",
+                "`7f. How would you rate the availability of social community events?`",
+                "`8. How satisfied are you with the quality and number of transportation options available to you?`",
+                "`9. How safe do you feel walking in your neighborhood at night?`",  # 15
+                "`10. How satisfied are you with the appearance of parks and squares in your neighborhood?`",
+                "`11. How satisfied are you with the beauty or physical setting of your neighborhood?`",
+                "`1. What is your gender`",
+                "`2. Age?`",
+                "`3. What language(s) do you speak at home?`",  # 20
+                "`4. What is your race or ethnicity?`",
+                "`5. Do you have children age 18 or younger who live with you?`",
+                "`6. Describe your housing status in Somerville.`",
+                "`7. Do you plan to move away from Somerville in the next two years?`",
+                "`8 How long have you lived here?`",  # 25
+                "`9. What is your annual household income?`",
+                "`10. Are you a student?`")
+
+gender_subsets = c("Female", 
+                     "Male", 
+                     "Non-binary", 
+                     "Both selected", 
+                     "Multiple people")
+age_subsets = c("18-24", 
+                  "25-34", 
+                  "35-44", 
+                  "45-54", 
+                  "55-64", 
+                  "65-74", 
+                  "75 or older")
+income_subsets = c("Less than $10,000", 
+                     "$10,000 to $24,999", 
+                     "$25,000 to $49,999", 
+                     "$50,000 to 74,999", 
+                     "$75,000 to $99,999", 
+                     "$100,000 to $149,999", 
+                     "$150,000 or more")
+ethnicity_subsets = c("White", 
+                        "Asian", 
+                        "Hispanic/Latino", 
+                        "Black/African American")
+
+
+
+get_important_math = function(column, dataframe = fullsomerville2017, categorical = FALSE) {
+  if (categorical == TRUE) {
+    for (i in column) {
+      the_proportion = dataframe %>% count(dataframe[i]) %>% mutate(p = n / pull(count(dataframe)))
+      print(the_proportion)
+    }
+  } else {
+    for (i in column) {
+      data_as_array = pull(dataframe, column)
+      the_mean = mean(data_as_array)
+      the_min = min(data_as_array)
+      the_max = max(data_as_array)
+      the_quartiles = quantile(data_as_array, probs = c(0.25,0.5,0.75))
+      first_quartile = the_quartiles[1]
+      the_median = the_quartiles[2]
+      third_quartile = the_quartiles[3]
+      the_message = paste("Mean: ", the_mean, ", Min: ", the_min, ", 1st Q: ", first_quartile, ", Median: ", the_median, ", 3rd Q: ", third_quartile, ", Max: ", the_max, sep = "")
+      print(the_message)
+    }
+  }
+}
+```
+
+# Calculations
+
+## Goals
+
+> 1. Build a function which calculates mean, standard deviation, and five number summary for quantitative variables or the proportion for categorical ones, given a dataframe and a column
+
+
+
+
+```{r figure1}
+# Figure 1 involves the six basic demographics: gender (18), age (19), income (26), student (27), ethnicity (21), housing status (23)
+the_six_basic = c(18, 19, 26, 27, 21, 23)
+get_important_math(the_six_basic, categorical = TRUE)
+
+
+```
+
+It is with blithe spirit that I receive this news, that the function works with categorical values. Now, we commence with quantitative ones.
+
+``` {r figure2}
+# Figure 2 is house price ratings (9) from owners and renters (23)
+owners = fullsomerville2017 %>% filter(`6. Describe your housing status in Somerville.` == "Own")
+renters = fullsomerville2017 %>% filter(`6. Describe your housing status in Somerville.` == "Rent")
+
+get_important_math_for_OwnRent = function(column, own = owners, rent = renters) {
+  print("For Owners,")
+  get_important_math(column = column, dataframe = own)
+  print("")
+  print("For Renters,")
+  get_important_math(column = column, dataframe = rent)
+}
+
+get_important_math_for_OwnRent(9)
+```
+
+Also yay, now it works for numbers, too!
+
+``` {r figure3}
+# house prices (9) by income (26)
+income1=fullsomerville2017 %>% filter(`9. What is your annual household income?` == income_subsets[1])
+income2=fullsomerville2017 %>% filter(`9. What is your annual household income?` == income_subsets[2])
+income3=fullsomerville2017 %>% filter(`9. What is your annual household income?` == income_subsets[3])
+income4=fullsomerville2017 %>% filter(`9. What is your annual household income?` == income_subsets[4])
+income5=fullsomerville2017 %>% filter(`9. What is your annual household income?` == income_subsets[5])
+income6=fullsomerville2017 %>% filter(`9. What is your annual household income?` == income_subsets[6])
+income7=fullsomerville2017 %>% filter(`9. What is your annual household income?` == income_subsets[7])
+
+get_important_math(9, income1)
+get_important_math(9, income2)
+get_important_math(9, income3)
+get_important_math(9, income4)
+get_important_math(9, income5)
+get_important_math(9, income6)
+get_important_math(9, income7)
+
+
+```
+
+``` {r figure4}
+# house prices (9) by age (19)
+age1=fullsomerville2017 %>% filter(`2. Age?` == age_subsets[1])
+age2=fullsomerville2017 %>% filter(`2. Age?` == age_subsets[2])
+age3=fullsomerville2017 %>% filter(`2. Age?` == age_subsets[3])
+age4=fullsomerville2017 %>% filter(`2. Age?` == age_subsets[4])
+age5=fullsomerville2017 %>% filter(`2. Age?` == age_subsets[5])
+age6=fullsomerville2017 %>% filter(`2. Age?` == age_subsets[6])
+age7=fullsomerville2017 %>% filter(`2. Age?` == age_subsets[7])
+
+get_important_math(9, age1)
+get_important_math(9, age2)
+get_important_math(9, age3)
+get_important_math(9, age4)
+get_important_math(9, age5)
+get_important_math(9, age6)
+get_important_math(9, age7)
+
+```
+
+``` {r figure5}
+# night safety (15) by gender (18)
+the_men = fullsomerville2017 %>% filter(`1. What is your gender` == gender_subsets[2])
+the_women = fullsomerville2017 %>% filter(`1. What is your gender` == gender_subsets[1])
+
+get_important_math(15, the_women)
+get_important_math(15, the_men)
+
+```
+
+``` {r figure6}
+# Police trust (11) by income (26)
+get_important_math(11, income1)
+get_important_math(11, income2)
+get_important_math(11, income3)
+get_important_math(11, income4)
+get_important_math(11, income5)
+get_important_math(11, income6)
+get_important_math(11, income7)
+
+
+```
+
+``` {r figure7}
+# Police trust (11) by age (19)
+get_important_math(11, age1)
+get_important_math(11, age2)
+get_important_math(11, age3)
+get_important_math(11, age4)
+get_important_math(11, age5)
+get_important_math(11, age6)
+get_important_math(11, age7)
+
+```
+
+``` {r figure8}
+# Renters and Owners by income (26), categorical
+get_important_math(26, dataframe = renters, categorical = TRUE)
+get_important_math(26, dataframe = owners, categorical = TRUE)
+
+```
+
+``` {r figure9}
+# Renters and Owners by age (19), categorical
+get_important_math(19, dataframe = renters, categorical = TRUE)
+get_important_math(19, dataframe = owners, categorical = TRUE)
+
+```
+
+``` {r figure10}
+# Life in general (3) for renters and owners
+get_important_math_for_OwnRent(3)
+```
+
+``` {r figure11}
+# police trust (11) for renters and owners
+get_important_math_for_OwnRent(11)
+```
+
+``` {r figure12}
+# night safety (15) for renters and owners
+get_important_math_for_OwnRent(15)
+```
+
