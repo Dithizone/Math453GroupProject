@@ -90,9 +90,9 @@ Response variables:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the top left and moving clockwise, it is seen in Figure 1 that the majority of respondents by gender were female, by age were between 25 to 34 years old, by income earned over $150,000 annually, were not students, by ethnicity were white, and were about equally likely to own a home as rent one. Considering this, exploring trends relative to race/ethnicity or student status is complicated by a small sample size.
 
-### Concerning Expectations (Figures 2 to 7)
+### Concerning Expectations For Cost of Housing (Figures 2 to 7)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, those who own a home are more favorable of the cost of housing than those who rent, though both groups rate it poorly (Fig. 2).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, those who own a home are more favorable of the cost of housing than those who rent, though both groups rate it poorly (Fig. 2). Trends are less visually clear by annual income (Fig. 3) and age (Fig. 4).
 
 ![Fig. 2. Favorability of house prices by owners and renters of homes.](GIMP_workspace/GenDemographicsFig2.png)
 
@@ -100,29 +100,40 @@ Response variables:
 
 ![Fig. 4. Favorability of house prices by age group.](GIMP_workspace/GenDemographicsFig4.png)
 
-![Fig. 5](GIMP_workspace/GenDemographicsFig5.png)
+### Concerning Expectations For Feeling Safe At Night (Figure 5)
 
-![Fig. 6](GIMP_workspace/GenDemographicsFig6.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, female respondents ranked their feeling of safety walking in their neighborhood at night lower than male respondents (Fig. 5).
 
-![Fig. 7](GIMP_workspace/GenDemographicsFig7.png)
+![Fig. 5. Feeling of safety walking in neighborhood at night by gender.](GIMP_workspace/GenDemographicsFig5.png)
+
+### Concerning Expectations For Trust in Local Police (Figures 6 and 7)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, respondents' age correlates with trust in the local police (Fig. 7), but contrary to expectation their annual income does not (Fig. 6).
+
+![Fig. 6. Trust in local police by annual income.](GIMP_workspace/GenDemographicsFig6.png)
+
+![Fig. 7. Trust in local police by age.](GIMP_workspace/GenDemographicsFig7.png)
 
 ### Renting vs. Owning a Home (Figures 8 to 12)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The original scope of the project focused on age, race, gender, and annual income primarily as explanatory variables, but whether or not a respondent owns the home they live in produces consistently dramatic differences in responses, possibly due to their differences in demographic composition. People who rent are overwhelmingly younger (Fig. 8) and poorer (Fig. 9) than their homeowning counterparts, and they report a lower life satisfaction (Fig. 10), a lower feeling of safety walking at night (Fig. 11), a lower favorability toward the cost of housing (Fig. 2), and a lower trust of local police (Fig. 12).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A question worth exploring is whether these trends are simply due to the demographics of renters and homeowners, or whether a respondent's homeowning status is the better predictor of their views.
 
 
-![Fig. 8](GIMP_workspace/GenDemographicsFig8.png)
+![Fig. 8. Distribution of age groups for homeowners and renters.](GIMP_workspace/GenDemographicsFig8.png)
 
-![Fig. 9](GIMP_workspace/GenDemographicsFig9.png)
+![Fig. 9. Distribution of annual income for homeowners and renters.](GIMP_workspace/GenDemographicsFig9.png)
 
-![Fig. 10](GIMP_workspace/GenDemographicsFig10.png)
+![Fig. 10. General life satisfaction for homeowners and renters.](GIMP_workspace/GenDemographicsFig10.png)
 
-![Fig. 11](GIMP_workspace/GenDemographicsFig11.png)
+![Fig. 11. Trust in police by homeowners and renters.](GIMP_workspace/GenDemographicsFig11.png)
 
-![Fig. 12](GIMP_workspace/GenDemographicsFig12.png)
+![Fig. 12. Feeling of safety walking at night in their neighborhood for homeowners and renters.](GIMP_workspace/GenDemographicsFig12.png)
 
 
 
 ``` {r code}
-# TODO: Plan descriptive analysis images
+# TODO: mean, stdev, 5-number summary, etc. for all the "morely likely," "less likely" claims in the text.
 ```
 
