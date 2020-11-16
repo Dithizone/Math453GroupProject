@@ -79,7 +79,7 @@ Response variables:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before considering the views of individual subgroups, it is important to understand the broad demographics of Somerville represented in the survey responses.
 
-![Fig. 1. An overview of Somerville demographics.](GIMP_workspace/GenDemographicsFig1.png)
+![Fig. 1. An overview of Somerville demographics.](supplemental/GIMP_workspace/GenDemographicsFig1.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the top left and moving clockwise, it is seen in Figure 1 that the majority of respondents by gender were female (p=0.63), by age were between 25 to 34 years old (p=0.33), by income earned over $150,000 annually (p=0.24), were not students (p=0.86), by ethnicity were white (p=0.88), and were about equally likely to own a home as rent one (each p=0.49, from x=309 and x=308, respectively, and n=631). Considering this, exploring trends relative to race/ethnicity is complicated by a small sample size.
 
@@ -90,26 +90,26 @@ Response variables:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only 18 respondents were in the 18-24 age group, and they reported the highest favorability (2.89±1.02), followed by the 65-74 age group (2.73±1.46) and the 75 or older group (2.71±1.36). The expected trend, that increasing age correlates with approval of house prices, is evident from the 35-44 group up to the 65-74 group. Respondents between the age of 35 and 44 were the most disapproving (1.91±0.85).
 
 
-![Fig. 2. Favorability of house prices by owners and renters of homes.](GIMP_workspace/GenDemographicsFig2.png)
+![Fig. 2. Favorability of house prices by owners and renters of homes.](supplemental/GIMP_workspace/GenDemographicsFig2.png)
 
-![Fig. 3. Favorability of house prices by annual income.](GIMP_workspace/GenDemographicsFig3.png)
+![Fig. 3. Favorability of house prices by annual income.](supplemental/GIMP_workspace/GenDemographicsFig3.png)
 
-![Fig. 4. Favorability of house prices by age group.](GIMP_workspace/GenDemographicsFig4.png)
+![Fig. 4. Favorability of house prices by age group.](supplemental/GIMP_workspace/GenDemographicsFig4.png)
 
 ### Concerning Expectations For Feeling Safe At Night (Figure 5)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, female respondents ranked their feeling of safety walking in their neighborhood at night lower than male respondents (Fig. 5; 7.87±2.03 for women, compared to 8.39±1.90 for men).
 
-![Fig. 5. Feeling of safety walking in neighborhood at night by gender.](GIMP_workspace/GenDemographicsFig5.png)
+![Fig. 5. Feeling of safety walking in neighborhood at night by gender.](supplemental/GIMP_workspace/GenDemographicsFig5.png)
 
 ### Concerning Expectations For Trust in Local Police (Figures 6 and 7)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each annual income group has approximately the same mean rating for trust in local police (about 3.7 or 3.8), but the variation in the responses decreases as income increases, beginning at standard deviation 1.27 for those earning less than \$10,000 and decreasing to 0.84 for those earning more than \$150,000 (Fig. 6).
 As expected, respondents' age correlates with trust in the local police (Fig. 7), beginning at 3.60±0.97 for 25-34 year olds and ending at 4.46±0.61 for respondents over 75.
 
-![Fig. 6. Trust in local police by annual income.](GIMP_workspace/GenDemographicsFig6.png)
+![Fig. 6. Trust in local police by annual income.](supplemental/GIMP_workspace/GenDemographicsFig6.png)
 
-![Fig. 7. Trust in local police by age.](GIMP_workspace/GenDemographicsFig7.png)
+![Fig. 7. Trust in local police by age.](supplemental/GIMP_workspace/GenDemographicsFig7.png)
 
 ### Renting vs. Owning a Home (Figures 8 to 12)
 
@@ -118,19 +118,19 @@ As expected, respondents' age correlates with trust in the local police (Fig. 7)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A question worth exploring is whether these trends are simply due to the demographics of renters and homeowners, or whether a respondent's homeowning status is the better predictor of their views.
 
 
-![Fig. 8. Distribution of age groups for homeowners and renters.](GIMP_workspace/GenDemographicsFig8.png)
+![Fig. 8. Distribution of age groups for homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig8.png)
 
-![Fig. 9. Distribution of annual income for homeowners and renters.](GIMP_workspace/GenDemographicsFig9.png)
+![Fig. 9. Distribution of annual income for homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig9.png)
 
-![Fig. 10. General life satisfaction for homeowners and renters.](GIMP_workspace/GenDemographicsFig10.png)
+![Fig. 10. General life satisfaction for homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig10.png)
 
-![Fig. 11. Trust in police by homeowners and renters.](GIMP_workspace/GenDemographicsFig11.png)
+![Fig. 11. Trust in police by homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig11.png)
 
-![Fig. 12. Feeling of safety walking at night in their neighborhood for homeowners and renters.](GIMP_workspace/GenDemographicsFig12.png)
+![Fig. 12. Feeling of safety walking at night in their neighborhood for homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig12.png)
 
 
 
 ``` {r code}
-# Placeholder
+# End
 ```
 
