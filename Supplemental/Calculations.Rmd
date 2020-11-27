@@ -105,6 +105,52 @@ get_important_math = function(column, dataframe = fullsomerville2017, categorica
     }
   }
 }
+
+hypothesis_testing_type_1_error = function(column, dataframe_H_0, dataframe_H_A, categorical = FALSE, quantitative = FALSE) {
+  if (categorical == TRUE & quantitative == TRUE) {
+    print("Don't mark both as true. What would that even mean?")
+  } else if (categorical == TRUE & quantitative == FALSE) {
+    print("This will do proportion hypothesis testing, though we don't need it for the project, I think.")
+  } else if (categorical == FALSE & quantitative == TRUE) {
+      mu_null = mean(pull(dataframe_H_0, column))
+      x_bar = mean(pull(dataframe_H_A, column))
+      sample_stdev = sd(pull(dataframe_H_A, column))
+      sqrt_n = sqrt(length(pull(dataframe_H_A, column)))
+      Z = (x_bar - mu_null) / (sample_stdev / sqrt_n)
+      prob_type_1_error = pnorm(Z)
+      if (length(pull(dataframe_H_A, column)) < 40) {
+        prob_type_1_error = pt(df=length(pull(dataframe_H_A, column)), Z)
+        print("(Using t-dist)")
+      }
+      print(paste("Probability of type 1 error: ", prob_type_1_error, " (with mu_null=", mu_null, ")", sep = ""))
+  } else {
+    print("Is this categorical or quantitative?")
+  }
+}
+
+hypothesis_testing_type_2_error = function(column, dataframe_H_0, dataframe_H_A, beta_mean, categorical = FALSE, quantitative = FALSE) {
+  if (categorical == TRUE & quantitative == TRUE) {
+    print("Don't mark both as true. What would that even mean?")
+  } else if (categorical == TRUE & quantitative == FALSE) {
+    print("This will do proportion hypothesis testing, though we don't need it for the project, I think.")
+  } else if (categorical == FALSE & quantitative == TRUE) {
+    mu_null = beta_mean
+    x_bar = mean(pull(dataframe_H_A, column))
+    sample_stdev = sd(pull(dataframe_H_A, column))
+    sqrt_n = sqrt(length(pull(dataframe_H_A, column)))
+    Z = (x_bar - mu_null) / (sample_stdev / sqrt_n)
+    prob_type_2_error = 1 - pnorm(Z)
+    if (length(pull(dataframe_H_A, column)) < 40) {
+      prob_type_2_error = 1 - pt(df=length(pull(dataframe_H_A, column)), Z)
+      print("(Using t-dist)")
+      }
+    print(paste("Probability of type 2 error using mean ", beta_mean, ": ", prob_type_2_error, sep=""))
+  } else {
+    print("Is this categorical or quantitative?")
+  }
+}
+
+
 ```
 
 # Calculations
@@ -140,6 +186,9 @@ get_important_math_for_OwnRent = function(column, own = owners, rent = renters) 
 }
 
 get_important_math_for_OwnRent(9)
+
+hypothesis_testing_type_1_error(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters, quantitative = TRUE)
+hypothesis_testing_type_2_error(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters, beta_mean = 2.012987, quantitative = TRUE)
 ```
 
 Also yay, now it works for numbers, too!
