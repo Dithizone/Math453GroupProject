@@ -287,10 +287,11 @@ rent_own = function(column, xticks, renter = renters, owner = owners, categorica
 
 
 # Begin box plot function
-box_plot_the_things = function(xaxis, yaxis, dataframe = fullsomerville2017, gender = FALSE, age = FALSE, income = FALSE) {
-  gender_data = dataframe %>% dplyr::mutate(`1. What is your gender` = factor(`1. What is your gender`, levels=c("Female", "Male", "Non-binary", "Both selected", "Multiple people")))
+box_plot_the_things = function(xaxis, yaxis, dataframe = fullsomerville2017, gender = FALSE, age = FALSE, income = FALSE, ownrent = FALSE, save_image = FALSE) {
+  gender_data = dataframe %>% filter(`1. What is your gender` == "Female" | `1. What is your gender` == "Male") %>% dplyr::mutate(`1. What is your gender` = factor(`1. What is your gender`, levels=c("Female", "Male", "Non-binary", "Both selected", "Multiple people")))
   age_data = dataframe %>% dplyr::mutate(`2. Age?` = factor(`2. Age?`, levels=c("18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75 or older")))
   income_data = dataframe %>% dplyr::mutate(`9. What is your annual household income?` = factor(`9. What is your annual household income?`, levels=c("Less than $10,000", "$10,000 to $24,999", "$25,000 to $49,999", "$50,000 to 74,999", "$75,000 to $99,999", "$100,000 to $149,999", "$150,000 or more")))
+  ownrent_data = dataframe %>% filter(`6. Describe your housing status in Somerville.` == "Own" | `6. Describe your housing status in Somerville.` == "Rent")
   if (gender == TRUE) {
     x = ggplot(gender_data, aes_string(x=xaxis, y=yaxis, fill=xaxis)) + geom_boxplot() + ggtitle("") + stat_summary(fun=mean, geom="point", shape=17, colour='black', size=3) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5))
     print(x)
@@ -300,9 +301,15 @@ box_plot_the_things = function(xaxis, yaxis, dataframe = fullsomerville2017, gen
   } else if (income == TRUE) {
     x = ggplot(income_data, aes_string(x=xaxis, y=yaxis, fill=xaxis)) + geom_boxplot() + ggtitle("") + stat_summary(fun=mean, geom="point", shape=17, colour='black', size=3) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5))
     print(x)
+  } else if (ownrent == TRUE) {
+    x = ggplot(ownrent_data, aes_string(x=xaxis, y=yaxis, fill=xaxis)) + geom_boxplot() + ggtitle("") + stat_summary(fun=mean, geom="point", shape=17, colour='black', size=3) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5))
+    print(x)
   } else {
     x = ggplot(dataframe, aes_string(x=xaxis, y=yaxis, fill=xaxis)) + geom_boxplot() + ggtitle("") + stat_summary(fun=mean, geom="point", shape=17, colour='black', size=3) + theme(axis.text.x = element_text(angle = 75)) + theme(axis.text.x = element_text(vjust = 0.5))
     print(x)
+  }
+  if (save_image == TRUE) {
+    ggsave(device = "png", filename = stringcombiner(xaxis, yaxis), path = "images/")
   }
 }
 
@@ -325,6 +332,8 @@ demographic_subset_charts(column = "`7b. How would you rate the cost of housing?
 
 box_plot_the_things(xaxis = "`9. What is your annual household income?`", yaxis = "`7b. How would you rate the cost of housing?`", income = TRUE)
 box_plot_the_things(xaxis = "`2. Age?`", yaxis = "`7b. How would you rate the cost of housing?`", age = TRUE)
+box_plot_the_things(xaxis = "`1. What is your gender`", yaxis = "`7b. How would you rate the cost of housing?`", gender = TRUE)
+box_plot_the_things(xaxis = "`6. Describe your housing status in Somerville.`", yaxis = "`7b. How would you rate the cost of housing?`", ownrent = TRUE)
 
 # TODO: Verify what the numbers in the scale represent
 ```
@@ -338,6 +347,7 @@ demographic_subset_charts(column = "`9. How safe do you feel walking in your nei
 
 box_plot_the_things(xaxis = "`9. What is your annual household income?`", yaxis = "`9. How safe do you feel walking in your neighborhood at night?`", income = TRUE)
 box_plot_the_things(xaxis = "`2. Age?`", yaxis = "`9. How safe do you feel walking in your neighborhood at night?`", age = TRUE)
+box_plot_the_things(xaxis = "`1. What is your gender`", yaxis = "`9. How safe do you feel walking in your neighborhood at night?`", gender = TRUE)
 
 # TODO: Box plots of these
 # TODO: Hypothesis testing (see lab 5.3)
@@ -353,6 +363,7 @@ demographic_subset_charts(column = "`7d. How would you rate your trust in the lo
 
 box_plot_the_things(xaxis = "`9. What is your annual household income?`", yaxis = "`7d. How would you rate your trust in the local police?`", income = TRUE)
 box_plot_the_things(xaxis = "`2. Age?`", yaxis = "`7d. How would you rate your trust in the local police?`", age = TRUE)
+box_plot_the_things(xaxis = "`1. What is your gender`", yaxis = "`7d. How would you rate your trust in the local police?`", gender = TRUE)
 
 ```
 

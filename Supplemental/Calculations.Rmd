@@ -188,8 +188,22 @@ get_important_math_for_OwnRent = function(column, own = owners, rent = renters) 
 }
 
 get_important_math_for_OwnRent(9)
-
 hypothesis_testing(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 2.012987)
+
+# testdataframe = data.frame(alpha = 0.05, lower_rejection = 2.41747572815534, prob_type_2 = 2.44625431022882e-11)
+for (i in c(1:9)) {  # was c(1:999), shortened for space
+  mu_null = mean(pull(owners, 9))
+  x_bar = mean(pull(renters, 9))
+  sample_stdev = sd(pull(renters, 9))
+  sqrt_n = sqrt(length(pull(renters, 9)))
+  Z = (x_bar - mu_null) / (sample_stdev / sqrt_n)
+  alpha = 0.5 - (0.0005 * i)
+  rejection_region_below = qnorm(alpha) * (sample_stdev / sqrt_n) + mu_null
+  prob_type_2_error_below = 1 - pnorm((rejection_region_below - x_bar) / (sample_stdev / sqrt_n))
+  print(paste(alpha, rejection_region_below, prob_type_2_error_below, sep = ","))
+  # testdataframe <- rbind(testdataframe, c(alpha, rejection_region_below, prob_type_2_error_below))
+}
+
 ```
 
 Also yay, now it works for numbers, too!
