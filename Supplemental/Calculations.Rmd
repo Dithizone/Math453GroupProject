@@ -106,7 +106,9 @@ get_important_math = function(column, dataframe = fullsomerville2017, categorica
   }
 }
 
-hypothesis_testing_type_1_error = function(column, dataframe_H_0, dataframe_H_A, categorical = FALSE, quantitative = FALSE) {
+# Giant function to do hypothesis testing, accounting for sample sizes above 
+# and below 40, printing the rejection region and Type 2 error probability
+hypothesis_testing = function(column, dataframe_H_0, dataframe_H_A, categorical = FALSE, quantitative = TRUE, alpha = 0.05, beta_mean = FALSE, higher = FALSE) {
   if (categorical == TRUE & quantitative == TRUE) {
     print("Don't mark both as true. What would that even mean?")
   } else if (categorical == TRUE & quantitative == FALSE) {
@@ -117,34 +119,34 @@ hypothesis_testing_type_1_error = function(column, dataframe_H_0, dataframe_H_A,
       sample_stdev = sd(pull(dataframe_H_A, column))
       sqrt_n = sqrt(length(pull(dataframe_H_A, column)))
       Z = (x_bar - mu_null) / (sample_stdev / sqrt_n)
-      prob_type_1_error = pnorm(Z)
+      
+      rejection_region_below = qnorm(alpha) * (sample_stdev / sqrt_n) + mu_null
+      rejection_region_above = -qnorm(alpha) * (sample_stdev / sqrt_n) + mu_null
+      
       if (length(pull(dataframe_H_A, column)) < 40) {
-        prob_type_1_error = pt(df=length(pull(dataframe_H_A, column)), Z)
+        rejection_region_below = qt(df=(length(pull(dataframe_H_A, column)) - 1), alpha) * (sample_stdev / sqrt_n) + mu_null
+        rejection_region_above = -qt(df=(length(pull(dataframe_H_A, column)) - 1), alpha) * (sample_stdev / sqrt_n) + mu_null
         print("(Using t-dist)")
       }
-      print(paste("Probability of type 1 error: ", prob_type_1_error, " (with mu_null=", mu_null, ")", sep = ""))
-  } else {
-    print("Is this categorical or quantitative?")
-  }
-}
-
-hypothesis_testing_type_2_error = function(column, dataframe_H_0, dataframe_H_A, beta_mean, categorical = FALSE, quantitative = FALSE) {
-  if (categorical == TRUE & quantitative == TRUE) {
-    print("Don't mark both as true. What would that even mean?")
-  } else if (categorical == TRUE & quantitative == FALSE) {
-    print("This will do proportion hypothesis testing, though we don't need it for the project, I think.")
-  } else if (categorical == FALSE & quantitative == TRUE) {
-    mu_null = beta_mean
-    x_bar = mean(pull(dataframe_H_A, column))
-    sample_stdev = sd(pull(dataframe_H_A, column))
-    sqrt_n = sqrt(length(pull(dataframe_H_A, column)))
-    Z = (x_bar - mu_null) / (sample_stdev / sqrt_n)
-    prob_type_2_error = 1 - pnorm(Z)
-    if (length(pull(dataframe_H_A, column)) < 40) {
-      prob_type_2_error = 1 - pt(df=length(pull(dataframe_H_A, column)), Z)
-      print("(Using t-dist)")
+      
+      print(paste("Rejection region below: ", rejection_region_below, ", Rejection region above: ", rejection_region_above, sep=""))
+      
+      if (beta_mean != FALSE) {
+        prob_type_2_error_below = 1 - pnorm((rejection_region_below - beta_mean) / (sample_stdev / sqrt_n))
+        prob_type_2_error_above = 1 - pnorm((rejection_region_above - beta_mean) / (sample_stdev / sqrt_n))
+        if (length(pull(dataframe_H_A, column)) < 40) {
+          prob_type_2_error_below = 1 - pt(df=(length(pull(dataframe_H_A, column)) - 1), (rejection_region_below - beta_mean) / (sample_stdev / sqrt_n))
+          prob_type_2_error_above = 1 - pt(df=(length(pull(dataframe_H_A, column)) - 1), (rejection_region_above - beta_mean) / (sample_stdev / sqrt_n))
+          print("(Using t-dist)")
+        }
+        if (higher == TRUE) {
+          prob_type_2_error_above = 1 - prob_type_2_error_above
+          prob_type_2_error_below = 1 - prob_type_2_error_below
+          print(paste("Probability of x < ", rejection_region_above, " given mu = ", beta_mean, ": ", prob_type_2_error_above, sep=""))
+        } else if (higher == FALSE) {
+          print(paste("Probability of x > ", rejection_region_below, " given mu = ", beta_mean, ": ", prob_type_2_error_below, sep=""))
+        }
       }
-    print(paste("Probability of type 2 error using mean ", beta_mean, ": ", prob_type_2_error, sep=""))
   } else {
     print("Is this categorical or quantitative?")
   }
@@ -187,8 +189,7 @@ get_important_math_for_OwnRent = function(column, own = owners, rent = renters) 
 
 get_important_math_for_OwnRent(9)
 
-hypothesis_testing_type_1_error(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters, quantitative = TRUE)
-hypothesis_testing_type_2_error(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters, beta_mean = 2.012987, quantitative = TRUE)
+hypothesis_testing(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 2.012987)
 ```
 
 Also yay, now it works for numbers, too!
@@ -242,6 +243,8 @@ the_women = fullsomerville2017 %>% filter(`1. What is your gender` == gender_sub
 get_important_math(15, the_women)
 get_important_math(15, the_men)
 
+hypothesis_testing(column = 15, dataframe_H_0 = the_men, dataframe_H_A = the_women, alpha = 0.05, beta_mean = 7.871212)
+
 ```
 
 ``` {r figure6}
@@ -286,16 +289,22 @@ get_important_math(19, dataframe = owners, categorical = TRUE)
 ``` {r figure10}
 # Life in general (3) for renters and owners
 get_important_math_for_OwnRent(3)
+
+hypothesis_testing(column = 3, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 7.603896)
 ```
 
 ``` {r figure11}
 # police trust (11) for renters and owners
 get_important_math_for_OwnRent(11)
+
+hypothesis_testing(column = 11, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 3.733766)
 ```
 
 ``` {r figure12}
 # night safety (15) for renters and owners
 get_important_math_for_OwnRent(15)
+
+hypothesis_testing(column = 15, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 8.146103896, higher = TRUE)
 ```
 
 ``` {r run_all}
