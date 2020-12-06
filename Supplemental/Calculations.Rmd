@@ -153,6 +153,25 @@ hypothesis_testing = function(column, dataframe_H_0, dataframe_H_A, categorical 
 }
 
 
+# Function for p-values between two samples
+determine_p_values_between_two_things = function(column, dataframe_H_0, dataframe_H_A) {
+  y_bar = mean(pull(dataframe_H_0, column))
+  x_bar = mean(pull(dataframe_H_A, column))
+  y_sample_stdev_squared = sd(pull(dataframe_H_0, column))^2
+  x_sample_stdev_squared = sd(pull(dataframe_H_A, column))^2
+  m_sample = length(pull(dataframe_H_0, column))
+  n_sample = length(pull(dataframe_H_A, column))
+  sqrt_of_stdevs_and_ns = sqrt(x_sample_stdev_squared/m_sample + y_sample_stdev_squared/n_sample)
+  Z = (x_bar - y_bar) / sqrt_of_stdevs_and_ns
+  other_Z = (y_bar - x_bar) / sqrt_of_stdevs_and_ns
+  if (Z <= 0) {
+    print(paste("----- p-value:", pnorm(Z)))
+  } else {
+    print(paste("----- p-value:", pnorm(other_Z)))
+  }
+}
+
+
 ```
 
 # Calculations
@@ -189,6 +208,7 @@ get_important_math_for_OwnRent = function(column, own = owners, rent = renters) 
 
 get_important_math_for_OwnRent(9)
 hypothesis_testing(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 2.012987)
+determine_p_values_between_two_things(column = 9, dataframe_H_0 = owners, dataframe_H_A = renters)
 
 # testdataframe = data.frame(alpha = 0.05, lower_rejection = 2.41747572815534, prob_type_2 = 2.44625431022882e-11)
 for (i in c(1:9)) {  # was c(1:999), shortened for space
@@ -258,6 +278,7 @@ get_important_math(15, the_women)
 get_important_math(15, the_men)
 
 hypothesis_testing(column = 15, dataframe_H_0 = the_men, dataframe_H_A = the_women, alpha = 0.05, beta_mean = 7.871212)
+determine_p_values_between_two_things(column = 15, dataframe_H_0 = the_men, dataframe_H_A = the_women)
 
 ```
 
@@ -305,6 +326,7 @@ get_important_math(19, dataframe = owners, categorical = TRUE)
 get_important_math_for_OwnRent(3)
 
 hypothesis_testing(column = 3, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 7.603896)
+determine_p_values_between_two_things(column = 3, dataframe_H_0 = owners, dataframe_H_A = renters)
 ```
 
 ``` {r figure11}
@@ -312,6 +334,7 @@ hypothesis_testing(column = 3, dataframe_H_0 = owners, dataframe_H_A = renters, 
 get_important_math_for_OwnRent(11)
 
 hypothesis_testing(column = 11, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 3.733766)
+determine_p_values_between_two_things(column = 11, dataframe_H_0 = owners, dataframe_H_A = renters)
 ```
 
 ``` {r figure12}
@@ -319,6 +342,7 @@ hypothesis_testing(column = 11, dataframe_H_0 = owners, dataframe_H_A = renters,
 get_important_math_for_OwnRent(15)
 
 hypothesis_testing(column = 15, dataframe_H_0 = owners, dataframe_H_A = renters, alpha = 0.05, beta_mean = 8.146103896, higher = TRUE)
+determine_p_values_between_two_things(column = 15, dataframe_H_0 = owners, dataframe_H_A = renters)
 ```
 
 ``` {r run_all}

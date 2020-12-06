@@ -1,5 +1,5 @@
 ---
-title: "Somerville Happiness Survey Report, Draft 1"
+title: "Somerville Happiness Survey Report"
 author: "Peter Madsen and Chris Salas"
 date: "`r Sys.Date()`"
 output: openintro::lab_report
@@ -12,6 +12,28 @@ library(readr)
 library(dplyr)
 library(forcats)
 ```
+
+# Things to include
+
+### Requested by professor
+
+- Address student status
+
+- Describe survey before expectations 
+
+- Maybe remove respondents who say "multiple people." (Additionally, describe method of removing blanks)
+
+- Describe categorical and quantitative survey question responses with less academic wankery and more clarity
+
+- Include hypothesis testing, p-values
+
+### Goals for paper
+
+- Add/update figures
+
+- Include p-values
+
+- Implement professor requests
 
 
 # Introduction
@@ -129,7 +151,43 @@ As expected, respondents' age correlates with trust in the local police (Fig. 7)
 
 ![Fig. 12. Feeling of safety walking at night in their neighborhood for homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig12.png)
 
-s
+# Inferential Analysis
+
+> Conduct an appropriate significance test of your research question
+
+> For a normal/t-based test
+
+>> State the appropriate null and alternative hypotheses, being sure to define any symbols that you introduce.
+
+>> Check the technical conditions of the procedure and comment on whether they appear to be satisfied. 
+
+>> Calculate the test statistic and p-value, and present these with an appropriate graph.
+
+>> Summarize and explain your conclusion. 
+
+> Produce a confidence interval for a relevant parameter
+
+>> Also interpret what the interval reveals, being sure to describe the parameter clearly.
+
+
+# Conclusion
+
+> Summarize what your analysis has revealed about your research question.
+
+>> Did you find a statistically significant difference between the groups?
+
+>> Can you legitimately draw a cause-effect conclusion?
+
+>> To what population is it reasonable to generalize your findings?
+
+> Describe any limitations of your study and your conclusions.
+
+> Comment on ways in which your investigation went as you expected and also on ways that surprised you.
+
+> Mention follow-up questions that you might like to investigate if you had more time and resources.
+
+Renters vs. homeowners
+
 
 ``` {r code}
 # End

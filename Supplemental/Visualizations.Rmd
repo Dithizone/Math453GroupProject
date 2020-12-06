@@ -87,12 +87,12 @@ house_price = fullsomerville2017[c(9)]
 
 
 # Counting up unique entries
-# gender %>% count(gender[1])
-# age %>% count(age[1])
-# ethnicity %>% count(ethnicity[1])
-# annual_income %>% count(annual_income[1])
-# renter %>% count(renter[1])
-# student %>% count(student[1])
+gender %>% count(gender[1])
+age %>% count(age[1])
+ethnicity %>% count(ethnicity[1])
+annual_income %>% count(annual_income[1])
+housing_status %>% count(housing_status[1])
+student %>% count(student[1])
 
 
 # Choosing the order of the x-axis entries
