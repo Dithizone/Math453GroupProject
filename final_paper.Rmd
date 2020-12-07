@@ -5,44 +5,14 @@ date: "`r Sys.Date()`"
 output: openintro::lab_report
 ---
 
-```{r load-packages, message=FALSE}
-library(tidyverse)
-library(openintro)
-library(readr)
-library(dplyr)
-library(forcats)
-```
-
-# Things to include
-
-### Requested by professor
-
-- Address student status
-
-- Describe survey before expectations 
-
-- Maybe remove respondents who say "multiple people." (Additionally, describe method of removing blanks)
-
-- Describe categorical and quantitative survey question responses with less academic wankery and more clarity
-
-- Include hypothesis testing, p-values
-
-### Goals for paper
-
-- Add/update figures
-
-- Include p-values
-
-- Implement professor requests
-
-
 # Introduction
 
 ### Research Question
 > Describe your research question.
 
-1. How does a person’s gender, age, ethnicity, annual income, housing status, and identity as a student affect their opinion of the cost of housing?
-2. How does a person’s gender, age, housing status, and identity as a student affect how safe they feel walking at night?
+1. How does a person’s age and annual income affect their opinion of the cost of housing?
+2. How does a person’s gender affect how safe they feel walking at night?
+3. How does a person's age and annual income affect their trust in local police?
 
 
 ### Motivation
@@ -58,11 +28,9 @@ library(forcats)
 ### Expectations
 > Describe any expectations you started with, concerning what you might learn about your research question.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is expected that homeowners will be more favorable of housing prices, and it is expected that older people, white people, and wealthy people will be more likely to be homeowners. Conversely, it is expected that younger people, poorer people, and students are more likely to be renters and will be less favorable of house prices.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is expected that homeowners, older people, and wealthier people will be more favorable of housing prices and be more trusting of local police.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding the feeling that one's neighborhood is safe to walk around at night, it is commonly known that men are more likely to feel safe than women. Other demographic trends are hard to easily guess, because the question asks about whether the respondent _feels_ safe in their neighborhood at night but does not measure whether they actually _are_ or not.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is expected that both age and annual income will positively correlate with police trust, and that white respondents will be more trusting than non-white respondents.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding the feeling that one's neighborhood is safe to walk around at night, it is commonly known that men are more likely to feel safe than women. Other demographic trends are hard to easily guess; within the survey used to explore these trends, the question asks about whether the respondent _feels_ safe in their neighborhood at night but does not measure whether they actually _are_ or not.
 
 
 ### Description of Variables
@@ -86,11 +54,24 @@ Response variables:
 
 # Data Description
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The city of Somerville lies just northwest of Boston and north of Harvard University and the Massachusetts Institute of Technology. In 2011, 2013, 2015, and 2017, residents in Somerville were asked to fill out a survey which, among other topics, asked for respondents to rate their current feeling of happiness, their happiness with their life in general, and with their satisfaction and pride about living in Somerville. This survey has since been called the "Somerville Happiness Survey," but of interest in this project is the happiness-adjacent questions related to house prices, feeling of safety, and trust in law enforcement. In 2017, there were twenty-seven questions in the survey and 835 responses.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The city of Somerville lies just northwest of Boston and north of Harvard University and the Massachusetts Institute of Technology. In 2011, 2013, 2015, and 2017, residents in Somerville were asked to fill out a survey which, among other topics, asked for respondents to rate their current feeling of happiness, their happiness with their life in general, and their satisfaction and pride about living in Somerville. This survey has since been called the "Somerville Happiness Survey," but of interest in this project is the happiness-adjacent questions related to house prices, feeling of safety, and trust in law enforcement. In 2017, there were twenty-seven questions in the survey and 835 responses.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many of the exact details about the survey are yet to be researched, but a few important details can be inferred from write-in responses to the question on gender, for which many respondents marked both male and female or wrote "multiple people," suggesting that a single survey was delivered to households rather than one for each household member. This casts some doubt about whether ratings of happiness, anxiety, or neighborhood safety represent an individual or the aggregate rating of several people within a single household.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many respondents chose to leave questions blank, and care was taken to ensure entries were kept or removed with a reasonable logic. The presence of one or more blank fields can be seen as problematic, benign, or even meaningful depending on the context. For example, if a respondent left every demographic question blank, their opinion of housing costs problematically cannot be associated with an age, income, or gender, which is the goal of this project, but if they answer the questions relevant to the project and leave responses outside the scope of the project blank (e.g., "How anxious were you yesterday?"), these blanks are benign.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, the Somerville Happiness Survey responses are analyzed for correlations tangential to happiness after having been filled out for another purpose. With no control groups or applied interventions — varying the explanatory variables here is either impossible or economically unfeasible — this is best understood as an observational study. The observational unit is one individual within a given household, though some responses can be interpreted potentially as household averages, as stated earlier.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entries were removed in the following order:
+
+1. After removing age-blank: 821 responses
+2. After removing income-blank: 736 responses
+3. After removing race/ethnicity-blank: 709 responses
+4. After removing gender-blank:  703 responses
+5. After removing low-n race/ethnicity: 662 responses
+6. After removing house price zeros: 653 responses
+7. After removing night safety zeros: 647 responses
+8. After removing police trust zeros: 631 responses
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Care was taken especially with respect to gender, for which the common model (that "male" and "female" are synonymous with "man" and "woman," respectively, and together form mutually exclusive and collectively exhaustive subsets of humanity) is only a useful approximation when the sample size is small. With hundreds of responses it is necessary to allow for the possibility that leaving the gender field blank, or answering both "male" and "female" simultaneously, is intended by a respondent to be a non-binary answer. While several responses were explicitly non-binary (e.g., "non-binary female" and "I don't believe in the social construct of gender"), blank or both-male-and-female responses cannot be exclusively be interpreted this way, as there were answers which explicitly describe multiple people (e.g. "multiple people live here," "two people," etc.). Therefore, gender responses were standardized into six categories: male, female, both, explicitly non-binary, explicitly multiple people, and blank. After age, income, and race/ethnicity blanks were removed, the total number of blank, both, non-binary, and multiple-people responses was 20, and ultimately these are unused in the project.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, the Somerville Happiness Survey responses are analyzed for correlations tangential to happiness after having been filled out for another purpose. With no control groups or applied interventions — varying the explanatory variables here is either impossible or economically unfeasible — this is best understood as an observational study. The observational unit is one individual within a given household.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Questions on the survey can be considered as belonging to two types, categorical or quantitative, with circled options or a rating scale, respectively. Quantitative questions varied the range and midpoint of the scale, rating from 1 to 10 for some questions and 1 to 5 on others.
 
@@ -104,39 +85,40 @@ Response variables:
 
 ![Fig. 1. An overview of Somerville demographics.](supplemental/GIMP_workspace/GenDemographicsFig1.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the top left and moving clockwise, it is seen in Figure 1 that the majority of respondents by gender were female (p=0.63), by age were between 25 to 34 years old (p=0.33), by income earned over $150,000 annually (p=0.24), were not students (p=0.86), by ethnicity were white (p=0.88), and were about equally likely to own a home as rent one (each p=0.49, from x=309 and x=308, respectively, and n=631). Considering this, exploring trends relative to race/ethnicity is complicated by a small sample size.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the top left and moving clockwise, it is seen in Figure 1 that the majority of respondents by gender were female (proportion p=0.63), by age were between 25 to 34 years old (p=0.33), by income earned over $150,000 annually (p=0.24), were not students (p=0.86), by ethnicity were white (p=0.88), and were about equally likely to own a home as rent one (each p=0.49, from x=309 and x=308, respectively, and n=631). Because of the extreme disparity in race/ethnicity and student status responses, analysis was restricted to gender, age, annual income, and housing status.
 
 ### Concerning Expectations For Cost of Housing (Figures 2 to 4)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, those who own a home are more favorable (2.42±1.18, mean±standard deviation) of the cost of housing than those who rent (2.01±1.08), though both groups rate it poorly (Fig. 2). Trends are less visually clear by annual income (Fig. 3) and age (Fig. 4). Unexpectedly, those who earned less than \$10,000, between \$10,000 to \$24,999, and between \$25,000 to \$49,999 — the three poorest subgroups — rated housing prices most favorably (2.85±1.69, 2.44±1.37, and 2.29±1.28, respectively).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Because ratings comprised only 5 or 10 discrete values, the five number summaries for distributions of interest were often very similar or even identical. This can be seen in Figure 2, where the mean value is the only distinguishing feature between the two distributions. For this reason, the sample mean and sample standard deviation are considered as the parameters of interest.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only 18 respondents were in the 18-24 age group, and they reported the highest favorability (2.89±1.02), followed by the 65-74 age group (2.73±1.46) and the 75 or older group (2.71±1.36). The expected trend, that increasing age correlates with approval of house prices, is evident from the 35-44 group up to the 65-74 group. Respondents between the age of 35 and 44 were the most disapproving (1.91±0.85).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, those who own a home are more favorable (2.42±1.18, mean±standard deviation) of the cost of housing than those who rent (2.01±1.08), though both groups rate it poorly (Fig. 2; p<0.001). Unexpectedly, those who earned less than \$10,000, between \$10,000 to \$24,999, and between \$25,000 to \$49,999 — the three poorest subgroups — rated housing prices most favorably (2.85±1.69, 2.44±1.37, and 2.29±1.28, respectively), and overall the mean rating _decreased_ as income increased (Fig. 3).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only 18 respondents were in the 18-24 age group, and they reported the highest favorability (Fig. 4; 2.89±1.02), followed by the 65-74 age group (2.73±1.46) and the 75 or older group (2.71±1.36). The expected trend, that increasing age correlates with approval of house prices, is evident from the 35-44 group up to the 65-74 group. Respondents between the age of 35 and 44 were the most disapproving (1.91±0.85).
 
 
-![Fig. 2. Favorability of house prices by owners and renters of homes.](supplemental/GIMP_workspace/GenDemographicsFig2.png)
+![Fig. 2. Favorability of house prices by owners and renters of homes.](supplemental/images/6DescribeyAnd7bHowwould.png)
 
-![Fig. 3. Favorability of house prices by annual income.](supplemental/GIMP_workspace/GenDemographicsFig3.png)
+![Fig. 3. Favorability of house prices by annual income. Mean values superimposed as black triangles.](supplemental/images/9WhatisyouAnd7bHowwould.png)
 
-![Fig. 4. Favorability of house prices by age group.](supplemental/GIMP_workspace/GenDemographicsFig4.png)
+![Fig. 4. Favorability of house prices by age group.](supplemental/images/2AgeAnd7bHowwould.png)
 
 ### Concerning Expectations For Feeling Safe At Night (Figure 5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, female respondents ranked their feeling of safety walking in their neighborhood at night lower than male respondents (Fig. 5; 7.87±2.03 for women, compared to 8.39±1.90 for men).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, female respondents ranked their feeling of safety walking in their neighborhood at night lower than male respondents (Fig. 5; 7.87±2.03 for women, compared to 8.39±1.90 for men; p<0.001).
 
-![Fig. 5. Feeling of safety walking in neighborhood at night by gender.](supplemental/GIMP_workspace/GenDemographicsFig5.png)
+![Fig. 5. Feeling of safety walking in neighborhood at night by gender.](supplemental/images/1WhatisyouAnd9Howsafedo.png)
 
 ### Concerning Expectations For Trust in Local Police (Figures 6 and 7)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each annual income group has approximately the same mean rating for trust in local police (about 3.7 or 3.8), but the variation in the responses decreases as income increases, beginning at standard deviation 1.27 for those earning less than \$10,000 and decreasing to 0.84 for those earning more than \$150,000 (Fig. 6).
-As expected, respondents' age correlates with trust in the local police (Fig. 7), beginning at 3.60±0.97 for 25-34 year olds and ending at 4.46±0.61 for respondents over 75.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rather than increasing as expected, each annual income group has approximately the same mean rating for trust in local police (about 3.7 or 3.8), but the variation in the responses decreases as income increases, beginning at standard deviation 1.27 for those earning less than \$10,000 and decreasing to 0.84 for those earning more than \$150,000 (Fig. 6). As expected, respondents' age correlates with trust in the local police (Fig. 7), beginning at 3.60±0.97 for 25-34 year olds and ending at 4.46±0.61 for respondents over 75.
 
-![Fig. 6. Trust in local police by annual income.](supplemental/GIMP_workspace/GenDemographicsFig6.png)
+![Fig. 6. Trust in local police by annual income.](supplemental/images/9WhatisyouAnd7dHowwould.png)
 
-![Fig. 7. Trust in local police by age.](supplemental/GIMP_workspace/GenDemographicsFig7.png)
+![Fig. 7. Trust in local police by age.](supplemental/images/2AgeAnd7dHowwould.png)
 
-### Renting vs. Owning a Home (Figures 8 to 12)
+### Renting vs. Owning a Home (Figures 8 to 11)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The original scope of the project focused primarily on age, race, gender, and annual income as explanatory variables, but whether or not a respondent owns the home they live in produces consistently dramatic differences in responses, possibly due to their differences in demographic composition. People who rent are overwhelmingly younger (Fig. 8) and poorer (Fig. 9) than their homeowning counterparts, and they report a lower life satisfaction (Fig. 10; 7.60±1.83, compared to 8.13±1.70 for owners), a lower trust in local police (Fig. 11; 3.73±0.95, compared to 3.94±0.96 for owners), a lower favorability toward the cost of housing (Fig. 2; 2.01±1.08, compared to 2.42±1.18), and a lower feeling of safety walking in their neighborhood at night (Fig. 12; 8.14±1.94, compared to 8.02±2.01).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The original scope of the project focused primarily on age, gender, and annual income as explanatory variables, but whether or not a respondent owns the home they live in produces consistently dramatic differences in responses, possibly due to their differences in demographic composition. People who rent are overwhelmingly younger (Fig. 8) and poorer (Fig. 9) than their homeowning counterparts, and they report a lower life satisfaction (Fig. 10; 7.60±1.83, compared to 8.13±1.70 for owners; p<0.001), a lower trust in local police (Fig. 11; 3.73±0.95, compared to 3.94±0.96 for owners; p<0.005), and a lower favorability toward the cost of housing (Fig. 2; 2.01±1.08, compared to 2.42±1.18; p<0.001).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A question worth exploring is whether these trends are simply due to the demographics of renters and homeowners, or whether a respondent's homeowning status is the better predictor of their views.
 
@@ -149,44 +131,76 @@ As expected, respondents' age correlates with trust in the local police (Fig. 7)
 
 ![Fig. 11. Trust in police by homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig11.png)
 
-![Fig. 12. Feeling of safety walking at night in their neighborhood for homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig12.png)
 
 # Inferential Analysis
 
-> Conduct an appropriate significance test of your research question
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All p-values reported above are calculated by,
 
-> For a normal/t-based test
+![](supplemental/GIMP_workspace/pvalue.png)
 
->> State the appropriate null and alternative hypotheses, being sure to define any symbols that you introduce.
+where $\overline{x}$, $\sigma_1$, and $m$ are the sample mean, sample standard deviation, and sample size of the first distribution being compared, respectively, and $\overline{y}$, $\sigma_2$, and $n$ are those for the second distribution. 
 
->> Check the technical conditions of the procedure and comment on whether they appear to be satisfied. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As an example, let us consider homeowners' and renters' responses to "How satisfied are you with your life in general?", shown in Figure 10. Each of these has a sample size much greater than 40, so the normal test is sufficient. Here, the null hypothesis would be "while the mean life satisfaction for renters is lower than for homeowners, this is due to randomness only" and the alternative hypothesis, which we aim to demonstrate, is "renters' mean life satisfaction is lower than homeowners' such that randomness alone is an unlikely explanation."
 
->> Calculate the test statistic and p-value, and present these with an appropriate graph.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In _R_, it was calculated thusly:
 
->> Summarize and explain your conclusion. 
+``` {r p_value_example, message=FALSE}
+library(tidyverse)
+library(readr)
 
-> Produce a confidence interval for a relevant parameter
+# The full survey data set with blanks removed
+fullsomerville2017 <- read_csv("Supplemental/cleanedData/2017HappinessSurvey.csv")
+fullsomerville2017 = fullsomerville2017 %>% filter(`2. Age?` != "Blank" &
+                                                     `9. What is your annual household income?` != "Blank" &
+                                                     `4. What is your race or ethnicity?` != "Blank" &
+                                                     `1. What is your gender` != "Blank" &
+                                                     `7b. How would you rate the cost of housing?` != 0 &
+                                                     `9. How safe do you feel walking in your neighborhood at night?` != 0 &
+                                                     `7d. How would you rate your trust in the local police?` != 0)
+fullsomerville2017 = fullsomerville2017 %>% filter(`4. What is your race or ethnicity?` == "White" | 
+                                                     `4. What is your race or ethnicity?` == "Asian" | 
+                                                     `4. What is your race or ethnicity?` == "Hispanic/Latino" | 
+                                                     `4. What is your race or ethnicity?` == "Black/African American")
 
->> Also interpret what the interval reveals, being sure to describe the parameter clearly.
 
+# Separating homeowners and renters into separate data frames
+owners = fullsomerville2017 %>% filter(`6. Describe your housing status in Somerville.` == "Own")
+renters = fullsomerville2017 %>% filter(`6. Describe your housing status in Somerville.` == "Rent")
+
+
+# Defining the function to determine the p-value
+determine_p_values_between_two_things = function(column, dataframe_H_0, dataframe_H_A) {
+  y_bar = mean(pull(dataframe_H_0, column))
+  x_bar = mean(pull(dataframe_H_A, column))
+  y_sample_stdev_squared = sd(pull(dataframe_H_0, column))^2
+  x_sample_stdev_squared = sd(pull(dataframe_H_A, column))^2
+  m_sample = length(pull(dataframe_H_0, column))
+  n_sample = length(pull(dataframe_H_A, column))
+  sqrt_of_stdevs_and_ns = sqrt(x_sample_stdev_squared/m_sample + y_sample_stdev_squared/n_sample)
+  Z = (x_bar - y_bar) / sqrt_of_stdevs_and_ns
+  other_Z = (y_bar - x_bar) / sqrt_of_stdevs_and_ns
+  if (Z <= 0) {
+    print(paste("p-value:", pnorm(Z)))
+  } else {
+    print(paste("p-value:", pnorm(other_Z)))
+  }
+}
+
+
+# printing out the p-value between homeowners' and renters' sense of happiness with life in general
+print("Renters' mean life satisfaction is lower than homeowners' such that randomness alone is an unlikely explanation.")
+determine_p_values_between_two_things(column = 3, dataframe_H_0 = owners, dataframe_H_A = renters)
+```
 
 # Conclusion
 
-> Summarize what your analysis has revealed about your research question.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It was expected that increasing annual income and age would each correlate with increasing favorability of the cost of housing and increasing trust in local police. This was not true with annual income (Figs. 3 and 6), but was true with age (when the 18-24 group is omitted; Figs. 4 and 7). Additionally, the common assumption that women feel less safe walking at night than men do is seen in the Somerville Happiness Survey, with p-value < 0.001 (Fig. 5).
 
->> Did you find a statistically significant difference between the groups?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These conclusions, however, cannot be generalized beyond the population of Somerville, as the densely populated, wealthy, urban environment is much different from the sparse, rural setting in other parts of the United States.
 
->> Can you legitimately draw a cause-effect conclusion?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most glaring limitation of this analysis is the ambiguous meaning of the question, "How do you rate the cost of housing?". It is not specified in the survey whether this refers to rent, to mortgages, or to the full cost of a house. For example, if a renter rates the cost of housing with a `1` it cannot be known with certainty whether they mean "My rent is too high" or "Buying a house is much too expensive for me," and among homeowners it could even mean prices are too low, as in: "I wish I could charge my tenants more" or "I want to sell my house but I won't get enough for it." And so, even though we find a strong discontentment for the cost of housing which correlates with increasing age and which is more prominent in renters than in homeowners, the lack of specificity prevents any proposals from being justifiably actionable.
 
->> To what population is it reasonable to generalize your findings?
-
-> Describe any limitations of your study and your conclusions.
-
-> Comment on ways in which your investigation went as you expected and also on ways that surprised you.
-
-> Mention follow-up questions that you might like to investigate if you had more time and resources.
-
-Renters vs. homeowners
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the future, the differences in opinion and experience between renters and homeowners should be explored in more detail, as they differ dramatically (Figs. 8-11 and 2) and lend themselves well to p-value calculation.
 
 
 ``` {r code}
