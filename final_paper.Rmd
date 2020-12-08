@@ -8,7 +8,6 @@ output: openintro::lab_report
 # Introduction
 
 ### Research Question
-> Describe your research question.
 
 1. How does a person’s age and annual income affect their opinion of the cost of housing?
 2. How does a person’s gender affect how safe they feel walking at night?
@@ -16,7 +15,6 @@ output: openintro::lab_report
 
 
 ### Motivation
-> Explain what motivated you to investigate this question.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problems within a community, such as prohibitive housing costs, declining sense of neighborhood safety, or increasing distrust in police, can be obvious and troubling to some groups of people and invisible to others. Additionally, as community problems increase in severity, they can affect some groups first, before spreading to others as the issues worsen. And since these problems are addressed by legislation (which is informed by public opinion), there is a danger that problems which could have been solved quickly and inexpensively at first will become extremely difficult or even impossible to solve by the time everyone is aware.
 
@@ -26,15 +24,13 @@ output: openintro::lab_report
 
 
 ### Expectations
-> Describe any expectations you started with, concerning what you might learn about your research question.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is expected that homeowners, older people, and wealthier people will be more favorable of housing prices and be more trusting of local police.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding the feeling that one's neighborhood is safe to walk around at night, it is commonly known that men are more likely to feel safe than women. Other demographic trends are hard to easily guess; within the survey used to explore these trends, the question asks about whether the respondent _feels_ safe in their neighborhood at night but does not measure whether they actually _are_ or not.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regarding the feeling that one's neighborhood is safe to walk around at night, it is commonly known that men are more likely to feel safe than women and it is expected that this will be both visible and significant. Other demographic trends are hard to easily guess; within the survey used to explore these trends, the question asks about whether the respondent _feels_ safe in their neighborhood at night but does not measure whether they actually _are_ or not.
 
 
 ### Description of Variables
-> Indicate what your explanatory and response variables are, and classify them as categorical or quantitative.
 
 Explanatory variables:
 
@@ -54,11 +50,11 @@ Response variables:
 
 # Data Description
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The city of Somerville lies just northwest of Boston and north of Harvard University and the Massachusetts Institute of Technology. In 2011, 2013, 2015, and 2017, residents in Somerville were asked to fill out a survey which, among other topics, asked for respondents to rate their current feeling of happiness, their happiness with their life in general, and their satisfaction and pride about living in Somerville. This survey has since been called the "Somerville Happiness Survey," but of interest in this project is the happiness-adjacent questions related to house prices, feeling of safety, and trust in law enforcement. In 2017, there were twenty-seven questions in the survey and 835 responses.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The city of Somerville lies just northwest of Boston and north of both Harvard University and the Massachusetts Institute of Technology. In 2011, 2013, 2015, and 2017, residents in Somerville were asked to fill out a survey which, among other topics, asked for respondents to rate their current feeling of happiness, their happiness with their life in general, and their satisfaction and pride about living in Somerville. This survey has since been called the "Somerville Happiness Survey," but of interest in this project are the happiness-adjacent questions related to housing costs, feeling of safety, and trust in law enforcement. In 2017, there were twenty-seven questions in the survey and 835 responses.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many respondents chose to leave questions blank, and care was taken to ensure entries were kept or removed with a reasonable logic. The presence of one or more blank fields can be seen as problematic, benign, or even meaningful depending on the context. For example, if a respondent left every demographic question blank, their opinion of housing costs problematically cannot be associated with an age, income, or gender, which is the goal of this project, but if they answer the questions relevant to the project and leave responses outside the scope of the project blank (e.g., "How anxious were you yesterday?"), these blanks are benign.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many respondents chose to leave questions blank, and care was taken to ensure entries were kept or removed with a reasonable logic. The presence of one or more blank fields can be seen as problematic, benign, or even meaningful depending on the context. For example, if a respondent left every demographic question blank, their opinion of housing costs problematically cannot be associated with an age, income, or gender, which is the goal of this project, but if only responses outside the scope of the project are left blank (e.g., "How anxious were you yesterday?"), these blanks are benign.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entries were removed in the following order:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entries were removed in the following order, resulting in a final sample size $n=631$:
 
 1. After removing age-blank: 821 responses
 2. After removing income-blank: 736 responses
@@ -69,11 +65,11 @@ Response variables:
 7. After removing night safety zeros: 647 responses
 8. After removing police trust zeros: 631 responses
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Care was taken especially with respect to gender, for which the common model (that "male" and "female" are synonymous with "man" and "woman," respectively, and together form mutually exclusive and collectively exhaustive subsets of humanity) is only a useful approximation when the sample size is small. With hundreds of responses it is necessary to allow for the possibility that leaving the gender field blank, or answering both "male" and "female" simultaneously, is intended by a respondent to be a non-binary answer. While several responses were explicitly non-binary (e.g., "non-binary female" and "I don't believe in the social construct of gender"), blank or both-male-and-female responses cannot be exclusively be interpreted this way, as there were answers which explicitly describe multiple people (e.g. "multiple people live here," "two people," etc.). Therefore, gender responses were standardized into six categories: male, female, both, explicitly non-binary, explicitly multiple people, and blank. After age, income, and race/ethnicity blanks were removed, the total number of blank, both, non-binary, and multiple-people responses was 20, and ultimately these are unused in the project.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Care was taken especially with respect to gender, for which the common model (that "male" and "female" are synonymous with "man" and "woman," respectively, and together form mutually exclusive and collectively exhaustive subsets of humanity) is only a useful approximation with a small sample size. With hundreds of responses it is necessary to allow for the possibility that leaving the gender field blank, or answering both "male" and "female" simultaneously, is intended by a respondent to be a non-binary answer. While several responses were explicitly non-binary (e.g., "non-binary female" and "I don't believe in the social construct of gender"), blank or both-male-and-female responses cannot exclusively be interpreted this way, as there are answers which explicitly describe multiple people (e.g. "multiple people live here," "two people," etc.). Therefore, gender responses were standardized into six categories: male, female, both, explicitly non-binary, explicitly multiple people, and blank. After age, income, and race/ethnicity blanks were removed, the total number of blank, both, non-binary, and multiple-people responses was 20, and ultimately these are unused in the project.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, the Somerville Happiness Survey responses are analyzed for correlations tangential to happiness after having been filled out for another purpose. With no control groups or applied interventions — varying the explanatory variables here is either impossible or economically unfeasible — this is best understood as an observational study. The observational unit is one individual within a given household.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Questions on the survey can be considered as belonging to two types, categorical or quantitative, with circled options or a rating scale, respectively. Quantitative questions varied the range and midpoint of the scale, rating from 1 to 10 for some questions and 1 to 5 on others.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Questions on the survey can be considered as belonging to two types, categorical (e.g., "What is your gender?") or quantitative (e.g., "How would you rate your trust in local police?"), with circled options or a rating scale, respectively. Quantitative questions varied the range and midpoint of the scale, rating from 1 to 10 for some questions and 1 to 5 for others.
 
 # Descriptive Analysis
 
@@ -91,14 +87,14 @@ Response variables:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Because ratings comprised only 5 or 10 discrete values, the five number summaries for distributions of interest were often very similar or even identical. This can be seen in Figure 2, where the mean value is the only distinguishing feature between the two distributions. For this reason, the sample mean and sample standard deviation are considered as the parameters of interest.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, those who own a home are more favorable (2.42±1.18, mean±standard deviation) of the cost of housing than those who rent (2.01±1.08), though both groups rate it poorly (Fig. 2; p<0.001). Unexpectedly, those who earned less than \$10,000, between \$10,000 to \$24,999, and between \$25,000 to \$49,999 — the three poorest subgroups — rated housing prices most favorably (2.85±1.69, 2.44±1.37, and 2.29±1.28, respectively), and overall the mean rating _decreased_ as income increased (Fig. 3).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As expected, those who own a home rate the cost of housing more favorably (2.42±1.18, mean±standard deviation) than those who rent (2.01±1.08), though both groups rate it poorly (Fig. 2; p<0.001). Unexpectedly, those who earned less than \$10,000, between \$10,000 to \$24,999, and between \$25,000 to \$49,999 annually — the three poorest subgroups — rated the cost of housing most favorably (2.85±1.69, 2.44±1.37, and 2.29±1.28, respectively), and overall the mean rating _decreased_ as income increased (Fig. 3).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only 18 respondents were in the 18-24 age group, and they reported the highest favorability (Fig. 4; 2.89±1.02), followed by the 65-74 age group (2.73±1.46) and the 75 or older group (2.71±1.36). The expected trend, that increasing age correlates with approval of house prices, is evident from the 35-44 group up to the 65-74 group. Respondents between the age of 35 and 44 were the most disapproving (1.91±0.85).
 
 
-![Fig. 2. Favorability of house prices by owners and renters of homes.](supplemental/images/6DescribeyAnd7bHowwould.png)
+![Fig. 2. Favorability of house prices by owners and renters of homes. Mean values superimposed as black triangles.](supplemental/images/6DescribeyAnd7bHowwould.png)
 
-![Fig. 3. Favorability of house prices by annual income. Mean values superimposed as black triangles.](supplemental/images/9WhatisyouAnd7bHowwould.png)
+![Fig. 3. Favorability of house prices by annual income.](supplemental/images/9WhatisyouAnd7bHowwould.png)
 
 ![Fig. 4. Favorability of house prices by age group.](supplemental/images/2AgeAnd7bHowwould.png)
 
@@ -120,7 +116,7 @@ Response variables:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The original scope of the project focused primarily on age, gender, and annual income as explanatory variables, but whether or not a respondent owns the home they live in produces consistently dramatic differences in responses, possibly due to their differences in demographic composition. People who rent are overwhelmingly younger (Fig. 8) and poorer (Fig. 9) than their homeowning counterparts, and they report a lower life satisfaction (Fig. 10; 7.60±1.83, compared to 8.13±1.70 for owners; p<0.001), a lower trust in local police (Fig. 11; 3.73±0.95, compared to 3.94±0.96 for owners; p<0.005), and a lower favorability toward the cost of housing (Fig. 2; 2.01±1.08, compared to 2.42±1.18; p<0.001).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A question worth exploring is whether these trends are simply due to the demographics of renters and homeowners, or whether a respondent's homeowning status is the better predictor of their views.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A question worth exploring in the future is whether these trends are simply due to the demographics of renters and homeowners, or whether a respondent's homeowning status is more than the sum of their demographics and unique predictor of their views.
 
 
 ![Fig. 8. Distribution of age groups for homeowners and renters.](supplemental/GIMP_workspace/GenDemographicsFig8.png)
@@ -140,7 +136,7 @@ Response variables:
 
 where $\overline{x}$, $\sigma_1$, and $m$ are the sample mean, sample standard deviation, and sample size of the first distribution being compared, respectively, and $\overline{y}$, $\sigma_2$, and $n$ are those for the second distribution. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As an example, let us consider homeowners' and renters' responses to "How satisfied are you with your life in general?", shown in Figure 10. Each of these has a sample size much greater than 40, so the normal test is sufficient. Here, the null hypothesis would be "while the mean life satisfaction for renters is lower than for homeowners, this is due to randomness only" and the alternative hypothesis, which we aim to demonstrate, is "renters' mean life satisfaction is lower than homeowners' such that randomness alone is an unlikely explanation."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As an example, let us consider homeowners' and renters' responses to "How satisfied are you with your life in general?", shown in Figure 10. Each of these has a sample size much greater than 40, so the normal test is sufficient. Here, the null hypothesis would be "while the mean life satisfaction for renters is lower than that for homeowners, this is due to randomness only" and the alternative hypothesis, which we aim to demonstrate, is "renters' mean life satisfaction is lower than homeowners' such that randomness alone is an unlikely explanation."
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In _R_, it was calculated thusly:
 
@@ -198,7 +194,7 @@ determine_p_values_between_two_things(column = 3, dataframe_H_0 = owners, datafr
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These conclusions, however, cannot be generalized beyond the population of Somerville, as the densely populated, wealthy, urban environment is much different from the sparse, rural setting in other parts of the United States.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most glaring limitation of this analysis is the ambiguous meaning of the question, "How do you rate the cost of housing?". It is not specified in the survey whether this refers to rent, to mortgages, or to the full cost of a house. For example, if a renter rates the cost of housing with a `1` it cannot be known with certainty whether they mean "My rent is too high" or "Buying a house is much too expensive for me," and among homeowners it could even mean prices are too low, as in: "I wish I could charge my tenants more" or "I want to sell my house but I won't get enough for it." And so, even though we find a strong discontentment for the cost of housing which correlates with increasing age and which is more prominent in renters than in homeowners, the lack of specificity prevents any proposals from being justifiably actionable.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most glaring limitation of this analysis is the ambiguous meaning of the question, "How do you rate the cost of housing?". It is not specified in the survey whether this refers to rent, to mortgages, or to the full cost of a house. For example, if a renter rates the cost of housing with a `1` it cannot be known with certainty whether they mean "My rent is too high" or "Buying a house is much too expensive for me," and among homeowners it could even mean prices are too low, as in: "I wish I could charge my tenants more" or "I want to sell my house but I won't get enough for it." And so, even though there is a strong discontentment regarding the cost of housing which correlates with increasing age and is more prominent in renters than in homeowners, it is difficult to suggest a solution that is justifiably actionable.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the future, the differences in opinion and experience between renters and homeowners should be explored in more detail, as they differ dramatically (Figs. 8-11 and 2) and lend themselves well to p-value calculation.
 
